@@ -1,16 +1,15 @@
 @extends('layouts.master')
 @section('meta')
-<title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
-<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<title>Trusted Islamic Travel Agency in Pakistan for Umrah Services</title>
+<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in Pakistan. We offer all-inclusive Umrah packages for families, groups, and individuals.">
 @endsection
 @section('content')
 <section class="search-banner">
     <!--slider section Start-->
     <div class="banner">
-        <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.jpeg')}}" class="img-fluid" alt="Banner Image">
+        <img src="{{asset('assets/media/pages/home-page-banner-for-UmrahAgency-1.jpeg')}}" class="img-fluid" alt="Banner Image">
         <div class="banner-text">
-            <h1>Trusted Islamic Travel Agency&nbsp;in UK</h1>
-            <h4>For Umrah Services</h4>
+            <h1>Trusted Islamic Travel Agency&nbsp;in Pakistan</h1>
             </h4>
         </div>
     </div>
@@ -21,28 +20,18 @@
 
                 <div class="form-group Half">
                     <label for="enquiry-departure">
-                        <i class="fa fa-plane fa-2x text-warning mr-1" style="color: #85641E !important;font-size: 1.4em;"></i> Departure Airport
+                        <i class="fa fa-plane fa-2x text-warning mr-1" style="color: #85641E !important;font-size: 1.4em;"></i> Departure City
                     </label>
-                    <select class="form-control" id="enquiry-departure" name="n[Departure Airport]" required>
-                        <option value="">Departure Airport</option>
-                        <option value="London Heathrow">London Heathrow</option>
-                        <option value="London Gatwick">London Gatwick</option>
-                        <option value="Manchester">Manchester</option>
-                        <option value="London Stansted">London Stansted</option>
-                        <option value="London Luton">London Luton</option>
-                        <option value="Edinburgh">Edinburgh</option>
-                        <option value="Birmingham">Birmingham</option>
-                        <option value="Glasgow">Glasgow</option>
-                        <option value="Bristol">Bristol</option>
-                        <option value="Liverpool">Liverpool</option>
-                        <option value="Newcastle">Newcastle</option>
-                        <option value="East Midlands">East Midlands</option>
-                        <option value="Aberdeen">Aberdeen</option>
-                        <option value="London City">London City</option>
-                        <option value="Leeds Bradford">Leeds Bradford</option>
-                        <option value="Cardiff">Cardiff</option>
-                        <option value="Norwich">Norwich</option>
-                        <option value="Humberside">Humberside</option>
+                    <select class="form-control" id="enquiry-departure" name="n[Departure City]" required>
+                        <option value="">Departure City</option>
+                        <option value="Karachi">Karachi (KHI)</option>
+                        <option value="Lahore">Lahore (LHE)</option>
+                        <option value="Islamabad">Islamabad (ISB)</option>
+                        <option value="Peshawar">Peshawar (PEW)</option>
+                        <option value="Multan">Multan (MUX)</option>
+                        <option value="Sialkot">Sialkot (SKT)</option>
+                        <option value="Faisalabad">Faisalabad (LYP)</option>
+                        <option value="Quetta">Quetta (UET)</option>
                     </select>
                     <span class="borderBottom"></span>
                 </div>
@@ -221,7 +210,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 6499 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 2,275,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('hajjDetail', ['slug' => '4-weeks-hajj-package-non-shifting']) }}">
                                         View Details
                                     </a>
@@ -270,7 +259,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 6999 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 2,450,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('hajjDetail', ['slug' => '2-3-weeks-non-shifting-hajj-package']) }}">
                                         View Details
                                     </a>
@@ -319,7 +308,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 7499 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 2,625,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('hajjDetail', ['slug' => '2-3-weeks-hajj-package-non-shifting']) }}">
                                         View Details
                                     </a>
@@ -368,7 +357,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 8299 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 2,905,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('hajjDetail', ['slug' => '5-star-hajj-package-non-shifting']) }}">
                                         View Details
                                     </a>
@@ -421,21 +410,21 @@
         <p style="text-align: justify;">&quot;Hajj&quot; is a sacred term for all Muslims, and the desire to visit
             not only the House of Allah Almighty but also the places where His beloved Prophet (PBUH) lived and
             spent time is the craving of all belonging to the religion Islam. It was one of the five pillars of
-            Islam which are declared mandatory for those Muslims who are financially stable to pay the visit. Hadi Tours offers cheap Hajj packages in 2026, which are not only economical but also reasonable in terms
+            Islam which are declared mandatory for those Muslims who are financially stable to pay the visit. Umrah Agency offers cheap Hajj packages in 2026, which are not only economical but also reasonable in terms
             of providing the best Hajj packages. These best hajj packages include providing visa services, flight,
             Qurbani, Hotel stay, transport, and Hajj draft. Affordable hajj packages are every Muslim&rsquo;s
-            desire. Those looking for affordable Hajj packages will be very pleased to know that Haditours is
+            desire. Those looking for affordable Hajj packages will be very pleased to know that Umrah Agency is
             offering the following exciting and cheap Hajj packages for 2026:</p>
 
         <h2 style="text-align: justify;">Amazing and affordable Hajj Packages 2026&nbsp;for Muslim Community</h2>
 
         <p style="text-align: justify;"><strong>3 weeks 5 star best Hajj package</strong></p>
 
-        <p style="text-align: justify;">Haditours brings the best Hajj package for the Muslim community
-            residing in the UK to perform this holy obligation with comfort and ease. Around 70,000 believers travel
-            in intention to pay a visit to Allah&rsquo;s House, Hadi Tours travel becomes a luxurious bridge between
+        <p style="text-align: justify;">Umrah Agency brings the best Hajj package for the Muslim community
+            residing in Pakistan to perform this holy obligation with comfort and ease. Around many thousands believers travel
+            in intention to pay a visit to Allah&rsquo;s House, Umrah Agency travel becomes a luxurious bridge between
             the faithful and their Creator.<br />
-            Haditours offers 3 weeks 5-star cheap Hajj packages present following privileged stays at the
+            Umrah Agency offers 3 weeks 5-star cheap Hajj packages present following privileged stays at the
             below-mentioned venues:</p>
 
         <ul>
@@ -454,8 +443,8 @@
 
         <p style="text-align: justify;">We value our customers&rsquo; comfort and holy needs, presenting another
             package among the cheap Hajj packages 2026, which is not only the best Hajj package in terms of the way
-            it facilitates but is also affordable to the majority of our valued citizens of the UK. This is a
-            complete month, a non-shifting package which is providing the opportunity to the residents of the UK to
+            it facilitates but is also affordable to the majority of our valued citizens of Pakistan. This is a
+            complete month, a non-shifting package which is providing the opportunity to the residents of Pakistan to
             pay a visit to the Holy cities of Makkah and Madinah and have &ldquo;Ziarat&rdquo; of sacred places like
             Mina, Arafat, etc. Missing this amazing opportunity to avail of these affordable hajj packages will not
             be a wise decision to make. So don&rsquo;t think twice and make use of this holy month of Hajj out of
@@ -474,7 +463,7 @@
         <p style="text-align: justify;"><strong>2-3 Weeks non-shifting best hajj packages</strong></p>
 
         <p style="text-align: justify;">In this age, each one of us is looking towards tasks to be completed
-            economically, Haditours presents its customers in the UK with cheap and affordable Hajj packages
+            economically, Umrah Agency presents its customers in Pakistan with cheap and affordable Hajj packages
             for all those desiring to perform this sacred religious obligation. So don&rsquo;t think twice and avail
             of this low-cost and reasonable offer and pay a visit to the House of Allah this year.</p>
 
@@ -502,11 +491,11 @@
 
         <ul>
             <li><strong>Visa and Documents:</strong> First, you need to get a Hajj visa. This is possible with a
-                recognised travel agency like <a href="https://www.haditours.co.uk/">Hadi Tours</a>. Make
+                recognised travel agency like <a href="https://www.umrahagency.co.Pakistan/">Umrah Agency</a>. Make
                 sure you have all the necessary paperwork, such as a current passport, medical certificates, and
                 vaccination records, especially for meningitis and COVID-19.</li>
             <li><strong>Flights and Hotels:</strong> It&#39;s best to book your flights and hotels early because
-                demand is high during the Hajj season. But with Hadi Tours, there&#39;s no need for concern. As soon as you
+                demand is high during the Hajj season. But with Umrah Agency, there&#39;s no need for concern. As soon as you
                 book a package, we will arrange your return flights and hotels near the holy sites.</li>
             <li><strong>Health and Safety:</strong> Lastly, your health is very important during Hajj. Have a
                 thorough medical check-up prior to departing, and remember to stay hydrated. Also, bring a basic

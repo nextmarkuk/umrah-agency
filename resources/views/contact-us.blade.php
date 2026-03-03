@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('meta')
-<title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
-<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<title>Trusted Islamic Travel Agency in Pakistan for Umrah Services</title>
+<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in Karachi, Pakistan. We offer all-inclusive Umrah packages for families, groups, and individuals.">
 @endsection
 @section('content')
 <div class="pkg-header-top text-center">
@@ -38,7 +38,7 @@
                             </div>
                             <div>
                                 <h6 class="font-weight-bold mb-1">Email Address</h6>
-                                <p class="mb-0"><a href="mailto:info@haditours.co.uk" class="text-dark">info@haditours.co.uk</a></p>
+                                <p class="mb-0"><a href="mailto:info@umrahagency.pk" class="text-dark">info@umrahagency.pk</a></p>
                             </div>
                         </div>
 
@@ -48,14 +48,14 @@
                             </div>
                             <div>
                                 <h6 class="font-weight-bold mb-1">Office Address</h6>
-                                <p class="mb-0 text-dark">13 Station Rd, London SE25 5AH, United Kingdom</p>
+                                <p class="mb-0 text-dark">13 Station Rd, Karachi SE25 5AH, United Kingdom</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="mt-5 p-4 bg-light-cream rounded border">
                         <h6 class="font-weight-bold mb-2 uppercase small text-muted">Ablout Our Services</h6>
-                        <p class="small text-justify mb-0">Hadi Tours is a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals. Our team is dedicated to providing you with the best spiritual experience.</p>
+                        <p class="small text-justify mb-0">Umrah Agency is a trusted Islamic travel agency in Pakistan. We offer all-inclusive Umrah packages for families, groups, and individuals. Our team is dedicated to providing you with the best spiritual experience.</p>
                     </div>
                 </div>
             </div>

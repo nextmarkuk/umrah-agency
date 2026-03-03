@@ -1,15 +1,15 @@
 @extends('layouts.master')
 @section('meta')
-<title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
-<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<title>Trusted Islamic Travel Agency in Pakistan for Umrah Services</title>
+<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in Pakistan. We offer all-inclusive Umrah packages for families, groups, and individuals.">
 @endsection
 @section('content')
 <section class="search-banner">
     <!--slider section Start-->
     <div class="banner">
-        <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.jpeg')}}" class="img-fluid" alt="Banner Image">
+        <img src="{{asset('assets/media/pages/home-page-banner-for-UmrahAgency-1.jpeg')}}" class="img-fluid" alt="Banner Image">
         <div class="banner-text">
-            <h1>Trusted Islamic Travel Agency&nbsp;in UK</h1>
+            <h1>Trusted Islamic Travel Agency&nbsp;in Pakistan</h1>
             <h4>For Umrah Services</h4>
             </h4>
         </div>
@@ -21,28 +21,18 @@
 
                 <div class="form-group Half">
                     <label for="enquiry-departure">
-                        <i class="fa fa-plane fa-2x text-warning mr-1" style="color: #85641E !important;font-size: 1.4em;"></i> Departure Airport
+                        <i class="fa fa-plane fa-2x text-warning mr-1" style="color: #85641E !important;font-size: 1.4em;"></i> Departure City
                     </label>
-                    <select class="form-control" id="enquiry-departure" name="n[Departure Airport]" required>
-                        <option value="">Departure Airport</option>
-                        <option value="London Heathrow">London Heathrow</option>
-                        <option value="London Gatwick">London Gatwick</option>
-                        <option value="Manchester">Manchester</option>
-                        <option value="London Stansted">London Stansted</option>
-                        <option value="London Luton">London Luton</option>
-                        <option value="Edinburgh">Edinburgh</option>
-                        <option value="Birmingham">Birmingham</option>
-                        <option value="Glasgow">Glasgow</option>
-                        <option value="Bristol">Bristol</option>
-                        <option value="Liverpool">Liverpool</option>
-                        <option value="Newcastle">Newcastle</option>
-                        <option value="East Midlands">East Midlands</option>
-                        <option value="Aberdeen">Aberdeen</option>
-                        <option value="London City">London City</option>
-                        <option value="Leeds Bradford">Leeds Bradford</option>
-                        <option value="Cardiff">Cardiff</option>
-                        <option value="Norwich">Norwich</option>
-                        <option value="Humberside">Humberside</option>
+                    <select class="form-control" id="enquiry-departure" name="n[Departure City]" required>
+                        <option value="">Departure City</option>
+                        <option value="Karachi">Karachi (KHI)</option>
+                        <option value="Lahore">Lahore (LHE)</option>
+                        <option value="Islamabad">Islamabad (ISB)</option>
+                        <option value="Peshawar">Peshawar (PEW)</option>
+                        <option value="Multan">Multan (MUX)</option>
+                        <option value="Sialkot">Sialkot (SKT)</option>
+                        <option value="Faisalabad">Faisalabad (LYP)</option>
+                        <option value="Quetta">Quetta (UET)</option>
                     </select>
                     <span class="borderBottom"></span>
                 </div>
@@ -209,7 +199,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 745 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 261,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '3-star-7-nights-umrah-package']) }}">View Details</a>
                                 </div>
@@ -256,7 +246,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 789 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 276,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '3-star-12-nights-umrah-package']) }}">View Details</a>
                                 </div>
@@ -302,7 +292,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 799 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 279,500 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '3-star-10-nights-umrah-package']) }}">View Details</a>
                                 </div>
@@ -348,7 +338,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 859 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 300,500 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '3-star-14-nights-umrah-package']) }}">View Details</a>
                                 </div>
@@ -407,7 +397,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 825 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 289,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '4-star-7-nights-december-umrah-package']) }}">View Details</a>
                                 </div>
@@ -453,7 +443,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 899 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 314,500 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '4-star-10-nights-december-umrah-package']) }}">View Details</a>
                                 </div>
@@ -499,7 +489,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 945 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 331,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '4-star-12-nights-december-umrah-package']) }}">View Details</a>
                                 </div>
@@ -545,7 +535,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1030 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 360,500 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '4-star-14-nights-december-umrah-package']) }}">View Details</a>
                                 </div>
@@ -605,7 +595,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 999 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 349,500 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '10-nights-5-star-umrah-package']) }}">View Details</a>
                                 </div>
@@ -652,7 +642,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1045 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 366,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '12-nights-5-star-umrah-package']) }}">View Details</a>
                                 </div>
@@ -699,7 +689,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1049 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 367,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '5-star-7-nights-economy-umrah-package']) }}">View Details</a>
                                 </div>
@@ -746,7 +736,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1199 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 419,500 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '5-star-14-nights-family-umrah-package1']) }}">View Details</a>
                                 </div>
@@ -927,18 +917,18 @@
     <div class="container scroll-page-content page-content-styling">
         </p>
 
-        <h2>Get Umrah Packages 2026 With Haditours Today</h2>
+        <h2>Get Umrah Packages 2026 With Umrah Agency Today</h2>
 
-        <p>Planning ahead allows you to secure the best hotels, preferred departure dates, and competitive fares for your sacred journey. Our Umrah Packages 2026 from UK are now open for early booking, offering flexible departures, carefully selected accommodation, and complete travel support for pilgrims across the UK.</p>
+        <p>Planning ahead allows you to secure the best hotels, preferred departure dates, and competitive fares for your sacred journey. Our Umrah Packages 2026 from Pakistan are now open for early booking, offering flexible departures, carefully selected accommodation, and complete travel support for pilgrims across the Pakistan.</p>
 
         <p>Whether you are planning Ramadan Umrah 2026, travelling during school holidays, or looking for off-peak 2026 Umrah deals, securing your place early ensures better availability and smoother visa processing.</p>
-        <p>With demand increasing every year, booking your Umrah 2026 from UK in advance provides peace of mind and financial flexibility.</p>
+        <p>With demand increasing every year, booking your Umrah 2026 from Pakistan in advance provides peace of mind and financial flexibility.</p>
 
         <h2>Why 2026 Is the Ideal Year to Plan Your Umrah Early</h2>
 
-        <h3>Increasing Demand for Umrah 2026 from UK</h3>
+        <h3>Increasing Demand for Umrah 2026 from Pakistan</h3>
         <p>
-            Interest in Umrah Packages 2026 is already rising due to Ramadan 2026 falling in favourable travel months and increasing post-Hajj travel momentum. UK families often coordinate travel around school holidays, making Easter 2026 and December 2026 highly competitive periods.
+            Interest in Umrah Packages 2026 is already rising due to Ramadan 2026 falling in favourable travel months and increasing post-Hajj travel momentum. Pakistan families often coordinate travel around school holidays, making Easter 2026 and December 2026 highly competitive periods.
         </p>
         <p>
             Early booking protects you from last-minute price increases and limited hotel choices.
@@ -967,17 +957,17 @@
 
         <h3>January & February 2026 Umrah Packages</h3>
         <p>
-            Early 2026 offers cooler weather and fewer crowds, making January and February ideal for pilgrims seeking a peaceful Umrah experience. Families, elderly travelers, and solo pilgrims can enjoy easier access to Haram and a calm environment. These months also provide competitive Umrah 2026 packages from UK at attractive rates.
+            Early 2026 offers cooler weather and fewer crowds, making January and February ideal for pilgrims seeking a peaceful Umrah experience. Families, elderly travelers, and solo pilgrims can enjoy easier access to Haram and a calm environment. These months also provide competitive Umrah 2026 packages from Pakistan at attractive rates.
         </p>
 
         <h3>Ramadan Umrah 2026 Packages</h3>
         <p>
-            Ramadan is the most spiritually rewarding period for Umrah, and our Ramadan Umrah 2026 packages from UK cater to all needs, from full-month stays to short 7–10 night options. Early booking is essential due to high demand, ensuring the best hotels near Haram and flexible flight options. Pilgrims can experience maximum blessings while enjoying comfortable arrangements and guided support.
+            Ramadan is the most spiritually rewarding period for Umrah, and our Ramadan Umrah 2026 packages from Pakistan cater to all needs, from full-month stays to short 7–10 night options. Early booking is essential due to high demand, ensuring the best hotels near Haram and flexible flight options. Pilgrims can experience maximum blessings while enjoying comfortable arrangements and guided support.
         </p>
 
         <h3>Easter & Summer 2026 Umrah Packages</h3>
         <p>
-            Easter and summer 2026 are popular for UK families, providing structured travel dates and convenient school holiday options. Our Easter & Summer Umrah 2026 packages offer a variety of hotel categories, flexible durations, and group-friendly arrangements. These months are perfect for pilgrims seeking extended stays with a combination of spiritual reflection and family-friendly travel.
+            Easter and summer 2026 are popular for Pakistan families, providing structured travel dates and convenient school holiday options. Our Easter & Summer Umrah 2026 packages offer a variety of hotel categories, flexible durations, and group-friendly arrangements. These months are perfect for pilgrims seeking extended stays with a combination of spiritual reflection and family-friendly travel.
         </p>
 
         <h3>Rabi al-Awwal & Post-Hajj 2026</h3>
@@ -987,12 +977,12 @@
 
         <h3>December 2026 Umrah Packages</h3>
         <p>
-            December departures coincide with winter holidays, offering convenient scheduling for UK families while maintaining a peaceful Umrah experience. Our December 2026 Umrah packages from UK include flexible hotel options, smooth flights, and guided tours. This period provides a blend of favorable weather, accessibility, and spiritual tranquility.
+            December departures coincide with winter holidays, offering convenient scheduling for Pakistan families while maintaining a peaceful Umrah experience. Our December 2026 Umrah packages from Pakistan include flexible hotel options, smooth flights, and guided tours. This period provides a blend of favorable weather, accessibility, and spiritual tranquility.
         </p>
 
         <h2>Types of Umrah Packages 2026 Available
         </h2>
-        <p>We offer structured 2026 Umrah packages UK tailored to different preferences.</p>
+        <p>We offer structured 2026 Umrah packages Pakistan tailored to different preferences.</p>
 
 
         <h4>Economy Umrah 2026 Packages</h4>
@@ -1015,8 +1005,8 @@
             Travelling with children or elderly relatives requires additional care. Our Family Umrah 2026 packages include flexible room options and convenient flight schedules.
         </p>
 
-        <p>When you book your Umrah for 2026, it is good to know what you get. Haditours makes sure to give the
-            best <a href="{{ route('umrahPackages') }}">Umrah packages</a> from the UK. So,
+        <p>When you book your Umrah for 2026, it is good to know what you get. Umrah Agency makes sure to give the
+            best <a href="{{ route('umrahPackages') }}">Umrah packages</a> from the Pakistan. So,
             here&#39;s what you can expect.</p>
 
         <h4>3★, 4★ & 5★ Hotels in Makkah & Madinah</h4>
@@ -1078,7 +1068,7 @@
 
         <h3>Documentation</h3>
 
-        <p>If you do not have the right papers, your Umrah from the UK might take longer or even get cancelled. But
+        <p>If you do not have the right papers, your Umrah from the Pakistan might take longer or even get cancelled. But
             do not worry. We make sure you have everything you need.</p>
 
         <ul>
@@ -1117,14 +1107,14 @@
 
         <h3>FAQs</h3>
 
-        <h4>What is the price of the Umrah package 2026 with Haditours now?</h4>
+        <h4>What is the price of the Umrah package 2026 with Umrah Agency now?</h4>
 
-        <p>At Hadi Tours, we ensure you get the best prices for your Umrah package for 2026 right now. Our
-            packages start from as low as &pound;745.</p>
+        <p>At Umrah Agency, we ensure you get the best prices for your Umrah package for 2026 right now. Our
+            packages start from as low as Rs. 261,000.</p>
 
         <h4>Which airlines can I get direct flights with for my Umrah package?</h4>
 
-        <p>Saudi Airlines and British Airways offer direct flights from the UK to Jeddah. So, if you opt for direct
+        <p>Saudi Airlines and PIA offer direct flights from the Pakistan to Jeddah. So, if you opt for direct
             flights in your package, you will likely fly with one of these airlines.</p>
 
         <h4>How long does an Umrah visa last?</h4>

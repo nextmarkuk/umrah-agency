@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('meta')
-    <title>5 Star Hajj Package (non-shifting) | Hadi Tours</title>
-    <meta name="description" content="Book our 5 Star Hajj Package (non-shifting) with Lamar Hotel in Makkah and Millenium Taiba in Madinah. Luxury Hajj services from UK.">
+    <title>5 Star Hajj Package (non-shifting) | Umrah Agency</title>
+    <meta name="description" content="Book our 5 Star Hajj Package (non-shifting) with Lamar Hotel in Makkah and Millenium Taiba in Madinah. Luxury Hajj services from Pakistan.">
 @endsection
 @section('content')
 
@@ -28,10 +28,10 @@
             
             <div class="pkg-price-bar">
                 <div class="price-text text-white">
-                    FROM <span class="text-white">&pound; 8299</span> per person
+                    FROM <span class="text-white">Rs. 2,904,500</span> per person
                 </div>
                 <div class="deposit-btn">
-                    <i class="fa fa-bookmark"></i> Book with just &pound;500 deposit
+                    <i class="fa fa-bookmark"></i> Book with just Rs. 175,000 deposit
                 </div>
             </div>
         </div>
@@ -65,7 +65,7 @@
                                 <i class="fa fa-plane fa-2x text-warning mr-3" style="color: #3D3E42 !important;"></i>
                                 <div class="info">
                                     <span>Return Flights</span>
-                                    <small>From UK</small>
+                                    <small>From Pakistan</small>
                                 </div>
                             </div>
                             <div class="overview-item">
@@ -161,27 +161,17 @@
                             @csrf
                             
                             <div class="form-group mb-3">
-                                <label>Departure Airport</label>
-                                <select class="form-control" name="n[Departure Airport]" required>
-                                    <option value="">Departure Airport</option>
-                                    <option value="London Heathrow">London Heathrow</option>
-                                    <option value="London Gatwick">London Gatwick</option>
-                                    <option value="Manchester">Manchester</option>
-                                    <option value="London Stansted">London Stansted</option>
-                                    <option value="London Luton">London Luton</option>
-                                    <option value="Edinburgh">Edinburgh</option>
-                                    <option value="Birmingham">Birmingham</option>
-                                    <option value="Glasgow">Glasgow</option>
-                                    <option value="Bristol">Bristol</option>
-                                    <option value="Liverpool">Liverpool</option>
-                                    <option value="Newcastle">Newcastle</option>
-                                    <option value="East Midlands">East Midlands</option>
-                                    <option value="Aberdeen">Aberdeen</option>
-                                    <option value="London City">London City</option>
-                                    <option value="Leeds Bradford">Leeds Bradford</option>
-                                    <option value="Cardiff">Cardiff</option>
-                                    <option value="Norwich">Norwich</option>
-                                    <option value="Humberside">Humberside</option>
+                                <label>Departure City</label>
+                                <select class="form-control" name="n[Departure City]" required>
+                                    <option value="">Departure City</option>
+<option value="Karachi">Karachi (KHI)</option>
+<option value="Lahore">Lahore (LHE)</option>
+<option value="Islamabad">Islamabad (ISB)</option>
+<option value="Peshawar">Peshawar (PEW)</option>
+<option value="Multan">Multan (MUX)</option>
+<option value="Sialkot">Sialkot (SKT)</option>
+<option value="Faisalabad">Faisalabad (LYP)</option>
+<option value="Quetta">Quetta (UET)</option>
                                 </select>
                             </div>
 
@@ -202,7 +192,7 @@
 
                             <div class="form-group mb-3">
                                 <label>Phone Number</label>
-                                <input type="text" name="n[Phone Number]" class="form-control" placeholder="+44 123 456 7890" required>
+                                <input type="text" name="n[Phone Number]" class="form-control" placeholder="+92 300 1234567" required>
                             </div>
                             
                             <div class="form-group mb-3">

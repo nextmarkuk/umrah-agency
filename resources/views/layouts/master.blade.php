@@ -13,20 +13,20 @@
 
     <meta name="twitter:card" content="summary">
     <meta name="robots" content="noindex, nofollow">
-    <meta name="twitter:site" content="@haditours">
-    <meta name="twitter:title" content="Trusted Islamic Travel Agency in the UK for Umrah Services">
-    <meta name="twitter:description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
-    <meta name="twitter:creator" content="@haditours">
-    <meta name="twitter:image:src" content="https://www.haditours.co.uk/assets/images/logo.png">
-    <meta name="twitter:domain" content="https://www.haditours.co.uk/">
-    <link rel="canonical" href="https://www.haditours.co.uk/" />
+    <meta name="twitter:site" content="@umrahagency">
+    <meta name="twitter:title" content="Trusted Islamic Travel Agency in Pakistan for Umrah Services">
+    <meta name="twitter:description" content="Get Umrah services from a trusted Islamic travel agency in Karachi, Pakistan. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+    <meta name="twitter:creator" content="@umrahagency">
+    <meta name="twitter:image:src" content="https://www.umrahagency.co.Pakistan/assets/images/logo.png">
+    <meta name="twitter:domain" content="https://www.umrahagency.co.Pakistan/">
+    <link rel="canonical" href="https://www.umrahagency.co.Pakistan/" />
     
     <!-- facebook -->
-    <meta property="og:title" content="Trusted Islamic Travel Agency in the UK for Umrah Services" />
+    <meta property="og:title" content="Trusted Islamic Travel Agency in Pakistan for Umrah Services" />
     <meta property="og:type" content="Hajj & Umrah" />
-    <meta property="og:image" content="https://www.haditours.co.uk/assets/images/logo.png" />
-    <meta property="og:url" content="https://www.haditours.co.uk/" />
-    <meta property="og:description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals." />
+    <meta property="og:image" content="https://www.umrahagency.co.Pakistan/assets/images/logo.png" />
+    <meta property="og:url" content="https://www.umrahagency.co.Pakistan/" />
+    <meta property="og:description" content="Get Umrah services from a trusted Islamic travel agency in Karachi, Pakistan. We offer all-inclusive Umrah packages for families, groups, and individuals." />
 
     <link href="{{asset('assets/css/jquery-ui.min.css')}}" rel="stylesheet">
     <link href="{{asset('assets/css/bootstrap.min.css')}}" rel="stylesheet">
@@ -49,7 +49,7 @@
     <link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}">
     <link href="{{asset('assets/css/custom.css')}}" rel="stylesheet">
     <link href="{{asset('assets/css/slick.css')}}" rel="stylesheet">
-    <link rel="preload" href="{{asset('assets/media/pages/home-page-banner-for-haditours-1.jpeg')}}" as="image" type="image/webp">
+    <link rel="preload" href="{{asset('assets/media/pages/home-page-banner-for-UmrahAgency-1.jpeg')}}" as="image" type="image/webp">
     <link rel="preconnect" href="https://embed.tawk.to">
     <link rel="preconnect" href="https://www.googleadservices.com">
     <link rel="preconnect" href="https://googleads.g.doubleclick.net">
@@ -126,7 +126,7 @@
     <script src="{{asset('assets/js/slick.min.js')}}" defer></script>
     <script src="{{asset('assets/js/custom.js')}}" defer></script>
     <script type="text/javascript">
-        var base_url = "https://www.haditours.co.uk";
+        var base_url = "https://www.umrahagency.co.Pakistan";
         document.addEventListener('DOMContentLoaded', function() {
             if (typeof customUploader === 'function') {
                 customUploader(base_url);

@@ -1,15 +1,15 @@
 @extends('layouts.master')
 @section('meta')
-<title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
-<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<title>Trusted Islamic Travel Agency in Pakistan for Umrah Services</title>
+<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in Karachi, Pakistan. We offer all-inclusive Umrah packages for families, groups, and individuals.">
 @endsection
 @section('content')
 <section class="search-banner">
     <!--slider section Start-->
     <div class="banner">
-        <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.jpeg')}}" class="img-fluid" alt="Banner Image">
+        <img src="{{asset('assets/media/pages/home-page-banner-for-UmrahAgency-1.jpeg')}}" class="img-fluid" alt="Banner Image">
         <div class="banner-text">
-            <h1>Trusted Islamic Travel Agency&nbsp;in UK</h1>
+            <h1>Trusted Islamic Travel Agency&nbsp;in Pakistan</h1>
             <h4>For Umrah Services</h4>
             </h4>
         </div>
@@ -21,15 +21,15 @@
 
                 <div class="form-group Half">
                     <label for="enquiry-departure">
-                        <i class="fa fa-plane fa-2x text-warning mr-1" style="color: #85641E !important;font-size: 1.4em;"></i> Departure Airport
+                        <i class="fa fa-plane fa-2x text-warning mr-1" style="color: #85641E !important;font-size: 1.4em;"></i> Departure City
                     </label>
-                    <select class="form-control" id="enquiry-departure" name="n[Departure Airport]" required>
-                        <option value="">Departure Airport</option>
-                        <option value="London Heathrow">London Heathrow</option>
-                        <option value="London Gatwick">London Gatwick</option>
+                    <select class="form-control" id="enquiry-departure" name="n[Departure City]" required>
+                        <option value="">Departure City</option>
+                        <option value="Karachi Heathrow">Karachi Heathrow</option>
+                        <option value="Karachi Gatwick">Karachi Gatwick</option>
                         <option value="Manchester">Manchester</option>
-                        <option value="London Stansted">London Stansted</option>
-                        <option value="London Luton">London Luton</option>
+                        <option value="Karachi Stansted">Karachi Stansted</option>
+                        <option value="Karachi Luton">Karachi Luton</option>
                         <option value="Edinburgh">Edinburgh</option>
                         <option value="Birmingham">Birmingham</option>
                         <option value="Glasgow">Glasgow</option>
@@ -38,7 +38,7 @@
                         <option value="Newcastle">Newcastle</option>
                         <option value="East Midlands">East Midlands</option>
                         <option value="Aberdeen">Aberdeen</option>
-                        <option value="London City">London City</option>
+                        <option value="Karachi City">Karachi City</option>
                         <option value="Leeds Bradford">Leeds Bradford</option>
                         <option value="Cardiff">Cardiff</option>
                         <option value="Norwich">Norwich</option>
@@ -213,7 +213,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 600 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 210,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '4-star-7-nights-december-umrah-package']) }}">View Details</a>
                                 </div>
@@ -262,7 +262,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 925 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 324,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '3-star-7-nights-umrah-package']) }}">View Details</a>
                                 </div>
@@ -311,7 +311,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 945 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 331,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '10-nights-5-star-umrah-package']) }}">View Details</a>
                                 </div>
@@ -360,7 +360,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1015 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 355,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '3-star-10-nights-umrah-package']) }}">View Details</a>
                                 </div>
@@ -409,7 +409,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1070 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 374,500 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '4-star-december-umrah-package']) }}">View Details</a>
                                 </div>
@@ -458,7 +458,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1130 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 395,500 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '3-star-12-nights-umrah-package']) }}">View Details</a>
                                 </div>
@@ -507,7 +507,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1145 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 401,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '4-star-12-nights-december-umrah-package']) }}">View Details</a>
                                 </div>
@@ -556,7 +556,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1199 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 419,500 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '5-star-14-nights-family-umrah-package1']) }}">View Details</a>
                                 </div>
@@ -605,7 +605,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1210 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 423,500 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '12-nights-5-star-umrah-package']) }}">View Details</a>
                                 </div>
@@ -654,7 +654,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1245 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 436,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '5-star-7-nights-economy-umrah-package']) }}">View Details</a>
                                 </div>
@@ -678,8 +678,8 @@
             there are no specified days to perform Umrah. But you cannot perform it in the Hajj days. So, Muslims
             always look for opportunities to get a faith revival through Umrah any time of the year.</p>
 
-        <p>Due to work and other purposes, UK Muslims want their Umrah to be scheduled during the holidays.
-            Therefore, if you want Easter Umrah packages, we can surely help you. Haditours is known for
+        <p>Due to work and other purposes, Pakistan Muslims want their Umrah to be scheduled during the holidays.
+            Therefore, if you want Easter Umrah packages, we can surely help you. Umrah Agency is known for
             providing all-inclusive reliable, and <a href="{{ route('umrahPackages') }}"
                 target="_self">cheap&nbsp;Umrah packages</a>. We have the best packages for you whether you want to
             go for an Umrah during the Easter holidays or Ramadan.</p>
@@ -687,10 +687,10 @@
         <p><a href="{{ route('contactUs') }}" target="_self"><strong>Contact Us
                     Now!</strong></a></p>
 
-        <h2>Why Should You Trust Hadi Tours?</h2>
+        <h2>Why Should You Trust Umrah Agency?</h2>
 
-        <p>Haditours is one of the best travel agencies in the UK, serving for years with the best Umrah
-            packages. Therefore, we understand the importance of arranging the Umrah during holidays. Most UK
+        <p>Umrah Agency is one of the best travel agencies in Pakistan, serving for years with the best Umrah
+            packages. Therefore, we understand the importance of arranging the Umrah during holidays. Most Pakistan
             Muslims prefer to perform Umrah during the holidays because they don&rsquo;t have to compromise on their
             work or businesses. So, if you want Easter Umrah packages for 2026, we are your guys.</p>
 
@@ -717,9 +717,9 @@
 
         <h2>Our Customisable Easter Umrah Packages</h2>
 
-        <p>As mentioned earlier, Haditours has always provided its customers with the best Umrah packages no
+        <p>As mentioned earlier, Umrah Agency has always provided its customers with the best Umrah packages no
             matter what. Our Easter Umrah package gives you the best opportunity to go on a spiritual journey with
-            your loved ones. Haditours offers three kinds of <a
+            your loved ones. Umrah Agency offers three kinds of <a
                 href="{{ route('umrahPackages2026') }}">Umrah packages 2026</a>&nbsp;that are
             3-star, 4-star, and 5-star for 7, 10, 12, and 14 nights but this is different. We can customise these
             packages for you according to your requirements.</p>
@@ -741,25 +741,25 @@
         <p>Like Hajj, there is no compulsion for Umrah to be performed at a specific time of the year. Therefore,
             you can perform this Sunnah any time of the year, excluding the Hajj days.</p>
 
-        <h3>Do Haditours Umrah packages contain an Umrah visa?</h3>
+        <h3>Do Umrah Agency Umrah packages contain an Umrah visa?</h3>
 
-        <p>Yes, the all-inclusive Umrah packages at Haditours cover everything from your Umrah visa and flights
+        <p>Yes, the all-inclusive Umrah packages at Umrah Agency cover everything from your Umrah visa and flights
             to accommodation and food.</p>
 
         <h3>Can I do Umrah in one week?</h3>
 
-        <p>Yes, you can do Umrah in one week. We have multiple 7-day packages for you at Haditours that you can
+        <p>Yes, you can do Umrah in one week. We have multiple 7-day packages for you at Umrah Agency that you can
             choose from.</p>
 
-        <h3>Which airlines fly from the UK for Umrah?</h3>
+        <h3>Which airlines fly from Pakistan for Umrah?</h3>
 
-        <p>Airlines that offer flights from the UK for Umrah include;</p>
+        <p>Airlines that offer flights from Pakistan for Umrah include;</p>
 
         <ul>
             <li>Qatar Airways</li>
             <li>Lufthansa</li>
             <li>Saudi Airlines</li>
-            <li>British Airways</li>
+            <li>PIA</li>
             <li>Turkish Airlines</li>
             <li>Royal Jordanian&nbsp;</li>
             <li>Emirates</li>

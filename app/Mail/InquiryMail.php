@@ -29,7 +29,7 @@ class InquiryMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'New Package Inquiry - ' . ($this->data['name'] ?? 'Hadi Tours'),
+            subject: 'New Package Inquiry - ' . ($this->data['name'] ?? 'Umrah Agency'),
         );
     }
 

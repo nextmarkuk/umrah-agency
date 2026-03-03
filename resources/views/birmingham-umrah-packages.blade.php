@@ -1,15 +1,15 @@
 @extends('layouts.master')
 @section('meta')
-<title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
-<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<title>Trusted Islamic Travel Agency in Pakistan for Umrah Services</title>
+<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in Karachi, Pakistan. We offer all-inclusive Umrah packages for families, groups, and individuals.">
 @endsection
 @section('content')
 <section class="search-banner">
     <!--slider section Start-->
     <div class="banner">
-        <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.jpeg')}}" class="img-fluid" alt="Banner Image">
+        <img src="{{asset('assets/media/pages/home-page-banner-for-UmrahAgency-1.jpeg')}}" class="img-fluid" alt="Banner Image">
         <div class="banner-text">
-            <h1>Trusted Islamic Travel Agency&nbsp;in UK</h1>
+            <h1>Trusted Islamic Travel Agency&nbsp;in Pakistan</h1>
             <h4>For Umrah Services</h4>
             </h4>
         </div>
@@ -21,15 +21,15 @@
 
                 <div class="form-group Half">
                     <label for="enquiry-departure">
-                        <i class="fa fa-plane fa-2x text-warning mr-1" style="color: #85641E !important;font-size: 1.4em;"></i> Departure Airport
+                        <i class="fa fa-plane fa-2x text-warning mr-1" style="color: #85641E !important;font-size: 1.4em;"></i> Departure City
                     </label>
-                    <select class="form-control" id="enquiry-departure" name="n[Departure Airport]" required>
-                        <option value="">Departure Airport</option>
-                        <option value="London Heathrow">London Heathrow</option>
-                        <option value="London Gatwick">London Gatwick</option>
+                    <select class="form-control" id="enquiry-departure" name="n[Departure City]" required>
+                        <option value="">Departure City</option>
+                        <option value="Karachi Heathrow">Karachi Heathrow</option>
+                        <option value="Karachi Gatwick">Karachi Gatwick</option>
                         <option value="Manchester">Manchester</option>
-                        <option value="London Stansted">London Stansted</option>
-                        <option value="London Luton">London Luton</option>
+                        <option value="Karachi Stansted">Karachi Stansted</option>
+                        <option value="Karachi Luton">Karachi Luton</option>
                         <option value="Edinburgh">Edinburgh</option>
                         <option value="Birmingham">Birmingham</option>
                         <option value="Glasgow">Glasgow</option>
@@ -38,7 +38,7 @@
                         <option value="Newcastle">Newcastle</option>
                         <option value="East Midlands">East Midlands</option>
                         <option value="Aberdeen">Aberdeen</option>
-                        <option value="London City">London City</option>
+                        <option value="Karachi City">Karachi City</option>
                         <option value="Leeds Bradford">Leeds Bradford</option>
                         <option value="Cardiff">Cardiff</option>
                         <option value="Norwich">Norwich</option>
@@ -210,7 +210,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 825 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 289,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '4-star-7-nights-december-umrah-package']) }}">View Details</a>
                                 </div>
@@ -258,7 +258,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 899 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 314,500 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '4-star-10-nights-december-umrah-package']) }}">View Details</a>
                                 </div>
@@ -307,7 +307,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 945 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 331,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '4-star-12-nights-december-umrah-package']) }}">View Details</a>
                                 </div>
@@ -356,7 +356,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1030 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 360,500 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '4-star-14-nights-december-umrah-package']) }}">View Details</a>
                                 </div>
@@ -417,7 +417,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1049 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 367,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '5-star-7-nights-economy-umrah-package']) }}">View Details</a>
                                 </div>
@@ -466,7 +466,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1275 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 446,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '12-nights-5-star-umrah-package']) }}">View Details</a>
                                 </div>
@@ -515,7 +515,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1309 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 458,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '5-star-14-nights-family-umrah-package1']) }}">View Details</a>
                                 </div>
@@ -530,7 +530,7 @@
     <div class="container scroll-page-content page-content-styling">
         </p>
 
-        <h2>Birmingham Umrah Packages With Hadi Tours</h2>
+        <h2>Birmingham Umrah Packages With Umrah Agency</h2>
 
         <p>In a world with busy cities, sometimes we all feel we need something deeper. For Muslims looking for a
             journey that makes their lives better, Umrah gives you precisely that. Think about an experience where
@@ -549,7 +549,7 @@
             place to start for several reasons. So, let&#39;s discuss why choosing Umrah packages from Birmingham is
             smart.</p>
 
-        <p>Firstly, Umrah packages from Birmingham, UK, mean convenience. Birmingham Airport, one of the UK&#39;s
+        <p>Firstly, Umrah packages from Birmingham, Pakistan, mean convenience. Birmingham Airport, one of Pakistan&#39;s
             busiest, is a hub that provides many different flight options to Saudi Arabia. And even direct flights
             are available between Birmingham and Jeddah with Saudi Airlines.</p>
 

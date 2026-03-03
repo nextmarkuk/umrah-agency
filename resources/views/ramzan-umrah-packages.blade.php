@@ -1,15 +1,15 @@
 @extends('layouts.master')
 @section('meta')
-<title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
-<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<title>Trusted Islamic Travel Agency in Pakistan for Umrah Services</title>
+<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in Karachi, Pakistan. We offer all-inclusive Umrah packages for families, groups, and individuals.">
 @endsection
 @section('content')
 <section class="search-banner">
     <!--slider section Start-->
     <div class="banner">
-        <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.jpeg')}}" class="img-fluid" alt="Banner Image">
+        <img src="{{asset('assets/media/pages/home-page-banner-for-UmrahAgency-1.jpeg')}}" class="img-fluid" alt="Banner Image">
         <div class="banner-text">
-            <h1>Trusted Islamic Travel Agency&nbsp;in UK</h1>
+            <h1>Trusted Islamic Travel Agency&nbsp;in Pakistan</h1>
             <h4>For Umrah Services</h4>
             </h4>
         </div>
@@ -21,15 +21,15 @@
 
                 <div class="form-group Half">
                     <label for="enquiry-departure">
-                        <i class="fa fa-plane fa-2x text-warning mr-1" style="color: #85641E !important;font-size: 1.4em;"></i> Departure Airport
+                        <i class="fa fa-plane fa-2x text-warning mr-1" style="color: #85641E !important;font-size: 1.4em;"></i> Departure City
                     </label>
-                    <select class="form-control" id="enquiry-departure" name="n[Departure Airport]" required>
-                        <option value="">Departure Airport</option>
-                        <option value="London Heathrow">London Heathrow</option>
-                        <option value="London Gatwick">London Gatwick</option>
+                    <select class="form-control" id="enquiry-departure" name="n[Departure City]" required>
+                        <option value="">Departure City</option>
+                        <option value="Karachi Heathrow">Karachi Heathrow</option>
+                        <option value="Karachi Gatwick">Karachi Gatwick</option>
                         <option value="Manchester">Manchester</option>
-                        <option value="London Stansted">London Stansted</option>
-                        <option value="London Luton">London Luton</option>
+                        <option value="Karachi Stansted">Karachi Stansted</option>
+                        <option value="Karachi Luton">Karachi Luton</option>
                         <option value="Edinburgh">Edinburgh</option>
                         <option value="Birmingham">Birmingham</option>
                         <option value="Glasgow">Glasgow</option>
@@ -38,7 +38,7 @@
                         <option value="Newcastle">Newcastle</option>
                         <option value="East Midlands">East Midlands</option>
                         <option value="Aberdeen">Aberdeen</option>
-                        <option value="London City">London City</option>
+                        <option value="Karachi City">Karachi City</option>
                         <option value="Leeds Bradford">Leeds Bradford</option>
                         <option value="Cardiff">Cardiff</option>
                         <option value="Norwich">Norwich</option>
@@ -209,7 +209,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 775 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 271,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '3-star-7-nights-umrah-package']) }}">View Details</a>
                                 </div>
@@ -256,7 +256,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 815 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 285,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '3-star-10-nights-umrah-package']) }}">View Details</a>
                                 </div>
@@ -303,7 +303,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 845 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 296,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '3-star-12-nights-umrah-package']) }}">View Details</a>
                                 </div>
@@ -350,7 +350,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 895 <sub>/ pp</sub></span>
+                                    <span class="price">Rs. 313,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '3-star-14-nights-umrah-package']) }}">View Details</a>
                                 </div>
@@ -499,7 +499,7 @@
     <div class="container scroll-page-content page-content-styling">
         </p>
 
-        <h2>Ramadan Umrah Packages by Hadi Tours</h2>
+        <h2>Ramadan Umrah Packages by Umrah Agency</h2>
 
         <p>Going for Umrah is a unique spiritual journey, but doing Umrah in Ramadan makes it even more special.
             Ramadan is a holy month when Allah&#39;s mercy and forgiveness are abundant. It&#39;s the best time to
@@ -507,11 +507,11 @@
             these places, along with the prayers of millions of Muslims, creates a truly amazing and humbling
             feeling.</p>
 
-        <p>At <a href="https://www.haditours.co.uk/">Hadi Tours</a>, we know how important this journey is
+        <p>At <a href="https://www.umrahagency.co.Pakistan/">Umrah Agency</a>, we know how important this journey is
             for you. That&#39;s why our Ramadan Umrah packages are designed to make everything easy and meaningful.
             When you book with us, you&#39;re not just getting travel plans&mdash;you&#39;re trusting a team that
             cares about making your pilgrimage memorable. We take care of everything, from easy flights and
-            comfortable places to stay to expert help and support anytime you need it. With Hadi Tours, you can
+            comfortable places to stay to expert help and support anytime you need it. With Umrah Agency, you can
             focus on your prayers and enjoy this blessed time without worrying about the details.</p>
 
         <h2>Why Perform Umrah in Ramadan 2026</h2>
@@ -556,7 +556,7 @@
 
         <h2>When to Perfrom Umrah in Ramadan</h2>
 
-        <p>Ramadan 2026&nbsp;UK will likely start around March 1, but it might change a bit based on when the moon
+        <p>Ramadan 2026&nbsp;Pakistan will likely start around March 1, but it might change a bit based on when the moon
             is seen. Ramadan is split into three parts, called ashra. Each part has its special blessings and
             chances for spiritual growth.</p>
 
@@ -580,7 +580,7 @@
             of these nights is Laylat al-Qadr, the most important night of the year. That night, the rewards for
             praying and doing good deeds are significantly increased. Many people want to do Umrah during these days
             because Makkah and Madinah are very spiritually powerful at this time. Therefore, the Ramadan Umrah
-            package from the UK is in high demand during this period, so planning your journey in advance is
+            package from Pakistan is in high demand during this period, so planning your journey in advance is
             essential.</p>
 
         <h3>Best Time</h3>

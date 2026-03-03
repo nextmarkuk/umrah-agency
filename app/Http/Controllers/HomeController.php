@@ -108,9 +108,9 @@ class HomeController extends Controller
         
         try {
             \Illuminate\Support\Facades\Mail::send('emails.inquiry', ['data' => $data], function($message) use ($data) {
-                $message->to('info@haditours.co.uk');
+                $message->to('info@umrahagency.pk');
                 $message->replyTo($data['email']);
-                $message->subject('New Package Inquiry - ' . ($data['name'] ?? 'Hadi Tours'));
+                $message->subject('New Package Inquiry - ' . ($data['name'] ?? 'Umrah Agency'));
             });
             if ($request->ajax()) {
                 return response()->json(['status' => 'success', 'message' => 'Thank you! Your inquiry has been sent successfully.']);

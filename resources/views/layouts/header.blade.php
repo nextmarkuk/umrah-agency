@@ -5,28 +5,28 @@
             <div class="topbar-inner d-flex align-items-center flex-wrap" style="justify-content: center; position: relative;">
                 <!-- Left: Contact Info -->
                 <div class="topbar-left d-flex flex-wrap align-items-center" style="gap: 14px;">
-                    <a href="tel:020 3103 0264" style="color: #fff; text-decoration: none; white-space: nowrap;">
-                        <i class="fa fa-phone" style="margin-right: 14px; vertical-align: middle;"></i><span style="vertical-align: middle;">020 3103 0264</span>
+                    <a href="tel:+92 300 1234567" style="color: #fff; text-decoration: none; white-space: nowrap;">
+                        <i class="fa fa-phone" style="margin-right: 14px; vertical-align: middle;"></i><span style="vertical-align: middle;">+92 300 1234567</span>
                     </a>
-                    <a href="mailto:info@haditours.co.uk" style="color: #fff; text-decoration: none; white-space: nowrap;">
-                        <i class="fa fa-envelope" style="margin-right: 14px; vertical-align: middle;"></i><span style="vertical-align: middle;">info@haditours.co.uk</span>
+                    <a href="mailto:info@umrahagency.co.Pakistan" style="color: #fff; text-decoration: none; white-space: nowrap;">
+                        <i class="fa fa-envelope" style="margin-right: 14px; vertical-align: middle;"></i><span style="vertical-align: middle;">info@umrahagency.co.Pakistan</span>
                     </a>
                     <span style="white-space: nowrap; color: #fff;" class="d-none d-lg-inline">
-                        <i class="fa fa-map-marker" style="margin-right: 14px; vertical-align: middle;"></i><span style="vertical-align: middle;">13 Station Rd, London SE25 5AH, UK</span>
+                        <i class="fa fa-map-marker" style="margin-right: 14px; vertical-align: middle;"></i><span style="vertical-align: middle;">Main Boulevard, Gulberg III, Lahore, Pakistan</span>
                     </span>
                 </div>
                 <!-- Right: Social Icons -->
                 <div class="topbar-right d-flex align-items-center" style="gap: 24px; position: absolute; right: 0;">
-                    <a href="https://www.facebook.com/haditours" rel="nofollow" target="_blank" style="color: #fff; font-size: 16px;" title="Facebook">
+                    <a href="https://www.facebook.com/umrahagency" rel="nofollow" target="_blank" style="color: #fff; font-size: 16px;" title="Facebook">
                         <i class="fa fa-facebook"></i>
                     </a>
-                    <a href="https://twitter.com/haditours/" rel="nofollow" target="_blank" style="color: #fff; font-size: 16px;" title="Twitter">
+                    <a href="https://twitter.com/umrahagency/" rel="nofollow" target="_blank" style="color: #fff; font-size: 16px;" title="Twitter">
                         <i class="fa fa-twitter"></i>
                     </a>
-                    <a href="https://www.instagram.com/haditoursuk/" rel="nofollow" target="_blank" style="color: #fff; font-size: 16px;" title="Instagram">
+                    <a href="https://www.instagram.com/umrahagencypk/" rel="nofollow" target="_blank" style="color: #fff; font-size: 16px;" title="Instagram">
                         <i class="fa fa-instagram"></i>
                     </a>
-                    <a href="https://www.pinterest.co.uk/haditours/" rel="nofollow" target="_blank" style="color: #fff; font-size: 16px;" title="Pinterest">
+                    <a href="https://www.pinterest.co.Pakistan/umrahagency/" rel="nofollow" target="_blank" style="color: #fff; font-size: 16px;" title="Pinterest">
                         <i class="fa fa-pinterest"></i>
                     </a>
                 </div>
@@ -57,7 +57,7 @@
     <nav class="navbar navbar-expand-md">
         <div class="container px-3 px-md-5">
             <a class="navbar-brand" href="{{ route('home') }}">
-                <img class="img-responsive" src="{{asset('assets/images/logo.png')}}" alt="Hadi Tours">
+                <img class="img-responsive" src="{{asset('assets/images/logo.png')}}" alt="Umrah Agency">
             </a>
             <div class="whts d-flex d-md-none">
                 <a href="https://wa.me/+4407877190363" target="_blank">
@@ -100,7 +100,7 @@
     </nav>
     <!--mobile view button-->
     <div class="mobileButtons d-xl-none">
-        <a class="phone" href="tel:020 3103 0264"><img height="28" width="28" class="svg" src="{{asset('assets/images/waving-phone.svg')}}" alt="phone image"></a>
+        <a class="phone" href="tel:+92 300 1234567"><img height="28" width="28" class="svg" src="{{asset('assets/images/waving-phone.svg')}}" alt="phone image"></a>
     </div>
     <!--mobile view button-->
 </header>
