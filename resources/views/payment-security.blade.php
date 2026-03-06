@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('meta')
-<title>Trusted Islamic Travel Agency in Pakistan for Umrah Services</title>
-<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in Karachi, Pakistan. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
+<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
 @endsection
 @section('content')
 @section('content')
@@ -17,7 +17,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-10">
                 <div class="section-card shadow-sm">
-                    <p class="lead mb-4">In order to keep your payments safe for the Umrah and Hajj packages, flights, hotels, and other services you buy, <strong>Umrah Agency</strong> facilitates the safest online payment methods via a 3D secure link.</p>
+                    <p class="lead mb-4">In order to keep your payments safe for the Umrah and Hajj packages, flights, hotels, and other services you buy, <strong>Hadi Tours</strong> facilitates the safest online payment methods via a 3D secure link.</p>
 
                     <p class="text-muted">We prioritize your security and use industry-standard encryption to protect your financial information. You may choose the method that is most convenient for you.</p>
 

@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('meta')
-<title>Trusted Islamic Travel Agency in Pakistan for Umrah Services</title>
-<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in Karachi, Pakistan. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<title>Contact Us | Hadi Tours - Plan Your Spiritual Hajj & Umrah Journey</title>
+<meta name="description" content="Get in touch with Hadi Tours for personalized Hajj and Umrah packages. Visit our London office, call us at 0203 970 0002, or email info@haditours.co.uk.">
 @endsection
 @section('content')
 <div class="pkg-header-top text-center">
@@ -38,7 +38,7 @@
                             </div>
                             <div>
                                 <h6 class="font-weight-bold mb-1">Email Address</h6>
-                                <p class="mb-0"><a href="mailto:info@umrahagency.pk" class="text-dark">info@umrahagency.pk</a></p>
+                                <p class="mb-0"><a href="mailto:info@haditours.co.uk" class="text-dark">info@haditours.co.uk</a></p>
                             </div>
                         </div>
 
@@ -48,14 +48,14 @@
                             </div>
                             <div>
                                 <h6 class="font-weight-bold mb-1">Office Address</h6>
-                                <p class="mb-0 text-dark">13 Station Rd, Karachi SE25 5AH, United Kingdom</p>
+                                <p class="mb-0 text-dark">13 Station Rd, London SE25 5AH, United Kingdom</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="mt-5 p-4 bg-light-cream rounded border">
                         <h6 class="font-weight-bold mb-2 uppercase small text-muted">Ablout Our Services</h6>
-                        <p class="small text-justify mb-0">Umrah Agency is a trusted Islamic travel agency in Pakistan. We offer all-inclusive Umrah packages for families, groups, and individuals. Our team is dedicated to providing you with the best spiritual experience.</p>
+                        <p class="small text-justify mb-0">Hadi Tours is a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals. Our team is dedicated to providing you with the best spiritual experience.</p>
                     </div>
                 </div>
             </div>
@@ -97,7 +97,7 @@
                             <div class="col-md-12 mb-3">
                                 <div class="form-group">
                                     <label class="small font-weight-bold">Message *</label>
-                                    <textarea name="n[Message]" class="form-control" style="min-height: 120px;" placeholder="Tell us more about your inquiry" required></textarea>
+                                    <textarea name="message" class="form-control" style="min-height: 120px;" placeholder="Tell us more about your inquiry" required></textarea>
                                 </div>
                             </div>
                             <div class="col-md-12 mb-4">

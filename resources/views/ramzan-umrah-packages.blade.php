@@ -1,15 +1,109 @@
 @extends('layouts.master')
 @section('meta')
-<title>Trusted Islamic Travel Agency in Pakistan for Umrah Services</title>
-<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in Karachi, Pakistan. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
+<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
 @endsection
+
+@verbatim
+ <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.haditours.co.uk/ramadan-umrah-packages.html#ramadanumrah2026",
+  "name": "Ramadan Umrah Packages 2026 from UK",
+  "url": "https://www.haditours.co.uk/ramadan-umrah-packages.html",
+  "description": "Explore a range of all-inclusive Ramadan Umrah packages 2026 from the UK with Hadi Tours, offering 3-star stay options with flights, Umrah visas, hotels in Makkah & Madinah, and transfers. Choose from multiple night durations to suit your travel plans during the blessed month of Ramadan.",
+  "provider": {
+    "@type": "TravelAgency",
+    "@id": "https://www.haditours.co.uk/#travelagency",
+    "name": "Hadi Tours",
+    "url": "https://www.haditours.co.uk/"
+  },
+  "serviceType": "Ramadan Umrah Packages 2026",
+  "areaServed": {
+    "@type": "Country",
+    "name": "United Kingdom"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Ramadan Umrah Packages 2026",
+    "@id": "https://www.haditours.co.uk/ramadan-umrah-packages.html#catalog",
+    "itemListElement": [
+      {
+        "@type": "AggregateOffer",
+        "name": "3-Star 7 Nights Ramadan Umrah Package 2026",
+        "url": "https://www.haditours.co.uk/ramadan-umrah-packages.html#3star7",
+        "description": "3-star Ramadan Umrah Package 2026: 3 nights in Makkah and 4 nights in Madinah with flights, visa, hotel and transfers included.",
+        "priceCurrency": "GBP",
+        "lowPrice": 775,
+        "highPrice": 775,
+        "offerCount": 1,
+        "availability": "https://schema.org/InStock",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "3-Star 7 Nights Ramadan Umrah Package 2026"
+        }
+      },
+      {
+        "@type": "AggregateOffer",
+        "name": "3-Star 10 Nights Ramadan Umrah Package 2026",
+        "url": "https://www.haditours.co.uk/ramadan-umrah-packages.html#3star10",
+        "description": "3-star Ramadan Umrah Package 2026: 5 nights in Makkah and 5 nights in Madinah with flights, visa, hotel and transfers included.",
+        "priceCurrency": "GBP",
+        "lowPrice": 815,
+        "highPrice": 815,
+        "offerCount": 1,
+        "availability": "https://schema.org/InStock",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "3-Star 10 Nights Ramadan Umrah Package 2026"
+        }
+      },
+      {
+        "@type": "AggregateOffer",
+        "name": "3-Star 12 Nights Ramadan Umrah Package 2026",
+        "url": "https://www.haditours.co.uk/ramadan-umrah-packages.html#3star12",
+        "description": "3-star Ramadan Umrah Package 2026: 6 nights in Makkah and 6 nights in Madinah with flights, visa, hotel and transfers included.",
+        "priceCurrency": "GBP",
+        "lowPrice": 845,
+        "highPrice": 845,
+        "offerCount": 1,
+        "availability": "https://schema.org/InStock",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "3-Star 12 Nights Ramadan Umrah Package 2026"
+        }
+      },
+      {
+        "@type": "AggregateOffer",
+        "name": "3-Star 14 Nights Ramadan Umrah Package 2026",
+        "url": "https://www.haditours.co.uk/ramadan-umrah-packages.html#3star14",
+        "description": "3-star Ramadan Umrah Package 2026: 7 nights in Makkah and 7 nights in Madinah with flights, visa, hotel and transfers included.",
+        "priceCurrency": "GBP",
+        "lowPrice": 895,
+        "highPrice": 895,
+        "offerCount": 1,
+        "availability": "https://schema.org/InStock",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "3-Star 14 Nights Ramadan Umrah Package 2026"
+        }
+      }
+    ]
+  }
+}
+</script>
+@endverbatim
+
+
+
 @section('content')
 <section class="search-banner">
     <!--slider section Start-->
     <div class="banner">
-        <img src="{{asset('assets/media/pages/home-page-banner-for-UmrahAgency-1.jpeg')}}" class="img-fluid" alt="Banner Image">
+        <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.jpeg')}}" class="img-fluid" alt="Banner Image">
         <div class="banner-text">
-            <h1>Trusted Islamic Travel Agency&nbsp;in Pakistan</h1>
+            <h1>Trusted Islamic Travel Agency&nbsp;in UK</h1>
             <h4>For Umrah Services</h4>
             </h4>
         </div>
@@ -21,15 +115,15 @@
 
                 <div class="form-group Half">
                     <label for="enquiry-departure">
-                        <i class="fa fa-plane fa-2x text-warning mr-1" style="color: #85641E !important;font-size: 1.4em;"></i> Departure City
+                        <i class="fa fa-plane fa-2x text-warning mr-1" style="color: #85641E !important;font-size: 1.4em;"></i> Departure Airport
                     </label>
-                    <select class="form-control" id="enquiry-departure" name="n[Departure City]" required>
-                        <option value="">Departure City</option>
-                        <option value="Karachi Heathrow">Karachi Heathrow</option>
-                        <option value="Karachi Gatwick">Karachi Gatwick</option>
+                    <select class="form-control" id="enquiry-departure" name="n[Departure Airport]" required>
+                        <option value="">Departure Airport</option>
+                        <option value="London Heathrow">London Heathrow</option>
+                        <option value="London Gatwick">London Gatwick</option>
                         <option value="Manchester">Manchester</option>
-                        <option value="Karachi Stansted">Karachi Stansted</option>
-                        <option value="Karachi Luton">Karachi Luton</option>
+                        <option value="London Stansted">London Stansted</option>
+                        <option value="London Luton">London Luton</option>
                         <option value="Edinburgh">Edinburgh</option>
                         <option value="Birmingham">Birmingham</option>
                         <option value="Glasgow">Glasgow</option>
@@ -38,7 +132,7 @@
                         <option value="Newcastle">Newcastle</option>
                         <option value="East Midlands">East Midlands</option>
                         <option value="Aberdeen">Aberdeen</option>
-                        <option value="Karachi City">Karachi City</option>
+                        <option value="London City">London City</option>
                         <option value="Leeds Bradford">Leeds Bradford</option>
                         <option value="Cardiff">Cardiff</option>
                         <option value="Norwich">Norwich</option>
@@ -175,7 +269,7 @@
                         <div class="mainPackageImage">
                             <a href="{{ route('umrahDetail', ['slug' => '3-star-7-nights-umrah-package']) }}"><img class="img-fluid"
                                     loading="lazy" width="336" height="279"
-                                    src="{{asset('assets/media/umrah/00-min%20%2826%29.webp')}}"
+                                    src="{{asset('assets/media/umrah-new/24.png')}}"
                                     alt="3 Star 7 Nights Ramadan Umrah Package"></a>
                         </div>
                         <div class="mainPackageDesc">
@@ -191,11 +285,11 @@
                             </div>
                             <div class="row p-3">
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (3 NIGHTS)">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (3 NIGHTS)">
                                     <div class="icon-text">Makkah (3 NIGHTS) <br> AL KISWAH TOWER</div>
                                 </div>
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (4 NIGHTS)">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (4 NIGHTS)">
                                     <div class="icon-text">MADINA (4 NIGHTS) <br> EMAAR TAIBAH</div>
                                 </div>
                             </div>
@@ -209,7 +303,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">Rs. 271,000 <sub>/ pp</sub></span>
+                                    <span class="price">&pound; 775 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '3-star-7-nights-umrah-package']) }}">View Details</a>
                                 </div>
@@ -238,11 +332,11 @@
                             </div>
                             <div class="row p-3">
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (5 NIGHTS)">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (5 NIGHTS)">
                                     <div class="icon-text">Makkah (5 NIGHTS) <br> AL KISWAH TOWER</div>
                                 </div>
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (5 NIGHTS)">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (5 NIGHTS)">
                                     <div class="icon-text">MADINA (5 NIGHTS) <br> EMAAR TAIBAH</div>
                                 </div>
                             </div>
@@ -256,7 +350,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">Rs. 285,000 <sub>/ pp</sub></span>
+                                    <span class="price">&pound; 815 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '3-star-10-nights-umrah-package']) }}">View Details</a>
                                 </div>
@@ -285,11 +379,11 @@
                             </div>
                             <div class="row p-3">
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (6 NIGHTS)">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (6 NIGHTS)">
                                     <div class="icon-text">Makkah (6 NIGHTS) <br> AL KISWAH TOWER</div>
                                 </div>
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (6 NIGHTS)">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (6 NIGHTS)">
                                     <div class="icon-text">MADINA (6 NIGHTS) <br> EMAAR TAIBAH</div>
                                 </div>
                             </div>
@@ -303,7 +397,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">Rs. 296,000 <sub>/ pp</sub></span>
+                                    <span class="price">&pound; 845 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '3-star-12-nights-umrah-package']) }}">View Details</a>
                                 </div>
@@ -316,7 +410,7 @@
                         <div class="mainPackageImage">
                             <a href="{{ route('umrahDetail', ['slug' => '3-star-14-nights-umrah-package']) }}"><img class="img-fluid"
                                     loading="lazy" width="336" height="279"
-                                    src="{{asset('assets/media/umrah/00-min%20%2829%29.webp')}}"
+                                    src="{{asset('assets/media/umrah-new/23.png')}}"
                                     alt="3 Star 14 Nights Ramadan Umrah Package"></a>
                         </div>
                         <div class="mainPackageDesc">
@@ -332,11 +426,11 @@
                             </div>
                             <div class="row p-3">
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (7 NIGHTS)">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (7 NIGHTS)">
                                     <div class="icon-text">Makkah (7 NIGHTS) <br> AL KISWAH TOWER</div>
                                 </div>
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (7 NIGHTS)">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (7 NIGHTS)">
                                     <div class="icon-text">MADINA (7 NIGHTS) <br> EMAAR TAIBAH</div>
                                 </div>
                             </div>
@@ -350,7 +444,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">Rs. 313,000 <sub>/ pp</sub></span>
+                                    <span class="price">&pound; 895 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '3-star-14-nights-umrah-package']) }}">View Details</a>
                                 </div>
@@ -497,123 +591,99 @@
 @endpush
 <div class="page-content">
     <div class="container scroll-page-content page-content-styling">
-        </p>
+        
+        <h2>Ramadan Umrah Packages 2026 from UK – Full, Last 10 Nights & Group Deals</h2>
 
-        <h2>Ramadan Umrah Packages by Umrah Agency</h2>
+        <h2>Ramadan Umrah Packages by Hadi Tours</h2>
 
-        <p>Going for Umrah is a unique spiritual journey, but doing Umrah in Ramadan makes it even more special.
-            Ramadan is a holy month when Allah&#39;s mercy and forgiveness are abundant. It&#39;s the best time to
-            visit the holy cities of Makkah and Madinah and feel the deep spiritual connection. The peacefulness of
-            these places, along with the prayers of millions of Muslims, creates a truly amazing and humbling
-            feeling.</p>
+<p>Our spirit, filled Ramadan Umrah packages offer affordable room options, 4, star hotel comfort, and luxury hotels within walking distance of the Haram. For those who want to spend the entire blessed month in worship, our complete Ramadan Umrah package 2026 is the best option. You can also opt for the 7 or 10 nights Ramadan Umrah packages if you want to make the most of the short stay.</p>
 
-        <p>At <a href="https://www.umrahagency.co.Pakistan/">Umrah Agency</a>, we know how important this journey is
+        <p>At <a href="https://www.haditours.co.uk/">Hadi Tours</a>, we know how important this journey is
             for you. That&#39;s why our Ramadan Umrah packages are designed to make everything easy and meaningful.
             When you book with us, you&#39;re not just getting travel plans&mdash;you&#39;re trusting a team that
             cares about making your pilgrimage memorable. We take care of everything, from easy flights and
-            comfortable places to stay to expert help and support anytime you need it. With Umrah Agency, you can
+            comfortable places to stay to expert help and support anytime you need it. With Hadi Tours, you can
             focus on your prayers and enjoy this blessed time without worrying about the details.</p>
 
-        <h2>Why Perform Umrah in Ramadan 2026</h2>
 
-        <p>Doing Umrah during the holy month of Ramadan is a unique and meaningful experience that brings great
-            blessings. So, here&#39;s why Umrah packages for Ramadan are the best choice.</p>
+<h2>Why Perform Umrah in Ramadan?</h2>
 
-        <h3>Multiplied Rewards</h3>
+<p>One of the most significant aspects of performing Umrah during Ramadan is the spiritual reward. Packing for a pilgrimage is one of the many blessings in your life that a pilgrim travels for during this sacred month because of the great virtues attached to the worship in Ramadan.</p>
 
-        <p>Firstly, one of the main reasons people want to do Umrah in Ramadan is because they get extra rewards. In
-            Islam, doing Umrah during Ramadan has the same rewards as doing Hajj. This chance to get such big
-            rewards makes many Muslims want to go to Umrah during this month.</p>
+<h3>Spiritual Rewards of Umrah in Ramadan</h3>
+<p>Umrah during Ramadan gives profound spiritual reward with many believers trying to do as much worship as possible in this month of blessing. Among UK pilgrims, the virtue associated with Ramadan makes Ramadan Umrah packages 2026 highly sought after. Early planning is the key to get your spiritually elevated time journey.</p>
 
-        <h3>Enhanced Atmosphere</h3>
+<h3>Experience Taraweeh & Iftar in the Haram</h3>
+<p>When you pray Taraweeh in Masjid al-Haram and also break the fast in the same spiritual aura, it is a permanently etched moment for you. Along with this, a number of pilgrims also spend the nights in worship at Al, Masjid an, Nabawi. This is something which spiritually strengthens your Ramadan Umrah trip.</p>
 
-        <p>Moreover, this holy month is when people feel closer to God. Doing Umrah during this month lets you see
-            Makkah and Madinah when they are full of life and spirit. In the Haram, you will hear people reading the
-            Quran, praying together, and breaking their fasts with Muslims from all over the world. This feeling of
-            togetherness and shared faith makes your Umrah even more special.</p>
+<h3>Laylat al-Qadr & the Last Ashra</h3>
+<p>The last ten nights of Ramadan always are a special time, for believers who chase Laylat al, Qadr. We offer our last 10 nights Ramadan Umrah 2026 packages for those pilgrims who would like to highlight their worship during the last Ashra. Book in advance to avoid disappointment as the places are limited.</p>
 
-        <h3>Closer Connection With Allah</h3>
+<h2>Ramadan Umrah Packages 2026 Available from UK</h2>
 
-        <p>Ramadan is a special month for worship, deep thinking, and asking for forgiveness. So, booking a Ramadan
-            Umrah package means an opportunity to feel closer to Allah during a very holy time. The acts of walking
-            around the Kaaba, going between Safa and Marwah, and praying become even more special. During this
-            month, your heart is open, your spirit is clean, and your prayers have a better chance of being
-            answered.</p>
+<p>We provide a wide range of Ramadan Umrah packages 2026 from the UK, which are suitable for different finances and lengths of stays. If you are travelling solo, family or closed group, there are outlined solutions for each of them. Our packages are aimed to ensure that you feel comfortable, save time and get full travel assistance.</p>
 
-        <h3>Brotherhood</h3>
+<h3>Full Ramadan Umrah Package 2026</h3>
+<p>Our full Ramadan Umrah package 2026 makes it possible for you to spend the whole blessed month in Makkah and Madinah. This gives an opportunity for a pilgrim who completely desires the spiritual experience from the first fast until Eid. So, one can pray, meditate, and communicate for a really long time.</p>
 
-        <p>One of the best things about doing Umrah during Ramadan is feeling a strong sense of togetherness.
-            Muslims from all over the world come to the holy cities to pray and fast together. You can feel this
-            unity during group prayers and when you break your fast. Being part of this shared experience makes you
-            feel like you truly belong and strengthens your connection with other Muslims.</p>
+<h3>Last 10 Nights Ramadan Umrah 2026</h3>
+<p>The last 10 nights of Ramadan Umrah 2026 are still among the favourite picks of the UK pilgrims. Firstly, it concentrates on the last Ashra, and secondly, it gives the chance to look for Laylat al, Qadr in a spiritually energising environment. Since the demand is at its peak, the spots for these packages go very fast.</p>
 
-        <h3>Special Rituals</h3>
+<h3>First & Second Ashra Ramadan Packages</h3>
+<p>If you like the environment to be quiet, then first and second Ashra Ramadan Umrah packages will give you a perfect spiritual experience. Besides that, the crowd level can be slightly lower during these times than the last ten nights. Nevertheless, the two packages remain a great choice for worshipping Ramadan.</p>
 
-        <p>Lastly, during Ramadan, the Haram has special prayers and activities just for this month. Every night
-            after the Isha prayer, there are Tarawih prayers. These prayers are a big part of Ramadan. They include
-            reading the Quran, and by the end of the month, many people finish reading it. These prayers and
-            activities while performing Umrah make your pilgrimage even more special and meaningful.</p>
+<h3>7 & 10 Night Ramadan Umrah Deals</h3>
+<p>Shorter holidays like 7 nights Ramadan Umrah packages and 10 nights Ramadan Umrah deals suit best working professionals and families travelling from the UK. With these packages, you have the possibility to combine a flexible lifestyle with some serious time for worship. Also, they manage a good mix of well, organised travel and convenience.</p>
 
-        <h2>When to Perfrom Umrah in Ramadan</h2>
+<h2>Types of Ramadan Umrah Packages</h2>
 
-        <p>Ramadan 2026&nbsp;Pakistan will likely start around March 1, but it might change a bit based on when the moon
-            is seen. Ramadan is split into three parts, called ashra. Each part has its special blessings and
-            chances for spiritual growth.</p>
+<p>Every pilgrim is unique, so that is why we offer various categories of structured packages.</p>
 
-        <h3>First Ashra</h3>
+<h3>Cheap Ramadan Umrah Packages</h3>
+<p>If you are a pilgrim and want to perform Umrah during Ramadan but do not have a budget, our cheap Ramadan Umrah packages are the right option for you. These packages cover the basic essentials of comfortable stay, flight returns, and visa support without any unnecessary stuff being added. They are making the trip for Umrah at the time of Ramadan quite easy for the common people while still ensuring the essential quality norms are intact.</p>
 
-        <p>In the first ten days of Ramadan, we focus on asking Allah for kindness and mercy. Doing Umrah during
-            this time helps you begin Ramadan in a positive and spiritual way. Fewer people are around, making it
-            easier to pray and worship peacefully. You will also likely find cheap Ramadan Umrah packages during the
-            first Ashra.</p>
+<h3>4 Star Ramadan Umrah Packages</h3>
+<p>The 4 star Ramadan Umrah packages present a perfect blend of comfort and value. Hotels are usually situated within a handy distance to Haram, the location where daily prayers and Taraweeh take place, thus ensuring convenience. This option works well for the families who are in favor of more comfort and are ready to pay a little extra.</p>
 
-        <h3>Second Ashra</h3>
+<h3>5 Star Luxury Ramadan Umrah Packages</h3>
+<p>Our 5 star Ramadan Umrah packages are perfect for those who put convenience first as they feature top, notch hotels right next to the Haram. They offer a wide range of facilities, top, class service, and the smoothest travel arrangements. Thus, they are the best choice for those who want a peaceful Ramadan Umrah journey.</p>
 
-        <p>If you book your Umrah packages for Ramadan 2026&nbsp;for the middle ten days, the main focus is asking
-            for forgiveness of sins. It&#39;s a great time to make the pilgrimage to show you&#39;re sorry and feel
-            spiritually refreshed. More people start coming, making things busier, but it still feels memorable and
-            meaningful.</p>
+<h3>Ramadan Umrah Group Packages</h3>
+<p>We have created our Ramadan Umrah group packages for families, friends, and community groups coming together for a trip from the UK to the Holy Land. Group management results in well, planned programmes and shared spiritual moments. Apart from that, this option is great for having a personal guide who will take care of you throughout the pilgrimage.</p>
 
-        <h3>Third Ashra</h3>
+<h3>What’s Included in Our Ramadan Umrah Packages from UK?</h3>
+<p>Each Ramadan Umrah package UK is structured to provide complete travel support.</p>
+<ul>
+<li>Return flights from major UK airports including London, Manchester, and Birmingham</li>
+<li>Hotel accommodation in Makkah and Madinah</li>
+<li>Full Ramadan Umrah visa 2026 processing</li>
+<li>Airport-to-hotel ground transfers</li>
+<li>Intercity transport between Makkah and Madinah</li>
+<li>Optional guided Ziyarat tours</li>
+</ul>
+<p>Our packages are designed to minimise stress so you can focus entirely on worship.</p>
 
-        <p>The last ten days of Ramadan are extraordinary. People use this time to ask for protection from Hell. One
-            of these nights is Laylat al-Qadr, the most important night of the year. That night, the rewards for
-            praying and doing good deeds are significantly increased. Many people want to do Umrah during these days
-            because Makkah and Madinah are very spiritually powerful at this time. Therefore, the Ramadan Umrah
-            package from Pakistan is in high demand during this period, so planning your journey in advance is
-            essential.</p>
+<h2>Ramadan Umrah 2026 Prices from UK</h2>
 
-        <h3>Best Time</h3>
+<p>The price of Ramadan Umrah 2026 packages from the UK fluctuates with the type of hotel, distance from Haram, travel dates, flight demand, and stay duration.</p>
 
-        <p>Ultimately, if you want the best spiritual experience, the third Ashra is the best time to do Umrah
-            during Ramadan. But every Ashra is important in its own way, so pick the time that fits your own
-            spiritual needs and situation.</p>
+<p>High demand periods like the last 10 nights usually see prices going up as a result of the high demand. When you book early, you can get a better hotel location and also cheaper Ramadan Umrah package prices.</p>
 
-        <h3>FAQs</h3>
+<p>We also have payment plan options for you if you want to book your trip with us but are worried about finances.</p>
 
-        <h4>What should I consider when choosing a Ramadan Umrah package?</h4>
+<h2>When Should You Book Ramadan Umrah Packages 2026?</h2>
 
-        <p>When picking a package, consider what&#39;s included, like flights, where you&#39;ll stay, and additional
-            services. Make sure the timing of the journey matches your spiritual goals. Also, check how much it
-            costs and go through the reviews.</p>
+<p>Ramadan is one of the harshest seasons for Umrah with almost no hotels available, especially those close to Haram.</p>
 
-        <h4>What is included in a typical Ramadan Umrah package?</h4>
+<p>To get the accommodation of your choice and flight schedule, we strongly advise you to purchase your  <a href="https://www.haditours.co.uk/umrah-packages.html">Umrah Packages</a> from UK at least 2 - 3 months prior. Also, an early booking guarantees a smoother visa application and a stable price.</p>
 
-        <p>A basic, cheap Ramadan Umrah package includes your return flight, hotels in Makkah and Madinah, and an <a
-                href="{{ route('umrahVisa') }}">Umrah visa</a>. However, you can upgrade this
-            to include Ziarat tours, meals, and ground transport.</p>
 
-        <h4>What are the health considerations for performing Umrah in Ramadan?</h4>
+<h2>Book Your Ramadan Umrah Package Today</h2>
 
-        <p>When performing Umrah during Ramadan, avoid eating oily foods during Suhoor to prevent dehydration. Also,
-            rest when needed and do not push yourself too hard. Talk to a doctor before you go, especially if you
-            have health problems, to ensure you&#39;re ready for the journey.</p>
+<p>If you need a cheap Ramadan Umrah package, a full Ramadan Umrah package, or a last 10 nights Ramadan Umrah 2026 deal, do not hesitate to contact our staff.</p>
 
-        <h4>What should I know about the accommodation provided in Ramadan Umrah packages?</h4>
+<p>Grab your Ramadan Umrah packages from UK now and get ready for the blessed month of Ramadan 2026, a spiritually uplifting journey.</p>
 
-        <p>We provide accommodation in Makkah and Madinah, close to the holy sites. This makes it easy to perform
-            prayers and rituals. Moreover, we have options ranging from 3 to 5 stars, so you can choose a place that
-            fits your budget.</p>
 
     </div>
 

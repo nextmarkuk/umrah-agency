@@ -1,15 +1,52 @@
 @extends('layouts.master')
 @section('meta')
-<title>Trusted Islamic Travel Agency in Pakistan for Umrah Services</title>
-<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in Pakistan. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<title>Umrah Visa from UK 2026 | Fast & Easy Saudi Visa Processing</title>
+<meta name="description" content="Apply for your Saudi Umrah visa from the UK with Hadi Tours. We provide fast, reliable, and hassle-free visa processing for pilgrims. Get a quote today!">
+<link rel="canonical" href="https://www.haditours.co.uk/umrah-visa-uk.html" />
 @endsection
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.haditours.co.uk/umrah-visa-uk.html#umrahvisa",
+  "name": "Umrah Visa Service 2026 from UK",
+  "url": "https://www.haditours.co.uk/umrah-visa-uk.html",
+  "description": "Get your Umrah visa processed quickly and easily through Hadi Tours UK. Our authorized travel experts handle visa documentation, submission and approvals for pilgrims travelling from the UK to perform Umrah in 2026. We guide you through requirements and ensure a smooth and hassle-free visa process for your spiritual journey.",
+  "provider": {
+    "@type": "TravelAgency",
+    "@id": "https://www.haditours.co.uk/#travelagency",
+    "name": "Hadi Tours",
+    "url": "https://www.haditours.co.uk/"
+  },
+  "serviceType": "Umrah Visa Processing",
+  "areaServed": {
+    "@type": "Country",
+    "name": "United Kingdom"
+  },
+  "termsOfService": "Applicants must hold a valid passport with at least 6 months remaining validity and may require proof of vaccination against meningitis ACWY and other health requirements as per Saudi visa rules. You can apply through Hadi Tours as an authorized travel agency to manage documentation and submission.",
+  "offers": {
+    "@type": "Offer",
+    "name": "Umrah Visa Application Service",
+    "description": "Comprehensive visa processing for Umrah travellers from the UK, including documentation review and submission to Saudi visa authorities.",
+    "price": "Included with selected Umrah package or quoted on application",
+    "priceCurrency": "GBP",
+    "availability": "https://schema.org/InStock",
+    "url": "https://www.haditours.co.uk/umrah-visa-uk.html"
+  }
+}
+</script>
+@endverbatim
+
+
+
 @section('content')
 <section class="search-banner">
     <!--slider section Start-->
     <div class="banner">
-        <img src="{{asset('assets/media/pages/home-page-banner-for-UmrahAgency-1.jpeg')}}" class="img-fluid" alt="Banner Image">
+        <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.jpeg')}}" class="img-fluid" alt="Umrah Visa Services Banner - Hadi Tours" width="1920" height="600" fetchpriority="high">
         <div class="banner-text">
-            <h1>Trusted Islamic Travel Agency&nbsp;in Pakistan</h1>
+            <h1>Trusted Islamic Travel Agency&nbsp;in UK</h1>
             <h4>For Umrah Services</h4>
             </h4>
         </div>
@@ -21,18 +58,28 @@
 
                 <div class="form-group Half">
                     <label for="enquiry-departure">
-                        <i class="fa fa-plane fa-2x text-warning mr-1" style="color: #85641E !important;font-size: 1.4em;"></i> Departure City
+                        <i class="fa fa-plane fa-2x text-warning mr-1" style="color: #85641E !important;font-size: 1.4em;"></i> Departure Airport
                     </label>
-                    <select class="form-control" id="enquiry-departure" name="n[Departure City]" required>
-                        <option value="">Departure City</option>
-                        <option value="Karachi">Karachi (KHI)</option>
-                        <option value="Lahore">Lahore (LHE)</option>
-                        <option value="Islamabad">Islamabad (ISB)</option>
-                        <option value="Peshawar">Peshawar (PEW)</option>
-                        <option value="Multan">Multan (MUX)</option>
-                        <option value="Sialkot">Sialkot (SKT)</option>
-                        <option value="Faisalabad">Faisalabad (LYP)</option>
-                        <option value="Quetta">Quetta (UET)</option>
+                    <select class="form-control" id="enquiry-departure" name="n[Departure Airport]" required>
+                        <option value="">Departure Airport</option>
+                        <option value="London Heathrow">London Heathrow</option>
+                        <option value="London Gatwick">London Gatwick</option>
+                        <option value="Manchester">Manchester</option>
+                        <option value="London Stansted">London Stansted</option>
+                        <option value="London Luton">London Luton</option>
+                        <option value="Edinburgh">Edinburgh</option>
+                        <option value="Birmingham">Birmingham</option>
+                        <option value="Glasgow">Glasgow</option>
+                        <option value="Bristol">Bristol</option>
+                        <option value="Liverpool">Liverpool</option>
+                        <option value="Newcastle">Newcastle</option>
+                        <option value="East Midlands">East Midlands</option>
+                        <option value="Aberdeen">Aberdeen</option>
+                        <option value="London City">London City</option>
+                        <option value="Leeds Bradford">Leeds Bradford</option>
+                        <option value="Cardiff">Cardiff</option>
+                        <option value="Norwich">Norwich</option>
+                        <option value="Humberside">Humberside</option>
                     </select>
                     <span class="borderBottom"></span>
                 </div>
@@ -147,7 +194,7 @@
 <!--slider section End-->
 <div class="pkg-header-top text-center">
     <div class="container">
-        <h1>Umrah Visa from Pakistan</h1>
+        <h1>Umrah Visa from UK</h1>
         <p class="lead text-muted">Hassle-free Saudi Umrah Visa processing for your spiritual journey</p>
     </div>
 </div>
@@ -164,18 +211,17 @@
                     <form class="form" method="post" action="{{ route('sendInquiry') }}">
                         @csrf
                         <div class="form-group mb-3">
-                            <label class="small font-weight-bold">Departure City *</label>
-                            <select class="form-control" name="n[Departure City]" required>
-                                    <option value="">Departure City</option>
-<option value="Karachi">Karachi (KHI)</option>
-<option value="Lahore">Lahore (LHE)</option>
-<option value="Islamabad">Islamabad (ISB)</option>
-<option value="Peshawar">Peshawar (PEW)</option>
-<option value="Multan">Multan (MUX)</option>
-<option value="Sialkot">Sialkot (SKT)</option>
-<option value="Faisalabad">Faisalabad (LYP)</option>
-<option value="Quetta">Quetta (UET)</option>
-                                </select>
+                            <label class="small font-weight-bold">Departure Airport *</label>
+                            <select class="form-control" name="n[Departure Airport]" required>
+                                <option value="">Select Airport</option>
+                                <option value="London Heathrow (LHR)">London Heathrow (LHR)</option>
+                                <option value="London Gatwick (LGW)">London Gatwick (LGW)</option>
+                                <option value="Manchester (MAN)">Manchester (MAN)</option>
+                                <option value="Birmingham (BHX)">Birmingham (BHX)</option>
+                                <option value="Glasgow (GLA)">Glasgow (GLA)</option>
+                                <option value="Newcastle (NCL)">Newcastle (NCL)</option>
+                                <option value="Other">Other UK Airport</option>
+                            </select>
                         </div>
                         <div class="form-group mb-3">
                             <label class="small font-weight-bold">Departure Date *</label>
@@ -233,14 +279,14 @@
             <!-- Main Content Area -->
             <div class="col-lg-8">
                 <div class="section-card shadow-sm mb-4">
-                    <h2 class="font-weight-bold mb-4">Get an Umrah Visa With Umrah Agency</h2>
-                    <p>If you live in Pakistan and want to go on a unique journey to Saudi Arabia for Umrah, you've come to the right spot. We are aware that it can be thrilling and confusing to plan your Umrah journey. That's why we made this helpful guide to show you how to get your Umrah visa and make your journey easier.</p>
-                    <p>With <strong>Umrah Agency</strong>, getting a Saudi Umrah visa is easier than ever. We're here to guide you every step of the way and make sure your application process is smooth.</p>
+                    <h2 class="font-weight-bold mb-4">Get an Umrah Visa With Hadi Tours</h2>
+                    <p>If you live in the UK and want to go on a unique journey to Saudi Arabia for Umrah, you've come to the right spot. We are aware that it can be thrilling and confusing to plan your Umrah journey. That's why we made this helpful guide to show you how to get your Umrah visa and make your journey easier.</p>
+                    <p>With <strong>Hadi Tours</strong>, getting a Saudi Umrah visa is easier than ever. We're here to guide you every step of the way and make sure your application process is smooth.</p>
                 </div>
 
                 <div class="section-card shadow-sm mb-4">
-                    <h3 class="font-weight-bold mb-4">Apply for an Umrah Visa from Pakistan</h3>
-                    <p>Without a Saudi Umrah visa from Pakistan, you won't be allowed to enter Saudi Arabia for religious purposes. Let's break down the entire process:</p>
+                    <h3 class="font-weight-bold mb-4">Apply for an Umrah Visa from the UK</h3>
+                    <p>Without a Saudi Umrah visa from the UK, you won't be allowed to enter Saudi Arabia for religious purposes. Let's break down the entire process:</p>
 
                     <div class="row mt-4">
                         <div class="col-md-6 mb-4">
@@ -306,11 +352,11 @@
                         </div>
                         <div class="card border-0 mb-2">
                             <div class="card-header bg-light border-0 py-3 collapsed" id="faq2" data-toggle="collapse" data-target="#collapseFaq2" style="cursor: pointer;">
-                                <h6 class="mb-0 font-weight-bold">What is the Umrah visa fee from Pakistan?</h6>
+                                <h6 class="mb-0 font-weight-bold">What is the Umrah visa fee from the UK?</h6>
                             </div>
                             <div id="collapseFaq2" class="collapse" data-parent="#visaFaq">
                                 <div class="card-body text-muted small">
-                                    For Pakistani citizens, the Umrah visa fees vary depending on the chosen service and processing speed. Typically, it ranges between Rs. 45,000 to Rs. 75,000.
+                                    For British citizens, the Umrah visa fees vary depending on the chosen service and processing speed. Typically, it ranges between £115 to £190.
                                 </div>
                             </div>
                         </div>
@@ -320,7 +366,7 @@
                             </div>
                             <div id="collapseFaq3" class="collapse" data-parent="#visaFaq">
                                 <div class="card-body text-muted small">
-                                    Yes, if you book an all-inclusive Umrah package with <strong>Umrah Agency</strong>, we handle the entire visa process for you as part of the package.
+                                    Yes, if you book an all-inclusive Umrah package with <strong>Hadi Tours</strong>, we handle the entire visa process for you as part of the package.
                                 </div>
                             </div>
                         </div>

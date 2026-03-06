@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('meta')
-<title>Trusted Islamic Travel Agency in Pakistan for Umrah Services</title>
-<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in Pakistan. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<title>About Us | Hadi Tours - Expert Hajj & Umrah Travel Agency</title>
+<meta name="description" content="Learn more about Hadi Tours, a leading Islamic travel agency in the UK specialized in providing spiritual and affordable Hajj and Umrah packages for over 40 years.">
 @endsection
 @section('content')
 <div class="pkg-header-top text-center">
@@ -21,9 +21,9 @@
                     </div>
 
                     <div class="about-content">
-                        <p class="lead font-weight-bold text-dark">Umrah Agency has established itself as a leading specialist and provider of Umrah tour packages in Pakistan.</p>
+                        <p class="lead font-weight-bold text-dark">Hadi Tours has established itself as a leading specialist and provider of Umrah tour packages in the UK.</p>
 
-                        <p>We are one of the leading operators in Pakistan offering tailored and carefully selected Umrah packages to suit every budget. Our services extend to cover every aspect of your trip, and being an authorized travel agent approved by the Ministry of Foreign Affairs KSA, you can rely on us to arrange flights, accommodation, and visas with full peace of mind.</p>
+                        <p>We are one of the leading operators in the UK offering tailored and carefully selected Umrah packages to suit every budget. Our services extend to cover every aspect of your trip, and being a registered travel agent with ATOL, IATA, and approved by the Ministry of Foreign Affairs KSA, you can rely on us to arrange flights, accommodation, and visas with full peace of mind.</p>
 
                         <p>We treat our guests with the utmost care, arranging tours for their religious obligations with the respect and dignity they deserve. We always keep in mind that Allah Almighty has given us a precious opportunity to serve His guests on their journey for Hajj and Umrah.</p>
 
@@ -55,11 +55,11 @@
                         </div>
 
                         <div class="mt-5 p-4 border-left border-warning border-5 bg-white shadow-sm">
-                            <h4 class="font-weight-bold mb-4">Why buy from Umrah Agency?</h4>
+                            <h4 class="font-weight-bold mb-4">Why buy from Hadi Tours?</h4>
                             <p>Pilgrims can purchase their travel products from us with total confidence for the following reasons:</p>
                             <ul class="list-unstyled">
                                 <li class="mb-2"><i class="fa fa-check text-success mr-2"></i> Over 40 years of combined travel industry experience.</li>
-                                <li class="mb-2"><i class="fa fa-check text-success mr-2"></i> Authorized Ministry of Hajj & Umrah Agent.</li>
+                                <li class="mb-2"><i class="fa fa-check text-success mr-2"></i> <strong>ATOL Protected (12192)</strong> - Your money is 100% secure.</li>
                                 <li class="mb-2"><i class="fa fa-check text-success mr-2"></i> Authorized visa issuing agent by the Saudi Ministry of Foreign Affairs.</li>
                                 <li class="mb-2"><i class="fa fa-check text-success mr-2"></i> Direct booking for flights, hotels, and transportation (no third-party middle-men).</li>
                                 <li class="mb-2"><i class="fa fa-check text-success mr-2"></i> Verified premium service with exceptional customer reviews.</li>

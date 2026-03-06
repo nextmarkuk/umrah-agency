@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('meta')
-    <title>2-3 Weeks Hajj Package (Non Shifting) | Umrah Agency</title>
-    <meta name="description" content="Book our 2-3 Weeks Hajj Package (Non Shifting) with Lamar Hotel in Makkah and Mubarak Al Masi in Madinah. Trusted Hajj services from Pakistan.">
+    <title>2-3 Weeks Hajj Package (Non Shifting) | Hadi Tours</title>
+    <meta name="description" content="Book our 2-3 Weeks Hajj Package (Non Shifting) with Lamar Hotel in Makkah and Mubarak Al Masi in Madinah. Trusted Hajj services from UK.">
 @endsection
 @section('content')
 
@@ -26,10 +26,10 @@
             
             <div class="pkg-price-bar">
                 <div class="price-text text-white">
-                    FROM <span class="text-white">Rs. 2,624,500</span> per person
+                    FROM <span class="text-white">&pound; 7499</span> per person
                 </div>
                 <div class="deposit-btn">
-                    <i class="fa fa-bookmark"></i> Book with just Rs. 175,000 deposit
+                    <i class="fa fa-bookmark"></i> Book with just &pound;500 deposit
                 </div>
             </div>
         </div>
@@ -63,7 +63,7 @@
                                 <i class="fa fa-plane fa-2x text-warning mr-3" style="color: #3D3E42 !important;"></i>
                                 <div class="info">
                                     <span>Return Flights</span>
-                                    <small>From Pakistan</small>
+                                    <small>From UK</small>
                                 </div>
                             </div>
                             <div class="overview-item">
@@ -130,7 +130,7 @@
                             <div class="col-md-6">
                                 <h6 class="font-weight-bold mb-3 small uppercase text-muted">INCLUDED</h6>
                                 <ul class="list-unstyled included-list">
-                                    <li class="d-flex align-items-center"><i class="fa fa-check-circle text-success mr-2"></i> Return flights from Pakistan</li>
+                                    <li class="d-flex align-items-center"><i class="fa fa-check-circle text-success mr-2"></i> Return flights from UK</li>
                                     <li class="d-flex align-items-center"><i class="fa fa-check-circle text-success mr-2"></i> Hajj Visa processing</li>
                                     <li class="d-flex align-items-center"><i class="fa fa-check-circle text-success mr-2"></i> Makkah Hotel (7 Nights)</li>
                                     <li class="d-flex align-items-center"><i class="fa fa-check-circle text-success mr-2"></i> Madinah Hotel (3-4 Nights)</li>
@@ -157,17 +157,27 @@
                             @csrf
                             
                             <div class="form-group mb-3">
-                                <label>Departure City</label>
-                                <select class="form-control" name="n[Departure City]" required>
-                                    <option value="">Departure City</option>
-<option value="Karachi">Karachi (KHI)</option>
-<option value="Lahore">Lahore (LHE)</option>
-<option value="Islamabad">Islamabad (ISB)</option>
-<option value="Peshawar">Peshawar (PEW)</option>
-<option value="Multan">Multan (MUX)</option>
-<option value="Sialkot">Sialkot (SKT)</option>
-<option value="Faisalabad">Faisalabad (LYP)</option>
-<option value="Quetta">Quetta (UET)</option>
+                                <label>Departure Airport</label>
+                                <select class="form-control" name="n[Departure Airport]" required>
+                                    <option value="">Departure Airport</option>
+                                    <option value="London Heathrow">London Heathrow</option>
+                                    <option value="London Gatwick">London Gatwick</option>
+                                    <option value="Manchester">Manchester</option>
+                                    <option value="London Stansted">London Stansted</option>
+                                    <option value="London Luton">London Luton</option>
+                                    <option value="Edinburgh">Edinburgh</option>
+                                    <option value="Birmingham">Birmingham</option>
+                                    <option value="Glasgow">Glasgow</option>
+                                    <option value="Bristol">Bristol</option>
+                                    <option value="Liverpool">Liverpool</option>
+                                    <option value="Newcastle">Newcastle</option>
+                                    <option value="East Midlands">East Midlands</option>
+                                    <option value="Aberdeen">Aberdeen</option>
+                                    <option value="London City">London City</option>
+                                    <option value="Leeds Bradford">Leeds Bradford</option>
+                                    <option value="Cardiff">Cardiff</option>
+                                    <option value="Norwich">Norwich</option>
+                                    <option value="Humberside">Humberside</option>
                                 </select>
                             </div>
 
@@ -188,7 +198,7 @@
 
                             <div class="form-group mb-3">
                                 <label>Phone Number</label>
-                                <input type="text" name="n[Phone Number]" class="form-control" placeholder="+92 300 1234567" required>
+                                <input type="text" name="n[Phone Number]" class="form-control" placeholder="+44 123 456 7890" required>
                             </div>
                             
                             <div class="form-group mb-3">
@@ -211,8 +221,8 @@
         <div class="container">
             <div class="footer-slick-carousel">
                 <div><img src="{{asset('assets/media/hajj/hajj_kaaba_pilgrims.png')}}" alt="Kaaba Pilgrims"></div>
-                <div><img src="{{asset('assets/media/hajj/mina_tents_hajj.png')}}" alt="Mina Tents"></div>
-                <div><img src="{{asset('assets/media/hajj/arafat_pilgrims_hajj.png')}}" alt="Arafat Pilgrims"></div>
+                <div><img src="{{asset('assets/media/umrah-new/18.png')}}" alt="Mina Tents"></div>
+                <div><img src="{{asset('assets/media/umrah-new/19.png')}}" alt="Arafat Pilgrims"></div>
                 <div><img src="{{asset('assets/media/hajj/hajj_ritual_pilgrims.png')}}" alt="Hajj Rituals"></div>
             </div>
         </div>

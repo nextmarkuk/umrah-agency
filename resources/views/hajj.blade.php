@@ -1,15 +1,95 @@
 @extends('layouts.master')
 @section('meta')
-<title>Trusted Islamic Travel Agency in Pakistan for Umrah Services</title>
-<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in Pakistan. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<title>Hajj Packages 2026 | Affordable All-Inclusive Hajj Deals from UK</title>
+<meta name="description" content="Book your Hajj 2026 package with Hadi Tours. We offer all-inclusive Hajj deals from London, Manchester, and Birmingham with premium hotels, flights, and expert guidance.">
+<link rel="canonical" href="https://www.haditours.co.uk/hajj-packages.html" />
 @endsection
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.haditours.co.uk/hajj-packages.html#hajj2026",
+  "name": "Hajj Packages 2026 from UK",
+  "url": "https://www.haditours.co.uk/hajj-packages.html",
+  "description": "Explore comprehensive Hajj Packages 2026 from the UK with Hadi Tours. Choose from economy, standard and deluxe options including flights, Saudi Hajj visa assistance, hotel accommodation near Makkah and Madinah, transportation, guided support and full on-ground services for the sacred Hajj pilgrimage.",
+  "provider": {
+    "@type": "TravelAgency",
+    "@id": "https://www.haditours.co.uk/#travelagency",
+    "name": "Hadi Tours",
+    "url": "https://www.haditours.co.uk/"
+  },
+  "serviceType": "Hajj Packages 2026",
+  "areaServed": {
+    "@type": "Country",
+    "name": "United Kingdom"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Hajj Packages 2026",
+    "@id": "https://www.haditours.co.uk/hajj-packages.html#catalog",
+    "itemListElement": [
+      {
+        "@type": "AggregateOffer",
+        "name": "Economy Hajj Package 2026",
+        "url": "https://www.haditours.co.uk/hajj-packages.html#economy",
+        "description": "Economy Hajj package 2026 from UK including flights, visa, accommodation in standard hotels in Makkah and Madinah, tent services in Mina and Arafat, and transfers.",
+        "priceCurrency": "GBP",
+        "lowPrice": 5995,
+        "highPrice": 6995,
+        "offerCount": 3,
+        "availability": "https://schema.org/InStock",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Economy Hajj Package 2026"
+        }
+      },
+      {
+        "@type": "AggregateOffer",
+        "name": "Standard Hajj Package 2026",
+        "url": "https://www.haditours.co.uk/hajj-packages.html#standard",
+        "description": "Standard Hajj package 2026 from UK with mid-range hotel accommodation, flights, Hajj visa support and guided transfers throughout the pilgrimage.",
+        "priceCurrency": "GBP",
+        "lowPrice": 7500,
+        "highPrice": 8995,
+        "offerCount": 3,
+        "availability": "https://schema.org/InStock",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Standard Hajj Package 2026"
+        }
+      },
+      {
+        "@type": "AggregateOffer",
+        "name": "Deluxe/Super Deluxe Hajj Package 2026",
+        "url": "https://www.haditours.co.uk/hajj-packages.html#deluxe",
+        "description": "Deluxe and Super Deluxe Hajj packages 2026 from UK featuring premium hotel stays near the Haram, flights, Saudi Hajj visa, private transport, full service support and optional VIP amenities.",
+        "priceCurrency": "GBP",
+        "lowPrice": 9950,
+        "highPrice": 12995,
+        "offerCount": 2,
+        "availability": "https://schema.org/InStock",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Deluxe Hajj Package 2026"
+        }
+      }
+    ]
+  }
+}
+</script>
+@endverbatim
+
+
+
 @section('content')
 <section class="search-banner">
     <!--slider section Start-->
     <div class="banner">
-        <img src="{{asset('assets/media/pages/home-page-banner-for-UmrahAgency-1.jpeg')}}" class="img-fluid" alt="Banner Image">
+        <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.jpeg')}}" class="img-fluid" alt="Hajj Packages Banner - Hadi Tours" width="1920" height="600" fetchpriority="high">
         <div class="banner-text">
-            <h1>Trusted Islamic Travel Agency&nbsp;in Pakistan</h1>
+            <h1>Trusted Islamic Travel Agency&nbsp;in UK</h1>
+            <h4>For Umrah Services</h4>
             </h4>
         </div>
     </div>
@@ -20,18 +100,28 @@
 
                 <div class="form-group Half">
                     <label for="enquiry-departure">
-                        <i class="fa fa-plane fa-2x text-warning mr-1" style="color: #85641E !important;font-size: 1.4em;"></i> Departure City
+                        <i class="fa fa-plane fa-2x text-warning mr-1" style="color: #85641E !important;font-size: 1.4em;"></i> Departure Airport
                     </label>
-                    <select class="form-control" id="enquiry-departure" name="n[Departure City]" required>
-                        <option value="">Departure City</option>
-                        <option value="Karachi">Karachi (KHI)</option>
-                        <option value="Lahore">Lahore (LHE)</option>
-                        <option value="Islamabad">Islamabad (ISB)</option>
-                        <option value="Peshawar">Peshawar (PEW)</option>
-                        <option value="Multan">Multan (MUX)</option>
-                        <option value="Sialkot">Sialkot (SKT)</option>
-                        <option value="Faisalabad">Faisalabad (LYP)</option>
-                        <option value="Quetta">Quetta (UET)</option>
+                    <select class="form-control" id="enquiry-departure" name="n[Departure Airport]" required>
+                        <option value="">Departure Airport</option>
+                        <option value="London Heathrow">London Heathrow</option>
+                        <option value="London Gatwick">London Gatwick</option>
+                        <option value="Manchester">Manchester</option>
+                        <option value="London Stansted">London Stansted</option>
+                        <option value="London Luton">London Luton</option>
+                        <option value="Edinburgh">Edinburgh</option>
+                        <option value="Birmingham">Birmingham</option>
+                        <option value="Glasgow">Glasgow</option>
+                        <option value="Bristol">Bristol</option>
+                        <option value="Liverpool">Liverpool</option>
+                        <option value="Newcastle">Newcastle</option>
+                        <option value="East Midlands">East Midlands</option>
+                        <option value="Aberdeen">Aberdeen</option>
+                        <option value="London City">London City</option>
+                        <option value="Leeds Bradford">Leeds Bradford</option>
+                        <option value="Cardiff">Cardiff</option>
+                        <option value="Norwich">Norwich</option>
+                        <option value="Humberside">Humberside</option>
                     </select>
                     <span class="borderBottom"></span>
                 </div>
@@ -192,11 +282,11 @@
                             </div>
                             <div class="row p-3">
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (10 NIGHTS)">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (10 NIGHTS)">
                                     <div class="icon-text">Makkah (10 NIGHTS) <br> LAMAR HOTEL</div class="icon-text">
                                 </div>
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (6 NIGHTS)">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (6 NIGHTS)">
                                     <div class="icon-text">MADINA (6 NIGHTS) <br> MILLENIUM TAIBAH</div class="icon-text">
                                 </div>
                             </div>
@@ -210,7 +300,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">Rs. 2,275,000 <sub>/ pp</sub></span>
+                                    <span class="price">&pound; 6499 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('hajjDetail', ['slug' => '4-weeks-hajj-package-non-shifting']) }}">
                                         View Details
                                     </a>
@@ -223,7 +313,7 @@
                     <div class="mainPackage">
                         <div class="mainPackageImage">
                             <a href="{{ route('hajjDetail', ['slug' => '2-3-weeks-non-shifting-hajj-package']) }}"><img class="img-fluid"
-                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/hajj/mina_tents_hajj.png')}}"
+                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/umrah-new/18.png')}}"
                                     alt="2-3 Weeks Non Shifting Hajj Package"></a>
                         </div>
                         <div class="mainPackageDesc">
@@ -241,11 +331,11 @@
                             </div>
                             <div class="row p-3">
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (7 NIGHTS)">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (7 NIGHTS)">
                                     <div class="icon-text">Makkah (7 NIGHTS) <br> LAMAR HOTEL</div class="icon-text">
                                 </div>
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (3-4 NIGHTS)">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (3-4 NIGHTS)">
                                     <div class="icon-text">MADINA (3-4 NIGHTS) <br> MUBARAK AL MASI</div class="icon-text">
                                 </div>
                             </div>
@@ -259,7 +349,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">Rs. 2,450,000 <sub>/ pp</sub></span>
+                                    <span class="price">&pound; 6999 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('hajjDetail', ['slug' => '2-3-weeks-non-shifting-hajj-package']) }}">
                                         View Details
                                     </a>
@@ -272,7 +362,7 @@
                     <div class="mainPackage">
                         <div class="mainPackageImage">
                             <a href="{{ route('hajjDetail', ['slug' => '2-3-weeks-hajj-package-non-shifting']) }}"><img class="img-fluid"
-                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/hajj/arafat_pilgrims_hajj.png')}}"
+                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/umrah-new/19.png')}}"
                                     alt="2-3 Weeks Hajj Package (Non Shifting)"></a>
                         </div>
                         <div class="mainPackageDesc">
@@ -290,11 +380,11 @@
                             </div>
                             <div class="row p-3">
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (7 NIGHTS)">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (7 NIGHTS)">
                                     <div class="icon-text">Makkah (7 NIGHTS) <br> LAMAR HOTEL</div class="icon-text">
                                 </div>
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (3-4 NIGHTS)">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (3-4 NIGHTS)">
                                     <div class="icon-text">MADINA (3-4 NIGHTS) <br> MUBARAK AL MASI</div class="icon-text">
                                 </div>
                             </div>
@@ -308,7 +398,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">Rs. 2,625,000 <sub>/ pp</sub></span>
+                                    <span class="price">&pound; 7499 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('hajjDetail', ['slug' => '2-3-weeks-hajj-package-non-shifting']) }}">
                                         View Details
                                     </a>
@@ -339,11 +429,11 @@
                             </div>
                             <div class="row p-3">
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (10 NIGHTS)">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (10 NIGHTS)">
                                     <div class="icon-text">Makkah (10 NIGHTS) <br> LAMAR HOTEL</div class="icon-text">
                                 </div>
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (6 NIGHTS)">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="Madinah (6 NIGHTS)">
                                     <div class="icon-text">MADINA (6 NIGHTS) <br> MILLENIUM TAIBAH</div class="icon-text">
                                 </div>
                             </div>
@@ -357,7 +447,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">Rs. 2,905,000 <sub>/ pp</sub></span>
+                                    <span class="price">&pound; 8299 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('hajjDetail', ['slug' => '5-star-hajj-package-non-shifting']) }}">
                                         View Details
                                     </a>
@@ -410,21 +500,21 @@
         <p style="text-align: justify;">&quot;Hajj&quot; is a sacred term for all Muslims, and the desire to visit
             not only the House of Allah Almighty but also the places where His beloved Prophet (PBUH) lived and
             spent time is the craving of all belonging to the religion Islam. It was one of the five pillars of
-            Islam which are declared mandatory for those Muslims who are financially stable to pay the visit. Umrah Agency offers cheap Hajj packages in 2026, which are not only economical but also reasonable in terms
+            Islam which are declared mandatory for those Muslims who are financially stable to pay the visit. Hadi Tours offers cheap Hajj packages in 2026, which are not only economical but also reasonable in terms
             of providing the best Hajj packages. These best hajj packages include providing visa services, flight,
             Qurbani, Hotel stay, transport, and Hajj draft. Affordable hajj packages are every Muslim&rsquo;s
-            desire. Those looking for affordable Hajj packages will be very pleased to know that Umrah Agency is
+            desire. Those looking for affordable Hajj packages will be very pleased to know that Haditours is
             offering the following exciting and cheap Hajj packages for 2026:</p>
 
         <h2 style="text-align: justify;">Amazing and affordable Hajj Packages 2026&nbsp;for Muslim Community</h2>
 
         <p style="text-align: justify;"><strong>3 weeks 5 star best Hajj package</strong></p>
 
-        <p style="text-align: justify;">Umrah Agency brings the best Hajj package for the Muslim community
-            residing in Pakistan to perform this holy obligation with comfort and ease. Around many thousands believers travel
-            in intention to pay a visit to Allah&rsquo;s House, Umrah Agency travel becomes a luxurious bridge between
+        <p style="text-align: justify;">Haditours brings the best Hajj package for the Muslim community
+            residing in the UK to perform this holy obligation with comfort and ease. Around 70,000 believers travel
+            in intention to pay a visit to Allah&rsquo;s House, Hadi Tours travel becomes a luxurious bridge between
             the faithful and their Creator.<br />
-            Umrah Agency offers 3 weeks 5-star cheap Hajj packages present following privileged stays at the
+            Haditours offers 3 weeks 5-star cheap Hajj packages present following privileged stays at the
             below-mentioned venues:</p>
 
         <ul>
@@ -443,8 +533,8 @@
 
         <p style="text-align: justify;">We value our customers&rsquo; comfort and holy needs, presenting another
             package among the cheap Hajj packages 2026, which is not only the best Hajj package in terms of the way
-            it facilitates but is also affordable to the majority of our valued citizens of Pakistan. This is a
-            complete month, a non-shifting package which is providing the opportunity to the residents of Pakistan to
+            it facilitates but is also affordable to the majority of our valued citizens of the UK. This is a
+            complete month, a non-shifting package which is providing the opportunity to the residents of the UK to
             pay a visit to the Holy cities of Makkah and Madinah and have &ldquo;Ziarat&rdquo; of sacred places like
             Mina, Arafat, etc. Missing this amazing opportunity to avail of these affordable hajj packages will not
             be a wise decision to make. So don&rsquo;t think twice and make use of this holy month of Hajj out of
@@ -463,7 +553,7 @@
         <p style="text-align: justify;"><strong>2-3 Weeks non-shifting best hajj packages</strong></p>
 
         <p style="text-align: justify;">In this age, each one of us is looking towards tasks to be completed
-            economically, Umrah Agency presents its customers in Pakistan with cheap and affordable Hajj packages
+            economically, Haditours presents its customers in the UK with cheap and affordable Hajj packages
             for all those desiring to perform this sacred religious obligation. So don&rsquo;t think twice and avail
             of this low-cost and reasonable offer and pay a visit to the House of Allah this year.</p>
 
@@ -491,11 +581,11 @@
 
         <ul>
             <li><strong>Visa and Documents:</strong> First, you need to get a Hajj visa. This is possible with a
-                recognised travel agency like <a href="https://www.umrahagency.co.Pakistan/">Umrah Agency</a>. Make
+                recognised travel agency like <a href="https://www.haditours.co.uk/">Hadi Tours</a>. Make
                 sure you have all the necessary paperwork, such as a current passport, medical certificates, and
                 vaccination records, especially for meningitis and COVID-19.</li>
             <li><strong>Flights and Hotels:</strong> It&#39;s best to book your flights and hotels early because
-                demand is high during the Hajj season. But with Umrah Agency, there&#39;s no need for concern. As soon as you
+                demand is high during the Hajj season. But with Hadi Tours, there&#39;s no need for concern. As soon as you
                 book a package, we will arrange your return flights and hotels near the holy sites.</li>
             <li><strong>Health and Safety:</strong> Lastly, your health is very important during Hajj. Have a
                 thorough medical check-up prior to departing, and remember to stay hydrated. Also, bring a basic

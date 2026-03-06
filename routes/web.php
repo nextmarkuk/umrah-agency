@@ -28,3 +28,4 @@ Route::get('/hajj/{slug}.html', [PackageDetailController::class, 'showHajj'])->n
 // Inquiry
 Route::post('/send-inquiry', [HomeController::class, 'sendInquiry'])->name('sendInquiry');
 Route::get('/get-captcha', [HomeController::class, 'getCaptcha'])->name('getCaptcha');
+Route::post('/log-contact-click', [HomeController::class, 'logContactClick'])->name('logContactClick');

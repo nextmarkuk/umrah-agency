@@ -584,7 +584,7 @@ header {
 /*mobile view email and phone button css Strat*/
 
 .mobileButtons {
-    display: none;
+    display: visible;
     position: fixed;
     bottom: 15px;
     left: 15px;
@@ -1333,7 +1333,7 @@ header {
 
 
 /*==================================================
-        featured Umrah Agency section css Start
+        featured hadi tours section css Start
 ====================================================*/
 
 .featuredPackages {
@@ -1484,7 +1484,7 @@ header {
 
 
 /*==================================================
-        featured Umrah Agency section css End
+        featured hadi tours section css End
 ====================================================*/
 
 
@@ -1854,7 +1854,7 @@ header {
     top: 50%;
     height: 570px;
     width: 570px;
-    background-image: url("/images/UmrahAgency-imgs-updated/customize-umrah.png");
+    background-image: url("/images/haditours-imgs-updated/customize-umrah.png");
 }
 
 .customPackage::after {

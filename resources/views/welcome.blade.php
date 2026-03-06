@@ -1,15 +1,115 @@
 @extends('layouts.master')
 @section('meta')
-<title>Trusted Islamic Travel Agency in Pakistan for Umrah Services</title>
-<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in Pakistan. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
+<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<link rel="canonical" href="https://www.haditours.co.uk" />
 @endsection
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TravelAgency",
+  "@id": "https://www.haditours.co.uk/#travelagency",
+  "name": "Hadi Tours",
+  "alternateName": "Leading Hajj and Umrah Travel Agency in UK",
+  "url": "https://www.haditours.co.uk/",
+  "image": "https://haditours.co.uk/public/assets/images/logo.png",
+  "logo": "https://haditours.co.uk/public/assets/images/logo.png",
+  "description": "Hadi Tours is a leading Hajj and Umrah tours Operator in the UK, ATOL & IATA certified, specialising in Umrah packages, Hajj support, flights, hotels, and tailored Hajj and Umrah travel services.",
+  "priceRange": "£££",
+  "telephone": "+44 20 3103 0264",
+  "email": "info@haditours.co.uk",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "13 Station Rd",
+    "addressLocality": "London",
+    "postalCode": "SE25 5AH",
+    "addressCountry": "GB"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 51.39793,
+    "longitude": -0.07592
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+44 20 3103 0264",
+    "contactType": "customer service",
+    "areaServed": "GB",
+    "availableLanguage": ["English", "Urdu", "Arabic"]
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "20:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Saturday","Sunday"],
+      "opens": "10:00",
+      "closes": "18:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/haditours",
+    "https://x.com/haditours",
+    "https://www.instagram.com/haditours",
+    "https://uk.pinterest.com/haditours",
+    "https://www.linkedin.com/company/haditours"
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.9,
+    "bestRating": 5
+  },
+  "knowsAbout": [
+    "Family Umrah Packages from UK",
+    "Group and Individual Umrah Packages UK",
+    "Hajj & Umrah Services",
+    "Leading Hajj and Umrah Tours Agency in UK",
+    "Flights & Hotels Booking"
+  ],
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "name": "Umrah Packages",
+      "url": "https://www.haditours.co.uk/umrah-packages.html",
+      "description": "Affordable 3-star, 4-star, and 5-star Umrah packages including flights, visa, hotels near Haram, transport, and Ziyarat tours.",
+      "availability": "https://schema.org/InStock"
+    },
+    {
+      "@type": "Offer",
+      "name": "Hajj Support Services",
+      "url": "https://www.haditours.co.uk/cheap-hajj-packages.html",
+      "description": "Guided Hajj advice and support provided by experienced consultants.",
+      "availability": "https://schema.org/InStock"
+    },
+    {
+      "@type": "Offer",
+      "name": "Flights & Hotel Bookings",
+      "url": "https://www.haditours.co.uk",
+      "description": "Worldwide flights, hotel booking services, and customized travel itineraries.",
+      "availability": "https://schema.org/InStock"
+    }
+  ]
+}
+</script>
+@endverbatim
 @section('content')
 <section class="search-banner">
     <!--slider section Start-->
     <div class="banner">
-        <img src="{{asset('assets/media/pages/home-page-banner-for-UmrahAgency-1.jpeg')}}" class="img-fluid" alt="Banner Image">
+        <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.jpeg')}}" class="img-fluid" alt="Home Page Banner - Hadi Tours" width="1920" height="600" fetchpriority="high">
         <div class="banner-text">
-            <h1>Trusted Islamic Travel Agency&nbsp;in Pakistan</h1>
+            <h1>Trusted Islamic Travel Agency&nbsp;in UK</h1>
             <h4>For Umrah Services</h4>
             </h4>
         </div>
@@ -21,18 +121,28 @@
 
                 <div class="form-group Half">
                     <label for="enquiry-departure">
-                        <i class="fa fa-plane fa-2x text-warning mr-1" style="color: #85641E !important;font-size: 1.4em;"></i> Departure City
+                        <i class="fa fa-plane fa-2x text-warning mr-1" style="color: #85641E !important;font-size: 1.4em;"></i> Departure Airport
                     </label>
-                    <select class="form-control" id="enquiry-departure" name="n[Departure City]" required>
-                        <option value="">Departure City</option>
-                        <option value="Karachi">Karachi (KHI)</option>
-                        <option value="Lahore">Lahore (LHE)</option>
-                        <option value="Islamabad">Islamabad (ISB)</option>
-                        <option value="Peshawar">Peshawar (PEW)</option>
-                        <option value="Multan">Multan (MUX)</option>
-                        <option value="Sialkot">Sialkot (SKT)</option>
-                        <option value="Faisalabad">Faisalabad (LYP)</option>
-                        <option value="Quetta">Quetta (UET)</option>
+                    <select class="form-control" id="enquiry-departure" name="n[Departure Airport]" required>
+                        <option value="">Departure Airport</option>
+                        <option value="London Heathrow">London Heathrow</option>
+                        <option value="London Gatwick">London Gatwick</option>
+                        <option value="Manchester">Manchester</option>
+                        <option value="London Stansted">London Stansted</option>
+                        <option value="London Luton">London Luton</option>
+                        <option value="Edinburgh">Edinburgh</option>
+                        <option value="Birmingham">Birmingham</option>
+                        <option value="Glasgow">Glasgow</option>
+                        <option value="Bristol">Bristol</option>
+                        <option value="Liverpool">Liverpool</option>
+                        <option value="Newcastle">Newcastle</option>
+                        <option value="East Midlands">East Midlands</option>
+                        <option value="Aberdeen">Aberdeen</option>
+                        <option value="London City">London City</option>
+                        <option value="Leeds Bradford">Leeds Bradford</option>
+                        <option value="Cardiff">Cardiff</option>
+                        <option value="Norwich">Norwich</option>
+                        <option value="Humberside">Humberside</option>
                     </select>
                     <span class="borderBottom"></span>
                 </div>
@@ -144,15 +254,18 @@
         </div>
     </div>
 </section>
+
+
+
 <!--slider section End-->
 <section class="featuredPackages">
     <div class="container">
         <div class="sectionMainHeading">
             <h2>
                 <span>03 STAR Exclusive</span>
-                Umrah Packages
+                Umrah Deals
             </h2>
-            <p>Umrah Agency Brings Affordable Packages with Nearby Hotels</p>
+            <p>Haditours Brings Affordable Packages with Nearby Hotels</p>
         </div>
         <div class="packagesCarousel">
             <div class="viewMore-carouselArrow">
@@ -171,7 +284,7 @@
                     <div class="mainPackage">
                         <div class="mainPackageImage">
                             <a href="{{ route('umrahDetail', ['slug' => '3-star-7-nights-umrah-package']) }}">
-                                <img class="img-fluid" loading="lazy" width="336" height="279" src="{{asset('assets/media/umrah/Madinah%20%284%29.webp')}}" alt="3 Star 7 Nights Umrah Package">
+                                <img class="img-fluid" loading="lazy" width="336" height="279" src="{{asset('assets/media/umrah-new/19.png')}}" alt="3 Star 7 Nights Umrah Package">
                             </a>
                         </div>
                         <div class="mainPackageDesc">
@@ -189,11 +302,11 @@
                             </div>
                             <div class="row p-3">
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (3 NIGHTS) AL KISWAH TOWER">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (3 NIGHTS) AL KISWAH TOWER">
                                     <div class="icon-text">Makkah (3 NIGHTS) <br> AL KISWAH TOWER</div class="icon-text">
                                 </div>
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="3 Star 7 Nights Umrah Package Icon">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="3 Star 7 Nights Umrah Package Icon">
                                     <div class="icon-text">MADINA (4 NIGHTS) <br> EMAAR TAIBAH</div class="icon-text">
                                 </div>
                             </div>
@@ -207,7 +320,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">Rs. 245,000 <sub>/ pp</sub></span>
+                                    <span class="price">£ 699 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '3-star-10-nights-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -221,7 +334,7 @@
                         <div class="mainPackageImage">
                             <a href="{{ route('umrahDetail', ['slug' => '3-star-10-nights-umrah-package']) }}"><img class="img-fluid"
                                     loading="lazy" width="336" height="279"
-                                    src="{{asset('assets/media/umrah/3%20Star%2010%20Nights%20Economy%20Umrah%20Package.webp')}}"
+                                    src="{{asset('assets/media/umrah-new/20.png')}}"
                                     alt="3 Star 10 Nights Umrah Package"></a>
                         </div>
                         <div class="mainPackageDesc">
@@ -239,11 +352,11 @@
                             </div>
                             <div class="row p-3">
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (5 NIGHTS) AL KISWAH TOWER">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (5 NIGHTS) AL KISWAH TOWER">
                                     <div class="icon-text">Makkah (5 NIGHTS) <br> AL KISWAH TOWER</div class="icon-text">
                                 </div>
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="3 Star 10 Nights Umrah Package Icon">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="3 Star 10 Nights Umrah Package Icon">
                                     <div class="icon-text">MADINA (5 NIGHTS) <br> EMAAR TAIBAH</div class="icon-text">
                                 </div>
                             </div>
@@ -257,7 +370,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">Rs. 262,000 <sub>/ pp</sub></span>
+                                    <span class="price">&pound; 749 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '3-star-10-nights-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -271,7 +384,7 @@
                         <div class="mainPackageImage">
                             <a href="{{ route('umrahDetail', ['slug' => '3-star-12-nights-umrah-package']) }}"><img class="img-fluid"
                                     loading="lazy" width="336" height="279"
-                                    src="{{asset('assets/media/umrah/madinah-%20%287%29.webp')}}"
+                                    src="{{asset('assets/media/umrah-new/21.png')}}"
                                     alt="3 Star 12 Nights Umrah Package"></a>
                         </div>
                         <div class="mainPackageDesc">
@@ -289,11 +402,11 @@
                             </div>
                             <div class="row p-3">
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (6 NIGHTS) AL KISWAH TOWER">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (6 NIGHTS) AL KISWAH TOWER">
                                     <div class="icon-text">Makkah (6 NIGHTS) <br> AL KISWAH TOWER</div class="icon-text">
                                 </div>
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="3 Star 12 Nights Umrah Package Icon">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="3 Star 12 Nights Umrah Package Icon">
                                     <div class="icon-text">MADINA (6 NIGHTS) <br> EMAAR TAIBAH</div class="icon-text">
                                 </div>
                             </div>
@@ -307,7 +420,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">Rs. 276,000 <sub>/ pp</sub></span>
+                                    <span class="price">&pound; 789 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '3-star-12-nights-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -320,7 +433,7 @@
                     <div class="mainPackage">
                         <div class="mainPackageImage">
                             <a href="{{ route('umrahDetail', ['slug' => '3-star-14-nights-umrah-package']) }}"><img class="img-fluid"
-                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/umrah/tawaf%20%281%29.webp')}}"
+                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/umrah-new/22.png')}}"
                                     alt="3 Star 14 Nights Umrah Package"></a>
                         </div>
                         <div class="mainPackageDesc">
@@ -338,11 +451,11 @@
                             </div>
                             <div class="row p-3">
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (7 NIGHTS) AL KISWAH TOWER">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (7 NIGHTS) AL KISWAH TOWER">
                                     <div class="icon-text">Makkah (7 NIGHTS) <br> AL KISWAH TOWER</div class="icon-text">
                                 </div>
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="3 Star 14 Nights Umrah Package Icon">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="3 Star 14 Nights Umrah Package Icon">
                                     <div class="icon-text">MADINA (7 NIGHTS) <br> EMAAR TAIBAH</div class="icon-text">
                                 </div>
                             </div>
@@ -356,7 +469,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">Rs. 290,000 <sub>/ pp</sub></span>
+                                    <span class="price">&pound; 829 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '3-star-14-nights-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -375,9 +488,9 @@
         <div class="sectionMainHeading">
             <h2>
                 <span>04 STAR</span>
-                Umrah Packages
+                Umrah Deals
             </h2>
-            <p>Umrah Agency Brings Affordable Packages with Nearby Hotels</p>
+            <p>Haditours Brings Affordable Packages with Nearby Hotels</p>
         </div>
         <div class="packagesCarousel">
             <div class="viewMore-carouselArrow">
@@ -396,7 +509,7 @@
                     <div class="mainPackage">
                         <div class="mainPackageImage">
                             <a href="{{ route('umrahDetail', ['slug' => '4-star-december-umrah-package']) }}"><img class="img-fluid" loading="lazy"
-                                    width="336" height="279" src="{{asset('assets/media/umrah/00-min%20%2836%29.webp')}}"
+                                    width="336" height="279" src="{{asset('assets/media/umrah-new/23.png')}}"
                                     alt="4 Star 10 Nights December Umrah Package"></a>
                         </div>
                         <div class="mainPackageDesc">
@@ -414,11 +527,11 @@
                             </div>
                             <div class="row p-3">
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (4 NIGHTS) AL KISWAH TOWER">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (4 NIGHTS) AL KISWAH TOWER">
                                     <div class="icon-text">Makkah (4 NIGHTS) <br> AL KISWAH TOWER</div class="icon-text">
                                 </div>
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="4 Star 10 Nights December Umrah Package Icon">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="4 Star 10 Nights December Umrah Package Icon">
                                     <div class="icon-text">MADINA (6 NIGHTS) <br> EMAAR TAIBAH</div class="icon-text">
                                 </div>
                             </div>
@@ -432,7 +545,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">Rs. 280,000 <sub>/ pp</sub></span>
+                                    <span class="price">&pound; 800 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '4-star-december-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -445,7 +558,7 @@
                     <div class="mainPackage">
                         <div class="mainPackageImage">
                             <a href="{{ route('umrahDetail', ['slug' => '4-star-night-december-umrah-package']) }}"><img class="img-fluid"
-                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/umrah/0%20%285%29.webp')}}"
+                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/umrah-new/24.png')}}"
                                     alt="4 Star 14 Nights December Umrah Package"></a>
                         </div>
                         <div class="mainPackageDesc">
@@ -463,11 +576,11 @@
                             </div>
                             <div class="row p-3">
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (7 NIGHTS) AL KISWAH TOWER">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (7 NIGHTS) AL KISWAH TOWER">
                                     <div class="icon-text">Makkah (7 NIGHTS) <br> AL KISWAH TOWER</div class="icon-text">
                                 </div>
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="4 Star 14 Nights December Umrah Package Icon">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="4 Star 14 Nights December Umrah Package Icon">
                                     <div class="icon-text">MADINA (7 NIGHTS) <br> EMAAR TAIBAH</div class="icon-text">
                                 </div>
                             </div>
@@ -481,7 +594,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">Rs. 315,000 <sub>/ pp</sub></span>
+                                    <span class="price">&pound; 900 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '4-star-night-december-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -494,7 +607,7 @@
                     <div class="mainPackage">
                         <div class="mainPackageImage">
                             <a href="{{ route('umrahDetail', ['slug' => '4-star-7-nights-december-umrah-package']) }}"><img class="img-fluid"
-                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/umrah/00-min%20%288%29.webp')}}"
+                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/umrah-new/25.png')}}"
                                     alt="4 Star 7 Nights December Umrah Package"></a>
                         </div>
                         <div class="mainPackageDesc">
@@ -512,11 +625,11 @@
                             </div>
                             <div class="row p-3">
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (3 NIGHTS) AL KISWAH TOWER">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (3 NIGHTS) AL KISWAH TOWER">
                                     <div class="icon-text">Makkah (3 NIGHTS) <br> AL KISWAH TOWER</div class="icon-text">
                                 </div>
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="4 Star 7 Nights December Umrah Package Icon">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="4 Star 7 Nights December Umrah Package Icon">
                                     <div class="icon-text">MADINA (4 NIGHTS) <br> EMAAR TAIBAH</div class="icon-text">
                                 </div>
                             </div>
@@ -530,7 +643,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">Rs. 355,000 <sub>/ pp</sub></span>
+                                    <span class="price">&pound; 1015 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '4-star-7-nights-december-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -543,7 +656,7 @@
                     <div class="mainPackage">
                         <div class="mainPackageImage">
                             <a href="{{ route('umrahDetail', ['slug' => '4-star-10-nights-december-umrah-package']) }}"><img class="img-fluid"
-                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/umrah/0%20%283%29.webp')}}"
+                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/umrah-new/26.png')}}"
                                     alt="4 Star 10 Nights December Umrah Package"></a>
                         </div>
                         <div class="mainPackageDesc">
@@ -561,11 +674,11 @@
                             </div>
                             <div class="row p-3">
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (5 NIGHTS) AL KISWAH TOWER">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (5 NIGHTS) AL KISWAH TOWER">
                                     <div class="icon-text">Makkah (5 NIGHTS) <br> AL KISWAH TOWER</div class="icon-text">
                                 </div>
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="4 Star 10 Nights December Umrah Package Icon">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="4 Star 10 Nights December Umrah Package Icon">
                                     <div class="icon-text">MADINA (5 NIGHTS) <br> EMAAR TAIBAH</div class="icon-text">
                                 </div>
                             </div>
@@ -579,7 +692,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">Rs. 367,500 <sub>/ pp</sub></span>
+                                    <span class="price">&pound; 1050 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '4-star-10-nights-december-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -592,7 +705,7 @@
                     <div class="mainPackage">
                         <div class="mainPackageImage">
                             <a href="{{ route('umrahDetail', ['slug' => '4-star-12-nights-december-umrah-package']) }}"><img class="img-fluid"
-                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/umrah/0%20%284%29.webp')}}"
+                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/umrah-new/27.png')}}"
                                     alt="4 Star 12 Nights December Umrah Package"></a>
                         </div>
                         <div class="mainPackageDesc">
@@ -610,11 +723,11 @@
                             </div>
                             <div class="row p-3">
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (6 NIGHTS) AL KISWAH TOWER">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (6 NIGHTS) AL KISWAH TOWER">
                                     <div class="icon-text">Makkah (6 NIGHTS) <br> AL KISWAH TOWER</div class="icon-text">
                                 </div>
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="4 Star 12 Nights December Umrah Package Icon">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="4 Star 12 Nights December Umrah Package Icon">
                                     <div class="icon-text">MADINA (6 NIGHTS) <br> EMAAR TAIBAH</div class="icon-text">
                                 </div>
                             </div>
@@ -628,7 +741,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">Rs. 373,000 <sub>/ pp</sub></span>
+                                    <span class="price">&pound; 1065 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '4-star-12-nights-december-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -641,7 +754,7 @@
                     <div class="mainPackage">
                         <div class="mainPackageImage">
                             <a href="{{ route('umrahDetail', ['slug' => '4-star-14-nights-december-umrah-package']) }}"><img class="img-fluid"
-                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/umrah/00-min%20%2833%29.webp')}}"
+                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/umrah-new/28.png')}}"
                                     alt="4 Star 14 Nights December Umrah Package"></a>
                         </div>
                         <div class="mainPackageDesc">
@@ -659,11 +772,11 @@
                             </div>
                             <div class="row p-3">
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (7 NIGHTS) AL KISWAH TOWER">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (7 NIGHTS) AL KISWAH TOWER">
                                     <div class="icon-text">Makkah (7 NIGHTS) <br> AL KISWAH TOWER</div class="icon-text">
                                 </div>
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="4 Star 14 Nights December Umrah Package Icon">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="4 Star 14 Nights December Umrah Package Icon">
                                     <div class="icon-text">MADINA (7 NIGHTS) <br> EMAAR TAIBAH</div class="icon-text">
                                 </div>
                             </div>
@@ -677,7 +790,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">Rs. 395,500 <sub>/ pp</sub></span>
+                                    <span class="price">&pound; 1130 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '4-star-14-nights-december-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -696,9 +809,9 @@
         <div class="sectionMainHeading">
             <h2>
                 <span>05 STAR</span>
-                Umrah Packages
+                Umrah Deals
             </h2>
-            <p>Umrah Agency Brings Affordable Packages with Nearby hotels from Holy Haram and Masjid Al Nabwi</p>
+            <p>Haditours Brings Affordable Packages with Nearby hotels from Holy Haram and Masjid Al Nabwi</p>
         </div>
         <div class="packagesCarousel">
             <div class="viewMore-carouselArrow">
@@ -717,7 +830,7 @@
                     <div class="mainPackage">
                         <div class="mainPackageImage">
                             <a href="{{ route('umrahDetail', ['slug' => '5-star-7-nights-economy-umrah-package']) }}"><img class="img-fluid"
-                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/umrah/00%20%2836%29.webp')}}"
+                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/umrah-new/29.png')}}"
                                     alt="5 Star 7 Nights Economy Umrah Package"></a>
                         </div>
                         <div class="mainPackageDesc">
@@ -735,11 +848,11 @@
                             </div>
                             <div class="row p-3">
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (3 NIGHTS) AL KISWAH TOWER">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (3 NIGHTS) AL KISWAH TOWER">
                                     <div class="icon-text">Makkah (3 NIGHTS) <br> AL KISWAH TOWER</div class="icon-text">
                                 </div>
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="5 Star 7 Nights Economy Umrah Package Icon">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="5 Star 7 Nights Economy Umrah Package Icon">
                                     <div class="icon-text">MADINA (4 NIGHTS) <br> EMAAR TAIBAH</div class="icon-text">
                                 </div>
                             </div>
@@ -753,7 +866,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">Rs. 245,000 <sub>/ pp</sub></span>
+                                    <span class="price">&pound; 700 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '5-star-7-nights-economy-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -766,7 +879,7 @@
                     <div class="mainPackage">
                         <div class="mainPackageImage">
                             <a href="{{ route('umrahDetail', ['slug' => '10-nights-5-star-umrah-package']) }}"><img class="img-fluid"
-                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/umrah/00%20%289%29.webp')}}"
+                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/umrah-new/30.png')}}"
                                     alt="10 Nights 5 Star March Umrah package"></a>
                         </div>
                         <div class="mainPackageDesc">
@@ -784,11 +897,11 @@
                             </div>
                             <div class="row p-3">
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (5 NIGHTS) AL KISWAH TOWER">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (5 NIGHTS) AL KISWAH TOWER">
                                     <div class="icon-text">Makkah (5 NIGHTS) <br> AL KISWAH TOWER</div class="icon-text">
                                 </div>
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="10 Nights 5 Star March Umrah package Icon">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="10 Nights 5 Star March Umrah package Icon">
                                     <div class="icon-text">MADINA (5 NIGHTS) <br> EMAAR TAIBAH</div class="icon-text">
                                 </div>
                             </div>
@@ -802,7 +915,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">Rs. 285,000 <sub>/ pp</sub></span>
+                                    <span class="price">&pound; 815 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '10-nights-5-star-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -815,7 +928,7 @@
                     <div class="mainPackage">
                         <div class="mainPackageImage">
                             <a href="{{ route('umrahDetail', ['slug' => '5-star-7-night-umrah-package']) }}"><img class="img-fluid" loading="lazy"
-                                    width="336" height="279" src="{{asset('assets/media/umrah/tawaf%20%283%29.webp')}}"
+                                    width="336" height="279" src="{{asset('assets/media/umrah-new/13.png')}}"
                                     alt="5 star 7 night Umrah package "></a>
                         </div>
                         <div class="mainPackageDesc">
@@ -833,11 +946,11 @@
                             </div>
                             <div class="row p-3">
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (3 NIGHTS) AL KISWAH TOWER">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (3 NIGHTS) AL KISWAH TOWER">
                                     <div class="icon-text">Makkah (3 NIGHTS) <br> AL KISWAH TOWER</div class="icon-text">
                                 </div>
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="5 star 7 night Umrah package Icon">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="5 star 7 night Umrah package Icon">
                                     <div class="icon-text">MADINA (4 NIGHTS) <br> EMAAR TAIBAH</div class="icon-text">
                                 </div>
                             </div>
@@ -851,7 +964,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">Rs. 248,500 <sub>/ pp</sub></span>
+                                    <span class="price">&pound; 710 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '5-star-7-night-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -864,7 +977,7 @@
                     <div class="mainPackage">
                         <div class="mainPackageImage">
                             <a href="{{ route('umrahDetail', ['slug' => '7-nights-5-star-umrah-package']) }}"><img class="img-fluid" loading="lazy"
-                                    width="336" height="279" src="{{asset('assets/media/umrah/00%20%286%29.webp')}}"
+                                    width="336" height="279" src="{{asset('assets/media/umrah-new/27.png')}}"
                                     alt="7 Nights 5 Star March Umrah Package"></a>
                         </div>
                         <div class="mainPackageDesc">
@@ -882,11 +995,11 @@
                             </div>
                             <div class="row p-3">
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (3 NIGHTS) AL KISWAH TOWER">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (3 NIGHTS) AL KISWAH TOWER">
                                     <div class="icon-text">Makkah (3 NIGHTS) <br> AL KISWAH TOWER</div class="icon-text">
                                 </div>
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="7 Nights 5 Star March Umrah Package Icon">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="7 Nights 5 Star March Umrah Package Icon">
                                     <div class="icon-text">MADINA (4 NIGHTS) <br> EMAAR TAIBAH</div class="icon-text">
                                 </div>
                             </div>
@@ -900,7 +1013,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">Rs. 275,000 <sub>/ pp</sub></span>
+                                    <span class="price">&pound; 785 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '7-nights-5-star-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -913,7 +1026,7 @@
                     <div class="mainPackage">
                         <div class="mainPackageImage">
                             <a href="{{ route('umrahDetail', ['slug' => '12-nights-5-star-umrah-package']) }}"><img class="img-fluid"
-                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/umrah/Madinah%20%282%29.webp')}}"
+                                    loading="lazy" width="336" height="279" src="{{asset('assets/media/umrah-new/3.png')}}"
                                     alt="12 Nights 5 Star March Umrah Package"></a>
                         </div>
                         <div class="mainPackageDesc">
@@ -931,11 +1044,11 @@
                             </div>
                             <div class="row p-3">
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (6 NIGHTS) AL KISWAH TOWER">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (6 NIGHTS) AL KISWAH TOWER">
                                     <div class="icon-text">Makkah (6 NIGHTS) <br> AL KISWAH TOWER</div class="icon-text">
                                 </div>
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="12 Nights 5 Star March Umrah Package Icon">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="12 Nights 5 Star March Umrah Package Icon">
                                     <div class="icon-text">MADINA (6 NIGHTS) <br> EMAAR TAIBAH</div class="icon-text">
                                 </div>
                             </div>
@@ -949,7 +1062,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">Rs. 296,000 <sub>/ pp</sub></span>
+                                    <span class="price">&pound; 845 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '12-nights-5-star-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -963,7 +1076,7 @@
                         <div class="mainPackageImage">
                             <a href="{{ route('umrahDetail', ['slug' => '5-star-14-nights-family-umrah-package1']) }}"><img class="img-fluid"
                                     loading="lazy" width="336" height="279"
-                                    src="{{asset('assets/media/umrah/makkah-saudi-arabia%20%285%29.webp')}}"
+                                    src="{{asset('assets/media/umrah-new/4.png')}}"
                                     alt="5 Star 14 Nights Family Umrah Package"></a>
                         </div>
                         <div class="mainPackageDesc">
@@ -981,11 +1094,11 @@
                             </div>
                             <div class="row p-3">
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (7 NIGHTS) AL KISWAH TOWER">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/kaaba.webp')}}" alt="Makkah (7 NIGHTS) AL KISWAH TOWER">
                                     <div class="icon-text">Makkah (7 NIGHTS) <br> AL KISWAH TOWER</div class="icon-text">
                                 </div>
                                 <div class="col-6 d-flex">
-                                    <img class="icon" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="5 Star 14 Nights Family Umrah Package Icon">
+                                    <img class="icon" loading="lazy" src="{{asset('assets/images/masjid-al-nabawi.webp')}}" alt="5 Star 14 Nights Family Umrah Package Icon">
                                     <div class="icon-text">MADINA (7 NIGHTS) <br> EMAAR TAIBAH</div class="icon-text">
                                 </div>
                             </div>
@@ -999,7 +1112,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">Rs. 297,000 <sub>/ pp</sub></span>
+                                    <span class="price">&pound; 849 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '5-star-14-nights-family-umrah-package1']) }}">
                                         View Details
                                     </a>
@@ -1012,194 +1125,151 @@
         </div>
     </div>
 </section>
-<!--featured Umrah Agency packages section End-->
+<!--featured Hadi Tours packages section End-->
 <!-- Home page content section starts here  -->
+
+
 <div class="page-content">
 
     <div class="container">
 
         <div class="scroll-page-content page-content-styling">
 
-            <h2>Go for an Umrah through Best Travel Agency in Pakistan</h2>
+            <h2>HadiTours: Your Trusted Hajj and Umrah Travel Agency in UK </h2>
 
-            <p>Umrah is of great significance for Muslims worldwide. The spiritual journey is always calling the
-                believer&#39;s hearts from within, and it is about time you get to stand in front of Kaaba. So, if
-                you have decided to go to the holy places in Saudi Arabia and ask Allah for his forgiveness and
-                blessings, it is never too late. We at Umrah Agency are known as the best Umrah travel agency in
-                Pakistan because of our reliable Umrah services.</p>
+<p>The pilgrimage to Makkah and Madinah is a Muslim's single most defining trip in life. HadiTours leading Hajj and Umrah Travel Agency in UK, we welcome you to experience this spiritual journey with us. We realize that the pilgrimage to the cities of Makkah and Madinah is not merely a trip because it is the supreme spiritual achievement of a Muslim's life. It is a journey deeply filled with faith, worship, and cleansing. We at HadiTours, firmly believe our purpose is to make this divine journey easier by offering excellent, trouble, free, and spiritually uplifting travel experiences to the UK Muslim community.
+</P>
 
-            <p><a href="{{ route('contactUs') }}" target="_self"><strong>Contact Us
-                        Now!</strong></a></p>
+<p>Planning a Hajj that is one of the five pillars or performing a voluntary Umrah, give HadiTours the honor of taking care of every detail of your journey. We will take care of everything from the visa, flights, to accommodation which are just a few steps away from the Haram, quite simply, you will be able to concentrate completely on your acts of worship and strengthening your relationship with Allah (SWT).</P>
 
-            <h2>What can Umrah Agency do for you?</h2>
+<h2>Guiding Your Steps to the Sacred Sanctuaries</h2>
 
-            <p>Our goal is to provide all Muslims in Pakistan with an affordable opportunity to visit Makkah and
-                Madinah. The yearning to visit these places is always in the hearts of Muslims. Umrah is the
-                religious act of salvation and blessings of the Almighty. And everyone wants to get a chance to
-                visit the holy sites and pour out their hearts to their Lord.</p>
+<p>we consider it an immense honor and privilege to serve the guests of Allah (SWT). Rooted in the values of honesty, openness, and profound religious commitment, we have developed into a major and very reputable Hajj and Umrah Travel agency in uk.
+</P>
 
-            <p>Therefore, we offer Muslims holy travel at a cost-effective cost so that you don&#39;t have to wait
-                to get to Kaaba anymore. By facilitating the pilgrims with our services, we have become one of the
-                most reliable travel agents in Pakistan. From your Umrah visa and flights to the most daunting hotel
-                bookings, Umrah Agency can do it all for you.</p>
+<p>Our personnel consists of experienced travel professionals and well, informed Islamic scholars who cooperate closely to create packages that meet the different requirements of the British Muslim community. We understand that each pilgrim has different needs, for example, if you are a family traveling with kids, an old couple who needs a wheelchair, or a solo traveler searching for a very cheap option. We guarantee that your comfort, safety and spiritual well, being will be our top priorities throughout the entire journey.</P>
 
-            <p>In addition, you only have to inform us about your stay plans and budget, and we will come up with
-                the most ideal and affordable deal for you. Being one of the best travel agencies in Pakistan, we aim
-                to provide you with the highest quality services no matter what. So, contact us now and prepare to
-                ask for Almighty&#39;s blessings in front of His house.</p>
+<h3>Our Mission </h3>
 
-            <h2>Rewards and Benefits of Umrah for the Muslims</h2>
+<p>Our mission is to provide a seamless, comfortable, and spiritually fulfilling Hajj and Umrah experiences whilst delivering outstanding customer service, offering clear pricing, and expert guidance.</P>
 
-            <p>Umrah is a spiritual worship act performed by our beloved Prophet (PBUH) four times in his lifetime.
-                It holds a great position in Islam because of its high rewards. Millions of Muslims worldwide travel
-                spiritually to Saudi Arabia every year.</p>
+<h3>Our Vision</h3>
 
-            <p>Furthermore, if you perform Umrah with pious intentions, the mercy and blessings of Allah Almighty
-                will not disappoint you. On an Umrah, Muslims pray for the serenity of their souls and ask for
-                forgiveness of their mortal sins.</p>
+<p>We want to be the leading and most reliable Islamic travel partner in the United Kingdom, well, known for our strong dedication to the Guests of Allah.</P>
 
-            <p>One of Umrah&#39;s primary rewards and benefits is that you have Allah as your host. Muslims who have
-                performed Umrah always talk about the serenity and peacefulness surrounding them once they enter
-                Makkah. Moreover, we might have also heard about the stories of people&#39;s feelings when they
-                first stood in front of the Kaaba. And Allah promises to cleanse the soul of his pilgrims if they
-                repent of their sins with an honest heart.</p>
+<h2>Why Choose HadiTours as Your Hajj and Umrah Travel Agency in UK?</h2>
 
-            <p>In addition, Umrah is seen as a way of eliminating poverty from one&#39;s life. Muslims believe that
-                if we spend our wealth in Allah&#39;s way, we are blessed with much more. Allah is the most
-                benevolent and will repay any wealth spent in His way. Moreover, Umrah is a sacrificial religious
-                act which is why it has the reward of performing Jihad. Also, it strengthens the faith of the
-                believers.</p>
+<p>Choosing the right travel agency is crucial for a peaceful pilgrimage. Here is why thousands of UK Muslims trust HadiTours year after year:</P>
 
-            <h2>Why do Muslims Prefer going for an Umrah in Ramadan?</h2>
+<h3>ATOL Protected & Ministry Approved:</h3>
+<p>We are fully ATOL protected for your financial security and peace of mind. In addition, we are an agency approved by the Ministry of Hajj and Umrah in Saudi Arabia.</p>
 
-            <p>When going for Umrah travel during Ramadan, it is vital to know that there are two different types of
-                Umrah: Umrah-ul-Tamattu and Umrah-ul-Mufradah. Muslims going for an Umrah in Ramadan perform
-                Umrah-ul-Tamattu.</p>
+<h3>Expert Spiritual Guidance:</h3>
+<p>We give you access via our packages to knowledgeable and experienced Islamic scholars who, among other things, conduct pre, departure seminars. They also provide the ritual steps guidance and, in Makkah and Madinah, lectures to enable the correct performance of worship acts according to the Sunnah.</p>
 
-            <p>Even though it is to be done before the 8th of Dhul Hijjah, there is no lesser reward for the whole
-                religious act. In addition, the rewards of Umrah in Ramadan are multiple times greater than the
-                Umrah performed in any other month. But the whole religious practice is performed the same way.</p>
+<h3>Custom, Made Packages:</h3>
+<p>We do not believe in the one, size, fits, all concept. We, therefore, prepare a plan for you whether you want a 5, star VIP package with the Kaaba as your view or a budget package that is clean and comfortable without luxuries.</p>
 
-            <p>According to Prophet (PBUH) &#39;s Hadith, the reward of doing an Umrah in Ramadan is equivalent to a
-                Hajj. But you must know that it doesn&#39;t replace the obligatory Hajj. This holy month adds to the
-                inner satisfaction of your heart while doing this religious practice. The added blessings and opened
-                doors of forgiveness increase the rewards of Umrah as a whole. Therefore, many Muslims set on this
-                spiritual journey during Ramadan.</p>
+<h3>24/7 Dedicated Ground Support:</h3>
+<p>To help you anytime, any day, our local team in Saudi Arabia is at your disposal. From meeting and assisting you at the airport, handing over your hotel to you, to dealing with any emergency situations, we are always with you.</p>
 
-            <p>Even though Umrah is considered a minor Hajj and in Ramadan, its reward is equal to a Hajj, it cannot
-                replace the obligation. Unlike Umrah, Hajj is an obligatory religious practice that is mandatory for
-                everyone financially and physically capable. Its time is also specified and has great rewards.</p>
+<h3>Transparent Pricing:</h3>
+<p>There are no charges beyond those in the contract with <a href="https://www.haditours.co.uk">Hadi Tours</a>. We are a package, tour company that trusts its customers and hence the decision to make all inclusions and exclusions of a tour package always available to the client beforehand.</p>
 
-            <p>Because of the massive numbers of people going for an Umrah in Ramadan, the Umrah might get costly.
-                Therefore, if you want to keep your Hajj and Umrah travel budget-friendly, you should trust the best
-                travel agents in Pakistan. You can contact a reliable Umrah travel agency and discuss your budget to
-                plan your Umrah accordingly.</p>
+<h2>Our Premium Pilgrimage Packages</h2>
 
-            <h2>Most Affordable Time to Go for an Umrah</h2>
+<p>As a top-tier Hajj and Umrah Travel agency in uk, we offer a wide array of meticulously planned packages.</P>
 
-            <p>Being one of the best travel agents in Pakistan, we provide our customers with the most affordable
-                Umrah deals, including visa, flight, and hotel. So, if you want to perform an Umrah on a budget, we
-                can help you. As the summers are hot in Saudi Arabia, most people don&#39;t usually go for an Umrah
-                in June, July, and August, the peak summer months.</p>
+<h3>Umrah Deals: A Journey of Renewal</h3>
+<p>Perform the lesser pilgrimage any time you wish to with our flexible 
+<a href="https://www.haditours.co.uk/umrah-packages.html">Umrah Packages</a>. We provide services for the UK market from the top UK airports namely London Heathrow, Manchester, and Birmingham.</p>
 
-            <p>The temperature can get high during these three months, resulting in unpleasant weather conditions
-                for religious practice. But if you are on a budget and need more money to afford an Umrah in the
-                peak months, these three months will be perfect. Umrah Agency is one of the best travel agency the
-                Pakistan, and we can help you plan your spiritual journey on a budget in the cheapest months.</p>
+<h3>Economy Umrah Deals:</h3>
+<p>These packages are aimed at pilgrims with a tight budget. It offers clean and comfortable 3, star hotels that are either a walking distance or a shuttle ride away from the Haramain.</p>
 
-            <h2>Flying to Saudi Arabia from Pakistan</h2>
+<h3>4, Star Umrah Deals:</h3>
+<p>It is the ideal combination of cost and lavishness. It contains the feature of premium hotels, breakfast buffet, and the proximity of the holy mosques.</p>
 
-            <p>Airlines offering flights to Saudi Arabia from Pakistan include;</p>
+<h3>5, Star VIP Umrah Packages:</h3>
+<p>Stay in luxurious hotels such as the Fairmont Makkah Clock Royal Tower or The Oberoi in Madinah and enjoy the comfort of world, class facilities. Get the view of the Kaaba or the Prophet's Mosque from your room.</p>
 
-            <ul>
-                <li>PIA</li>
-                <li>Emirates</li>
-                <li>Gulf Air</li>
-                <li>Kuwait Airways</li>
-                <li>Flynas</li>
-                <li>Wizz Air</li>
-                <li>Ryanair</li>
-                <li>Pegasus</li>
-                <li>Turkish Airlines</li>
-            </ul>
+<h3>Ramadan Umrah Deals:</h3>
+<p>Ramadan Umrahat carries the highest reward. We provide customized packages for the first 20 days and the last 10 days of Ramadan, which is a very sought, after time. Our packages will enable you to find Laylatul Qadr great time in the most holy places on the earth.</p>
 
-            <h2>Process of Umrah Visa from Pakistan</h2>
+<h3>Hajj Packages:</h3>
+<p>Doing the Fifth Pillar Hajj is not only a physical and emotional challenge but also a spiritual one. HadiTours alleviate the burden of such a complex journey by offering well, structured Hajj packages.</p>
 
-            <p>To get an <a href="{{ route('umrahVisa') }}" target="_self">Umrah visa</a> from
-                Pakistan, you must find a reliable travel agency with quality services to handle the process. Your
-                travel agent will prepare your Umrah application and make your journey arrangements. After you have
-                found a reliable travel agency in Pakistan, you will have to ensure that you have all your
-                documents ready and up-to-date. You will send these documents to Umrah travel agents, and they will
-                take care of your visa application process.</p>
+<h3>Stay, In, Hotel Hajj Packages:</h3>
+<p>To make your journey as convenient as possible, you will remain in the same luxury hotel in Makkah throughout your pilgrimage days, including Hajj days (apart from your stay in Mina and Arafat).</p>
 
-            <p>Moreover, you will also have to download mandatory apps once you land in Saudi Arabia. These two apps
-                are the Tawakkalna app and the Etmarna app. The Tawakkalna app works only in Saudi Arabia and
-                records all your documents. While with the Etmarna app, you can get your prayer permits. We are a
-                reliable Umrah travel agency that can help you with your visa process and the whole Umrah journey.
-            </p>
+<h3>Moving Hajj Packages:</h3>
+<p>This is a cheap option where pilgrims stay in standard hotels near Makkah before the Hajj days, and move to an apartment or hotel closer to Mina during the Hajj peak days.</p>
 
-            <h2>Avail of our Customizable Umrah Deals</h2>
+<h3>VIP Mina & Arafat Camps:</h3>
+<p>We offer upgraded, air, conditioned European, style tents in Mina and Arafat, provided with cozy beds, private catering, and exclusive washrooms to reduce the physical effort on the peak Hajj days.</p>
 
-            <p>Being Ministry of Hajj-approved agents in Pakistan, we are dedicated to providing our fellow Muslims in
-                Pakistan with the highest quality services. We offer three types of Umrah packages, including 3-star,
-                4-star, and 5-star packages. These are ranked according to the hotel included in the Umrah deal.
-                Hotels hold an excellent position for those looking to go for an Umrah. Thus the cost depends on the
-                hotel you stay in during your Umrah days.</p>
+<h2>Comprehensive Travel Services for UK Pilgrims
+</h2>
 
-            <p>Even though we mainly have 7, 10, 12, and 14 nights deals, we can make flexible packages for our
-                customers. Whether you want to stay for less than 7 days or more than 14 days, you can trust us to
-                provide you with the best affordable package. Most of the hotels present in our <a
-                    href="{{ route('umrahPackages') }}" target="_self">Umrah packages</a> come
-                with complimentary breakfasts. This means you will not have to worry about your morning meal before
-                performing Umrah or visiting other holy sites.</p>
+<p>HadiTours goes beyond simply booking flights and hotels. We provide end-to-end services to ensure a stress-free experience.</P>
 
-            <p>If you want us to arrange other meals for the day, we can include them in the package. But this
-                differs from the offer that most people avail of when going for an Umrah on a budget. We are
-                reliable Umrah travel agents who can also provide you with transportation to and from the airport to
-                your hotel if you want us to. There is always room for changes and customisation in the <a
-                    href="{{ route('umrahPackages2026') }}">Umrah package 2026</a>&nbsp;we
-                prepare for you. You can tell us your requirements, and we will do it accordingly.</p>
+<h3>Getting Your Visa Quickly and Easily</h3>
+<p>When it comes to required visas, there are many places you could go for help, but we have the reputation and experience to help you through the visa process as an authorized travel agency for Hajj and Umrah travel in the UK, which takes care of all aspects of applying for the correct visa, whether it is an E-Visa, an Umrah visa or an official Hajj permit through the Nusuk platform, our visa team makes sure that your documents are processed correctly and without delay.</p>
 
-            <h2>FAQs</h2>
+<h3>Book Your Flight</h3>
+<p>We comprehensively work with the top 5 airlines: Saudi Airlines, British Airways, Emirates, Qatar Airways, Royal Jordanian to provide you with the best range of airline options, including timing and convenience, as we can provide you with tickets on direct flights from the UK to Jeddah or Madinah and return or to afford you connecting flights based on your desire.</p>
 
-            <h3>How long does an Umrah visa take from Pakistan?</h3>
+<h3>Stay in a High Quality Hotel</h3>
+<p>We have excellent relationships with the world's leading hotel chains in Saudi Arabia and therefore we can offer you only the finest hotels; whether you want to stay in a luxury suite in the Abraj Al Bait complex or a beautiful hotel or guest house within walking distance of Masjid al-Nabawi, we will find you the best rates and the best locations.</p>
 
-            <p>After you have submitted your eVisa application, it usually takes approximately four business days to
-                process your visa. You also have an option of Rush Processing that will help you get your
-                application approved in two business days. The third and fastest option is the Super Rush option,
-                which will get your visa in almost sixteen hours.</p>
+<h3>Reliably Transported When Travelling Between Jeddah, Makkah and Madinah</h3>
+<p>Whenever you are travelling among the 3 cities of Jeddah, Makkah and Madinah, there are many options available for reliable transportation. We can arrange to have you transfer between the three cities using private and modern air-conditioned cars, SUVs or luxury coaches. Also, we can arrange to have you ride the Haramain High-Speed Railway, which will cut down your total travel time between Makkah and Madinah to just over 2 hours!</p>
 
-            <h3>How many days are enough for Umrah?</h3>
+<h2>Preparing for Your Journey with HadiTours
+</h2>
 
-            <p>People usually go for an Umrah for a minimum of 7 and a maximum of 30 days. If you have a tight
-                budget and are concerned about your comfort, 7 days are adequate to perform Umrah and visit the holy
-                sites.</p>
+<p>We believe that physical preparation is just as important as logistical planning. To ensure you are fully prepared to reap the spiritual benefits of your journey, we offer comprehensive pre-departure support.</P>
 
-            <h3>What are the Umrah visa application requirements?</h3>
+<h3>Educational Seminars:</h3>
+<p>We facilitate lecture series across the UK for the benefit of pilgrims, guiding them through the proper performance of Hajj and Umrah rituals (Fiqh of Hajj/Umrah), clarifying the rules of ihram, and helping them understand what the experience will be like, as well as what to expect upon arrival.</p>
 
-            <p>For your Umrah application, you must have the following documents ready;</p>
+<h3>Health and Safety Guidelines:</h3>
+<p>We constantly update and share information on compulsory vaccinations (e.g. ACWY meningitis vaccine), what to bring in your luggage, and how to keep yourself fit while in the heat of Saudi Arabia.</p>
 
-            <ul>
-                <li>Application form for the visa</li>
-                <li>A recent passport-size photograph</li>
-                <li>A valid passport consisting of minimum six-month validity</li>
-                <li>Non-refundable Umrah flight tickets</li>
-                <li>Relationship between the female and male pilgrim going together</li>
-                <li>Meningitis vaccination proof</li>
-            </ul>
+<h3>HadiTours Welcome Kit:</h3>
+<p>A pilgrim will find a free gift pack unattended to him/her comprising of an Ihram (for men), a guidebook to Umrah/Hajj, a personalized shoes string bag, and a counter for Tawaf and Sa'i.</p>
 
-            <h3>What is the significance of performing Umrah?</h3>
 
-            <p>Umrah enables Muslims to pray for forgiveness for their mortal sins and refresh their faith.</p>
+<!--Frequently Asked Questions (FAQs)-->
 
-            <h3>What are the pillars of Umrah?</h3>
+<p style="font-size: 2em; font-weight: bold; margin: 0.67em 0;">
+  Frequently Asked Questions (FAQs)
+</p>
 
-            <p>The main pillars of Umrah include Ihram, Tawaf (circling the Kaaba seven times), Saee between the
-                mountains of Safa and Marwa (walking between the mountains seven times), and Tahallul.</p>
+<h2>1. Do I need a Mahram to travel for Umrah from the UK?</h2>
+<p>The latest news from the Saudi Ministry of Hajj and Umrah indicate that women will not have to be accompanied by a mahram (male guardian) if they want to perform Umrah or Hajj, as long as they are traveling with a safe group. Please get in touch with our team to know the current rules.</p>
 
-            <h3>How can I catch a direct flight to Saudi Arabia from Pakistan?</h3>
+<h2>2. How far in advance should I book my Hajj or Umrah package?</h2>
+<p>We suggest you should book your Umrah trip about 4 to 6 weeks ahead to get the best airfare and hotel prices. Hajj, on the other hand, is a different story with very limited quotas and extremely high demands; hence, we strongly recommend you to declare your interest with us right away, and at the very latest, 6 to 8 months before.</p>
 
-            <p>Airlines that provide flights from Pakistan to Saudi Arabia include PIA, Saudia, and others. You can take help from reliable travel agents to guide you about direct flights from different airlines.</p>
+<h2>3. Are your packages ATOL protected?</h2>
+<p>Yes, HadiTours is a fully ATOL-protected travel agency. This means your money is safe and secure when you book a flight-inclusive package with us.</p>
+
+<h2>4. Can I customize my Umrah package?</h2>
+<p>Definitely!!! That's what we do, create tailor, made packages. You can decide on your travel dates, airlines, hotel rating, and transportation method. Communicate your needs to our travel consultants, and we will put together the perfect itinerary for you.</p>
+
+<h2>Ready to Answer the Call? Book Your Journey Today
+</h2>
+
+<p>The pilgrimage to the House of Allah is a beckoning of the Most High God. Should you hear the voice of the heart, trust HadiTours to lead you there. Being your only Hajj and Umrah Travel agency in uk, we guarantee that your travel arrangements will be done with the greatest care, respect, and professionalism so that you can enjoy the worships beauty without any distractions.
+</P>
+
+<ul>
+  <li><strong>Contact Us Today to Start Planning Your Spiritual Journey:</strong></li>
+  <li>Phone: 020 3103 0264</li>
+  <li>Email: info@haditours.co.uk</li>
+  <li>Office Location: 13 Station Rd, London SE25 5AH</li>
+</ul>
 
         </div>
 

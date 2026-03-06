@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('meta')
-<title>Trusted Islamic Travel Agency in Pakistan for Umrah Services</title>
-<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in Karachi, Pakistan. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
+<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
 @endsection
 @section('content')
 <div class="pkg-header-top text-center">
@@ -16,7 +16,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-10">
                 <div class="section-card shadow-sm">
-                    <p class="lead mb-4">When you visit <strong>Umrah Agency</strong>, we use cookies to deliver our services, personalize your experience, and analyze site traffic.</p>
+                    <p class="lead mb-4">When you visit <strong>Hadi Tours</strong>, we use cookies to deliver our services, personalize your experience, and analyze site traffic.</p>
 
                     <div class="legal-section mt-5">
                         <h4 class="font-weight-bold mb-3 text-dark">What is a Cookie?</h4>
