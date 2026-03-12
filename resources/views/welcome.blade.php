@@ -1,4 +1,4 @@
-@extends('layouts.master')
+﻿@extends('layouts.master')
 @section('meta')
 <title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
 <meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
@@ -6,101 +6,99 @@
 @endsection
 @verbatim
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "TravelAgency",
-  "@id": "https://www.haditours.co.uk/#travelagency",
-  "name": "Hadi Tours",
-  "alternateName": "Leading Hajj and Umrah Travel Agency in UK",
-  "url": "https://www.haditours.co.uk/",
-  "image": "https://haditours.co.uk/public/assets/images/logo.png",
-  "logo": "https://haditours.co.uk/public/assets/images/logo.png",
-  "description": "Hadi Tours is a leading Hajj and Umrah tours Operator in the UK, ATOL & IATA certified, specialising in Umrah packages, Hajj support, flights, hotels, and tailored Hajj and Umrah travel services.",
-  "priceRange": "£££",
-  "telephone": "+44 20 3103 0264",
-  "email": "info@haditours.co.uk",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "13 Station Rd",
-    "addressLocality": "London",
-    "postalCode": "SE25 5AH",
-    "addressCountry": "GB"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 51.39793,
-    "longitude": -0.07592
-  },
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+44 20 3103 0264",
-    "contactType": "customer service",
-    "areaServed": "GB",
-    "availableLanguage": ["English", "Urdu", "Arabic"]
-  },
-  "openingHoursSpecification": [
     {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday"
-      ],
-      "opens": "09:00",
-      "closes": "20:00"
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Saturday","Sunday"],
-      "opens": "10:00",
-      "closes": "18:00"
+        "@context": "https://schema.org",
+        "@type": "TravelAgency",
+        "@id": "https://www.haditours.co.uk/#travelagency",
+        "name": "Hadi Tours",
+        "alternateName": "Leading Hajj and Umrah Travel Agency in UK",
+        "url": "https://www.haditours.co.uk/",
+        "image": "https://haditours.co.uk/public/assets/images/logo.png",
+        "logo": "https://haditours.co.uk/public/assets/images/logo.png",
+        "description": "Hadi Tours is a leading Hajj and Umrah tours Operator in the UK, ATOL & IATA certified, specialising in Umrah packages, Hajj support, flights, hotels, and tailored Hajj and Umrah travel services.",
+        "priceRange": "£££",
+        "telephone": "+44 20 3103 0264",
+        "email": "info@haditours.co.uk",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "13 Station Rd",
+            "addressLocality": "London",
+            "postalCode": "SE25 5AH",
+            "addressCountry": "GB"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 51.39793,
+            "longitude": -0.07592
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+44 20 3103 0264",
+            "contactType": "customer service",
+            "areaServed": "GB",
+            "availableLanguage": ["English", "Urdu", "Arabic"]
+        },
+        "openingHoursSpecification": [{
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
+                "opens": "09:00",
+                "closes": "20:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Saturday", "Sunday"],
+                "opens": "10:00",
+                "closes": "18:00"
+            }
+        ],
+        "sameAs": [
+            "https://www.facebook.com/haditours",
+            "https://x.com/haditours",
+            "https://www.instagram.com/haditours",
+            "https://uk.pinterest.com/haditours",
+            "https://www.linkedin.com/company/haditours"
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.9,
+            "bestRating": 5
+        },
+        "knowsAbout": [
+            "Family Umrah Packages from UK",
+            "Group and Individual Umrah Packages UK",
+            "Hajj & Umrah Services",
+            "Leading Hajj and Umrah Tours Agency in UK",
+            "Flights & Hotels Booking"
+        ],
+        "makesOffer": [{
+                "@type": "Offer",
+                "name": "Umrah Packages",
+                "url": "https://www.haditours.co.uk/umrah-packages.html",
+                "description": "Affordable 3-star, 4-star, and 5-star Umrah packages including flights, visa, hotels near Haram, transport, and Ziyarat tours.",
+                "availability": "https://schema.org/InStock"
+            },
+            {
+                "@type": "Offer",
+                "name": "Hajj Support Services",
+                "url": "https://www.haditours.co.uk/cheap-hajj-packages.html",
+                "description": "Guided Hajj advice and support provided by experienced consultants.",
+                "availability": "https://schema.org/InStock"
+            },
+            {
+                "@type": "Offer",
+                "name": "Flights & Hotel Bookings",
+                "url": "https://www.haditours.co.uk",
+                "description": "Worldwide flights, hotel booking services, and customized travel itineraries.",
+                "availability": "https://schema.org/InStock"
+            }
+        ]
     }
-  ],
-  "sameAs": [
-    "https://www.facebook.com/haditours",
-    "https://x.com/haditours",
-    "https://www.instagram.com/haditours",
-    "https://uk.pinterest.com/haditours",
-    "https://www.linkedin.com/company/haditours"
-  ],
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": 4.9,
-    "bestRating": 5
-  },
-  "knowsAbout": [
-    "Family Umrah Packages from UK",
-    "Group and Individual Umrah Packages UK",
-    "Hajj & Umrah Services",
-    "Leading Hajj and Umrah Tours Agency in UK",
-    "Flights & Hotels Booking"
-  ],
-  "makesOffer": [
-    {
-      "@type": "Offer",
-      "name": "Umrah Packages",
-      "url": "https://www.haditours.co.uk/umrah-packages.html",
-      "description": "Affordable 3-star, 4-star, and 5-star Umrah packages including flights, visa, hotels near Haram, transport, and Ziyarat tours.",
-      "availability": "https://schema.org/InStock"
-    },
-    {
-      "@type": "Offer",
-      "name": "Hajj Support Services",
-      "url": "https://www.haditours.co.uk/cheap-hajj-packages.html",
-      "description": "Guided Hajj advice and support provided by experienced consultants.",
-      "availability": "https://schema.org/InStock"
-    },
-    {
-      "@type": "Offer",
-      "name": "Flights & Hotel Bookings",
-      "url": "https://www.haditours.co.uk",
-      "description": "Worldwide flights, hotel booking services, and customized travel itineraries.",
-      "availability": "https://schema.org/InStock"
-    }
-  ]
-}
 </script>
 @endverbatim
 @section('content')
@@ -110,8 +108,7 @@
         <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.jpeg')}}" class="img-fluid" alt="Home Page Banner - Hadi Tours" width="1920" height="600" fetchpriority="high">
         <div class="banner-text">
             <h1>Trusted Islamic Travel Agency&nbsp;in UK</h1>
-            <h4>For Umrah Services</h4>
-            </h4>
+            <p>For Umrah Services</p>
         </div>
     </div>
     <div class="searchEngine" id="packageInquiry">
@@ -149,7 +146,7 @@
 
                 <div class="form-group Half">
                     <label for="enquiry-departuredate">
-                        <i class="fa fa-calendar fa-2x text-warning mr-1"   style="color: #85641E !important; font-size: 1.4em;"></i> Departure Date
+                        <i class="fa fa-calendar fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Departure Date
                     </label>
                     <input type="text" id="enquiry-departuredate" name="n[Departure Date]" class="DepartureDate form-control" readonly placeholder="Departure Date" required />
                     <span class="borderBottom"></span>
@@ -255,8 +252,135 @@
     </div>
 </section>
 
+<style>
+    .featured-slick-carousel {
+        margin-bottom: 40px !important;
+        padding: 0;
+        position: relative;
+        display: flex;
+    }
 
+    .featured-slick-carousel:not(.slick-initialized) {
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
 
+    .featured-slick-carousel:not(.slick-initialized) .item {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+    }
+
+    .featured-slick-carousel.slick-initialized {
+        display: block;
+        /* Allow overflow for the hover shadow and transformations */
+        overflow: visible;
+    }
+
+    /* Add padding to the slick-list to contain the shadow/transform without clipping */
+    .featured-slick-carousel .slick-list {
+        padding: 20px 0 60px !important; /* Bottom padding for shadows and height */
+        margin: -20px 0 -60px !important;
+        overflow: visible !important;
+        transition: height 0.3s ease;
+    }
+
+    .featured-slick-carousel .item {
+        padding: 15px;
+        height: auto !important;
+    }
+
+    .featured-slick-carousel .mainPackage {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        margin: 0;
+        height: auto !important; /* Allow matchHeight to set the height */
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #eee;
+        border-radius: 8px;
+        overflow: hidden;
+        background: #fff;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .featured-slick-carousel .mainPackage:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.18);
+        position: relative;
+        z-index: 10;
+    }
+
+    .featured-slick-carousel .mainPackageImage img {
+        height: 17rem !important;
+        object-fit: cover;
+    }
+
+    .featured-slick-carousel .slick-prev,
+    .featured-slick-carousel .slick-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 10;
+        width: 35px;
+        height: 35px;
+        background: rgba(61, 62, 66, 0.8) !important;
+        border: none;
+        border-radius: 50%;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+    }
+
+    .featured-slick-carousel .slick-prev:hover,
+    .featured-slick-carousel .slick-next:hover {
+        background: #85641e !important;
+    }
+
+    .featured-slick-carousel .slick-prev {
+        left: 10px !important;
+    }
+
+    .featured-slick-carousel .slick-next {
+        right: 10px !important;
+    }
+
+    .featured-slick-carousel .slick-prev i,
+    .featured-slick-carousel .slick-next i {
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .featured-slick-carousel .slick-dots {
+        position: absolute;
+        bottom: 58px; /* 2px below the cards (60px padding - 2px) */
+        display: flex !important;
+        justify-content: center;
+        width: 100%;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .featured-slick-carousel .slick-dots li {
+        margin: 0 5px;
+    }
+
+    .featured-slick-carousel .slick-dots li button {
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        background: #3D3E42;
+        border-radius: 50%;
+        border: none;
+        opacity: 0.2;
+        padding: 0;
+    }
+
+    .featured-slick-carousel .slick-dots li.slick-active button {
+        opacity: 1;
+    }
+</style>
 <!--slider section End-->
 <section class="featuredPackages">
     <div class="container">
@@ -1129,6 +1253,8 @@
 <!-- Home page content section starts here  -->
 
 
+
+
 <div class="page-content">
 
     <div class="container">
@@ -1137,139 +1263,140 @@
 
             <h2>HadiTours: Your Trusted Hajj and Umrah Travel Agency in UK </h2>
 
-<p>The pilgrimage to Makkah and Madinah is a Muslim's single most defining trip in life. HadiTours leading Hajj and Umrah Travel Agency in UK, we welcome you to experience this spiritual journey with us. We realize that the pilgrimage to the cities of Makkah and Madinah is not merely a trip because it is the supreme spiritual achievement of a Muslim's life. It is a journey deeply filled with faith, worship, and cleansing. We at HadiTours, firmly believe our purpose is to make this divine journey easier by offering excellent, trouble, free, and spiritually uplifting travel experiences to the UK Muslim community.
-</P>
+            <p>The pilgrimage to Makkah and Madinah is a Muslim's single most defining trip in life. HadiTours leading Hajj and Umrah Travel Agency in UK, we welcome you to experience this spiritual journey with us. We realize that the pilgrimage to the cities of Makkah and Madinah is not merely a trip because it is the supreme spiritual achievement of a Muslim's life. It is a journey deeply filled with faith, worship, and cleansing. We at HadiTours, firmly believe our purpose is to make this divine journey easier by offering excellent, trouble, free, and spiritually uplifting travel experiences to the UK Muslim community.
+            </P>
 
-<p>Planning a Hajj that is one of the five pillars or performing a voluntary Umrah, give HadiTours the honor of taking care of every detail of your journey. We will take care of everything from the visa, flights, to accommodation which are just a few steps away from the Haram, quite simply, you will be able to concentrate completely on your acts of worship and strengthening your relationship with Allah (SWT).</P>
+            <p>Planning a Hajj that is one of the five pillars or performing a voluntary Umrah, give HadiTours the honor of taking care of every detail of your journey. We will take care of everything from the visa, flights, to accommodation which are just a few steps away from the Haram, quite simply, you will be able to concentrate completely on your acts of worship and strengthening your relationship with Allah (SWT).</P>
 
-<h2>Guiding Your Steps to the Sacred Sanctuaries</h2>
+            <h2>Guiding Your Steps to the Sacred Sanctuaries</h2>
 
-<p>we consider it an immense honor and privilege to serve the guests of Allah (SWT). Rooted in the values of honesty, openness, and profound religious commitment, we have developed into a major and very reputable Hajj and Umrah Travel agency in uk.
-</P>
+            <p>we consider it an immense honor and privilege to serve the guests of Allah (SWT). Rooted in the values of honesty, openness, and profound religious commitment, we have developed into a major and very reputable Hajj and Umrah Travel agency in uk.
+            </P>
 
-<p>Our personnel consists of experienced travel professionals and well, informed Islamic scholars who cooperate closely to create packages that meet the different requirements of the British Muslim community. We understand that each pilgrim has different needs, for example, if you are a family traveling with kids, an old couple who needs a wheelchair, or a solo traveler searching for a very cheap option. We guarantee that your comfort, safety and spiritual well, being will be our top priorities throughout the entire journey.</P>
+            <p>Our personnel consists of experienced travel professionals and well, informed Islamic scholars who cooperate closely to create packages that meet the different requirements of the British Muslim community. We understand that each pilgrim has different needs, for example, if you are a family traveling with kids, an old couple who needs a wheelchair, or a solo traveler searching for a very cheap option. We guarantee that your comfort, safety and spiritual well, being will be our top priorities throughout the entire journey.</P>
 
-<h3>Our Mission </h3>
+            <h3>Our Mission </h3>
 
-<p>Our mission is to provide a seamless, comfortable, and spiritually fulfilling Hajj and Umrah experiences whilst delivering outstanding customer service, offering clear pricing, and expert guidance.</P>
+            <p>Our mission is to provide a seamless, comfortable, and spiritually fulfilling Hajj and Umrah experiences whilst delivering outstanding customer service, offering clear pricing, and expert guidance.</P>
 
-<h3>Our Vision</h3>
+            <h3>Our Vision</h3>
 
-<p>We want to be the leading and most reliable Islamic travel partner in the United Kingdom, well, known for our strong dedication to the Guests of Allah.</P>
+            <p>We want to be the leading and most reliable Islamic travel partner in the United Kingdom, well, known for our strong dedication to the Guests of Allah.</P>
 
-<h2>Why Choose HadiTours as Your Hajj and Umrah Travel Agency in UK?</h2>
+            <h2>Why Choose HadiTours as Your Hajj and Umrah Travel Agency in UK?</h2>
 
-<p>Choosing the right travel agency is crucial for a peaceful pilgrimage. Here is why thousands of UK Muslims trust HadiTours year after year:</P>
+            <p>Choosing the right travel agency is crucial for a peaceful pilgrimage. Here is why thousands of UK Muslims trust HadiTours year after year:</P>
 
-<h3>ATOL Protected & Ministry Approved:</h3>
-<p>We are fully ATOL protected for your financial security and peace of mind. In addition, we are an agency approved by the Ministry of Hajj and Umrah in Saudi Arabia.</p>
+            <h3>ATOL Protected & Ministry Approved:</h3>
+            <p>We are fully ATOL protected for your financial security and peace of mind. In addition, we are an agency approved by the Ministry of Hajj and Umrah in Saudi Arabia.</p>
 
-<h3>Expert Spiritual Guidance:</h3>
-<p>We give you access via our packages to knowledgeable and experienced Islamic scholars who, among other things, conduct pre, departure seminars. They also provide the ritual steps guidance and, in Makkah and Madinah, lectures to enable the correct performance of worship acts according to the Sunnah.</p>
+            <h3>Expert Spiritual Guidance:</h3>
+            <p>We give you access via our packages to knowledgeable and experienced Islamic scholars who, among other things, conduct pre, departure seminars. They also provide the ritual steps guidance and, in Makkah and Madinah, lectures to enable the correct performance of worship acts according to the Sunnah.</p>
 
-<h3>Custom, Made Packages:</h3>
-<p>We do not believe in the one, size, fits, all concept. We, therefore, prepare a plan for you whether you want a 5, star VIP package with the Kaaba as your view or a budget package that is clean and comfortable without luxuries.</p>
+            <h3>Custom, Made Packages:</h3>
+            <p>We do not believe in the one, size, fits, all concept. We, therefore, prepare a plan for you whether you want a 5, star VIP package with the Kaaba as your view or a budget package that is clean and comfortable without luxuries.</p>
 
-<h3>24/7 Dedicated Ground Support:</h3>
-<p>To help you anytime, any day, our local team in Saudi Arabia is at your disposal. From meeting and assisting you at the airport, handing over your hotel to you, to dealing with any emergency situations, we are always with you.</p>
+            <h3>24/7 Dedicated Ground Support:</h3>
+            <p>To help you anytime, any day, our local team in Saudi Arabia is at your disposal. From meeting and assisting you at the airport, handing over your hotel to you, to dealing with any emergency situations, we are always with you.</p>
 
-<h3>Transparent Pricing:</h3>
-<p>There are no charges beyond those in the contract with <a href="https://www.haditours.co.uk">Hadi Tours</a>. We are a package, tour company that trusts its customers and hence the decision to make all inclusions and exclusions of a tour package always available to the client beforehand.</p>
+            <h3>Transparent Pricing:</h3>
+            <p>There are no charges beyond those in the contract with <a href="https://www.haditours.co.uk">Hadi Tours</a>. We are a package, tour company that trusts its customers and hence the decision to make all inclusions and exclusions of a tour package always available to the client beforehand.</p>
 
-<h2>Our Premium Pilgrimage Packages</h2>
+            <h2>Our Premium Pilgrimage Packages</h2>
 
-<p>As a top-tier Hajj and Umrah Travel agency in uk, we offer a wide array of meticulously planned packages.</P>
+            <p>As a top-tier Hajj and Umrah Travel agency in uk, we offer a wide array of meticulously planned packages.</P>
 
-<h3>Umrah Deals: A Journey of Renewal</h3>
-<p>Perform the lesser pilgrimage any time you wish to with our flexible 
-<a href="https://www.haditours.co.uk/umrah-packages.html">Umrah Packages</a>. We provide services for the UK market from the top UK airports namely London Heathrow, Manchester, and Birmingham.</p>
+            <h3>Umrah Deals: A Journey of Renewal</h3>
+            <p>Perform the lesser pilgrimage any time you wish to with our flexible
+                <a href="https://www.haditours.co.uk/umrah-packages.html">Umrah Packages</a>. We provide services for the UK market from the top UK airports namely London Heathrow, Manchester, and Birmingham.
+            </p>
 
-<h3>Economy Umrah Deals:</h3>
-<p>These packages are aimed at pilgrims with a tight budget. It offers clean and comfortable 3, star hotels that are either a walking distance or a shuttle ride away from the Haramain.</p>
+            <h3>Economy Umrah Deals:</h3>
+            <p>These packages are aimed at pilgrims with a tight budget. It offers clean and comfortable 3, star hotels that are either a walking distance or a shuttle ride away from the Haramain.</p>
 
-<h3>4, Star Umrah Deals:</h3>
-<p>It is the ideal combination of cost and lavishness. It contains the feature of premium hotels, breakfast buffet, and the proximity of the holy mosques.</p>
+            <h3>4, Star Umrah Deals:</h3>
+            <p>It is the ideal combination of cost and lavishness. It contains the feature of premium hotels, breakfast buffet, and the proximity of the holy mosques.</p>
 
-<h3>5, Star VIP Umrah Packages:</h3>
-<p>Stay in luxurious hotels such as the Fairmont Makkah Clock Royal Tower or The Oberoi in Madinah and enjoy the comfort of world, class facilities. Get the view of the Kaaba or the Prophet's Mosque from your room.</p>
+            <h3>5, Star VIP Umrah Packages:</h3>
+            <p>Stay in luxurious hotels such as the Fairmont Makkah Clock Royal Tower or The Oberoi in Madinah and enjoy the comfort of world, class facilities. Get the view of the Kaaba or the Prophet's Mosque from your room.</p>
 
-<h3>Ramadan Umrah Deals:</h3>
-<p>Ramadan Umrahat carries the highest reward. We provide customized packages for the first 20 days and the last 10 days of Ramadan, which is a very sought, after time. Our packages will enable you to find Laylatul Qadr great time in the most holy places on the earth.</p>
+            <h3>Ramadan Umrah Deals:</h3>
+            <p>Ramadan Umrahat carries the highest reward. We provide customized packages for the first 20 days and the last 10 days of Ramadan, which is a very sought, after time. Our packages will enable you to find Laylatul Qadr great time in the most holy places on the earth.</p>
 
-<h3>Hajj Packages:</h3>
-<p>Doing the Fifth Pillar Hajj is not only a physical and emotional challenge but also a spiritual one. HadiTours alleviate the burden of such a complex journey by offering well, structured Hajj packages.</p>
+            <h3>Hajj Packages:</h3>
+            <p>Doing the Fifth Pillar Hajj is not only a physical and emotional challenge but also a spiritual one. HadiTours alleviate the burden of such a complex journey by offering well, structured Hajj packages.</p>
 
-<h3>Stay, In, Hotel Hajj Packages:</h3>
-<p>To make your journey as convenient as possible, you will remain in the same luxury hotel in Makkah throughout your pilgrimage days, including Hajj days (apart from your stay in Mina and Arafat).</p>
+            <h3>Stay, In, Hotel Hajj Packages:</h3>
+            <p>To make your journey as convenient as possible, you will remain in the same luxury hotel in Makkah throughout your pilgrimage days, including Hajj days (apart from your stay in Mina and Arafat).</p>
 
-<h3>Moving Hajj Packages:</h3>
-<p>This is a cheap option where pilgrims stay in standard hotels near Makkah before the Hajj days, and move to an apartment or hotel closer to Mina during the Hajj peak days.</p>
+            <h3>Moving Hajj Packages:</h3>
+            <p>This is a cheap option where pilgrims stay in standard hotels near Makkah before the Hajj days, and move to an apartment or hotel closer to Mina during the Hajj peak days.</p>
 
-<h3>VIP Mina & Arafat Camps:</h3>
-<p>We offer upgraded, air, conditioned European, style tents in Mina and Arafat, provided with cozy beds, private catering, and exclusive washrooms to reduce the physical effort on the peak Hajj days.</p>
+            <h3>VIP Mina & Arafat Camps:</h3>
+            <p>We offer upgraded, air, conditioned European, style tents in Mina and Arafat, provided with cozy beds, private catering, and exclusive washrooms to reduce the physical effort on the peak Hajj days.</p>
 
-<h2>Comprehensive Travel Services for UK Pilgrims
-</h2>
+            <h2>Comprehensive Travel Services for UK Pilgrims
+            </h2>
 
-<p>HadiTours goes beyond simply booking flights and hotels. We provide end-to-end services to ensure a stress-free experience.</P>
+            <p>HadiTours goes beyond simply booking flights and hotels. We provide end-to-end services to ensure a stress-free experience.</P>
 
-<h3>Getting Your Visa Quickly and Easily</h3>
-<p>When it comes to required visas, there are many places you could go for help, but we have the reputation and experience to help you through the visa process as an authorized travel agency for Hajj and Umrah travel in the UK, which takes care of all aspects of applying for the correct visa, whether it is an E-Visa, an Umrah visa or an official Hajj permit through the Nusuk platform, our visa team makes sure that your documents are processed correctly and without delay.</p>
+            <h3>Getting Your Visa Quickly and Easily</h3>
+            <p>When it comes to required visas, there are many places you could go for help, but we have the reputation and experience to help you through the visa process as an authorized travel agency for Hajj and Umrah travel in the UK, which takes care of all aspects of applying for the correct visa, whether it is an E-Visa, an Umrah visa or an official Hajj permit through the Nusuk platform, our visa team makes sure that your documents are processed correctly and without delay.</p>
 
-<h3>Book Your Flight</h3>
-<p>We comprehensively work with the top 5 airlines: Saudi Airlines, British Airways, Emirates, Qatar Airways, Royal Jordanian to provide you with the best range of airline options, including timing and convenience, as we can provide you with tickets on direct flights from the UK to Jeddah or Madinah and return or to afford you connecting flights based on your desire.</p>
+            <h3>Book Your Flight</h3>
+            <p>We comprehensively work with the top 5 airlines: Saudi Airlines, British Airways, Emirates, Qatar Airways, Royal Jordanian to provide you with the best range of airline options, including timing and convenience, as we can provide you with tickets on direct flights from the UK to Jeddah or Madinah and return or to afford you connecting flights based on your desire.</p>
 
-<h3>Stay in a High Quality Hotel</h3>
-<p>We have excellent relationships with the world's leading hotel chains in Saudi Arabia and therefore we can offer you only the finest hotels; whether you want to stay in a luxury suite in the Abraj Al Bait complex or a beautiful hotel or guest house within walking distance of Masjid al-Nabawi, we will find you the best rates and the best locations.</p>
+            <h3>Stay in a High Quality Hotel</h3>
+            <p>We have excellent relationships with the world's leading hotel chains in Saudi Arabia and therefore we can offer you only the finest hotels; whether you want to stay in a luxury suite in the Abraj Al Bait complex or a beautiful hotel or guest house within walking distance of Masjid al-Nabawi, we will find you the best rates and the best locations.</p>
 
-<h3>Reliably Transported When Travelling Between Jeddah, Makkah and Madinah</h3>
-<p>Whenever you are travelling among the 3 cities of Jeddah, Makkah and Madinah, there are many options available for reliable transportation. We can arrange to have you transfer between the three cities using private and modern air-conditioned cars, SUVs or luxury coaches. Also, we can arrange to have you ride the Haramain High-Speed Railway, which will cut down your total travel time between Makkah and Madinah to just over 2 hours!</p>
+            <h3>Reliably Transported When Travelling Between Jeddah, Makkah and Madinah</h3>
+            <p>Whenever you are travelling among the 3 cities of Jeddah, Makkah and Madinah, there are many options available for reliable transportation. We can arrange to have you transfer between the three cities using private and modern air-conditioned cars, SUVs or luxury coaches. Also, we can arrange to have you ride the Haramain High-Speed Railway, which will cut down your total travel time between Makkah and Madinah to just over 2 hours!</p>
 
-<h2>Preparing for Your Journey with HadiTours
-</h2>
+            <h2>Preparing for Your Journey with HadiTours
+            </h2>
 
-<p>We believe that physical preparation is just as important as logistical planning. To ensure you are fully prepared to reap the spiritual benefits of your journey, we offer comprehensive pre-departure support.</P>
+            <p>We believe that physical preparation is just as important as logistical planning. To ensure you are fully prepared to reap the spiritual benefits of your journey, we offer comprehensive pre-departure support.</P>
 
-<h3>Educational Seminars:</h3>
-<p>We facilitate lecture series across the UK for the benefit of pilgrims, guiding them through the proper performance of Hajj and Umrah rituals (Fiqh of Hajj/Umrah), clarifying the rules of ihram, and helping them understand what the experience will be like, as well as what to expect upon arrival.</p>
+            <h3>Educational Seminars:</h3>
+            <p>We facilitate lecture series across the UK for the benefit of pilgrims, guiding them through the proper performance of Hajj and Umrah rituals (Fiqh of Hajj/Umrah), clarifying the rules of ihram, and helping them understand what the experience will be like, as well as what to expect upon arrival.</p>
 
-<h3>Health and Safety Guidelines:</h3>
-<p>We constantly update and share information on compulsory vaccinations (e.g. ACWY meningitis vaccine), what to bring in your luggage, and how to keep yourself fit while in the heat of Saudi Arabia.</p>
+            <h3>Health and Safety Guidelines:</h3>
+            <p>We constantly update and share information on compulsory vaccinations (e.g. ACWY meningitis vaccine), what to bring in your luggage, and how to keep yourself fit while in the heat of Saudi Arabia.</p>
 
-<h3>HadiTours Welcome Kit:</h3>
-<p>A pilgrim will find a free gift pack unattended to him/her comprising of an Ihram (for men), a guidebook to Umrah/Hajj, a personalized shoes string bag, and a counter for Tawaf and Sa'i.</p>
+            <h3>HadiTours Welcome Kit:</h3>
+            <p>A pilgrim will find a free gift pack unattended to him/her comprising of an Ihram (for men), a guidebook to Umrah/Hajj, a personalized shoes string bag, and a counter for Tawaf and Sa'i.</p>
 
 
-<!--Frequently Asked Questions (FAQs)-->
+            <!--Frequently Asked Questions (FAQs)-->
 
-<p style="font-size: 2em; font-weight: bold; margin: 0.67em 0;">
-  Frequently Asked Questions (FAQs)
-</p>
+            <p style="font-size: 2em; font-weight: bold; margin: 0.67em 0;">
+                Frequently Asked Questions (FAQs)
+            </p>
 
-<h2>1. Do I need a Mahram to travel for Umrah from the UK?</h2>
-<p>The latest news from the Saudi Ministry of Hajj and Umrah indicate that women will not have to be accompanied by a mahram (male guardian) if they want to perform Umrah or Hajj, as long as they are traveling with a safe group. Please get in touch with our team to know the current rules.</p>
+            <h2>1. Do I need a Mahram to travel for Umrah from the UK?</h2>
+            <p>The latest news from the Saudi Ministry of Hajj and Umrah indicate that women will not have to be accompanied by a mahram (male guardian) if they want to perform Umrah or Hajj, as long as they are traveling with a safe group. Please get in touch with our team to know the current rules.</p>
 
-<h2>2. How far in advance should I book my Hajj or Umrah package?</h2>
-<p>We suggest you should book your Umrah trip about 4 to 6 weeks ahead to get the best airfare and hotel prices. Hajj, on the other hand, is a different story with very limited quotas and extremely high demands; hence, we strongly recommend you to declare your interest with us right away, and at the very latest, 6 to 8 months before.</p>
+            <h2>2. How far in advance should I book my Hajj or Umrah package?</h2>
+            <p>We suggest you should book your Umrah trip about 4 to 6 weeks ahead to get the best airfare and hotel prices. Hajj, on the other hand, is a different story with very limited quotas and extremely high demands; hence, we strongly recommend you to declare your interest with us right away, and at the very latest, 6 to 8 months before.</p>
 
-<h2>3. Are your packages ATOL protected?</h2>
-<p>Yes, HadiTours is a fully ATOL-protected travel agency. This means your money is safe and secure when you book a flight-inclusive package with us.</p>
+            <h2>3. Are your packages ATOL protected?</h2>
+            <p>Yes, HadiTours is a fully ATOL-protected travel agency. This means your money is safe and secure when you book a flight-inclusive package with us.</p>
 
-<h2>4. Can I customize my Umrah package?</h2>
-<p>Definitely!!! That's what we do, create tailor, made packages. You can decide on your travel dates, airlines, hotel rating, and transportation method. Communicate your needs to our travel consultants, and we will put together the perfect itinerary for you.</p>
+            <h2>4. Can I customize my Umrah package?</h2>
+            <p>Definitely!!! That's what we do, create tailor, made packages. You can decide on your travel dates, airlines, hotel rating, and transportation method. Communicate your needs to our travel consultants, and we will put together the perfect itinerary for you.</p>
 
-<h2>Ready to Answer the Call? Book Your Journey Today
-</h2>
+            <h2>Ready to Answer the Call? Book Your Journey Today
+            </h2>
 
-<p>The pilgrimage to the House of Allah is a beckoning of the Most High God. Should you hear the voice of the heart, trust HadiTours to lead you there. Being your only Hajj and Umrah Travel agency in uk, we guarantee that your travel arrangements will be done with the greatest care, respect, and professionalism so that you can enjoy the worships beauty without any distractions.
-</P>
+            <p>The pilgrimage to the House of Allah is a beckoning of the Most High God. Should you hear the voice of the heart, trust HadiTours to lead you there. Being your only Hajj and Umrah Travel agency in uk, we guarantee that your travel arrangements will be done with the greatest care, respect, and professionalism so that you can enjoy the worships beauty without any distractions.
+            </P>
 
-<ul>
-  <li><strong>Contact Us Today to Start Planning Your Spiritual Journey:</strong></li>
-  <li>Phone: 020 3103 0264</li>
-  <li>Email: info@haditours.co.uk</li>
-  <li>Office Location: 13 Station Rd, London SE25 5AH</li>
-</ul>
+            <ul>
+                <li><strong>Contact Us Today to Start Planning Your Spiritual Journey:</strong></li>
+                <li>Phone: 020 3103 0264</li>
+                <li>Email: info@haditours.co.uk</li>
+                <li>Office Location: 13 Station Rd, London SE25 5AH</li>
+            </ul>
 
         </div>
 
@@ -1278,159 +1405,50 @@
 </div>
 <!-- Home page content section ends here  -->
 @endsection
-
 @push('scripts')
-<style>
-    .featured-slick-carousel {
-        margin-bottom: 80px !important; /* Increased for better gap */
-        padding: 0;
-        position: relative;
-        /* Prevent vertical stacking before initialization */
-        display: flex;
-    }
-    .featured-slick-carousel:not(.slick-initialized) {
-        flex-wrap: nowrap;
-        overflow: hidden; /* Only hide overflow before init */
-    }
-    .featured-slick-carousel:not(.slick-initialized) .item {
-        flex: 0 0 33.333%;
-        max-width: 33.333%;
-    }
-    @media (max-width: 1100px) {
-        .featured-slick-carousel:not(.slick-initialized) .item {
-            flex: 0 0 50%;
-            max-width: 50%;
-        }
-    }
-    @media (max-width: 768px) {
-        .featured-slick-carousel:not(.slick-initialized) .item {
-            flex: 0 0 100%;
-            max-width: 100%;
-        }
-    }
-    .featured-slick-carousel.slick-initialized {
-        display: block;
-        overflow: visible; /* Ensure dots are visible */
-    }
-    .featured-slick-carousel .item {
-        padding: 10px; /* Restored slightly more padding */
-    }
-    /* Increase card height components */
-    .featured-slick-carousel .mainPackageImage {
-        min-height: auto !important;
-    }
-    .featured-slick-carousel .mainPackageImage img {
-        height: 17rem !important; /* Increased from 14rem */
-        object-fit: cover;
-    }
-    .featured-slick-carousel .mainPackageDesc .package-heading {
-        padding: 8px 15px !important;
-    }
-    .featured-slick-carousel .mainPackageDesc .package-heading p.title {
-        font-size: 15px !important;
-        line-height: 1.2;
-    }
-    .featured-slick-carousel .mainPackageDesc .row.p-3 {
-        padding: 10px !important;
-    }
-    .featured-slick-carousel .mainPackageDesc .icon-text {
-        font-size: 11px !important;
-        line-height: 1.2;
-    }
-    .featured-slick-carousel .mainPackageDesc .row.py-2.px-4 {
-        padding: 5px 15px !important;
-    }
-    .featured-slick-carousel .mainPackageDesc .price {
-        font-size: 24px !important;
-    }
-
-    .featured-slick-carousel .slick-prev,
-    .featured-slick-carousel .slick-next {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        z-index: 10;
-        width: 35px; /* Slightly smaller arrows */
-        height: 35px;
-        background: rgba(61, 62, 66, 0.8) !important;
-        border: none;
-        border-radius: 50%;
-        display: flex !important;
-        align-items: center;
-        justify-content: center;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-        cursor: pointer;
-    }
-    .featured-slick-carousel .slick-prev {
-        left: 10px !important;
-    }
-    .featured-slick-carousel .slick-next {
-        right: 10px !important;
-    }
-    .featured-slick-carousel .slick-prev i,
-    .featured-slick-carousel .slick-next i {
-        color: #fff;
-        font-size: 14px;
-    }
-    .featured-slick-carousel .slick-dots {
-        position: absolute;
-        bottom: -45px;
-        display: flex !important;
-        justify-content: center;
-        width: 100%;
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-    .featured-slick-carousel .slick-dots li {
-        margin: 0 5px;
-    }
-    .featured-slick-carousel .slick-dots li button {
-        font-size: 0;
-        width: 10px;
-        height: 10px;
-        background: #3D3E42;
-        border-radius: 50%;
-        border: none;
-        opacity: 0.2;
-        padding: 0;
-    }
-    .featured-slick-carousel .slick-dots li.slick-active button {
-        opacity: 1;
-    }
-</style>
 <script type="text/javascript">
     document.addEventListener('DOMContentLoaded', function() {
         function initFeaturedSlider() {
-            if (window.jQuery && $.fn.slick) {
+            if (window.jQuery && $.fn.slick && $.fn.matchHeight) {
                 $('.featured-slick-carousel').each(function() {
-                    if (!$(this).hasClass('slick-initialized')) {
-                        $(this).slick({
+                    var $carousel = $(this);
+                    if (!$carousel.hasClass('slick-initialized')) {
+                        
+                        // Equalize heights before slider init to avoid layout shifts
+                        $carousel.find('.mainPackage').matchHeight();
+
+                        $carousel.on('init reInit setPosition', function() {
+                            // Re-trigger height equalization on slider updates
+                            $(this).find('.mainPackage').matchHeight();
+                        });
+
+                        $carousel.slick({
                             slidesToShow: 3,
                             slidesToScroll: 1,
                             arrows: true,
                             dots: true,
                             autoplay: true,
-                            autoplaySpeed: 2000, /* 2s delay as requested */
+                            autoplaySpeed: 3000,
+                            adaptiveHeight: false,
                             prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-chevron-left"></i></button>',
                             nextArrow: '<button type="button" class="slick-next"><i class="fa fa-chevron-right"></i></button>',
-                            responsive: [
-                                {
-                                    breakpoint: 1300,
+                            responsive: [{
+                                    breakpoint: 1200,
                                     settings: {
                                         slidesToShow: 3
                                     }
                                 },
                                 {
-                                    breakpoint: 1100,
+                                    breakpoint: 991,
                                     settings: {
                                         slidesToShow: 2
                                     }
                                 },
                                 {
-                                    breakpoint: 768,
+                                    breakpoint: 767,
                                     settings: {
-                                        slidesToShow: 1
+                                        slidesToShow: 1,
+                                        arrows: false
                                     }
                                 }
                             ]
@@ -1441,9 +1459,17 @@
                 setTimeout(initFeaturedSlider, 50);
             }
         }
+        
         initFeaturedSlider();
+        
+        // Re-calculate after images are likely loaded
+        window.addEventListener('load', function() {
+            $('.mainPackage').matchHeight();
+            if (window.jQuery && $.fn.slick) {
+                $('.featured-slick-carousel').slick('setPosition');
+            }
+        });
     });
 </script>
+
 @endpush
-
-

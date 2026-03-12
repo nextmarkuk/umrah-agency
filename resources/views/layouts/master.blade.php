@@ -12,7 +12,7 @@
 
 
     <meta name="twitter:card" content="summary">
-    <meta name="robots" content="noindex, nofollow">
+    <meta name="robots" content="index, follow">
     <meta name="twitter:site" content="@haditours">
     <meta name="twitter:title" content="Trusted Islamic Travel Agency in the UK for Umrah Services">
     <meta name="twitter:description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
@@ -27,6 +27,8 @@
     <meta property="og:image" content="https://www.haditours.co.uk/assets/images/logo.png" />
     <meta property="og:url" content="https://www.haditours.co.uk/" />
     <meta property="og:description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals." />
+    
+    <meta name="google-site-verification" content="rvAzZE4TBhBQLWDI31fFmvOvl7471uKKpTpp8LOeIHg" />
 
     <link href="{{asset('assets/css/jquery-ui.min.css')}}" rel="stylesheet">
     <link href="{{asset('assets/css/bootstrap.min.css')}}" rel="stylesheet">

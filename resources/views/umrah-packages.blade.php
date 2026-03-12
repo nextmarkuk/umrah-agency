@@ -7,74 +7,73 @@
 
 @verbatim
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "All-inclusive Cheap Umrah Packages From UK",
-  "url": "https://www.safatravel.co.uk/umrah-packages.html",
-  "description": "Hadi Tours offers Umrah Packages for Muslim pilgrims who are planning to perform Umrah from the UK. As the Umrah services are started from the UK, the guests of Allah Subhana Watallah can take full advantage of our special advance Umrah packages designed with the comfort of UK pilgrims in mind. Hadi Tours offers affordable, cheap, family, group, individual, and luxury Umrah packages with Umrah flights, visa, comfortable hotels near the Haram, transport, and Ziarats. Looking for the best affordable Umrah packages from the UK and wanting to experience a blessed Umrah journey while staying within your budget? Hadi Tours is here to help you make your holy dream become reality with our cheap Umrah packages from the UK. Being an ATOL and IATA certified Umrah travel agency with an on-ground team in Makkah and Madinah, we handle all your arrangements smoothly so you can focus on your prayers and the purpose of your journey",
-  "provider": {
-    "@type": "Organization",
-    "name": "Hadi Tours",
-    "url": "https://www.haditours.co.uk/"
-  },
-  "serviceType": "Umrah Tour Service",
-  "areaServed": {
-    "@type": "Country",
-    "name": "United Kingdom"
-  },
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Umrah Packages",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "3-Star Umrah Packages",
-          "description": "Affordable 3-star Umrah packages for 7, 10, 12, and 14 nights with flights, visa, hotels and transport.",
-          "offers": {
-            "@type": "AggregateOffer",
-            "priceCurrency": "GBP",
-            "lowPrice": "650",
-            "highPrice": "795",
-            "offerCount": "18"
-          }
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "All-inclusive Cheap Umrah Packages From UK",
+        "url": "https://www.safatravel.co.uk/umrah-packages.html",
+        "description": "Hadi Tours offers Umrah Packages for Muslim pilgrims who are planning to perform Umrah from the UK. As the Umrah services are started from the UK, the guests of Allah Subhana Watallah can take full advantage of our special advance Umrah packages designed with the comfort of UK pilgrims in mind. Hadi Tours offers affordable, cheap, family, group, individual, and luxury Umrah packages with Umrah flights, visa, comfortable hotels near the Haram, transport, and Ziarats. Looking for the best affordable Umrah packages from the UK and wanting to experience a blessed Umrah journey while staying within your budget? Hadi Tours is here to help you make your holy dream become reality with our cheap Umrah packages from the UK. Being an ATOL and IATA certified Umrah travel agency with an on-ground team in Makkah and Madinah, we handle all your arrangements smoothly so you can focus on your prayers and the purpose of your journey",
+        "provider": {
+            "@type": "Organization",
+            "name": "Hadi Tours",
+            "url": "https://www.haditours.co.uk/"
+        },
+        "serviceType": "Umrah Tour Service",
+        "areaServed": {
+            "@type": "Country",
+            "name": "United Kingdom"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Umrah Packages",
+            "itemListElement": [{
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "3-Star Umrah Packages",
+                        "description": "Affordable 3-star Umrah packages for 7, 10, 12, and 14 nights with flights, visa, hotels and transport.",
+                        "offers": {
+                            "@type": "AggregateOffer",
+                            "priceCurrency": "GBP",
+                            "lowPrice": "650",
+                            "highPrice": "795",
+                            "offerCount": "18"
+                        }
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "4-Star Umrah Packages",
+                        "description": "Comfortable 4-star Umrah packages with hotels near Haram, flights, visa and transfers.",
+                        "offers": {
+                            "@type": "AggregateOffer",
+                            "priceCurrency": "GBP",
+                            "lowPrice": "735",
+                            "highPrice": "875",
+                            "offerCount": "15"
+                        }
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "5-Star Umrah Packages",
+                        "description": "Luxury 5-star Umrah deals with premium hotels, business class options, visa & ground transport.",
+                        "offers": {
+                            "@type": "AggregateOffer",
+                            "priceCurrency": "GBP",
+                            "lowPrice": "850",
+                            "highPrice": "1020",
+                            "offerCount": "12"
+                        }
+                    }
+                }
+            ]
         }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "4-Star Umrah Packages",
-          "description": "Comfortable 4-star Umrah packages with hotels near Haram, flights, visa and transfers.",
-          "offers": {
-            "@type": "AggregateOffer",
-            "priceCurrency": "GBP",
-            "lowPrice": "735",
-            "highPrice": "875",
-            "offerCount": "15"
-          }
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "5-Star Umrah Packages",
-          "description": "Luxury 5-star Umrah deals with premium hotels, business class options, visa & ground transport.",
-          "offers": {
-            "@type": "AggregateOffer",
-            "priceCurrency": "GBP",
-            "lowPrice": "850",
-            "highPrice": "1020",
-            "offerCount": "12"
-          }
-        }
-      }
-    ]
-  }
-}
+    }
 </script>
 @endverbatim
 
@@ -85,9 +84,9 @@
     <div class="banner">
         <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.jpeg')}}" class="img-fluid" alt="Banner Image">
         <div class="banner-text">
-            <h1>Trusted Islamic Travel Agency&nbsp;in UK</h1>
-            <h4>For Umrah Services</h4>
-            </h4>
+
+            <h1>Umrah Packages</h1>
+            <p>Customize Your Plan</p>
         </div>
     </div>
     <div class="searchEngine" id="packageInquiry">
@@ -125,7 +124,7 @@
 
                 <div class="form-group Half">
                     <label for="enquiry-departuredate">
-                        <i class="fa fa-calendar fa-2x text-warning mr-1"   style="color: #85641E !important; font-size: 1.4em;"></i> Departure Date
+                        <i class="fa fa-calendar fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Departure Date
                     </label>
                     <input type="text" id="enquiry-departuredate" name="n[Departure Date]" class="DepartureDate form-control" readonly placeholder="Departure Date" required />
                     <span class="borderBottom"></span>
@@ -982,491 +981,184 @@
     </div>
     </div>
 </section>
-    @push('scripts')
-    <script type="text/javascript">
-        document.addEventListener('DOMContentLoaded', function() {
-            function initFeaturedSlider() {
-                if (window.jQuery && $.fn.slick) {
-                    $('.featured-slick-carousel').each(function() {
-                        if (!$(this).hasClass('slick-initialized')) {
-                            $(this).slick({
-                                slidesToShow: 3,
-                                slidesToScroll: 1,
-                                arrows: true,
-                                dots: true,
-                                autoplay: true,
-                                autoplaySpeed: 2000,
-                                prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-chevron-left"></i></button>',
-                                nextArrow: '<button type="button" class="slick-next"><i class="fa fa-chevron-right"></i></button>',
-                                responsive: [{
-                                        breakpoint: 1200,
-                                        settings: {
-                                            slidesToShow: 3
-                                        }
-                                    },
-                                    {
-                                        breakpoint: 991,
-                                        settings: {
-                                            slidesToShow: 2
-                                        }
-                                    },
-                                    {
-                                        breakpoint: 767,
-                                        settings: {
-                                            slidesToShow: 1,
-                                            arrows: false
-                                        }
+@push('scripts')
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+        function initFeaturedSlider() {
+            if (window.jQuery && $.fn.slick) {
+                $('.featured-slick-carousel').each(function() {
+                    if (!$(this).hasClass('slick-initialized')) {
+                        $(this).slick({
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                            arrows: true,
+                            dots: true,
+                            autoplay: true,
+                            autoplaySpeed: 2000,
+                            prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-chevron-left"></i></button>',
+                            nextArrow: '<button type="button" class="slick-next"><i class="fa fa-chevron-right"></i></button>',
+                            responsive: [{
+                                    breakpoint: 1200,
+                                    settings: {
+                                        slidesToShow: 3
                                     }
-                                ]
-                            });
-                        }
-                    });
-                } else {
-                    setTimeout(initFeaturedSlider, 50);
-                }
+                                },
+                                {
+                                    breakpoint: 991,
+                                    settings: {
+                                        slidesToShow: 2
+                                    }
+                                },
+                                {
+                                    breakpoint: 767,
+                                    settings: {
+                                        slidesToShow: 1,
+                                        arrows: false
+                                    }
+                                }
+                            ]
+                        });
+                    }
+                });
+            } else {
+                setTimeout(initFeaturedSlider, 50);
             }
-            initFeaturedSlider();
-        });
-    </script>
-    @endpush
+        }
+        initFeaturedSlider();
+    });
+</script>
+
+@endpush
 <div class="page-content">
     <div class="container scroll-page-content page-content-styling">
         </p>
 
         <p>&nbsp;</p>
 
-        <h2>Set On a Spiritual Journey with&nbsp;All-Inclusive Umrah Packages</h2>
+        <h2>Umrah Packages from UK – ATOL Protected & Affordable Umrah Packages</h2>
 
-        <p>Have you decided to go for an Umrah this year and please Allah? Haditours can make it happen for you
-            with our cheap Umrah packages. It is time to reclaim the peace of your heart and gain the spiritual
-            purity you have always wanted.</p>
+        <p>Umrah is a deeply spiritual journey that enables one to gain more faith and grace. At Hadi Tours, we offer professional Umrah Packages from UK that will make you completely forget about the travel and thus be fully focused on your prayers. From the flight ticket and visa processing to the hotel accommodation near Haram, the entire pilgrimage arrangement is done with utmost care and accuracy.</p>
 
-        <p><strong>Contact Us Now and Get Affordable Umrah Deals!</strong></p>
+        <P>Moreover, our ATOL protected <a href="https://www.haditours.co.uk/umrah-packages.html">Umrah Packages</a> UK depart from the main airports of London, Birmingham, and Manchester. If you are looking for cheap Umrah Packages, family, friendly packages, or top, notch 5, star accommodation near Haram, we have flexible options for you depending on your budget and travel dates. With clear pricing and UK, based customer service, planning your Umrah Package will be a breeze with us. Book your Umrah package with confidence and travel with complete peace of mind.</P>
 
-        <h2>Get the Cheapest Umrah Packages from the UK Now</h2>
 
-        <p>As Muslims, we are aware of the significance of Umrah, the reward, and the spiritual journey that it
-            takes you on. It has great value in Islam and was performed by our beloved Prophet (PBUH) four times in
-            his lifetime. If Allah has filled your heart with the yearning to perform Umrah, you must feel lucky and
-            start making the arrangements even if you are tight on the budget.</p>
+        <h2>Book Trusted Umrah Packages from the UK with Complete Peace of Mind</h2>
 
-        <p>We at Haditours know the urge of our Muslim brothers and sisters to go to the holy places in Makkah.
-            Therefore, we provide you with the most affordable <a
-                href="{{ route('umrahPackages2026') }}">Umrah packages in 2026</a>, so you
-            don&#39;t have to overthink before setting on the journey. We can take care of everything from the visa
-            and flight to the hotel you will be staying in.</p>
-
-        <p>Being an experienced <a href="https://www.haditours.co.uk/" target="_self">travel agency</a>, we aim
-            to provide the ideal Umrah packages to all Muslims in the UK. Thus, think of it as Allah calling you to
-            his home.</p>
-
-        <h2>Significance of Umrah for the Muslims</h2>
-
-        <p>Muslims can perform Umrah any time of the year, excluding the Hajj days. It is done to purify their souls
-            and ask forgiveness for the sins that they have committed in the past. There is no obligation to Umrah;
-            it can be performed multiple times in a lifetime. True believer sets on a pilgrimage away from their
-            house and spends their wealth in Allah&#39;s way to please them. This is one of the reasons why this
-            religious activity is seen as a way of eradicating poverty and life burdens.</p>
-
-        <p>Umrah is seeking blessings from the Almighty and refreshing the faith. Hundreds and thousands of Muslims
-            worldwide visit the holy sites in Saudi Arabia to pay their respects and perform religious acts. In
-            addition, it is also the most soul-lifting Sunnah with great rewards and benefits. Besides bringing
-            spiritual purity, Umrah is the source of peace and contentment for all Muslims.</p>
-
-        <p>Our beloved Prophet (PBUH) said that Muslims must alternate between Hajj and Umrah as it is responsible
-            for eradicating their sins and poverty. Moreover, the person gets purified of sins and poverty like the
-            blacksmith bellow eliminates all the impurities from valuable metals like silver, iron, and gold.</p>
-
-        <p>Also, its reward is equal to one of the noblest acts in Islam, which is Jihad. Performing Umrah with a
-            pious intention guarantees an entrance into Jannah. So, Umrah is of great significance and value for
-            Muslims, and devotion is visible among the believers. If you want to go to Umrah from the UK, look no
-            further than Haditours to make it happen for you.</p>
-
-        <h2>Why is Saudi Arabia so Sacred for the Muslims?</h2>
-
-        <p>Saudi Arabia has Makkah and Madinah, the two holy sanctuaries of Islam. It is Holy Prophet (PBUH) &#39;s
-            birthplace too. Not only that, but the holy Kaaba is also located in this spiritual city. Madinah is
-            where the Prophet (PBUH) spent a good amount of time in his life and is also his burial place. Saudi
-            Arabia&#39;s history is closely linked to the history of Islam and is the guardian of some of the
-            holiest places in Islam.</p>
-
-        <p>Saudi Arabia has always been sacred for Muslims because of its strong association with Islam&#39;s
-            history. Islamic history, culture, and heritage are all connected to Saudi Arabia. Not only that but
-            also, Muslims worldwide turn towards Kaaba Makkah five times daily to offer obligatory prayers. Being a
-            special place in the Islamic world, over one billion Muslims from all races, ethnicities, and cultures
-            visit Saudi Arabia at some point in their lives. Umrah is always open, and people come for as little as
-            one day to as long as a month.</p>
-
-        <p>Saudi Arabia is also called Islam&#39;s heartland. This is the birthplace of Islam, and everything in its
-            history has some connection to this sacred kingdom. Therefore, this country is sacred for all Muslims
-            around the globe, and every single one turns to it to perform religious obligations. If you want to
-            perform an Umrah soon, it is time that you start looking for Umrah deals.</p>
-
-        <h2>What Airlines Fly to Saudi Arabia from the UK?</h2>
-
-        <p>In case you want cheap Umrah flights, you can browse through the schedules of the following airlines;</p>
-
-        <ul>
-            <li>Lufthansa</li>
-            <li>British Airways</li>
-            <li>Emirates</li>
-            <li>EasyJet</li>
-            <li>Air France</li>
-            <li>Saudia</li>
-            <li>Turkish Airlines</li>
-            <li>Aegean Airlines</li>
-            <li>Wizz Air</li>
-            <li>EgyptAir</li>
-            <li>Pegasus Airlines</li>
-            <li>Ryanair</li>
-        </ul>
-
-        <p>You can avail of cheap Umrah packages and travel on any of the airlines mentioned above comfortably from
-            the UK to Saudi Arabia.</p>
-
-        <h2>When do most Muslims do Umrah?</h2>
-
-        <p>Umrah, also called minor Hajj, can be performed any time of year except for the Hajj days. The perfect
-            time to do Umrah to gain more blessings is Ramadan. Many people go for an Umrah in Ramadan because the
-            month is quite sacred. What is better than performing Umrah while fasting in the blessed month of
-            fasting? Muslims understand the significance of this holy month and the blessings that it comes with,
-            and no time can be better than this month to perform this religious act.</p>
-
-        <p>In addition, many prefer an Umrah in January and December because of the ideal weather conditions.
-            Moreover, another preferable time to go for an Umrah is at the end of the Hajj season, especially if you
-            want to go at lesser rush times. So, you can avail of cheap Umrah packages during this time.</p>
-
-        <h2>Flight Destinations in Saudi Arabia for Umrah</h2>
-
-        <p>If you are travelling to Saudi Arabia with an Umrah visa, you can land and depart from any flight
-            destination in Saudi Arabia. At the same time, passengers with a tourist or business visa can only
-            travel to and from Madinah, Jeddah, Yanbu or Taif. Most passengers going solely for Umrah try to travel
-            from King Abdulaziz International Airport (JED) in Jeddah because of its proximity to Makkah.</p>
-
-        <p>In addition to that, another popular flight destination for people going for an Umrah is Prince Mohammed
-            Bin Abdulaziz Airport (MED) in Madinah. Multiple airlines provide flights to and from Jeddah and
-            Madinah, mainly for Umrah passengers. Once you have availed of the Umrah package from Uk, you will know
-            where you will be landing so that you can arrange the rest of the journey accordingly. We at Hadi Tours can help you get cheap Umrah packages to any of the flight destinations of your choice.</p>
-
-        <h2>Affordable Luxury Umrah Packages at 3, 4, and 5-Star Hotels</h2>
-
-        <p>Haditours has been serving Muslims in the UK for quite some years with cheap Umrah packages
-            consisting of luxury hotel accommodations. We provide you with 3, 4, and 5-star hotels according to your
-            budget and liking. However, some of the most stayed-in hotels are those that are nearest to Kaaba. These
-            hotels are the highest in demand and are considered 5-star. So tell us your requirements, and our team
-            will arrange the ideal package for you.</p>
-
-        <p>Moreover, we provide cheap Umrah packages for 7, 10, 12, and 14 days. So, whether you want to stay in the
-            holy city for a week or half a month, we have covered you with ideal Umrah packages UK. All our deals
-            are affordable and reliable so that you can have peace of mind. Please leave all of it to us and start
-            packing for your spiritual journey to give your faith a chance to strengthen again.</p>
-
-        <p>Moreover, we provide complimentary breakfast with most of the hotels. The flight, hotel, and food charges
-            greatly depend on the season. If it is the season in which people frequently go for an Umrah, the prices
-            of everything might be higher. So, if you want to keep the package budget-friendly, consider planning
-            your Umrah in less-demanded months. Leave all of it to us and start packing for your spiritual journey
-            to give your faith a chance to strengthen again.</p>
-
-        <p>Also, cheap yet luxurious Umrah packages are like honey to the believer&#39;s ears and soul. It means you
-            don&#39;t have to save money for years to mark your attendance at Almighty&#39;s home and the
-            prophet&#39;s city. Book Umrah tickets now and give Haditours a chance to participate in your
-            spiritual and religious revival.</p>
-
-        <p><strong>Contact Us Now to Book Cost-effective Umrah Flights!</strong></p>
-
-        <h2>Why Choose Haditours for Your Umrah Packages</h2>
-
-        <p>It&#39;s really important to pick the right travel agency for your Umrah Package so that you have a good
-            and easy journey. At Hadi Tours, we promise to give you the best experience possible, from when you
-            first book your Umrah Package till you return home.</p>
-
-        <p>We know how much money you can spend is essential when deciding which Umrah Package to choose. That&#39;s
-            why we ensure that the pricing for our all-inclusive Umrah Packages is reasonable. We work hard to get
-            great prices from airlines, hotels and transport providers, so you can get the best deal for your money.
+        <p>The success of your Umrah pilgrimage largely depends on your choice of a travel agency in the UK. Hadi Tours, with its extensive experience of serving pilgrims all over the UK, has perfected the delivery of its all-inclusive Umrah Packages combining trustworthiness, low prices, and utmost convenience. We are well aware of the needs and wishes of the UK travellers and guarantee that the whole process of the pilgrimage is well coordinated and thoroughly planned.
         </p>
 
-        <p>Furthermore, we can make a special Umrah Package just for you. We will design it based on your budget,
-            availability, and preferences.</p>
+        <ul>
+            <li>Return flights protected by ATOL</li>
+            <li>Umrah visa processing for UK passport holders</li>
+            <li>Hotels in Makkah and Madinah within the vicinity of Haram</li>
+            <li>Ground transport in Saudi Arabia</li>
+            <li>Optional Ziyarat tours</li>
+            <li>24/7 customer support</li>
+        </ul>
 
-        <p>Finally, we are here for you 24/7 to give you help and support during your Umrah. If you have any
-            questions about your travel plan or need help with any travel problems, our customer support team is
-            always ready to assist you.</p>
-
-        <h3>IATA Certified</h3>
-
-        <p>When you travel for Umrah, you want to ensure that you are secure and protected. That&#39;s why we at
-            Haditours are IATA certified, which means we follow strict safety standards for air travel. This
-            certificate confirms our status to provide safe and reliable travel arrangements for our customers.</p>
-
-        <p>So, when you book your Umrah Package with us, you can trust you are in good hands. With our IATA
-            certification, you can rest assured that your safety is our greatest concern.</p>
-
-        <h3>ATOL Protection</h3>
-
-        <p>At Hadi Tours, we understand that unpredictable events can occur when travelling. Therefore, we
-            provide ATOL protection for all our Umrah Packages. ATOL stands for Air Travel Organisers License, which
-            is a government-backed scheme. This prevents you from losing money or being stuck overseas in case of
-            any unforeseen circumstances.</p>
-
-        <p>If there are any disruptions or cancellations, we will compensate you or bring you back to the UK. So,
-            you can rest assured that your money is safe with us, and you can enjoy your spiritual journeys without
-            any worries.</p>
-
-        <h2>All-Inclusive Umrah Packages</h2>
-
-        <p>From flights to accommodation, transportation, and visa processing, our all-inclusive Umrah Packages
-            include everything you need for a seamless journey. We created them to suit all budgets and preferences.
-            Therefore, you will find the cheapest Umrah Packages with Hadi Tours.</p>
-
-        <p>Firstly, our all-inclusive Umrah Packages cover the cost of flights from major UK airports like London,
-            Birmingham, and Manchester. We team up with trusted airlines to ensure a safe and comfortable flight.
+        <p>Our packages fit the needs of those travelling alone, couples, families, senior citizens and groups. Our crew is at your service from the moment you make an inquiry to the moment you arrive back safely in the UK. When purchasing Umrah Packages from UK, there is always a question of trust and transparency, and that is exactly what we offer.
         </p>
 
-        <p>In addition, our Umrah Packages from the UK will cover all your transportation requirements. This
-            includes transportation from your hotel to the holy places. We offer comfortable and air-conditioned
-            vehicles to ensure a relaxing ride.</p>
-
-        <p>Finally, we know that getting a visa can be a scary job. That is why our all-inclusive Umrah Packages
-            handle the visa process for you. We manage all documentation and make sure that your visa is processed
-            fast and correctly.</p>
-
-        <h2>Frequently Asked Questions</h2>
-
-        <h3>Do I need to vaccinate myself before performing Umrah?</h3>
-
-        <p>Yes, we strongly suggest that you get vaccinated before performing Umrah. Before entering the country,
-            the Saudi Arabian Ministry of Health requires visitors to have certain vaccinations, including the
-            meningococcal vaccine.</p>
-
-        <p>We recommend getting other routine vaccinations, such as the flu vaccine, to protect yourself from other
-            illnesses during your journey.</p>
-
-        <h3>Can I choose my hotel when booking an Umrah Package with you?</h3>
-
-        <p>Yes, you can add a hotel of your choice when booking an Umrah Package with Hadi Tours. Our Umrah
-            Packages from the UK are customisable, allowing you to tailor your package to suit your needs and
-            preferences.</p>
-
-        <h3>What is the cheapest Umrah Package from the UK?</h3>
-
-        <p>At Hadi Tours, we offer a range of cheap Umrah Packages from the UK to suit your budget. Our Umrah
-            Packages start from as low as &pound;579 per person, and we offer a variety of packages that cater to
-            different budgets.</p>
-
-        <h3>Would my Umrah Package include transportation from the airport to my hotel?</h3>
-
-        <p>We will take you from the airport to your hotel when you choose one of our Umrah Packages.</p>
-
-        <p>We know getting around in a new place can be difficult, especially when you don&#39;t know the local
-            language. That&#39;s why we help with all your transportation needs so you don&#39;t have to worry and
-            can enjoy your journey.</p>
-
-        <p>Our experienced professionals will be waiting for you at the airport to ensure a smooth journey to your
-            hotel. You can rest assured that we will take care of all transportation needs so that you can focus on
-            your spiritual journey.</p>
-
-        <h3>Do you offer Umrah Packages with Ziarat?</h3>
-
-        <p>Yes, Haditours offers Umrah Packages with Ziarat. Our packages include visits to the holy sites in
-            Makkah and Madinah, allowing you to experience these locations&#39; spiritual and cultural significance.
+        <2>What Is Included in Our Umrah Packages?</2>
+        <p>Knowing the details of your Umrah Package will allow you to compare different options without any hesitations and thus avoid any hidden surprises. Our comprehensive Umrah Packages from UK are essentially made, up of all necessary travel components to guarantee a smooth pilgrimage experience.
         </p>
 
-        <h3>Is it possible to visit other places in Saudi Arabia with Umrah Package?</h3>
+        <h3>Return Flights from Major UK Airports</h3>
+        <p>We book return flights for you from London, Birmingham, Manchester, and a few other major UK airports. Your choice, as well as availability, will determine whether you select direct or indirect flights to Saudi Arabia. We choose flight schedules with great care to reduce inconvenience and increase comfort.</p>
 
-        <p>Since our Umrah Packages have an Umrah visa and not a visit visa, you can only visit the following three
-            cities:</p>
+        <p>Working with top airlines helps us to keep a fine balance between competitive prices and reliable service standards. We are ready to offer assistance with whichever of the two matters is more important to you and that can be a trade off between shorter layovers and cheaper flights.</p>
 
-        <ul>
-            <li>Makkah</li>
-            <li>Madina</li>
-            <li>Jeddah</li>
-        </ul>
+        <h3>Umrah Visa Processing for UK Citizens</h3>
 
-        <h3>Are there any age restrictions for your Umrah Packages?</h3>
-
-        <p>At Hadi Tours, we offer Umrah Packages suitable for all ages. However, if you are under the age of 18
-            and want to perform Umrah, you must have a parent or a legal guardian with you.</p>
-
-        <h3>How much luggage is allowed on flights for Umrah?</h3>
-
-        <p>It&#39;s important to know that the rules can differ depending on which airline you choose and your
-            ticket type. But most airlines usually let you bring one big suitcase that weighs up to 23 kg and a
-            smaller bag that you can carry with you that weighs up to 7 kg.</p>
-
-        <h3>Is it mandatory to have a Mahram for women to perform Umrah?</h3>
-
-        <p>Although women are encouraged to go on Umrah with a Mahram, it&#39;s not required. In the past, Saudi
-            Arabia had a rule that women couldn&#39;t go on the pilgrimage alone. They had to go with a Mahram.</p>
-
-        <p>However, now those restrictions have been relaxed. If a woman cannot find a Mahram to accompany her on
-            the journey, she can join a group of other women and travel with a female tour guide.</p>
-
-        <h3>How much time do I need to perform Umrah?</h3>
-
-        <p>You can perform Umrah in just a few hours if you are a healthy individual, the weather is good, and the
-            crowds are smaller. On average, you can perform Umrah in just 4-6 hours. However, after performing the
-            rituals, Muslims visit Madina two perform nafl prayers.</p>
-
-        <p>Therefore, depending on how long you want to stay in each city, Umrah can take anywhere between 7 to 14
-            days.</p>
-
-        <h3>Do I need to be physically fit to perform Umrah?</h3>
-
-        <p>Although Umrah is physically demanding, it is doable for people of all fitness levels. We also recommend
-            wearing comfortable shoes and taking frequent breaks to rest during the various rituals.</p>
-
-        <p>Furthermore, we also attend to the needs of disabled people. For further information regarding that, you
-            can contact our customer support team.</p>
-
-        <h3>How far is Madina from Makkah?</h3>
-
-        <p>The distance between Makkah and Madina is approximately 279 miles (450 kilometres). This can be covered
-            in almost two and a half hours by train and four and a half hours by car.</p>
-
-        <h3>Is photography allowed during Umrah?</h3>
-
-        <p>Although there are not any strict restrictions on taking pictures during Umrah, it is still discouraged.
-            However, taking pictures of other pilgrims is strictly forbidden.</p>
-
-        <h3>What is the best way to stay updated on the latest Umrah travel guidelines?</h3>
-
-        <p>Our website is the greatest source to get the most recent news and updates about Umrah travel
-            regulations.</p>
-
-        <p>Moreover, when you book your Umrah Package&nbsp;with us, we will keep you informed of any changes or
-            updates to guidelines. Our team of professionals is always here to answer your questions and offer you
-            the most up-to-date information.</p>
-
-        <h3>What kind of gifts can I buy in Saudi Arabia during Umrah?</h3>
-
-        <p>The following are just a few examples of the many gift options available in Saudi Arabia during Umrah.
-            It&#39;s always a good idea to ask locals for recommendations or visit local markets to discover unique
-            gifts.</p>
-
-        <ul>
-            <li>Zamzam Water</li>
-            <li>Dates</li>
-            <li>Prayer Beads</li>
-            <li>Prayer Mat</li>
-            <li>Islamic Books</li>
-            <li>Arabian Coffee</li>
-            <li>Oud Perfume</li>
-        </ul>
-
-        <h3>What is the blessing of performing Umrah in Ramadan?</h3>
-
-        <p>Ramadan comes with many blessings and the good news of forgiveness for the believers. Going for an Umrah
-            in the month of Ramadan is rewarded equivalent to a Hajj. But it cannot replace the obligatory
-            Hajj.&nbsp;</p>
-
-        <h3>What are the rules for Umrah?</h3>
-
-        <p>Some rules for Umrah include the following;</p>
-
-        <ul>
-            <li>Travelling to Makkah</li>
-            <li>Performing Tawaf and entering Masjid Al Haram</li>
-            <li>Doing Tawaf of the Kaaba (circling the Kaaba in a counterclockwise direction seven times)</li>
-            <li>Walking between Safa and Marwa seven times</li>
-            <li>Men shave their heads at the end of the Umrah</li>
-        </ul>
-
-        <h3>Is Saudi Arabia visa-free for the citizens of the UK?</h3>
-
-        <p>No, Saudi Arabia is not visa-free for UK citizens. However, the UK is included in the fifty countries
-            that can apply for an electronic visa to visit Saudi Arabia.</p>
-
-        <h3>What is the time duration to travel from the UK to Saudi Arabia by air?</h3>
-
-        <p>The average flight from the UK to Saudi Arabia is around 6 hours and 40 minutes. This might vary
-            depending on various factors, including weather conditions, flight departure, and landing destination.
+        <p>
+            The visa process can be complicated, especially for first time Umrah visitors. Our Umrah Packages come with full UK resident Umrah visa processing and we can be relied upon to handle all the required paperwork. We take you through the entire process in an easy-to-understand way to help prevent you from getting into trouble with delay or missing out on the required documents.
         </p>
 
-        <h3>What is the time difference between the UK and Saudi Arabia?</h3>
+        <p>
+            Handling the application on your behalf means that we do not only relieve the pressure of the paperwork but also provide you with a spiritual preparation possibility instead.
+        </p>
 
-        <p>The time in the UK is three hours behind that in Saudi Arabia.</p>
 
-        <h3>Which airlines offer non-stop direct flights from the UK to Saudi Arabia?</h3>
+        <h3>Hotels in Makkah and Madinah Near Haram</h3>
 
-        <p>Some airlines that provide direct flights from the UK to Saudi Arabia include;</p>
+        <p>
+            Accommodation is a very crucial part of your Umrah pilgrimage experience. We offer to you the various levels of hotels including 3, 4, and 5 star hotels where distances from the Haram vary. There are pilgrim friendly rates available and at the same time, you can enjoy the luxury of being within the walking distance of Masjid al-Haram and Masjid an-Nabawi.
+        </p>
 
-        <ul>
-            <li>British Airways</li>
-            <li>Saudia</li>
-            <li>Iberia</li>
-            <li>Garuda Indonesia</li>
-        </ul>
+        <p>
+            Proximity to Haram is especially crucial for seniors and families with small children. Our staff makes sure that you get to know the details about hotel distance, facilities, and room configurations before finalizing your booking.
+        </p>
 
-        <h3>Which months are the cheapest for Umrah?</h3>
 
-        <p>Summer months, including June, July, and August, are the cheapest months to perform Umrah. This is
-            because the temperature is very high during these months, and you can quickly get affordable Umrah
-            packages.</p>
+        <h3>Ground Transportation &amp; Ziyarat Tours</h3>
 
-        <h4>3 Star Umrah Package Price from UK
-        </h4>
-        <P>3 star Umrah Packages are the best fit for the pilgrims who are looking for cheap accommodation without any unnecessary stuff. These packages are laid out for a few comforts thus the total expenses are very low especially if you travel during the months of low demand.
-        </P>
-        <h4>4 Star Umrah Packages Cost</h4>
+        <p>
+            Comfortable transport within Saudi Arabia is one of the main elements of our Umrah Packages. It includes not only airport and hotel transfers but also traveling between the cities of Makkah and Madinah. The vehicles are chosen to suit the size of the group and the luggage requirements.
+        </p>
+
+        <p>
+            Optional Ziyarat tours are also offered, which give the opportunity to the pilgrims to visit the important Islamic landmarks of both cities. These tours deepen your spiritual insight and make your pilgrimage journey more meaningful.
+        </p>
+
+        <h2>Explore Our Range of Umrah Packages</h2>
+        <p>
+            We offer a range of different Umrah Packages UK that consider the seasons, different ways of travel, and finances. You can choose from our flexible options based on your personal requirements, whether you are a planner who likes to organize everything way ahead or a seeker of a particular time period.</p>
+
+        <h3>
+            Umrah Packages 2026 – Early Booking Deals
+        </h3>
+
+        <p>Securing your Umrah Package 2026 in advance to will get you many benefits. Early bookings not only allow you to book the hotels near Haram with the best availability but also get you the flights at more competitive prices. The demand for Umrah trips from the UK has been increasing every year, so if you plan your trip ahead, you will have more options to choose from and less stress.</p>
+        <h3> Ramadan Umrah Packages from UK </h3>
+        <p>The journey of Umrah at Ramadan time brings a great deal of blessings and spiritual revival. And shortly after the rising of demand, we thus have made our Ramadan Umrah Packages in such a way that they still retain the comfort level and accommodate the requirements of the excited travel peak season. The hotels around Haram during this holy month of Ramadan are really the ones that are most desired.</p>
+        <h3>December & School Holiday Umrah Packages</h3>
+        <p> School holiday Umrah Packages are perfect for the families who want to spend quality time travelling together without affecting the kids' school studies. Traveling in December also has the benefit of having somewhat moderate weather as compared to the hot months of summer.</p>
+        <h3>Family Umrah Packages UK</h3>
+        <p> We have specially planned the Family Umrah Packages UK for our clients so that parents, kids, and elderly family members who are traveling together can meet their needs without any hassle. We focus on roomy accommodation options and short walks to Haram.</p>
+        <h3>Luxury 5 Star Umrah Packages Near Haram</h3>
+        <p>Our Luxury 5 Star Umrah Packages near Haram are the perfect choice for pilgrims looking for top, level comfort and convenience.Furthermore, these packages are a great option for senior pilgrims or those who prefer having better hotel facilities and superior room categories.</p>
+        <h2>How Much Do Umrah Packages Cost from the UK?</h2>
+        <p>The cost of Umrah Packages from UK depends on several factors. Pricing varies according to season, Hotels category, flight type, and duration of stay. Understanding these elements helps you select a package that matches your budget and expectations.</p>
+        <h3>3 Star Umrah Package Price from UK</h3>
+        <p>3 star Umrah Packages are the best fit for the pilgrims who are looking for cheap accommodation without any unnecessary stuff. These packages are laid out for a few comforts thus the total expenses are very low especially if you travel during the months of low demand.</p>
+
+        <h3>4 Star Umrah Packages Cost</h3>
         <p>4 star packages are a good combination of quality and reasonable price. They are the most preferred for the families and couples who want to have a good time with better facilities and at the same time keep the costs at an acceptable level.</p>
-        <h4>5 Star Luxury Umrah Package Prices
-        </h4>
-        <p>5 star Umrah Packages near Haram give a private feeling, saving a few minutes of your walking and better hotel service. Even if their price is higher than the regular ones, they give you a bigger possibility of getting your rest and leisure.
-        </p>
 
-        <h2>Factors That Affect the Cost of Umrah Packages
-        </h2>
-
-        <p>Several elements influence Umrah Package prices:</p>
-
+        <h3>5 Star Luxury Umrah Package Prices</h3>
+        <p>5 star Umrah Packages near Haram give a private feeling, saving a few minutes of your walking and better hotel service. Even if their price is higher than the regular ones, they give you a bigger possibility of getting your rest and leisure.</p>
+        <h3>Factors That Affect the Cost of Umrah Packages</h3>
         <ul>
+            <li>Several elements influence Umrah Package prices:</li>
             <li>Ramadan or peak season travel</li>
             <li>Hotel proximity to Haram</li>
             <li>Direct versus indirect flights</li>
             <li>Duration of stay (7 days, 10 days, or 14 days)</li>
             <li>Room occupancy type</li>
+            <li>Travelling during less crowded months can significantly reduce overall Umrah costs.</li>
         </ul>
-
-        <p>Travelling during less crowded months can significantly reduce overall Umrah costs.</p>
-
-        <h2>Why Choose Hadi Tours for Umrah Packages?</h2>
-
-        <p>Selecting a trusted travel agency ensures your pilgrimage remains focused on worship rather than logistical concerns.</p>
-
+        <h3>Why Choose Hadi Tours for Umrah Packages?</h3>
         <ul>
-            <li>Travel dates can be flexible throughout 2026 and flights are available from major UK airports</li>
-            <li>First-time pilgrims and solo travellers benefit from well-organised arrangements</li>
-            <li>Carefully selected accommodations near Haram</li>
+            <li>Selecting a trusted travel agency ensures your pilgrimage remains focused on worship rather than logistical concerns.</li>
+            <li>Travel dates can be flexible throughout 2026 and the flights can be from major UK airports</li>
+            <li>First time pilgrims and solo travellers can benefit from great arrangements</li>
+            <li>Accommodations near Haram are carefully selected</li>
             <li>Fully fledged Umrah visa support for 2026</li>
-            <li>Reputable airlines offering direct and connecting flights</li>
-            <li>Choice of 3-star, 4-star, and 5-star Umrah Packages 2026</li>
-            <li>Family &amp; group packages available upon request</li>
+            <li>Reputable airlines with direct and connecting flights are available</li>
+            <li>Selection of 3 star, 4 star, and 5 star Umrah Packages 2026</li>
+            <li>Family &amp; group packages available on request</li>
             <li>Flights from London, Manchester, Birmingham, Glasgow, Leeds, and other UK cities</li>
-            <li>Special arrangements for the elderly and those with additional needs</li>
-            <li>Fair pricing with no hidden charges</li>
+            <li>Arrangements available for the elderly and those with special needs</li>
+            <li>Pricing is fair and there are no hidden charges</li>
             <li>Secure payment gateway with proper documentation</li>
-            <li>ATOL-protected Umrah Packages 2026 ensuring financial protection</li>
-            <li>24/7 UK-based customer support before, during, and after travel</li>
+            <li>ATOL protected Umrah Packages 2026 ensuring your money safety</li>
+            <li>24/7 UK based customer support before, during, and after travel</li>
         </ul>
-
         <h2>How to Book Your Umrah Package from the UK</h2>
-
-        <p>
-            Booking your Umrah Package from the UK is meant to be easy, clear, and professionally handled throughout. First, you choose the Umrah Package that fits your travel plans, budget, and preferred hotel category. Whether you decide on affordable 3-star hotels or luxury 5-star hotels near Haram, our team helps you select the most suitable option based on location, flight type, and duration of stay.
-        </p>
-
-        <p>
-            Next, you provide your passport information and required documents so we can begin the Umrah visa process. Our experienced team carefully reviews all documents to ensure they comply with current Saudi regulations, helping to prevent delays or issues during the application stage. Throughout this process, you receive clear guidance and regular updates.
-        </p>
-
-        <p>
-            Once your visa is granted, we reconfirm your full travel itinerary, including return flights to your selected UK airport, hotel arrangements in Makkah and Madinah, and ground transportation within Saudi Arabia. You will receive a well-organised travel pack containing your booking confirmations, flight tickets, hotel details, and all essential travel information.
-        </p>
-
-        <p>
-            Our UK-based support team remains available to assist you with any last-minute questions or travel advice before departure. From the moment you leave the UK until you safely return home, every aspect of your pilgrimage is carefully managed, allowing you to focus fully on worship and spiritual reflection.
-        </p>
-
+        <p>Booking your Umrah Package from UK is meant to be easy, clear, and professionally handled throughout. First, you find the Umrah Package that fits your travel plan, your budget, and the kind of hotel you prefer. In case you decide on cheap 3, star hotels or fancy 5, star hotels near Haram, our people will help you choose the best ones by looking at the location, type of flight, and how long you are staying. </p>
+        <p>Then, you send us your passport info and other documents so that we can start the visa process for Umrah. Our team, with their knowledge of the work, goes through the documents once again to make sure that they are in line with the Saudi regulations now, thus, avoiding the delays or the problems at the time of the application. You get a great deal of information and direction during this stage.</p>
+        <p>When the visa is granted, we go over your detailed travel plan one more time including the flights back to your chosen UK airport, the hotels in Makkah and Madinah, and the car arrangements in Saudi Arabia. You get a nicely organized packet of papers with your booking, flight, and hotel details.</p>
+        <p>Our UK, based support team will still be ready to take your call if you have any last min questions or need some tips just before the trip. From the time you leave the UK till you get back home safely, everything for your pilgrimage is taken care of, so you can dedicate yourself fully to worship and spiritual reflection.</p>
         <h2>When Is the Best Time to Book Umrah from UK?</h2>
 
         <p>Umrah can be performed throughout the year except during the Hajj period. The best time to book your Umrah Package from UK depends on your budget, preferred travel dates, and spiritual goals. Factors such as school holidays, Ramadan demand, and hotel proximity to Haram all influence availability and pricing.
@@ -1489,10 +1181,11 @@
 
         <h2>Book Your Umrah Package Today with Confidence</h2>
 
-        <p>No doubt your spiritual journey should be well, planned and guided by reliable people. At Hadi Tours, we provide ATOL protected Umrah Packages from the UK, an expert support team, and a variety of options, thus making your pilgrimage spiritually focused and without hassle.</p>
+        <p>No doubt your spiritual journey should be well, planned and guided by reliable people. At <a href="https://www.haditours.co.uk/">Hadi Tours UK</a>, we provide ATOL protected Umrah Packages from the UK, an expert support team, and a variety of options, thus making your pilgrimage spiritually focused and without hassle.</p>
 
         <p>Get in touch with us nowadays to grab your Umrah Package UK and start your trip with total peace of mind.
         </p>
 
     </div>
-    @endsection
+</div>
+@endsection

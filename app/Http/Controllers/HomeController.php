@@ -123,7 +123,7 @@ class HomeController extends Controller
         
         try {
             \Illuminate\Support\Facades\Mail::send('emails.inquiry', ['data' => $data], function($message) use ($data) {
-                $message->to('mismailwatto195@gmail.com');
+                $message->to('info@haditours.co.uk');
                 $message->replyTo($data['email']);
                 $message->subject('New Package Inquiry - ' . ($data['name'] ?? 'Hadi Tours'));
             });
