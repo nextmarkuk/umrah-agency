@@ -145,7 +145,7 @@
 <section class="search-banner">
     <!--slider section Start-->
     <div class="banner">
-        <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.jpeg')}}" class="img-fluid" alt="Banner Image">
+        <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.png')}}" class="img-fluid" alt="Banner Image">
         <div class="banner-text">
             <h1>Trusted Islamic Travel Agency&nbsp;in UK</h1>
             <h4>For Umrah Services</h4>

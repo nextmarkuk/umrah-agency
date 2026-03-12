@@ -51,7 +51,7 @@
     <link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}">
     <link href="{{asset('assets/css/custom.css')}}" rel="stylesheet">
     <link href="{{asset('assets/css/slick.css')}}" rel="stylesheet">
-    <link rel="preload" href="{{asset('assets/media/pages/home-page-banner-for-haditours-1.jpeg')}}" as="image" type="image/webp">
+    <link rel="preload" href="{{asset('assets/media/pages/home-page-banner-for-haditours-1.png')}}" as="image" type="image/webp">
     <link rel="preconnect" href="https://embed.tawk.to">
     <link rel="preconnect" href="https://www.googleadservices.com">
     <link rel="preconnect" href="https://googleads.g.doubleclick.net">
@@ -216,8 +216,11 @@
             }
         });
     </script>
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/447848167580" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+        <i class="fa fa-whatsapp"></i>
+    </a>
+
     @stack('scripts')
 </body>
 </html>
-
-
