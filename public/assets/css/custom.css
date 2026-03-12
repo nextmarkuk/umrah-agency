@@ -432,3 +432,47 @@ body {
 	font-size: 18px;
 }
 
+/* ── Package Card Layout Helpers ─────────────────────────────────────────────
+   These replace the repeated Bootstrap utility combos used on every card in
+   the .featuredPackages sections, keeping the HTML clean and DRY.
+   ────────────────────────────────────────────────────────────────────────── */
+
+/* Hotel location row  (was: row p-3) */
+.pkg-hotels {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1rem;
+}
+
+/* Makkah / Madina column  (was: col-6 d-flex) */
+.pkg-hotel-col {
+	flex: 0 0 50%;
+	max-width: 50%;
+	display: flex;
+	align-items: flex-start;
+}
+
+/* Amenities row & price row  (was: row py-2 px-4) */
+.pkg-amenities {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0.5rem 1.5rem;
+}
+
+/* Amenities inner strip  (was: col-12 br-b d-flex justify-content-between px-4) */
+.pkg-amenities-inner {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 1.5rem;
+	border-bottom: 1px solid #eee;
+}
+
+/* Price / CTA row  (was: col-12 d-flex justify-content-between px-4) */
+.pkg-price-row {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 1.5rem;
+}

@@ -584,7 +584,6 @@ header {
 /*mobile view email and phone button css Strat*/
 
 .mobileButtons {
-    display: visible;
     position: fixed;
     bottom: 15px;
     left: 15px;
@@ -740,15 +739,16 @@ header {
 }
 
 .banner-text h1 {
-    font-size: 26px;
+    font-size: 55px;
     font-weight: 600;
     margin-bottom: 0;
     color: #fff;
 }
 
-.banner-text h4 {
-    font-size: 55px;
-    font-weight: 600;
+.banner-text p {
+    padding-top: 1rem;
+    font-size: 28px;
+    font-weight: 100;
     margin-bottom: 0;
     color: #fff;
 }
@@ -3412,7 +3412,7 @@ input[type=number] {
 }
 
 .banner-text h1,
-.banner-text h4 {
+.banner-text p {
     line-height: 1;
 }
 

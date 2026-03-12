@@ -423,8 +423,8 @@
 }
 
 @media (max-width: 1366px) {
-  .banner-text h4 {
-    font-size: 58px;
+  .banner-text p {
+    font-size: 40px;
   }
 
   /*header css Start*/
@@ -477,7 +477,7 @@
     padding: 0 80px;
   }
 
-  .banner-text h4 {
+  .banner-text p {
     font-size: 44px;
   }
 
@@ -726,7 +726,7 @@
     font-size: 20px;
   }
 
-  .banner-text h4 {
+  .banner-text p {
     font-size: 36px;
   }
 
@@ -1499,7 +1499,6 @@
   .searchEngine .searchFields .form-group>img {
     top: 41%;
   }
-
   .banner-text h1 {
     font-size: 12px;
   }
@@ -1508,7 +1507,7 @@
     bottom: 15%;
   }
 
-  .banner-text h4 {
+  .banner-text p {
     font-size: 19px;
   }
 
