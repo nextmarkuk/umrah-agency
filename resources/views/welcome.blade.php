@@ -1,30 +1,29 @@
-﻿@extends('layouts.master')
+@extends('layouts.master')
 @section('meta')
-<title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
-<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
-<link rel="canonical" href="https://www.haditours.co.uk" />
+<title>Hajj and Umrah Travel Agency in Pakistan | Trusted Pilgrimage Packages</title>
+<meta name="description" content="Plan your sacred journey with our trusted Hajj and Umrah Travel Agency in Pakistan. Offering affordable and premium packages, visa assistance, flights, accommodation near Haram, and guided services for a seamless spiritual experience.">
+<link rel="canonical" href="https://umrahagency.pk" />
 @endsection
 @verbatim
 <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "TravelAgency",
-        "@id": "https://www.haditours.co.uk/#travelagency",
-        "name": "Hadi Tours",
-        "alternateName": "Leading Hajj and Umrah Travel Agency in UK",
-        "url": "https://www.haditours.co.uk/",
+        "@id": "https://umrahagency.pk/#travelagency",
+        "name": "Umrah Agency Pakistan",
+        "alternateName": "Leading Hajj and Umrah Travel Agency in Pakistan",
+        "url": "https://umrahagency.pk/",
         "image": "https://haditours.co.uk/public/assets/images/logo.png",
         "logo": "https://haditours.co.uk/public/assets/images/logo.png",
-        "description": "Hadi Tours is a leading Hajj and Umrah tours Operator in the UK, ATOL & IATA certified, specialising in Umrah packages, Hajj support, flights, hotels, and tailored Hajj and Umrah travel services.",
-        "priceRange": "£££",
-        "telephone": "+44 20 3103 0264",
-        "email": "info@haditours.co.uk",
+        "description": "Umrah Agency Pakistan is a leading Hajj and Umrah tours Operator in Pakistan, specialising in Umrah packages, Hajj support, flights, hotels, and tailored Hajj and Umrah travel services.",
+        "priceRange": "$$$",
+        "telephone": "03073344679",
+        "email": "info@umrahagency.pk",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "13 Station Rd",
-            "addressLocality": "London",
-            "postalCode": "SE25 5AH",
-            "addressCountry": "GB"
+            "streetAddress": "Doctor Hospital Johar Town",
+            "addressLocality": "Lahore",
+            "addressCountry": "PK"
         },
         "geo": {
             "@type": "GeoCoordinates",
@@ -58,11 +57,11 @@
             }
         ],
         "sameAs": [
-            "https://www.facebook.com/haditours",
-            "https://x.com/haditours",
-            "https://www.instagram.com/haditours",
-            "https://uk.pinterest.com/haditours",
-            "https://www.linkedin.com/company/haditours"
+            "https://www.facebook.com/umrahagency",
+            "https://x.com/umrahagency",
+            "https://www.instagram.com/umrahagency",
+            "https://uk.pinterest.com/umrahagency",
+            "https://www.linkedin.com/company/umrahagency"
         ],
         "aggregateRating": {
             "@type": "AggregateRating",
@@ -105,10 +104,10 @@
 <section class="search-banner">
     <!--slider section Start-->
     <div class="banner">
-        <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.png')}}" class="img-fluid" alt="Home Page Banner - Hadi Tours" width="1920" height="600" fetchpriority="high">
+        <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.png')}}" class="img-fluid" alt="Home Page Banner - Umrah Agency Pakistan" width="1920" height="600" fetchpriority="high">
         <div class="banner-text">
-            <h1>Trusted Islamic Travel Agency&nbsp;in UK</h1>
-            <p>For Umrah Services</p>
+            <h1>Hajj and Umrah Travel Agency in Pakistan</h1>
+            <p>Welcome to Your Trusted Hajj and Umrah Travel Agency</p>
         </div>
     </div>
     <div class="searchEngine" id="packageInquiry">
@@ -389,7 +388,7 @@
                 <span>03 STAR Exclusive</span>
                 Umrah Deals
             </h2>
-            <p>Haditours Brings Affordable Packages with Nearby Hotels</p>
+            <p>Umrah Agency Pakistan Brings Affordable Packages with Nearby Hotels</p>
         </div>
         <div class="packagesCarousel">
             <div class="viewMore-carouselArrow">
@@ -614,7 +613,7 @@
                 <span>04 STAR</span>
                 Umrah Deals
             </h2>
-            <p>Haditours Brings Affordable Packages with Nearby Hotels</p>
+            <p>Umrah Agency Pakistan Brings Affordable Packages with Nearby Hotels</p>
         </div>
         <div class="packagesCarousel">
             <div class="viewMore-carouselArrow">
@@ -935,7 +934,7 @@
                 <span>05 STAR</span>
                 Umrah Deals
             </h2>
-            <p>Haditours Brings Affordable Packages with Nearby hotels from Holy Haram and Masjid Al Nabwi</p>
+            <p>Umrah Agency Pakistan Brings Affordable Packages with Nearby hotels from Holy Haram and Masjid Al Nabwi</p>
         </div>
         <div class="packagesCarousel">
             <div class="viewMore-carouselArrow">
@@ -1256,152 +1255,155 @@
 
 
 <div class="page-content">
-
     <div class="container">
-
         <div class="scroll-page-content page-content-styling">
 
-            <h2>HadiTours: Your Trusted Hajj and Umrah Travel Agency in UK </h2>
+            <h2>Umrah Agency Pakistan: Your Trusted Hajj and Umrah Travel Agency in Pakistan</h2>
+            <p>Welcome to Your Trusted Hajj and Umrah Travel Agency. Planning for Hajj or Umrah is a spiritually enriching journey, but it can also be complex and overwhelming. At our Hajj and Umrah Travel Agency, we aim to make your pilgrimage seamless, comfortable, and memorable. Based in Pakistan, we specialize in providing comprehensive packages tailored to your spiritual, logistical, and financial needs.</p>
+            <p>With years of experience and a dedicated team of professionals, we ensure that your journey to the holy cities of Makkah and Madinah is guided by trust, expertise, and devotion. Our commitment is not just to arrange travel; it is to serve as your companion throughout this sacred journey.</p>
 
-            <p>The pilgrimage to Makkah and Madinah is a Muslim's single most defining trip in life. HadiTours leading Hajj and Umrah Travel Agency in UK, we welcome you to experience this spiritual journey with us. We realize that the pilgrimage to the cities of Makkah and Madinah is not merely a trip because it is the supreme spiritual achievement of a Muslim's life. It is a journey deeply filled with faith, worship, and cleansing. We at HadiTours, firmly believe our purpose is to make this divine journey easier by offering excellent, trouble, free, and spiritually uplifting travel experiences to the UK Muslim community.
-            </P>
-
-            <p>Planning a Hajj that is one of the five pillars or performing a voluntary Umrah, give HadiTours the honor of taking care of every detail of your journey. We will take care of everything from the visa, flights, to accommodation which are just a few steps away from the Haram, quite simply, you will be able to concentrate completely on your acts of worship and strengthening your relationship with Allah (SWT).</P>
-
-            <h2>Guiding Your Steps to the Sacred Sanctuaries</h2>
-
-            <p>we consider it an immense honor and privilege to serve the guests of Allah (SWT). Rooted in the values of honesty, openness, and profound religious commitment, we have developed into a major and very reputable Hajj and Umrah Travel agency in uk.
-            </P>
-
-            <p>Our personnel consists of experienced travel professionals and well, informed Islamic scholars who cooperate closely to create packages that meet the different requirements of the British Muslim community. We understand that each pilgrim has different needs, for example, if you are a family traveling with kids, an old couple who needs a wheelchair, or a solo traveler searching for a very cheap option. We guarantee that your comfort, safety and spiritual well, being will be our top priorities throughout the entire journey.</P>
-
-            <h3>Our Mission </h3>
-
-            <p>Our mission is to provide a seamless, comfortable, and spiritually fulfilling Hajj and Umrah experiences whilst delivering outstanding customer service, offering clear pricing, and expert guidance.</P>
-
-            <h3>Our Vision</h3>
-
-            <p>We want to be the leading and most reliable Islamic travel partner in the United Kingdom, well, known for our strong dedication to the Guests of Allah.</P>
-
-            <h2>Why Choose HadiTours as Your Hajj and Umrah Travel Agency in UK?</h2>
-
-            <p>Choosing the right travel agency is crucial for a peaceful pilgrimage. Here is why thousands of UK Muslims trust HadiTours year after year:</P>
-
-            <h3>ATOL Protected & Ministry Approved:</h3>
-            <p>We are fully ATOL protected for your financial security and peace of mind. In addition, we are an agency approved by the Ministry of Hajj and Umrah in Saudi Arabia.</p>
-
-            <h3>Expert Spiritual Guidance:</h3>
-            <p>We give you access via our packages to knowledgeable and experienced Islamic scholars who, among other things, conduct pre, departure seminars. They also provide the ritual steps guidance and, in Makkah and Madinah, lectures to enable the correct performance of worship acts according to the Sunnah.</p>
-
-            <h3>Custom, Made Packages:</h3>
-            <p>We do not believe in the one, size, fits, all concept. We, therefore, prepare a plan for you whether you want a 5, star VIP package with the Kaaba as your view or a budget package that is clean and comfortable without luxuries.</p>
-
-            <h3>24/7 Dedicated Ground Support:</h3>
-            <p>To help you anytime, any day, our local team in Saudi Arabia is at your disposal. From meeting and assisting you at the airport, handing over your hotel to you, to dealing with any emergency situations, we are always with you.</p>
-
-            <h3>Transparent Pricing:</h3>
-            <p>There are no charges beyond those in the contract with <a href="https://www.haditours.co.uk">Hadi Tours</a>. We are a package, tour company that trusts its customers and hence the decision to make all inclusions and exclusions of a tour package always available to the client beforehand.</p>
-
-            <h2>Our Premium Pilgrimage Packages</h2>
-
-            <p>As a top-tier Hajj and Umrah Travel agency in uk, we offer a wide array of meticulously planned packages.</P>
-
-            <h3>Umrah Deals: A Journey of Renewal</h3>
-            <p>Perform the lesser pilgrimage any time you wish to with our flexible
-                <a href="https://www.haditours.co.uk/umrah-packages.html">Umrah Packages</a>. We provide services for the UK market from the top UK airports namely London Heathrow, Manchester, and Birmingham.
-            </p>
-
-            <h3>Economy Umrah Deals:</h3>
-            <p>These packages are aimed at pilgrims with a tight budget. It offers clean and comfortable 3, star hotels that are either a walking distance or a shuttle ride away from the Haramain.</p>
-
-            <h3>4, Star Umrah Deals:</h3>
-            <p>It is the ideal combination of cost and lavishness. It contains the feature of premium hotels, breakfast buffet, and the proximity of the holy mosques.</p>
-
-            <h3>5, Star VIP Umrah Packages:</h3>
-            <p>Stay in luxurious hotels such as the Fairmont Makkah Clock Royal Tower or The Oberoi in Madinah and enjoy the comfort of world, class facilities. Get the view of the Kaaba or the Prophet's Mosque from your room.</p>
-
-            <h3>Ramadan Umrah Deals:</h3>
-            <p>Ramadan Umrahat carries the highest reward. We provide customized packages for the first 20 days and the last 10 days of Ramadan, which is a very sought, after time. Our packages will enable you to find Laylatul Qadr great time in the most holy places on the earth.</p>
-
-            <h3>Hajj Packages:</h3>
-            <p>Doing the Fifth Pillar Hajj is not only a physical and emotional challenge but also a spiritual one. HadiTours alleviate the burden of such a complex journey by offering well, structured Hajj packages.</p>
-
-            <h3>Stay, In, Hotel Hajj Packages:</h3>
-            <p>To make your journey as convenient as possible, you will remain in the same luxury hotel in Makkah throughout your pilgrimage days, including Hajj days (apart from your stay in Mina and Arafat).</p>
-
-            <h3>Moving Hajj Packages:</h3>
-            <p>This is a cheap option where pilgrims stay in standard hotels near Makkah before the Hajj days, and move to an apartment or hotel closer to Mina during the Hajj peak days.</p>
-
-            <h3>VIP Mina & Arafat Camps:</h3>
-            <p>We offer upgraded, air, conditioned European, style tents in Mina and Arafat, provided with cozy beds, private catering, and exclusive washrooms to reduce the physical effort on the peak Hajj days.</p>
-
-            <h2>Comprehensive Travel Services for UK Pilgrims
-            </h2>
-
-            <p>HadiTours goes beyond simply booking flights and hotels. We provide end-to-end services to ensure a stress-free experience.</P>
-
-            <h3>Getting Your Visa Quickly and Easily</h3>
-            <p>When it comes to required visas, there are many places you could go for help, but we have the reputation and experience to help you through the visa process as an authorized travel agency for Hajj and Umrah travel in the UK, which takes care of all aspects of applying for the correct visa, whether it is an E-Visa, an Umrah visa or an official Hajj permit through the Nusuk platform, our visa team makes sure that your documents are processed correctly and without delay.</p>
-
-            <h3>Book Your Flight</h3>
-            <p>We comprehensively work with the top 5 airlines: Saudi Airlines, British Airways, Emirates, Qatar Airways, Royal Jordanian to provide you with the best range of airline options, including timing and convenience, as we can provide you with tickets on direct flights from the UK to Jeddah or Madinah and return or to afford you connecting flights based on your desire.</p>
-
-            <h3>Stay in a High Quality Hotel</h3>
-            <p>We have excellent relationships with the world's leading hotel chains in Saudi Arabia and therefore we can offer you only the finest hotels; whether you want to stay in a luxury suite in the Abraj Al Bait complex or a beautiful hotel or guest house within walking distance of Masjid al-Nabawi, we will find you the best rates and the best locations.</p>
-
-            <h3>Reliably Transported When Travelling Between Jeddah, Makkah and Madinah</h3>
-            <p>Whenever you are travelling among the 3 cities of Jeddah, Makkah and Madinah, there are many options available for reliable transportation. We can arrange to have you transfer between the three cities using private and modern air-conditioned cars, SUVs or luxury coaches. Also, we can arrange to have you ride the Haramain High-Speed Railway, which will cut down your total travel time between Makkah and Madinah to just over 2 hours!</p>
-
-            <h2>Preparing for Your Journey with HadiTours
-            </h2>
-
-            <p>We believe that physical preparation is just as important as logistical planning. To ensure you are fully prepared to reap the spiritual benefits of your journey, we offer comprehensive pre-departure support.</P>
-
-            <h3>Educational Seminars:</h3>
-            <p>We facilitate lecture series across the UK for the benefit of pilgrims, guiding them through the proper performance of Hajj and Umrah rituals (Fiqh of Hajj/Umrah), clarifying the rules of ihram, and helping them understand what the experience will be like, as well as what to expect upon arrival.</p>
-
-            <h3>Health and Safety Guidelines:</h3>
-            <p>We constantly update and share information on compulsory vaccinations (e.g. ACWY meningitis vaccine), what to bring in your luggage, and how to keep yourself fit while in the heat of Saudi Arabia.</p>
-
-            <h3>HadiTours Welcome Kit:</h3>
-            <p>A pilgrim will find a free gift pack unattended to him/her comprising of an Ihram (for men), a guidebook to Umrah/Hajj, a personalized shoes string bag, and a counter for Tawaf and Sa'i.</p>
-
-
-            <!--Frequently Asked Questions (FAQs)-->
-
-            <p style="font-size: 2em; font-weight: bold; margin: 0.67em 0;">
-                Frequently Asked Questions (FAQs)
-            </p>
-
-            <h2>1. Do I need a Mahram to travel for Umrah from the UK?</h2>
-            <p>The latest news from the Saudi Ministry of Hajj and Umrah indicate that women will not have to be accompanied by a mahram (male guardian) if they want to perform Umrah or Hajj, as long as they are traveling with a safe group. Please get in touch with our team to know the current rules.</p>
-
-            <h2>2. How far in advance should I book my Hajj or Umrah package?</h2>
-            <p>We suggest you should book your Umrah trip about 4 to 6 weeks ahead to get the best airfare and hotel prices. Hajj, on the other hand, is a different story with very limited quotas and extremely high demands; hence, we strongly recommend you to declare your interest with us right away, and at the very latest, 6 to 8 months before.</p>
-
-            <h2>3. Are your packages ATOL protected?</h2>
-            <p>Yes, HadiTours is a fully ATOL-protected travel agency. This means your money is safe and secure when you book a flight-inclusive package with us.</p>
-
-            <h2>4. Can I customize my Umrah package?</h2>
-            <p>Definitely!!! That's what we do, create tailor, made packages. You can decide on your travel dates, airlines, hotel rating, and transportation method. Communicate your needs to our travel consultants, and we will put together the perfect itinerary for you.</p>
-
-            <h2>Ready to Answer the Call? Book Your Journey Today
-            </h2>
-
-            <p>The pilgrimage to the House of Allah is a beckoning of the Most High God. Should you hear the voice of the heart, trust HadiTours to lead you there. Being your only Hajj and Umrah Travel agency in uk, we guarantee that your travel arrangements will be done with the greatest care, respect, and professionalism so that you can enjoy the worships beauty without any distractions.
-            </P>
-
+            <h2>Why Choose Our Hajj and Umrah Services</h2>
+            <p>Choosing the right Hajj and Umrah Travel Agency is critical for a hassle-free pilgrimage. Our agency in Pakistan focuses on excellence, ensuring that every aspect of your journey, from visas to accommodation, is taken care of.</p>
+            <h3>Experienced and Trusted Team</h3>
+            <p>Our team comprises experts who have extensive experience in arranging Hajj and Umrah trips. We understand the intricacies of visa applications, flight schedules, and the sacred rituals of Hajj and Umrah. By trusting us, you gain a partner who ensures your journey is spiritually fulfilling and logistically smooth.</p>
+            <h3>Comprehensive Travel Packages</h3>
+            <p>We offer a wide range of packages suitable for every budget and requirement:</p>
             <ul>
-                <li><strong>Contact Us Today to Start Planning Your Spiritual Journey:</strong></li>
-                <li>Phone: 020 3103 0264</li>
-                <li>Email: info@haditours.co.uk</li>
-                <li>Office Location: 13 Station Rd, London SE25 5AH</li>
+                <li><strong>Hajj Packages:</strong> Our Hajj packages are designed to cater to the diverse needs of pilgrims from Pakistan. From economy to premium accommodations, we provide services that cover visas, flights, transport, and guided religious support.</li>
+                <li><strong>Umrah Packages:</strong> Whether you are planning a short spiritual trip or an extended stay in the holy cities, our Umrah packages offer flexibility, affordability, and comfort.</li>
+                <li><strong>Customized Packages:</strong> For families, groups, or individuals with specific needs, we provide personalized itineraries that prioritize your convenience and spiritual experience.</li>
             </ul>
 
+            <h2>Seamless Visa and Travel Assistance</h2>
+            <p>Navigating the visa process can be challenging. Our agency simplifies it by offering complete guidance and assistance, ensuring your documentation and approvals are handled efficiently. We work closely with Saudi authorities to make your Hajj and Umrah visa process smooth and timely.</p>
+
+            <h2>Comfortable Accommodation</h2>
+            <p>We understand the importance of rest and convenience during your pilgrimage. Our packages include accommodations near the Holy Kaaba in Makkah and the Prophet’s Mosque in Madinah. We partner with trusted hotels and guest houses to provide clean, safe, and accessible lodging.</p>
+
+            <h2>Our Hajj Packages</h2>
+            <p>Our Hajj services are specifically tailored for pilgrims from Pakistan, ensuring that your sacred journey is organized, comfortable, and spiritually rewarding.</p>
+            <h3>Key Features of Our Hajj Packages</h3>
+            <ul>
+                <li>Visa Assistance: Complete support for Hajj visa application and approval.</li>
+                <li>Flights from Pakistan: Convenient flights from major cities including Karachi, Lahore, Islamabad, and Multan.</li>
+                <li>Accommodation: Stay in hotels with proximity to Haram Sharif in Makkah and Madinah.</li>
+                <li>Local Transport: Comfortable and safe transportation for all Hajj rituals.</li>
+                <li>Guided Services: Experienced guides to help with the rituals and navigation in the holy cities.</li>
+                <li>Health & Safety: Medical assistance and insurance for all pilgrims.</li>
+            </ul>
+            <h3>Types of Hajj Packages</h3>
+            <ul>
+                <li>Economy Hajj Package: Affordable option with all essential services.</li>
+                <li>Standard Hajj Package: Balanced package with moderate luxury and convenience.</li>
+                <li>Premium Hajj Package: High-end services including 5-star accommodations and exclusive transportation.</li>
+            </ul>
+
+            <h2>Our Umrah Packages</h2>
+            <p>Performing Umrah is a spiritual journey that can be undertaken at any time of the year. Our Umrah packages from Pakistan are designed to provide flexibility, convenience, and comfort.</p>
+            <h3>Key Features of Our Umrah Packages</h3>
+            <ul>
+                <li>Flexible Dates: Travel at any time of the year, suitable for your schedule.</li>
+                <li>Visa Assistance: Efficient processing of Umrah visas for Pakistani citizens.</li>
+                <li>Flight Bookings: Direct and connecting flights from all major Pakistani cities.</li>
+                <li>Accommodation Near Haram: Stay close to the Holy Kaaba and the Prophet’s Mosque for easy access.</li>
+                <li>Guided Umrah: Assistance with Umrah rituals and religious guidance.</li>
+                <li>Affordable Rates: Packages tailored to meet your budget without compromising quality.</li>
+            </ul>
+            <h3>Types of Umrah Packages</h3>
+            <ul>
+                <li>Short Umrah Package: 7-10 days for those with limited time.</li>
+                <li>Extended Umrah Package: 14-21 days for deeper spiritual experience.</li>
+                <li>Family Umrah Package: Special arrangements for families and senior pilgrims.</li>
+            </ul>
+
+            <h2>Spiritual Guidance and Support</h2>
+            <p>At our Hajj and Umrah Travel Agency, we believe that a pilgrimage is not just a journey, but a life-changing spiritual experience. Our team provides comprehensive religious guidance to help pilgrims:</p>
+            <ul>
+                <li>Perform rituals correctly and with understanding.</li>
+                <li>Understand the significance of each Hajj and Umrah ritual.</li>
+                <li>Maintain spiritual focus throughout the journey.</li>
+                <li>Receive continuous support for any religious or logistical queries.</li>
+            </ul>
+            <p>We also provide printed and digital guides, including maps of Makkah and Madinah, prayer schedules, and ritual checklists, so you can focus entirely on your spiritual experience.</p>
+
+            <h2>Why Hajj and Umrah from Pakistan is Special</h2>
+            <p>Pakistan has a strong tradition of sending pilgrims to the holy cities every year. Our agency ensures that pilgrims from Pakistan receive:</p>
+            <ul>
+                <li>Localized Support: Assistance in Urdu and regional languages.</li>
+                <li>Community Networking: Connect with fellow Pakistani pilgrims for support and companionship.</li>
+                <li>Custom Itineraries: Packages designed considering travel preferences and cultural needs of Pakistani pilgrims.</li>
+            </ul>
+            <p>Our services focus on creating an environment where Pakistani pilgrims feel comfortable, supported, and spiritually fulfilled during their Hajj or Umrah journey.</p>
+
+            <h2>Travel Tips for Pilgrims</h2>
+            <p>Preparing for Hajj or Umrah requires careful planning. Here are some essential tips:</p>
+            <ul>
+                <li>Early Booking: Ensure your package is booked well in advance to secure flights and accommodations.</li>
+                <li>Documentation: Keep all necessary documents, including passports, visas, and vaccination certificates ready.</li>
+                <li>Health Preparation: Consult your doctor, carry medications, and stay hydrated.</li>
+                <li>Travel Light: Pack essential clothing, religious items, and personal care products.</li>
+                <li>Spiritual Preparation: Learn the rituals, du’as, and prayers to maximize your spiritual experience.</li>
+            </ul>
+            <p>Our agency provides detailed pre-travel guidance sessions to help pilgrims prepare mentally, physically, and spiritually for their journey.</p>
+
+            <h2>Testimonials from Our Pilgrims</h2>
+            <p>We take pride in serving thousands of pilgrims from Pakistan every year. Here’s what some of our travelers have to say:</p>
+            <ul>
+                <li>“The entire Hajj journey was seamless, thanks to the dedicated team of this agency. From visa processing to accommodation, everything was perfect.” – Ahmed R., Karachi</li>
+                <li>“Our Umrah trip was spiritually uplifting. The guides were knowledgeable, and the services were outstanding.” – Fatima S., Lahore</li>
+                <li>“I felt completely supported throughout my pilgrimage. The agency took care of every detail, allowing me to focus on my worship.” – Bilal M., Islamabad</li>
+            </ul>
+            <p>These testimonials reflect our commitment to providing a trustworthy and reliable Hajj and Umrah travel service in Pakistan.</p>
+
+            <h2>Booking Your Hajj and Umrah Package</h2>
+            <p>Booking with our Hajj and Umrah Travel Agency is simple and transparent. Follow these steps:</p>
+            <ol>
+                <li>Select Your Package: Choose from our range of Hajj or Umrah packages.</li>
+                <li>Consult Our Team: Discuss your preferences and special requirements.</li>
+                <li>Complete Documentation: Submit passport, visa application, and other necessary forms.</li>
+                <li>Confirm Booking: Receive confirmation of flights, accommodation, and itinerary.</li>
+                <li>Prepare for Travel: Attend pre-travel guidance sessions for a smooth journey.</li>
+            </ol>
+            <p>We aim to make the process stress-free, ensuring that your focus remains on your spiritual preparation and worship.</p>
+
+            <h2>Commitment to Excellence</h2>
+            <p>Our agency is driven by a mission to provide exceptional Hajj and Umrah services in Pakistan. Our core values include:</p>
+            <ul>
+                <li><strong>Integrity:</strong> Transparent and ethical dealings with every pilgrim.</li>
+                <li><strong>Reliability:</strong> On-time services and meticulous planning for every journey.</li>
+                <li><strong>Comfort:</strong> Focused on providing safe, clean, and convenient accommodations.</li>
+                <li><strong>Spiritual Guidance:</strong> Dedicated support to enhance the religious experience.</li>
+            </ul>
+            <p>We continuously improve our services based on feedback from pilgrims to ensure every journey is better than the last.</p>
+
+            <h2>Contact Us</h2>
+            <p>Ready to embark on your spiritual journey? Contact our Hajj and Umrah Travel Agency in Pakistan today:</p>
+            <ul>
+                <li><strong>Phone:</strong> +92-XXX-XXXXXXX</li>
+                <li><strong>Email:</strong> <a href="mailto:info@umrahagency.pk">info@umrahagency.pk</a></li>
+                <li><strong>Office Locations:</strong> ………………….</li>
+            </ul>
+            <p>Our friendly and knowledgeable team is ready to answer your queries and help you plan your sacred journey with ease.</p>
+
+            <h2>Frequently Asked Questions (FAQs)</h2>
+            <p><strong>Q1: When is the best time to perform Hajj?</strong><br>
+            A: Hajj is performed during the Islamic month of Dhu al-Hijjah. It is essential to plan well in advance due to high demand for flights and accommodations.</p>
+            <p><strong>Q2: Can I perform Umrah any time of the year?</strong><br>
+            A: Yes, Umrah can be performed throughout the year, except during Hajj season.</p>
+            <p><strong>Q3: Are your packages suitable for families and senior citizens?</strong><br>
+            A: Absolutely. We offer tailored packages to meet the needs of families, elderly pilgrims, and individuals requiring special assistance.</p>
+            <p><strong>Q4: What is included in your Hajj package?</strong><br>
+            A: Our Hajj package typically includes visa assistance, flights, accommodations, local transport, guided services, and spiritual support.</p>
+            <p><strong>Q5: How do I prepare for Hajj or Umrah spiritually?</strong><br>
+            A: We provide guidance on rituals, prayers, and preparation to ensure a meaningful spiritual journey.</p>
+
+            <h2>Final Thoughts</h2>
+            <p>Embarking on Hajj or Umrah is a profound spiritual journey. Choosing the right Hajj and Umrah Travel Agency in Pakistan ensures that your pilgrimage is not only seamless but also spiritually fulfilling. Our agency is dedicated to offering top-notch services, personalized support, and a memorable pilgrimage experience.</p>
+            <p>With our experienced team, comprehensive packages, and unwavering commitment to your comfort and spiritual needs, we aim to make your journey to the holy cities of Makkah and Madinah truly transformative.</p>
+            <p><strong>Start your sacred journey today. Let our agency be your trusted companion in this life-changing spiritual adventure.</strong></p>
+
         </div>
-
     </div>
-
 </div>
 <!-- Home page content section ends here  -->
 @endsection

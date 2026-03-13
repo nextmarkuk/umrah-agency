@@ -4,31 +4,31 @@
                 <div class="row">
                     <div class="col-md-12 col-lg-3 col-xl-4">
                         <div class="logo">
-                            <a href="{{ route('home') }}"><img loading="lazy" class="logo img-responsive" src="{{asset('assets/images/logo.png')}}" alt="Hadi Tours"></a>
+                            <a href="{{ route('home') }}"><img loading="lazy" class="logo img-responsive" src="{{asset('assets/images/logo.png')}}" alt="Umrah Agency Pakistan"></a>
                         </div>
                         <!-- </div> -->
                         <!-- <div class="col-md-4"> -->
                         <ul class="socialLinks d-flex p-0">
                             <li>
-                                <a rel="nofollow" target="_blank" href="https://www.facebook.com/haditours">
+                                <a rel="nofollow" target="_blank" href="https://www.facebook.com/umrahagency">
                                     <img loading="lazy" height="20" width="100" src="{{asset('assets/userfiles/files/facebook.png')}}"
                                         alt="Facebook">
                                 </a>
                             </li>
                             <li>
-                                <a rel="nofollow" target="_blank" href="https://twitter.com/haditours/">
+                                <a rel="nofollow" target="_blank" href="https://twitter.com/umrahagency/">
                                     <img loading="lazy" height="20" width="100" src="{{asset('assets/userfiles/files/twitter.png')}}"
                                         alt="Twitter">
                                 </a>
                             </li>
                             <li>
-                                <a rel="nofollow" target="_blank" href="https://www.pinterest.co.uk/haditours/">
+                                <a rel="nofollow" target="_blank" href="https://www.pinterest.co.uk/umrahagency/">
                                     <img loading="lazy" height="20" width="100" src="{{asset('assets/userfiles/files/pinterest.png')}}"
                                         alt="Pinterest">
                                 </a>
                             </li>
                             <li>
-                                <a rel="nofollow" target="_blank" href="https://www.instagram.com/haditoursuk/">
+                                <a rel="nofollow" target="_blank" href="https://www.instagram.com/umrahagency/">
                                     <img loading="lazy" height="20" width="100" src="{{asset('assets/userfiles/files/instagram.png')}}"
                                         alt="Instagram">
                                 </a>
@@ -61,15 +61,23 @@
                         <div class="footer-data getInTouch">
                             <h5>Get in Touch</h5>
                             <ul>
-                                <li><a href="tel:020 3103 0264">020 3103 0264</a></li>
-                                <li><a href="mailto:info@haditours.co.uk">info@haditours.co.uk</a></li>
+                                <li><a href="mailto:info@umrahagency.pk">info@umrahagency.pk</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-3 col-lg-2 col-xl-2">
                         <div class="footer-data">
-                            <h5>Address</h5>
-                            <p>13 Station Rd, London SE25 5AH, United Kingdom</p>
+                            <h5>Contact Info</h5>
+                            <ul class="list-unstyled footer-contact-info">
+                                <li class="mb-3 d-flex align-items-start text-white">
+                                    <i class="fa fa-map-marker mr-3 mt-1 text-warning"></i>
+                                    <span>Doctor Hospital Johar Town Lahore</span>
+                                </li>
+                                <li class="mb-3 d-flex align-items-center">
+                                    <i class="fa fa-phone mr-3 text-warning"></i>
+                                    <a href="tel:03073344679" class="text-white">03073344679</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -78,7 +86,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-12">
                         <p>
-                        <p>All rights reserved Haditours&nbsp;&copy; 2020- 2026</p>
+                        <p>All rights reserved Umrah Agency Pakistan&nbsp;&copy; 2020- 2026</p>
 
                         <p>All the flight-inclusive holidays on this website are financially protected by the ATOL
                             scheme. When you pay you will be supplied with an ATOL Certificate. Please ask for it and
@@ -95,25 +103,25 @@
                     <div class="col-md-4">
                         <ul class="socialLinks d-none">
                             <li>
-                                <a href="https://www.facebook.com/haditours">
+                                <a href="https://www.facebook.com/umrahagency">
                                     <img loading="lazy" height="20" width="100" src="{{asset('assets/userfiles/files/facebook.png')}}"
                                         alt="Facebook">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/haditours/">
+                                <a href="https://twitter.com/umrahagency/">
                                     <img loading="lazy" height="20" width="100" src="{{asset('assets/userfiles/files/twitter.png')}}"
                                         alt="Twitter">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.pinterest.co.uk/haditours/">
+                                <a href="https://www.pinterest.co.uk/umrahagency/">
                                     <img loading="lazy" height="20" width="100" src="{{asset('assets/userfiles/files/pinterest.png')}}"
                                         alt="Pinterest">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/haditoursuk/">
+                                <a href="https://www.instagram.com/umrahagency/">
                                     <img loading="lazy" height="20" width="100" src="{{asset('assets/userfiles/files/instagram.png')}}"
                                         alt="Instagram">
                                 </a>

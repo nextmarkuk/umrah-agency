@@ -1,28 +1,28 @@
 @extends('layouts.master')
 @section('meta')
-<title>Hajj Packages 2026 | Affordable All-Inclusive Hajj Deals from UK</title>
-<meta name="description" content="Book your Hajj 2026 package with Hadi Tours. We offer all-inclusive Hajj deals from London, Manchester, and Birmingham with premium hotels, flights, and expert guidance.">
-<link rel="canonical" href="https://www.haditours.co.uk/hajj-packages.html" />
+<title>Hajj Packages 2026 | Affordable All-Inclusive Hajj Deals from Pakistan</title>
+<meta name="description" content="Book your Hajj 2026 package with Umrah Agency Pakistan. We offer all-inclusive Hajj deals from major cities in Pakistan with premium hotels, flights, and expert guidance.">
+<link rel="canonical" href="https://umrahagency.pk/hajj-packages.html" />
 @endsection
 @verbatim
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Service",
-  "@id": "https://www.haditours.co.uk/hajj-packages.html#hajj2026",
-  "name": "Hajj Packages 2026 from UK",
-  "url": "https://www.haditours.co.uk/hajj-packages.html",
-  "description": "Explore comprehensive Hajj Packages 2026 from the UK with Hadi Tours. Choose from economy, standard and deluxe options including flights, Saudi Hajj visa assistance, hotel accommodation near Makkah and Madinah, transportation, guided support and full on-ground services for the sacred Hajj pilgrimage.",
+  "@id": "https://umrahagency.pk/hajj-packages.html#hajj2026",
+  "name": "Hajj Packages 2026 from Pakistan",
+  "url": "https://umrahagency.pk/hajj-packages.html",
+  "description": "Explore comprehensive Hajj Packages 2026 from Pakistan with Umrah Agency Pakistan. Choose from economy, standard and deluxe options including flights, Saudi Hajj visa assistance, hotel accommodation near Makkah and Madinah, transportation, guided support and full on-ground services for the sacred Hajj pilgrimage.",
   "provider": {
     "@type": "TravelAgency",
-    "@id": "https://www.haditours.co.uk/#travelagency",
-    "name": "Hadi Tours",
-    "url": "https://www.haditours.co.uk/"
+    "@id": "https://umrahagency.pk/#travelagency",
+    "name": "Umrah Agency Pakistan",
+    "url": "https://umrahagency.pk/"
   },
   "serviceType": "Hajj Packages 2026",
   "areaServed": {
     "@type": "Country",
-    "name": "United Kingdom"
+    "name": "Pakistan"
   },
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -86,11 +86,10 @@
 <section class="search-banner">
     <!--slider section Start-->
     <div class="banner">
-        <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.png')}}" class="img-fluid" alt="Hajj Packages Banner - Hadi Tours" width="1920" height="600" fetchpriority="high">
+        <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.png')}}" class="img-fluid" alt="Hajj Packages Banner - Umrah Agency Pakistan" width="1920" height="600" fetchpriority="high">
         <div class="banner-text">
-            <h1>Trusted Islamic Travel Agency&nbsp;in UK</h1>
-            <h4>For Umrah Services</h4>
-            </h4>
+            <h1>Trusted Hajj and Umrah Travel Agency</h1>
+            <h4>In Pakistan</h4>
         </div>
     </div>
     <div class="searchEngine" id="packageInquiry">
@@ -500,21 +499,21 @@
         <p style="text-align: justify;">&quot;Hajj&quot; is a sacred term for all Muslims, and the desire to visit
             not only the House of Allah Almighty but also the places where His beloved Prophet (PBUH) lived and
             spent time is the craving of all belonging to the religion Islam. It was one of the five pillars of
-            Islam which are declared mandatory for those Muslims who are financially stable to pay the visit. Hadi Tours offers cheap Hajj packages in 2026, which are not only economical but also reasonable in terms
+            Islam which are declared mandatory for those Muslims who are financially stable to pay the visit. Umrah Agency Pakistan offers cheap Hajj packages in 2026, which are not only economical but also reasonable in terms
             of providing the best Hajj packages. These best hajj packages include providing visa services, flight,
             Qurbani, Hotel stay, transport, and Hajj draft. Affordable hajj packages are every Muslim&rsquo;s
-            desire. Those looking for affordable Hajj packages will be very pleased to know that Haditours is
+            desire. Those looking for affordable Hajj packages will be very pleased to know that Umrah Agency Pakistan is
             offering the following exciting and cheap Hajj packages for 2026:</p>
 
         <h2 style="text-align: justify;">Amazing and affordable Hajj Packages 2026&nbsp;for Muslim Community</h2>
 
         <p style="text-align: justify;"><strong>3 weeks 5 star best Hajj package</strong></p>
 
-        <p style="text-align: justify;">Haditours brings the best Hajj package for the Muslim community
-            residing in the UK to perform this holy obligation with comfort and ease. Around 70,000 believers travel
-            in intention to pay a visit to Allah&rsquo;s House, Hadi Tours travel becomes a luxurious bridge between
+        <p style="text-align: justify;">Umrah Agency Pakistan brings the best Hajj package for the Muslim community
+            residing in Pakistan to perform this holy obligation with comfort and ease. Around 70,000 believers travel
+            in intention to pay a visit to Allah&rsquo;s House, Umrah Agency Pakistan travel becomes a luxurious bridge between
             the faithful and their Creator.<br />
-            Haditours offers 3 weeks 5-star cheap Hajj packages present following privileged stays at the
+            Umrah Agency Pakistan offers 3 weeks 5-star cheap Hajj packages present following privileged stays at the
             below-mentioned venues:</p>
 
         <ul>
@@ -533,8 +532,8 @@
 
         <p style="text-align: justify;">We value our customers&rsquo; comfort and holy needs, presenting another
             package among the cheap Hajj packages 2026, which is not only the best Hajj package in terms of the way
-            it facilitates but is also affordable to the majority of our valued citizens of the UK. This is a
-            complete month, a non-shifting package which is providing the opportunity to the residents of the UK to
+            it facilitates but is also affordable to the majority of our valued citizens of Pakistan. This is a
+            complete month, a non-shifting package which is providing the opportunity to the residents of Pakistan to
             pay a visit to the Holy cities of Makkah and Madinah and have &ldquo;Ziarat&rdquo; of sacred places like
             Mina, Arafat, etc. Missing this amazing opportunity to avail of these affordable hajj packages will not
             be a wise decision to make. So don&rsquo;t think twice and make use of this holy month of Hajj out of
@@ -553,7 +552,7 @@
         <p style="text-align: justify;"><strong>2-3 Weeks non-shifting best hajj packages</strong></p>
 
         <p style="text-align: justify;">In this age, each one of us is looking towards tasks to be completed
-            economically, Haditours presents its customers in the UK with cheap and affordable Hajj packages
+            economically, Umrah Agency Pakistan presents its customers in Pakistan with cheap and affordable Hajj packages
             for all those desiring to perform this sacred religious obligation. So don&rsquo;t think twice and avail
             of this low-cost and reasonable offer and pay a visit to the House of Allah this year.</p>
 
@@ -581,11 +580,11 @@
 
         <ul>
             <li><strong>Visa and Documents:</strong> First, you need to get a Hajj visa. This is possible with a
-                recognised travel agency like <a href="https://www.haditours.co.uk/">Hadi Tours</a>. Make
+                recognised travel agency like <a href="https://umrahagency.pk/">Umrah Agency Pakistan</a>. Make
                 sure you have all the necessary paperwork, such as a current passport, medical certificates, and
                 vaccination records, especially for meningitis and COVID-19.</li>
             <li><strong>Flights and Hotels:</strong> It&#39;s best to book your flights and hotels early because
-                demand is high during the Hajj season. But with Hadi Tours, there&#39;s no need for concern. As soon as you
+                demand is high during the Hajj season. But with Umrah Agency Pakistan, there&#39;s no need for concern. As soon as you
                 book a package, we will arrange your return flights and hotels near the holy sites.</li>
             <li><strong>Health and Safety:</strong> Lastly, your health is very important during Hajj. Have a
                 thorough medical check-up prior to departing, and remember to stay hydrated. Also, bring a basic

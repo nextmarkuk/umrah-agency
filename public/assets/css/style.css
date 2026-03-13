@@ -258,7 +258,7 @@ p strong {
 .mainPackageImage {
     min-height: 290px;
 }
-    
+
 .mainPackage .mainPackageImage img {
     height: 21rem;
     border-radius: 4px 4px 0 0;
@@ -279,9 +279,11 @@ p strong {
     font-size: 18px;
     color: #fff !important;
 }
+
 .mainPackage .mainPackageDesc p.title a {
     color: #fff !important;
 }
+
 .mainPackage .mainPackageDesc p.tagline {
     font-weight: 300;
     font-size: 15px;
@@ -290,11 +292,13 @@ p strong {
     transition: color 0.3s;
     -webkit-transition: color 0.3s;
 }
+
 .package-heading {
     padding: 10px 20px;
     background-color: #3D3E42;
     color: #fff !important;
 }
+
 .stars {
     margin-bottom: 5px;
     display: inline-block;
@@ -333,10 +337,12 @@ p strong {
     border-radius: 10px;
     padding: 10px 20px;
 }
+
 .viewMainPackage:hover {
     background-color: #016b79;
     border-color: #c4cc2a;
 }
+
 .mainPackage .mainPackageDesc .viewMainPackage span {
     height: 31px;
     width: 31px;
@@ -478,9 +484,11 @@ header.with-bg {
     color: #85641E;
     background-color: transparent;
 }
-.navbar-expand-md .navbar-nav a.active{
+
+.navbar-expand-md .navbar-nav a.active {
     color: #85641E !important;
 }
+
 .navbar .extraLinks a {
     text-transform: initial;
     margin-left: 35px;
@@ -739,7 +747,7 @@ header {
 }
 
 .banner-text h1 {
-    font-size: 55px;
+    font-size: 40px;
     font-weight: 600;
     margin-bottom: 0;
     color: #fff;
@@ -747,7 +755,7 @@ header {
 
 .banner-text p {
     padding-top: 1rem;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 100;
     margin-bottom: 0;
     color: #fff;
@@ -945,28 +953,34 @@ header {
 .text-active {
     color: #ccdc33;
 }
-.fw-15{
+
+.fw-15 {
     font-size: 15px;
     font-weight: 500;
 }
+
 .br-b {
     border-bottom: 1.5px solid #ccdc33;
     padding-bottom: 10px;
 }
+
 .item span.price {
     font-size: 30px;
     font-weight: 700;
 }
+
 /*carousel indicator css End*/
 
 .owl-carousel .owl-item .icon {
     width: 20% !important;
 }
-.icon-text{
+
+.icon-text {
     font-size: 13px;
     padding: 20px 0px 0px 7px;
     font-weight: 600;
 }
+
 /*carousel arrow css Start*/
 
 .carousel-control,
@@ -1037,12 +1051,14 @@ header {
 }
 
 @media (max-width:768px) {
-   .viewMainPackage {
-    font-size: 10px;
-    padding: 10px 10px;
-}.featured-slick-carousel .item{
-    padding: 0px !important;
-}
+    .viewMainPackage {
+        font-size: 10px;
+        padding: 10px 10px;
+    }
+
+    .featured-slick-carousel .item {
+        padding: 0px !important;
+    }
 }
 
 /*carousel fade effect css Start*/
@@ -2098,6 +2114,7 @@ header {
     background-color: #3D3E42;
     margin-top: -1px;
 }
+
 .footer .logo {
     width: 45%;
 }
@@ -3427,5 +3444,3 @@ input[type=number] {
 .searchEngine .searchFields .form-group>img {
     aspect-ratio: auto 45/30;
 }
-
-

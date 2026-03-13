@@ -424,7 +424,7 @@
 
 @media (max-width: 1366px) {
   .banner-text p {
-    font-size: 40px;
+    font-size: 20px;
   }
 
   /*header css Start*/
@@ -475,10 +475,6 @@
 
   .banner-text {
     padding: 0 80px;
-  }
-
-  .banner-text p {
-    font-size: 44px;
   }
 
   .banner-text h1 {
@@ -724,10 +720,6 @@
 @media (max-width: 991.98px) {
   .banner-text h1 {
     font-size: 20px;
-  }
-
-  .banner-text p {
-    font-size: 36px;
   }
 
   /* umrah headings stars here  */
@@ -1499,6 +1491,7 @@
   .searchEngine .searchFields .form-group>img {
     top: 41%;
   }
+
   .banner-text h1 {
     font-size: 12px;
   }
@@ -1508,7 +1501,7 @@
   }
 
   .banner-text p {
-    font-size: 19px;
+    font-size: 15px;
   }
 
   .hotel .hotel-desc h3 {
@@ -1763,4 +1756,3 @@
     flex: 0 0 70%;
   }
 }
-

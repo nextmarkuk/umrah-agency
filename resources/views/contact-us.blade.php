@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('meta')
-<title>Contact Us | Hadi Tours - Plan Your Spiritual Hajj & Umrah Journey</title>
-<meta name="description" content="Get in touch with Hadi Tours for personalized Hajj and Umrah packages. Visit our London office, call us at 0203 970 0002, or email info@haditours.co.uk.">
+<title>Contact Us | Umrah Agency Pakistan - Plan Your Spiritual Hajj & Umrah Journey</title>
+<meta name="description" content="Get in touch with Umrah Agency Pakistan for personalized Hajj and Umrah packages. Visit our Pakistan office, call us at 03073344679, or email info@umrahagency.pk.">
 @endsection
 @section('content')
 <div class="pkg-header-top text-center">
@@ -28,7 +28,7 @@
                             </div>
                             <div>
                                 <h6 class="font-weight-bold mb-1">Phone Number</h6>
-                                <p class="mb-0"><a href="tel:02039700002" class="text-dark">0203 970 0002</a></p>
+                                <p class="mb-0"><a href="tel:03073344679" class="text-dark">03073344679</a></p>
                             </div>
                         </div>
 
@@ -38,7 +38,7 @@
                             </div>
                             <div>
                                 <h6 class="font-weight-bold mb-1">Email Address</h6>
-                                <p class="mb-0"><a href="mailto:info@haditours.co.uk" class="text-dark">info@haditours.co.uk</a></p>
+                                <p class="mb-0"><a href="mailto:info@umrahagency.pk" class="text-dark">info@umrahagency.pk</a></p>
                             </div>
                         </div>
 
@@ -48,14 +48,14 @@
                             </div>
                             <div>
                                 <h6 class="font-weight-bold mb-1">Office Address</h6>
-                                <p class="mb-0 text-dark">13 Station Rd, London SE25 5AH, United Kingdom</p>
+                                <p class="mb-0 text-dark">Doctor Hospital Johar Town Lahore</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="mt-5 p-4 bg-light-cream rounded border">
-                        <h6 class="font-weight-bold mb-2 uppercase small text-muted">Ablout Our Services</h6>
-                        <p class="small text-justify mb-0">Hadi Tours is a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals. Our team is dedicated to providing you with the best spiritual experience.</p>
+                        <h6 class="font-weight-bold mb-2 uppercase small text-muted">About Our Services</h6>
+                        <p class="small text-justify mb-0">Umrah Agency Pakistan is a trusted Hajj and Umrah travel agency in Pakistan. We offer all-inclusive Umrah packages for families, groups, and individuals. Our team is dedicated to providing you with the best spiritual experience.</p>
                     </div>
                 </div>
             </div>

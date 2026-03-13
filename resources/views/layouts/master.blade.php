@@ -13,20 +13,20 @@
 
     <meta name="twitter:card" content="summary">
     <meta name="robots" content="index, follow">
-    <meta name="twitter:site" content="@haditours">
-    <meta name="twitter:title" content="Trusted Islamic Travel Agency in the UK for Umrah Services">
-    <meta name="twitter:description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
-    <meta name="twitter:creator" content="@haditours">
-    <meta name="twitter:image:src" content="https://www.haditours.co.uk/assets/images/logo.png">
-    <meta name="twitter:domain" content="https://www.haditours.co.uk/">
-    <link rel="canonical" href="https://www.haditours.co.uk/" />
+    <meta name="twitter:site" content="@umrahagency">
+    <meta name="twitter:title" content="Hajj and Umrah Travel Agency in Pakistan | Trusted Pilgrimage Packages">
+    <meta name="twitter:description" content="Plan your sacred journey with our trusted Hajj and Umrah Travel Agency in Pakistan. Offering affordable and premium packages, visa assistance, flights, accommodation near Haram, and guided services for a seamless spiritual experience.">
+    <meta name="twitter:creator" content="@umrahagency">
+    <meta name="twitter:image:src" content="https://umrahagency.pk/assets/images/logo.png">
+    <meta name="twitter:domain" content="https://umrahagency.pk/">
+    <link rel="canonical" href="https://umrahagency.pk/" />
     
     <!-- facebook -->
-    <meta property="og:title" content="Trusted Islamic Travel Agency in the UK for Umrah Services" />
+    <meta property="og:title" content="Hajj and Umrah Travel Agency in Pakistan | Trusted Pilgrimage Packages" />
     <meta property="og:type" content="Hajj & Umrah" />
-    <meta property="og:image" content="https://www.haditours.co.uk/assets/images/logo.png" />
-    <meta property="og:url" content="https://www.haditours.co.uk/" />
-    <meta property="og:description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals." />
+    <meta property="og:image" content="https://umrahagency.pk/assets/images/logo.png" />
+    <meta property="og:url" content="https://umrahagency.pk/" />
+    <meta property="og:description" content="Plan your sacred journey with our trusted Hajj and Umrah Travel Agency in Pakistan. Offering affordable and premium packages, visa assistance, flights, accommodation near Haram, and guided services for a seamless spiritual experience." />
     
     <meta name="google-site-verification" content="rvAzZE4TBhBQLWDI31fFmvOvl7471uKKpTpp8LOeIHg" />
 
@@ -128,7 +128,7 @@
     <script src="{{asset('assets/js/slick.min.js')}}" defer></script>
     <script src="{{asset('assets/js/custom.js')}}" defer></script>
     <script type="text/javascript">
-        var base_url = "https://www.haditours.co.uk";
+        var base_url = "https://umrahagency.pk";
         document.addEventListener('DOMContentLoaded', function() {
             if (typeof customUploader === 'function') {
                 customUploader(base_url);
