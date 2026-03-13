@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('meta')
-<title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
-<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<title>Trusted Umrah Agency in Pakistan for Umrah Services</title>
+<meta name="description" content="Get Umrah services from a trusted Umrah agency in Lahore, Pakistan. We offer all-inclusive Umrah packages for families, groups, and individuals.">
 @endsection
 @section('content')
 <div class="pkg-header-top text-center">
@@ -16,10 +16,10 @@
         <div class="row justify-content-center">
             <div class="col-lg-10">
                 <div class="section-card shadow-sm">
-                    <p>This website located at <strong>haditours.co.uk</strong> is owned and operated by <strong>Hadi Tours</strong>. <br />
+                    <p>This website located at <strong>umrahagency.pk</strong> is owned and operated by <strong>Umrah Agency Pakistan</strong>. <br />
                         If you do not agree to be bound by and comply with these terms of use, please do not access or use this site.</p>
 
-                    <p>References in these terms of use to "you", "your" or "yours" are to be taken as references to the site user and the user's company, except where stated or where the context requires otherwise. References to "us" or "we" are to be taken as references to <strong>Hadi Tours</strong>.</p>
+                    <p>References in these terms of use to "you", "your" or "yours" are to be taken as references to the site user and the user's company, except where stated or where the context requires otherwise. References to "us" or "we" are to be taken as references to <strong>Umrah Agency Pakistan</strong>.</p>
 
                     <div class="legal-section mt-5">
                         <h5 class="font-weight-bold mb-3">1. LIMITS ON USE</h5>
@@ -33,7 +33,7 @@
 
                     <div class="legal-section mt-4">
                         <h5 class="font-weight-bold mb-3">3. ACCURACY & SITE CONTENT</h5>
-                        <p>We use reasonable skill and care in compiling the information accessible on and through this site. However, certain information may have been compiled and/or provided to us by a third party who is not a member of our network. <strong>Hadi Tours</strong> does not accept responsibility for the accuracy of any information which is obtained from any such third party.</p>
+                        <p>We use reasonable skill and care in compiling the information accessible on and through this site. However, certain information may have been compiled and/or provided to us by a third party who is not a member of our network. <strong>Umrah Agency Pakistan</strong> does not accept responsibility for the accuracy of any information which is obtained from any such third party.</p>
                         <p>Furthermore, errors and omissions in the information accessible on and through this site may occur because of a number of factors which are inherent in any internet-related system and which are not within our reasonable control. For example, information may be affected by machine, software or operator error, or malfunctions in connection with data transmission. In view of this, the information is provided "as is" and you should always attempt to verify the accuracy of any information obtained from this site before relying upon it.</p>
                         <p>This is a dynamic site and as a result, the content and look and feel may change from time to time without prior notice.</p>
                     </div>
@@ -42,15 +42,15 @@
                         <h5 class="font-weight-bold mb-3">4. LIMITED LICENCE & OWNERSHIP</h5>
                         <p>You are granted a limited licence to download the materials contained on this site to a personal computer, and to print a hard copy of such materials, solely for your personal, non-commercial use, provided that all copyright, trade mark and other proprietary notices are left intact.</p>
                         <p>Save as expressly and specifically permitted in these terms of use, all translation, re-transmission, distribution or other use of the materials contained on this site and in its databases on any other internet site or other media is strictly prohibited. You are also prohibited from: (a) framing this site or any part of it on any other site; or (b) mirroring this site on another server; or (c) using automated screen capture or screen scraping technologies to obtain information of any sort from this site.</p>
-                        <p>All copyright and all other intellectual property and proprietary rights of any sort relating in any way to this site (including, but not limited to, those relating to its content, branding and the services, software and any other materials made available on and through it) are hereby expressly reserved to <strong>Hadi Tours</strong> or, in the case of any other brands, names and logos featured on this site, their respective owners.</p>
+                        <p>All copyright and all other intellectual property and proprietary rights of any sort relating in any way to this site (including, but not limited to, those relating to its content, branding and the services, software and any other materials made available on and through it) are hereby expressly reserved to <strong>Umrah Agency Pakistan</strong> or, in the case of any other brands, names and logos featured on this site, their respective owners.</p>
                     </div>
 
                     <div class="legal-section mt-4">
                         <h5 class="font-weight-bold mb-3">5. PRIVACY POLICY</h5>
                         <p>When you visit this site we will collect data that will personally identify you ("User Data") e.g. when you use the site's "contact us" facilities.</p>
                         <p>We will only use the User Data to: (a) contact you and provide you with information (as requested); and (b) deal with any other matters arising as a result of that contact.</p>
-                        <p>We will not sell the User Data to anyone, but, for the avoidance of doubt, the User Data may be transferred to a future purchaser of <strong>Hadi Tours</strong>, all or part of the <strong>Hadi Tours</strong> Group of companies and/or all or some of its assets.</p>
-                        <p>We will not disclose the User Data outside <strong>Hadi Tours</strong> except as necessary to deal with matters arising from your use of the site and your contact(s) with us.</p>
+                        <p>We will not sell the User Data to anyone, but, for the avoidance of doubt, the User Data may be transferred to a future purchaser of <strong>Umrah Agency Pakistan</strong>, all or part of the <strong>Umrah Agency Pakistan</strong> Group of companies and/or all or some of its assets.</p>
+                        <p>We will not disclose the User Data outside <strong>Umrah Agency Pakistan</strong> except as necessary to deal with matters arising from your use of the site and your contact(s) with us.</p>
                     </div>
 
                     <div class="legal-section mt-4">
@@ -66,8 +66,8 @@
 
                     <div class="legal-section mt-4">
                         <h5 class="font-weight-bold mb-3">11. ABOUT US</h5>
-                        <p>This site is made available to you by <strong>Hadi Tours</strong> (Regd Branch Office: 13 Station Rd, London SE25 5AH, United Kingdom) and is &copy; <strong>Hadi Tours</strong>. All rights reserved.</p>
-                        <p>Our normal hours of business are 09:00 to 18:00 weekdays excluding Bank Holidays. You can contact us by writing to us at the above address or by using the 'contact us' facility on this site.</p>
+                        <p>This site is made available to you by <strong>Umrah Agency Pakistan</strong> (Office Address: Doctor Hospital Johar Town Lahore, Pakistan) and is &copy; <strong>Umrah Agency Pakistan</strong>. All rights reserved.</p>
+                        <p>Our normal hours of business are 09:00 to 18:00 weekdays. You can contact us by writing to us at the above address or by using the 'contact us' facility on this site.</p>
                     </div>
 
                     <div class="legal-section mt-5 border-top pt-5">
@@ -122,13 +122,12 @@
 
                     <div class="legal-section mt-5 border-top pt-5">
                         <h3 class="h4 font-weight-bold mb-4">CONDITIONS B</h3>
-                        <p class="text-muted mb-4 small">Apply to all bookings covered by ATOL No. 12192 as shown in our website.</p>
-                        <p><strong>Hadi Tours</strong> acts as agents only in transactions relating to flight, car hire accommodation, package holidays etc. and book those for you on behalf of the Supplier or Operator (the Principal). We are not the Principal and do not act as the Principal.</p>
+                        <p><strong>Umrah Agency Pakistan</strong> acts as agents only in transactions relating to flight, car hire accommodation, package holidays etc. and book those for you on behalf of the Supplier or Operator (the Principal). We are not the Principal and do not act as the Principal.</p>
                     </div>
 
                     <div class="legal-section mt-5 border-top pt-5 bg-light p-4 rounded">
                         <h5 class="font-weight-bold mb-3">General Data Protection Regulation (GDPR)</h5>
-                        <p class="mb-0">By consenting to this privacy notice you are giving us permission to process your personal data specifically for the purpose identified. Consent is required for <strong>Hadi Tours</strong> to process personal data to fulfil your travel requirements.</p>
+                        <p class="mb-0">By consenting to this privacy notice you are giving us permission to process your personal data specifically for the purpose identified. Consent is required for <strong>Umrah Agency Pakistan</strong> to process personal data to fulfil your travel requirements.</p>
                     </div>
                 </div>
             </div>

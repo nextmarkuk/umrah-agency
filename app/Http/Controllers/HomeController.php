@@ -81,9 +81,9 @@ class HomeController extends Controller
         return view('easter-umrah-packages');
     }
 
-    public function birminghamUmrah()
+    public function lahoreUmrah()
     {
-        return view('birmingham-umrah-packages');
+        return view('lahore-umrah-packages');
     }
 
     public function sendInquiry(Request $request)
@@ -122,10 +122,10 @@ class HomeController extends Controller
         }
         
         try {
-            \Illuminate\Support\Facades\Mail::send('emails.inquiry', ['data' => $data], function($message) use ($data) {
-                $message->to('info@haditours.co.uk');
+            \u001cIlluminate\Support\Facades\Mail::send('emails.inquiry', ['data' => $data], function($message) use ($data) {
+                $message->to('info@umrahagency.pk');
                 $message->replyTo($data['email']);
-                $message->subject('New Package Inquiry - ' . ($data['name'] ?? 'Hadi Tours'));
+                $message->subject('New Package Inquiry - ' . ($data['name'] ?? 'Umrah Agency Pakistan'));
             });
             if ($request->ajax()) {
                 return response()->json(['status' => 'success', 'message' => 'Thank you! Your inquiry has been sent successfully.']);

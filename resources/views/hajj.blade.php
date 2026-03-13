@@ -27,16 +27,16 @@
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Hajj Packages 2026",
-    "@id": "https://www.haditours.co.uk/hajj-packages.html#catalog",
+    "@id": "https://umrahagency.pk/hajj-packages.html#catalog",
     "itemListElement": [
       {
         "@type": "AggregateOffer",
         "name": "Economy Hajj Package 2026",
-        "url": "https://www.haditours.co.uk/hajj-packages.html#economy",
-        "description": "Economy Hajj package 2026 from UK including flights, visa, accommodation in standard hotels in Makkah and Madinah, tent services in Mina and Arafat, and transfers.",
-        "priceCurrency": "GBP",
-        "lowPrice": 5995,
-        "highPrice": 6995,
+        "url": "https://umrahagency.pk/hajj-packages.html#economy",
+        "description": "Economy Hajj package 2026 from Pakistan including flights, visa, accommodation in standard hotels in Makkah and Madinah, tent services in Mina and Arafat, and transfers.",
+        "priceCurrency": "PKR",
+        "lowPrice": 1500000,
+        "highPrice": 1650000,
         "offerCount": 3,
         "availability": "https://schema.org/InStock",
         "itemOffered": {
@@ -47,11 +47,10 @@
       {
         "@type": "AggregateOffer",
         "name": "Standard Hajj Package 2026",
-        "url": "https://www.haditours.co.uk/hajj-packages.html#standard",
-        "description": "Standard Hajj package 2026 from UK with mid-range hotel accommodation, flights, Hajj visa support and guided transfers throughout the pilgrimage.",
-        "priceCurrency": "GBP",
-        "lowPrice": 7500,
-        "highPrice": 8995,
+        "description": "Standard Hajj package 2026 from Pakistan with mid-range hotel accommodation, flights, Hajj visa support and guided transfers throughout the pilgrimage.",
+        "priceCurrency": "PKR",
+        "lowPrice": 1700000,
+        "highPrice": 1950000,
         "offerCount": 3,
         "availability": "https://schema.org/InStock",
         "itemOffered": {
@@ -62,11 +61,10 @@
       {
         "@type": "AggregateOffer",
         "name": "Deluxe/Super Deluxe Hajj Package 2026",
-        "url": "https://www.haditours.co.uk/hajj-packages.html#deluxe",
-        "description": "Deluxe and Super Deluxe Hajj packages 2026 from UK featuring premium hotel stays near the Haram, flights, Saudi Hajj visa, private transport, full service support and optional VIP amenities.",
-        "priceCurrency": "GBP",
-        "lowPrice": 9950,
-        "highPrice": 12995,
+        "description": "Deluxe and Super Deluxe Hajj packages 2026 from Pakistan featuring premium hotel stays near the Haram, flights, Saudi Hajj visa, private transport, full service support and optional VIP amenities.",
+        "priceCurrency": "PKR",
+        "lowPrice": 2100000,
+        "highPrice": 2500000,
         "offerCount": 2,
         "availability": "https://schema.org/InStock",
         "itemOffered": {
@@ -89,7 +87,7 @@
         <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.png')}}" class="img-fluid" alt="Hajj Packages Banner - Umrah Agency Pakistan" width="1920" height="600" fetchpriority="high">
         <div class="banner-text">
             <h1>Trusted Hajj and Umrah Travel Agency</h1>
-            <h4>In Pakistan</h4>
+            <p>In Pakistan</p>
         </div>
     </div>
     <div class="searchEngine" id="packageInquiry">
@@ -102,25 +100,14 @@
                         <i class="fa fa-plane fa-2x text-warning mr-1" style="color: #85641E !important;font-size: 1.4em;"></i> Departure Airport
                     </label>
                     <select class="form-control" id="enquiry-departure" name="n[Departure Airport]" required>
-                        <option value="">Departure Airport</option>
-                        <option value="London Heathrow">London Heathrow</option>
-                        <option value="London Gatwick">London Gatwick</option>
-                        <option value="Manchester">Manchester</option>
-                        <option value="London Stansted">London Stansted</option>
-                        <option value="London Luton">London Luton</option>
-                        <option value="Edinburgh">Edinburgh</option>
-                        <option value="Birmingham">Birmingham</option>
-                        <option value="Glasgow">Glasgow</option>
-                        <option value="Bristol">Bristol</option>
-                        <option value="Liverpool">Liverpool</option>
-                        <option value="Newcastle">Newcastle</option>
-                        <option value="East Midlands">East Midlands</option>
-                        <option value="Aberdeen">Aberdeen</option>
-                        <option value="London City">London City</option>
-                        <option value="Leeds Bradford">Leeds Bradford</option>
-                        <option value="Cardiff">Cardiff</option>
-                        <option value="Norwich">Norwich</option>
-                        <option value="Humberside">Humberside</option>
+                        <option value="Lahore">Lahore</option>
+                        <option value="Karachi">Karachi</option>
+                        <option value="Islamabad">Islamabad</option>
+                        <option value="Multan">Multan</option>
+                        <option value="Sialkot">Sialkot</option>
+                        <option value="Faisalabad">Faisalabad</option>
+                        <option value="Peshawar">Peshawar</option>
+                        <option value="Quetta">Quetta</option>
                     </select>
                     <span class="borderBottom"></span>
                 </div>
@@ -299,7 +286,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 6499 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 1,500,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('hajjDetail', ['slug' => '4-weeks-hajj-package-non-shifting']) }}">
                                         View Details
                                     </a>
@@ -348,7 +335,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 6999 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 1,650,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('hajjDetail', ['slug' => '2-3-weeks-non-shifting-hajj-package']) }}">
                                         View Details
                                     </a>
@@ -397,7 +384,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 7499 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 1,800,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('hajjDetail', ['slug' => '2-3-weeks-hajj-package-non-shifting']) }}">
                                         View Details
                                     </a>
@@ -446,7 +433,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 8299 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 2,100,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('hajjDetail', ['slug' => '5-star-hajj-package-non-shifting']) }}">
                                         View Details
                                     </a>

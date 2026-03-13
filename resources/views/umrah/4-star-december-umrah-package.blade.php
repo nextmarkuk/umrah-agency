@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('meta')
-    <title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
-    <meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+    <title>4 Star 10 Nights December Umrah Package | Umrah Agency Pakistan</title>
+    <meta name="description" content="Book 4 Star 10 Nights December Umrah Package with Umrah Agency Pakistan. All-inclusive deals from major cities in Pakistan.">
 @endsection
 @section('content')
 
@@ -27,10 +27,10 @@
             
             <div class="pkg-price-bar">
                 <div class="price-text text-white">
-                    FROM <span class="text-white">&pound; 800</span> per person
+                    FROM <span class="text-white">PKR 280,000</span> per person
                 </div>
                 <div class="deposit-btn">
-                    <i class="fa fa-bookmark"></i> Book with just &pound;100 deposit
+                    <i class="fa fa-bookmark"></i> Book with just PKR 50,000 deposit
                 </div>
             </div>
         </div>
@@ -64,7 +64,7 @@
                                 <i class="fa fa-plane fa-2x text-warning mr-3" style="color: #3D3E42 !important;"></i>
                                 <div class="info">
                                     <span>Return Flights</span>
-                                    <small>From UK</small>
+                                    <small>From Pakistan</small>
                                 </div>
                             </div>
                             <div class="overview-item">
@@ -75,7 +75,7 @@
                                 </div>
                             </div>
                         </div>
-                        <p class="description text-justify">Experience a spiritually enriching 10-night Umrah journey this December with Hadi Tours. Stay at the renowned Elaf Ajyad in Makkah and Elaf Meshal Al Madina in Madinah, both known for their comfort and hospitality. This perfectly balanced package allows you to focus on your worship and reflection during the cooler winter months.</p>
+                        <p class="description text-justify">Experience a spiritually enriching 10-night Umrah journey this December with Umrah Agency Pakistan. Stay at the renowned Elaf Ajyad in Makkah and Elaf Meshal Al Madina in Madinah, both known for their comfort and hospitality. This perfectly balanced package allows you to focus on your worship and reflection during the cooler winter months.</p>
                     </div>
 
                     <!-- Accommodation Section -->
@@ -132,7 +132,7 @@
                             <div class="col-md-6">
                                 <h6 class="font-weight-bold mb-3 small uppercase text-muted">INCLUDED</h6>
                                 <ul class="list-unstyled included-list">
-                                    <li class="d-flex align-items-center"><i class="fa fa-check-circle text-success mr-2"></i> Return flights from UK</li>
+                                    <li class="d-flex align-items-center"><i class="fa fa-check-circle text-success mr-2"></i> Return flights from Pakistan</li>
                                     <li class="d-flex align-items-center"><i class="fa fa-check-circle text-success mr-2"></i> Umrah Visa processing</li>
                                     <li class="d-flex align-items-center"><i class="fa fa-check-circle text-success mr-2"></i> Makkah Hotel (5 Nights)</li>
                                     <li class="d-flex align-items-center"><i class="fa fa-check-circle text-success mr-2"></i> Madinah Hotel (5 Nights)</li>
@@ -162,24 +162,14 @@
                                 <label>Departure Airport</label>
                                 <select class="form-control" name="n[Departure Airport]" required>
                                     <option value="">Departure Airport</option>
-                                    <option value="London Heathrow">London Heathrow</option>
-                                    <option value="London Gatwick">London Gatwick</option>
-                                    <option value="Manchester">Manchester</option>
-                                    <option value="London Stansted">London Stansted</option>
-                                    <option value="London Luton">London Luton</option>
-                                    <option value="Edinburgh">Edinburgh</option>
-                                    <option value="Birmingham">Birmingham</option>
-                                    <option value="Glasgow">Glasgow</option>
-                                    <option value="Bristol">Bristol</option>
-                                    <option value="Liverpool">Liverpool</option>
-                                    <option value="Newcastle">Newcastle</option>
-                                    <option value="East Midlands">East Midlands</option>
-                                    <option value="Aberdeen">Aberdeen</option>
-                                    <option value="London City">London City</option>
-                                    <option value="Leeds Bradford">Leeds Bradford</option>
-                                    <option value="Cardiff">Cardiff</option>
-                                    <option value="Norwich">Norwich</option>
-                                    <option value="Humberside">Humberside</option>
+                                    <option value="Lahore">Lahore</option>
+                                    <option value="Karachi">Karachi</option>
+                                    <option value="Islamabad">Islamabad</option>
+                                    <option value="Multan">Multan</option>
+                                    <option value="Sialkot">Sialkot</option>
+                                    <option value="Faisalabad">Faisalabad</option>
+                                    <option value="Peshawar">Peshawar</option>
+                                    <option value="Quetta">Quetta</option>
                                 </select>
                             </div>
 
@@ -244,7 +234,7 @@
 
                             <div class="form-group mb-3">
                                 <label>Phone Number</label>
-                                <input type="text" name="n[Phone Number]" class="form-control" placeholder="+44 123 456 7890" required>
+                                <input type="text" name="n[Phone Number]" class="form-control" placeholder="03073344679" required>
                             </div>
                             
                             <div class="form-group mb-3">

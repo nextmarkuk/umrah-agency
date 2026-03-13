@@ -1,136 +1,136 @@
 @extends('layouts.master')
 @section('meta')
-<title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
-<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<title>Trusted Umrah Agency in Pakistan for Lahore Umrah Packages</title>
+<meta name="description" content="Get Umrah services from a trusted Umrah agency in Lahore, Pakistan. We offer all-inclusive Lahore Umrah packages for families, groups, and individuals.">
 @endsection
 @verbatim
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Service",
-  "@id": "https://www.haditours.co.uk/birmingham-umrah-packages.html#birminghamumrah2026",
-  "name": "Birmingham Umrah Packages 2026 from UK",
-  "url": "https://www.haditours.co.uk/birmingham-umrah-packages.html",
-  "description": "Discover Birmingham Umrah Packages 2026 from the UK with Hadi Tours, offering flight-inclusive 4-star and 5-star options including Umrah visas, hotel stays in Makkah & Madinah, transfers, and flexible durations from 7 to 14 nights. Depart conveniently from Birmingham Airport with expert support and spiritually fulfilling arrangements.",
+  "@id": "https://umrahagency.pk/lahore-umrah-packages.html#lahoreumrah2026",
+  "name": "Lahore Umrah Packages 2026 from Pakistan",
+  "url": "https://umrahagency.pk/lahore-umrah-packages.html",
+  "description": "Discover Lahore Umrah Packages 2026 from Pakistan with Umrah Agency Pakistan, offering flight-inclusive 4-star and 5-star options including Umrah visas, hotel stays in Makkah & Madinah, transfers, and flexible durations from 7 to 14 nights. Depart conveniently from Lahore Airport with expert support and spiritually fulfilling arrangements.",
   "provider": {
     "@type": "TravelAgency",
-    "@id": "https://www.haditours.co.uk/#travelagency",
-    "name": "Hadi Tours",
-    "url": "https://www.haditours.co.uk/"
+    "@id": "https://umrahagency.pk/#travelagency",
+    "name": "Umrah Agency Pakistan",
+    "url": "https://umrahagency.pk/"
   },
-  "serviceType": "Birmingham Umrah Packages 2026",
+  "serviceType": "Lahore Umrah Packages 2026",
   "areaServed": {
     "@type": "Country",
-    "name": "United Kingdom"
+    "name": "Pakistan"
   },
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Birmingham Umrah Packages 2026",
-    "@id": "https://www.haditours.co.uk/birmingham-umrah-packages.html#catalog",
+    "name": "Lahore Umrah Packages 2026",
+    "@id": "https://umrahagency.pk/lahore-umrah-packages.html#catalog",
     "itemListElement": [
       {
         "@type": "AggregateOffer",
-        "name": "4-Star 7 Nights Birmingham Umrah Package 2026",
-        "url": "https://www.haditours.co.uk/birmingham-umrah-packages.html#4star7",
-        "description": "4-star Umrah package from Birmingham including return flights, Umrah visa, Makkah 3 nights, Madinah 4 nights, hotel, and transfers.",
-        "priceCurrency": "GBP",
-        "lowPrice": 825,
-        "highPrice": 825,
+        "name": "4-Star 7 Nights Lahore Umrah Package 2026",
+        "url": "https://umrahagency.pk/lahore-umrah-packages.html#4star7",
+        "description": "4-star Umrah package from Lahore including return flights, Umrah visa, Makkah 3 nights, Madinah 4 nights, hotel, and transfers.",
+        "priceCurrency": "PKR",
+        "lowPrice": 245000,
+        "highPrice": 245000,
         "offerCount": 1,
         "availability": "https://schema.org/InStock",
         "itemOffered": {
           "@type": "Service",
-          "name": "4-Star 7 Nights Birmingham Umrah Package 2026"
+          "name": "4-Star 7 Nights Lahore Umrah Package 2026"
         }
       },
       {
         "@type": "AggregateOffer",
-        "name": "4-Star 10 Nights Birmingham Umrah Package 2026",
-        "url": "https://www.haditours.co.uk/birmingham-umrah-packages.html#4star10",
-        "description": "4-star Umrah package from Birmingham including return flights, Umrah visa, Makkah 5 nights, Madinah 5 nights, hotel, and transfers.",
-        "priceCurrency": "GBP",
-        "lowPrice": 899,
-        "highPrice": 899,
+        "name": "4-Star 10 Nights Lahore Umrah Package 2026",
+        "url": "https://umrahagency.pk/lahore-umrah-packages.html#4star10",
+        "description": "4-star Umrah package from Lahore including return flights, Umrah visa, Makkah 5 nights, Madinah 5 nights, hotel, and transfers.",
+        "priceCurrency": "PKR",
+        "lowPrice": 265000,
+        "highPrice": 265000,
         "offerCount": 1,
         "availability": "https://schema.org/InStock",
         "itemOffered": {
           "@type": "Service",
-          "name": "4-Star 10 Nights Birmingham Umrah Package 2026"
+          "name": "4-Star 10 Nights Lahore Umrah Package 2026"
         }
       },
       {
         "@type": "AggregateOffer",
-        "name": "4-Star 12 Nights Birmingham Umrah Package 2026",
-        "url": "https://www.haditours.co.uk/birmingham-umrah-packages.html#4star12",
-        "description": "4-star Umrah package from Birmingham including return flights, Umrah visa, Makkah 6 nights, Madinah 6 nights, hotel, and transfers.",
-        "priceCurrency": "GBP",
-        "lowPrice": 945,
-        "highPrice": 945,
+        "name": "4-Star 12 Nights Lahore Umrah Package 2026",
+        "url": "https://umrahagency.pk/lahore-umrah-packages.html#4star12",
+        "description": "4-star Umrah package from Lahore including return flights, Umrah visa, Makkah 6 nights, Madinah 6 nights, hotel, and transfers.",
+        "priceCurrency": "PKR",
+        "lowPrice": 285000,
+        "highPrice": 285000,
         "offerCount": 1,
         "availability": "https://schema.org/InStock",
         "itemOffered": {
           "@type": "Service",
-          "name": "4-Star 12 Nights Birmingham Umrah Package 2026"
+          "name": "4-Star 12 Nights Lahore Umrah Package 2026"
         }
       },
       {
         "@type": "AggregateOffer",
-        "name": "4-Star 14 Nights Birmingham Umrah Package 2026",
-        "url": "https://www.haditours.co.uk/birmingham-umrah-packages.html#4star14",
-        "description": "4-star Umrah package from Birmingham including return flights, Umrah visa, Makkah 7 nights, Madinah 7 nights, hotel, and transfers.",
-        "priceCurrency": "GBP",
-        "lowPrice": 1030,
-        "highPrice": 1030,
+        "name": "4-Star 14 Nights Lahore Umrah Package 2026",
+        "url": "https://umrahagency.pk/lahore-umrah-packages.html#4star14",
+        "description": "4-star Umrah package from Lahore including return flights, Umrah visa, Makkah 7 nights, Madinah 7 nights, hotel, and transfers.",
+        "priceCurrency": "PKR",
+        "lowPrice": 305000,
+        "highPrice": 305000,
         "offerCount": 1,
         "availability": "https://schema.org/InStock",
         "itemOffered": {
           "@type": "Service",
-          "name": "4-Star 14 Nights Birmingham Umrah Package 2026"
+          "name": "4-Star 14 Nights Lahore Umrah Package 2026"
         }
       },
       {
         "@type": "AggregateOffer",
-        "name": "5-Star 7 Nights Birmingham Umrah Package 2026",
-        "url": "https://www.haditours.co.uk/birmingham-umrah-packages.html#5star7",
-        "description": "5-star Umrah package from Birmingham including return flights, Umrah visa, Makkah 3 nights, Madinah 4 nights, premium hotel, and transfers.",
-        "priceCurrency": "GBP",
-        "lowPrice": 1049,
-        "highPrice": 1049,
+        "name": "5-Star 7 Nights Lahore Umrah Package 2026",
+        "url": "https://umrahagency.pk/lahore-umrah-packages.html#5star7",
+        "description": "5-star Umrah package from Lahore including return flights, Umrah visa, Makkah 3 nights, Madinah 4 nights, premium hotel, and transfers.",
+        "priceCurrency": "PKR",
+        "lowPrice": 285000,
+        "highPrice": 285000,
         "offerCount": 1,
         "availability": "https://schema.org/InStock",
         "itemOffered": {
           "@type": "Service",
-          "name": "5-Star 7 Nights Birmingham Umrah Package 2026"
+          "name": "5-Star 7 Nights Lahore Umrah Package 2026"
         }
       },
       {
         "@type": "AggregateOffer",
-        "name": "5-Star 12 Nights Birmingham Umrah Package 2026",
-        "url": "https://www.haditours.co.uk/birmingham-umrah-packages.html#5star12",
-        "description": "5-star Umrah package from Birmingham including return flights, Umrah visa, Makkah 6 nights, Madinah 6 nights, premium hotel, and transfers.",
-        "priceCurrency": "GBP",
-        "lowPrice": 1275,
-        "highPrice": 1275,
+        "name": "5-Star 12 Nights Lahore Umrah Package 2026",
+        "url": "https://umrahagency.pk/lahore-umrah-packages.html#5star12",
+        "description": "5-star Umrah package from Lahore including return flights, Umrah visa, Makkah 6 nights, Madinah 6 nights, premium hotel, and transfers.",
+        "priceCurrency": "PKR",
+        "lowPrice": 325000,
+        "highPrice": 325000,
         "offerCount": 1,
         "availability": "https://schema.org/InStock",
         "itemOffered": {
           "@type": "Service",
-          "name": "5-Star 12 Nights Birmingham Umrah Package 2026"
+          "name": "5-Star 12 Nights Lahore Umrah Package 2026"
         }
       },
       {
         "@type": "AggregateOffer",
-        "name": "5-Star 14 Nights Birmingham Umrah Package 2026",
-        "url": "https://www.haditours.co.uk/birmingham-umrah-packages.html#5star14",
-        "description": "5-star Umrah package from Birmingham including return flights, Umrah visa, Makkah 7 nights, Madinah 7 nights, premium hotel, and transfers.",
-        "priceCurrency": "GBP",
-        "lowPrice": 1309,
-        "highPrice": 1309,
+        "name": "5-Star 14 Nights Lahore Umrah Package 2026",
+        "url": "https://umrahagency.pk/lahore-umrah-packages.html#5star14",
+        "description": "5-star Umrah package from Lahore including return flights, Umrah visa, Makkah 7 nights, Madinah 7 nights, premium hotel, and transfers.",
+        "priceCurrency": "PKR",
+        "lowPrice": 345000,
+        "highPrice": 345000,
         "offerCount": 1,
         "availability": "https://schema.org/InStock",
         "itemOffered": {
           "@type": "Service",
-          "name": "5-Star 14 Nights Birmingham Umrah Package 2026"
+          "name": "5-Star 14 Nights Lahore Umrah Package 2026"
         }
       }
     ]
@@ -145,11 +145,10 @@
 <section class="search-banner">
     <!--slider section Start-->
     <div class="banner">
-        <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.png')}}" class="img-fluid" alt="Banner Image">
+        <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.png')}}" class="img-fluid" alt="Banner Image - Umrah Agency Pakistan">
         <div class="banner-text">
-            <h1>Trusted Islamic Travel Agency&nbsp;in UK</h1>
-            <h4>For Umrah Services</h4>
-            </h4>
+            <h1>Trusted Umrah Agency&nbsp;in Pakistan</h1>
+            <p>For Umrah Services</p>
         </div>
     </div>
     <div class="searchEngine" id="packageInquiry">
@@ -163,24 +162,14 @@
                     </label>
                     <select class="form-control" id="enquiry-departure" name="n[Departure Airport]" required>
                         <option value="">Departure Airport</option>
-                        <option value="London Heathrow">London Heathrow</option>
-                        <option value="London Gatwick">London Gatwick</option>
-                        <option value="Manchester">Manchester</option>
-                        <option value="London Stansted">London Stansted</option>
-                        <option value="London Luton">London Luton</option>
-                        <option value="Edinburgh">Edinburgh</option>
-                        <option value="Birmingham">Birmingham</option>
-                        <option value="Glasgow">Glasgow</option>
-                        <option value="Bristol">Bristol</option>
-                        <option value="Liverpool">Liverpool</option>
-                        <option value="Newcastle">Newcastle</option>
-                        <option value="East Midlands">East Midlands</option>
-                        <option value="Aberdeen">Aberdeen</option>
-                        <option value="London City">London City</option>
-                        <option value="Leeds Bradford">Leeds Bradford</option>
-                        <option value="Cardiff">Cardiff</option>
-                        <option value="Norwich">Norwich</option>
-                        <option value="Humberside">Humberside</option>
+                        <option value="Lahore">Lahore</option>
+                        <option value="Karachi">Karachi</option>
+                        <option value="Islamabad">Islamabad</option>
+                        <option value="Multan">Multan</option>
+                        <option value="Sialkot">Sialkot</option>
+                        <option value="Faisalabad">Faisalabad</option>
+                        <option value="Peshawar">Peshawar</option>
+                        <option value="Other">Other Pakistan Airport</option>
                     </select>
                     <span class="borderBottom"></span>
                 </div>
@@ -305,7 +294,7 @@
 
         <div class="packagesCarousel">
             <div class="sectionMainHeading">
-                <p>4 Star Umrah Packages from Birmingham</p>
+                <p>4 Star Umrah Packages from Lahore</p>
             </div>
             <div class="featuredPackagesUid featured-slick-carousel">
                 <div class="item">
@@ -348,7 +337,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 825 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 245,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '4-star-7-nights-december-umrah-package']) }}">View Details</a>
                                 </div>
@@ -396,7 +385,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 899 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 265,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '4-star-10-nights-december-umrah-package']) }}">View Details</a>
                                 </div>
@@ -445,7 +434,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 945 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 285,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '4-star-12-nights-december-umrah-package']) }}">View Details</a>
                                 </div>
@@ -494,7 +483,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1030 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 305,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '4-star-14-nights-december-umrah-package']) }}">View Details</a>
                                 </div>
@@ -512,7 +501,7 @@
 
         <div class="packagesCarousel">
             <div class="sectionMainHeading">
-                <p>5 Star Umrah Packages from Birmingham</p>
+                <p>5 Star Umrah Packages from Lahore</p>
             </div>
             <div class="featuredPackagesUid featured-slick-carousel">
                 <div class="item">
@@ -555,7 +544,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1049 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 285,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '5-star-7-nights-economy-umrah-package']) }}">View Details</a>
                                 </div>
@@ -604,7 +593,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1275 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 325,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '12-nights-5-star-umrah-package']) }}">View Details</a>
                                 </div>
@@ -653,7 +642,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1309 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 345,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '5-star-14-nights-family-umrah-package1']) }}">View Details</a>
                                 </div>
@@ -668,7 +657,7 @@
     <div class="container scroll-page-content page-content-styling">
         </p>
 
-        <h2>Birmingham Umrah Packages With Hadi Tours</h2>
+        <h2>Lahore Umrah Packages With Umrah Agency Pakistan</h2>
 
         <p>In a world with busy cities, sometimes we all feel we need something deeper. For Muslims looking for a
             journey that makes their lives better, Umrah gives you precisely that. Think about an experience where
@@ -676,31 +665,31 @@
             about getting closer to God. This is what Umrah is all about - not just going somewhere different but
             making your heart feel better.</p>
 
-        <p>With our Birmingham <a href="https://www.haditours.co.uk/umrah-packages.html">Umrah Packages</a>, it is easier than ever to start your Umrah journey from the city of
-            Birmingham and its surroundings. This means the start of your journey can be highly convenient because
+        <p>With our Lahore <a href="https://umrahagency.pk/umrah-packages.html">Umrah Packages</a>, it is easier than ever to start your Umrah journey from the city of
+            Lahore and its surroundings. This means the start of your journey can be highly convenient because
             you won&rsquo;t have to travel between cities to depart. So, don&#39;t waste more time and book a
             package to begin your Umrah journey from this lively city.</p>
 
-        <h2>Why Choose Umrah Packages From Birmingham</h2>
+        <h2>Why Choose Umrah Packages From Lahore</h2>
 
-        <p>Picking where you begin your Umrah journey is essential. Birmingham, a lively city in England, is a great
-            place to start for several reasons. So, let&#39;s discuss why choosing Umrah packages from Birmingham is
+        <p>Picking where you begin your Umrah journey is essential. Lahore, a lively city in Pakistan, is a great
+            place to start for several reasons. So, let&#39;s discuss why choosing Umrah packages from Lahore is
             smart.</p>
 
-        <p>Firstly, Umrah packages from Birmingham, UK, mean convenience. Birmingham Airport, one of the UK&#39;s
+        <p>Firstly, Umrah packages from Lahore, Pakistan, mean convenience. Lahore Airport, one of Pakistan&#39;s
             busiest, is a hub that provides many different flight options to Saudi Arabia. And even direct flights
-            are available between Birmingham and Jeddah with Saudi Airlines.</p>
+            are available between Lahore and Jeddah with Saudi Airlines.</p>
 
-        <p>Moreover, Birmingham Airport has many modern amenities and services. This ensures that your time before
+        <p>Moreover, Lahore Airport has many modern amenities and services. This ensures that your time before
             the flight is easy and comfortable, and you don&#39;t have to stress about anything.</p>
 
-        <p>Birmingham is a place where people from all around the world live, and they have different practices. So,
+        <p>Lahore is a place where people from all around the world live, and they have different practices. So,
             if you spend time with the Muslim community before going on the Umrah journey, you can learn much about
             their cultures. It helps you understand how important Umrah is to people worldwide.</p>
 
-        <h2>Prepare for Birmingham Umrah</h2>
+        <h2>Prepare for Lahore Umrah</h2>
 
-        <p>Before you start your Birmingham Umrah 2026, remember that getting ready is super important. When
+        <p>Before you start your Lahore Umrah 2026, remember that getting ready is super important. When
             you&#39;re well-prepared, you can enjoy your spiritual journey more.</p>
 
         <ul>
@@ -714,21 +703,21 @@
             <li><strong>Packing:</strong> Your packing list is your roadmap for the entire journey. Remember to pack
                 simple clothes that work well in the hot weather of Saudi Arabia. Also, include essential items like
                 your Ihram, a prayer mat, good walking shoes, and any medicine you might need.</li>
-            <li><strong>Set a Budget:</strong> Think carefully about how much money you&#39;ll need for your Umrah.
-                This means you should plan out all the costs. We have a variety of Birmingham Umrah packages, all
-                offering different services. So, pick one that matches your budget and preferences.</li>
+                <p>Set a Budget: Think carefully about how much money you&#39;ll need for your Umrah.
+                This means you should plan out all the costs. We have a variety of Lahore Umrah packages, all
+                offering different services. So, pick one that matches your budget and preferences.</p>
         </ul>
 
         <h2>On a Final Note</h2>
 
-        <p>Umrah is a unique journey that can change your life and make you feel closer to God. And Birmingham, with
+        <p>Umrah is a unique journey that can change your life and make you feel closer to God. And Lahore, with
             its diverse community, is a great starting point for this fantastic adventure.</p>
 
-        <p>Our Birmingham <a href="{{ route('umrahPackages2026') }}">Umrah packages
-                2026</a>&nbsp;make going on this journey easier. They help you travel comfortably and without
-            worries so you can fully concentrate on your religious experience. So, if you want the ease of
-            everything being handled for you, it&#39;s time you visit our website. Browse through the several
-            choices, and pick a Birmingham Umrah package that suits your needs!</p>
+        <p>Our Lahore <a href="{{ route('umrahPackages2026') }}">Umrah packages
+727:                 2026</a>&nbsp;make going on this journey easier. They help you travel comfortably and without
+728:             worries so you can fully concentrate on your religious experience. So, if you want the ease of
+729:             everything being handled for you, it&#39;s time you visit our website. Browse through the several
+730:             choices, and pick a Lahore Umrah package that suits your needs!</p>
 
     </div>
 

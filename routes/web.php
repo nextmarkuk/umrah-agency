@@ -12,14 +12,14 @@ Route::get('/terms-conditions.html', [HomeController::class, 'termsConditions'])
 Route::get('/privacy-policy.html', [HomeController::class, 'privacyPolicy'])->name('privacyPolicy');
 Route::get('/payment-security.html', [HomeController::class, 'paymentSecurity'])->name('paymentSecurity');
 Route::get('/cookies-policy.html', [HomeController::class, 'cookiesPolicy'])->name('cookiesPolicy');
-Route::get('/cheap-hajj-packages.html', [HomeController::class, 'hajj'])->name('hajj');
+Route::get('/hajj-packages.html', [HomeController::class, 'hajj'])->name('hajj');
 Route::get('/umrah-visa.html', [HomeController::class, 'umrahVisa'])->name('umrahVisa');
 Route::get('/umrah-packages.html', [HomeController::class, 'umrahPackages'])->name('umrahPackages');
 Route::get('/umrah-packages-2026.html', [HomeController::class, 'umrahPackages2026'])->name('umrahPackages2026');
 Route::get('/december-umrah-packages.html', [HomeController::class, 'decemberUmrahPackages'])->name('decemberUmrahPackages');
 Route::get('/umrah-in-ramadan.html', [HomeController::class, 'ramadanUmrah'])->name('ramadanUmrah');
 Route::get('/easter-umrah-packages.html', [HomeController::class, 'easterUmrahPackages'])->name('easterUmrahPackages');
-Route::get('/birmingham-umrah-packages.html', [HomeController::class, 'birminghamUmrah'])->name('birminghamUmrah');
+Route::get('/lahore-umrah-packages.html', [HomeController::class, 'lahoreUmrah'])->name('lahoreUmrah');
 
 // Package-Detail
 Route::get('/umrah/{slug}.html', [PackageDetailController::class, 'show'])->name('umrahDetail');

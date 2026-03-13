@@ -1,9 +1,9 @@
     <section class="search-banner">
         <!--slider section Start-->
         <div class="banner">
-            <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.png')}}" class="img-fluid" alt="Banner Image">
+            <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.png')}}" class="img-fluid" alt="Home Page Banner - Umrah Agency Pakistan">
             <div class="banner-text">
-                <h1>Trusted Islamic Travel Agency&nbsp;in UK</h1>
+                <h1>Trusted Umrah Agency&nbsp;in Pakistan</h1>
                 <h4>For Umrah Services</h4>
                 </h4>
             </div>
@@ -18,25 +18,14 @@
                             <i class="fa fa-plane fa-2x text-warning mr-1" style="color: #85641E !important;font-size: 1.4em;"></i> Departure Airport
                         </label>
                         <select class="form-control" id="enquiry-departure" name="n[Departure Airport]" required>
-                            <option value="">Departure Airport</option>
-                            <option value="London Heathrow">London Heathrow</option>
-                            <option value="London Gatwick">London Gatwick</option>
-                            <option value="Manchester">Manchester</option>
-                            <option value="London Stansted">London Stansted</option>
-                            <option value="London Luton">London Luton</option>
-                            <option value="Edinburgh">Edinburgh</option>
-                            <option value="Birmingham">Birmingham</option>
-                            <option value="Glasgow">Glasgow</option>
-                            <option value="Bristol">Bristol</option>
-                            <option value="Liverpool">Liverpool</option>
-                            <option value="Newcastle">Newcastle</option>
-                            <option value="East Midlands">East Midlands</option>
-                            <option value="Aberdeen">Aberdeen</option>
-                            <option value="London City">London City</option>
-                            <option value="Leeds Bradford">Leeds Bradford</option>
-                            <option value="Cardiff">Cardiff</option>
-                            <option value="Norwich">Norwich</option>
-                            <option value="Humberside">Humberside</option>
+                            <option value="Lahore">Lahore</option>
+                            <option value="Karachi">Karachi</option>
+                            <option value="Islamabad">Islamabad</option>
+                            <option value="Multan">Multan</option>
+                            <option value="Sialkot">Sialkot</option>
+                            <option value="Faisalabad">Faisalabad</option>
+                            <option value="Peshawar">Peshawar</option>
+                            <option value="Quetta">Quetta</option>
                         </select>
                         <span class="borderBottom"></span>
                     </div>

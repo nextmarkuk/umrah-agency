@@ -26,7 +26,7 @@
                     <a href="https://www.instagram.com/umrahagency/" rel="nofollow" target="_blank" style="color: #fff; font-size: 16px;" title="Instagram">
                         <i class="fa fa-instagram"></i>
                     </a>
-                    <a href="https://www.pinterest.co.uk/umrahagency/" rel="nofollow" target="_blank" style="color: #fff; font-size: 16px;" title="Pinterest">
+                    <a href="https://www.pinterest.com/umrahagency/" rel="nofollow" target="_blank" style="color: #fff; font-size: 16px;" title="Pinterest">
                         <i class="fa fa-pinterest"></i>
                     </a>
                 </div>
@@ -75,7 +75,7 @@
                             <li><a href="{{ route('decemberUmrahPackages') }}" class="">December Umrah</a></li>
                             <li><a href="{{ route('ramadanUmrah') }}" class="">Ramadan Umrah</a></li>
                             <li><a href="{{ route('easterUmrahPackages') }}" class="">Easter Umrah</a></li>
-                            <li><a href="{{ route('birminghamUmrah') }}" class="">Birmingham Umrah</a></li>
+                            <li><a href="{{ route('lahoreUmrah') }}" class="">Lahore Umrah</a></li>
                         </ul>
                     </li>
                     <li><a class="{{ request()->is('cheap-hajj-packages') ? 'active' : '' }}" href="{{ route('hajj') }}">Hajj</a></li>

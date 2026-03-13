@@ -329,7 +329,7 @@ p strong {
 
 .viewMainPackage {
     font-weight: 700;
-    font-size: 14px;
+    font-size: 12px;
     text-transform: uppercase;
     color: #fff;
     background-color: #3D3E42;
@@ -965,7 +965,7 @@ header {
 }
 
 .item span.price {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
 }
 

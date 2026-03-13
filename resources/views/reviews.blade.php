@@ -1,13 +1,13 @@
 @extends('layouts.master')
 @section('meta')
-<title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
-<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<title>Customer Reviews | Umrah Agency Pakistan</title>
+<meta name="description" content="Read reviews from our spiritual travelers who performed Umrah with Umrah Agency Pakistan. We offer all-inclusive Umrah packages from major cities in Pakistan.">
 @endsection
 @section('content')
 <div class="pkg-header-top text-center">
     <div class="container">
         <h1>Customer Reviews</h1>
-        <p class="lead text-muted">What our spiritual travelers say about their journey with Hadi Tours</p>
+        <p class="lead text-muted">What our spiritual travelers say about their journey with Umrah Agency Pakistan</p>
     </div>
 </div>
 
@@ -37,7 +37,7 @@
 
                     <div class="mt-5 p-4 bg-light-cream rounded border text-left">
                         <h6 class="font-weight-bold mb-2 small text-muted text-uppercase">Trusted by Thousands</h6>
-                        <p class="small text-justify mb-0">Hadi Tours is dedicated to providing an exceptional Umrah experience. Your feedback helps us maintain our high standards of service for all pilgrims.</p>
+                        <p class="small text-justify mb-0">Umrah Agency Pakistan is dedicated to providing an exceptional Umrah experience. Your feedback helps us maintain our high standards of service for all pilgrims.</p>
                     </div>
                 </div>
             </div>
@@ -121,10 +121,10 @@
                 <div class="review-list">
                     @php
                     $sample_reviews = [
-                    ['name' => 'Sultana Sameer', 'img' => 'testimonial-image.webp', 'stars' => 4, 'text' => 'I booked my Umrah package with Hadi Tours and performed Umrah in April 2018. Staying at the Fairmont Royal Clock Tower was amazing, just minutes from Masjid Al Haram gate number 1.'],
+                    ['name' => 'Sultana Sameer', 'img' => 'testimonial-image.webp', 'stars' => 4, 'text' => 'I booked my Umrah package with Umrah Agency Pakistan and performed Umrah in April 2018. Staying at the Fairmont Royal Clock Tower was amazing, just minutes from Masjid Al Haram gate number 1.'],
                     ['name' => 'Saika Khan', 'img' => 'testimonial-image3.webp', 'stars' => 3, 'text' => 'Jazakallah for everything you did to make our journey amazing. The service was fantastic, transport was bang on time. Will definitely use your company again!'],
-                    ['name' => 'Ismael Peerally', 'img' => 'testimonial-image2%20%281%29.webp', 'stars' => 4, 'text' => 'The experience with Hadi Tours was absolutely seamless. From the flight bookings to the hotel stays in both Makkah and Madinah, everything was handled with care.'],
-                    ['name' => 'Iqbal Husain', 'img' => 'image.jpg', 'stars' => 5, 'text' => 'I booked my Umrah in April 2023. The entire experience was truly unforgettable. I highly recommend Hadi Tours to anyone looking to make this spiritual journey.']
+                    ['name' => 'Ismael Peerally', 'img' => 'testimonial-image2%20%281%29.webp', 'stars' => 4, 'text' => 'The experience with Umrah Agency Pakistan was absolutely seamless. From the flight bookings to the hotel stays in both Makkah and Madinah, everything was handled with care.'],
+                    ['name' => 'Iqbal Husain', 'img' => 'image.jpg', 'stars' => 5, 'text' => 'I booked my Umrah in April 2023. The entire experience was truly unforgettable. I highly recommend Umrah Agency Pakistan to anyone looking to make this spiritual journey.']
                     ];
                     @endphp
 

@@ -22,7 +22,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a rel="nofollow" target="_blank" href="https://www.pinterest.co.uk/umrahagency/">
+                                <a rel="nofollow" target="_blank" href="https://www.pinterest.com/umrahagency/">
                                     <img loading="lazy" height="20" width="100" src="{{asset('assets/userfiles/files/pinterest.png')}}"
                                         alt="Pinterest">
                                 </a>
@@ -115,7 +115,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.pinterest.co.uk/umrahagency/">
+                                <a href="https://www.pinterest.com/umrahagency/">
                                     <img loading="lazy" height="20" width="100" src="{{asset('assets/userfiles/files/pinterest.png')}}"
                                         alt="Pinterest">
                                 </a>

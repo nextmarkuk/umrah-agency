@@ -13,8 +13,8 @@
         "name": "Umrah Agency Pakistan",
         "alternateName": "Leading Hajj and Umrah Travel Agency in Pakistan",
         "url": "https://umrahagency.pk/",
-        "image": "https://haditours.co.uk/public/assets/images/logo.png",
-        "logo": "https://haditours.co.uk/public/assets/images/logo.png",
+        "image": "https://umrahagency.pk/public/assets/images/logo.png",
+        "logo": "https://umrahagency.pk/public/assets/images/logo.png",
         "description": "Umrah Agency Pakistan is a leading Hajj and Umrah tours Operator in Pakistan, specialising in Umrah packages, Hajj support, flights, hotels, and tailored Hajj and Umrah travel services.",
         "priceRange": "$$$",
         "telephone": "03073344679",
@@ -27,14 +27,14 @@
         },
         "geo": {
             "@type": "GeoCoordinates",
-            "latitude": 51.39793,
-            "longitude": -0.07592
+            "latitude": 31.5204,
+            "longitude": 74.3587
         },
         "contactPoint": {
             "@type": "ContactPoint",
-            "telephone": "+44 20 3103 0264",
+            "telephone": "03073344679",
             "contactType": "customer service",
-            "areaServed": "GB",
+            "areaServed": "PK",
             "availableLanguage": ["English", "Urdu", "Arabic"]
         },
         "openingHoursSpecification": [{
@@ -60,7 +60,7 @@
             "https://www.facebook.com/umrahagency",
             "https://x.com/umrahagency",
             "https://www.instagram.com/umrahagency",
-            "https://uk.pinterest.com/umrahagency",
+            "https://www.pinterest.com/umrahagency",
             "https://www.linkedin.com/company/umrahagency"
         ],
         "aggregateRating": {
@@ -69,30 +69,30 @@
             "bestRating": 5
         },
         "knowsAbout": [
-            "Family Umrah Packages from UK",
-            "Group and Individual Umrah Packages UK",
+            "Family Umrah Packages from Pakistan",
+            "Group and Individual Umrah Packages Pakistan",
             "Hajj & Umrah Services",
-            "Leading Hajj and Umrah Tours Agency in UK",
+            "Leading Hajj and Umrah Tours Agency in Pakistan",
             "Flights & Hotels Booking"
         ],
         "makesOffer": [{
                 "@type": "Offer",
                 "name": "Umrah Packages",
-                "url": "https://www.haditours.co.uk/umrah-packages.html",
+                "url": "https://umrahagency.pk/umrah-packages.html",
                 "description": "Affordable 3-star, 4-star, and 5-star Umrah packages including flights, visa, hotels near Haram, transport, and Ziyarat tours.",
                 "availability": "https://schema.org/InStock"
             },
             {
                 "@type": "Offer",
                 "name": "Hajj Support Services",
-                "url": "https://www.haditours.co.uk/cheap-hajj-packages.html",
+                "url": "https://umrahagency.pk/cheap-hajj-packages.html",
                 "description": "Guided Hajj advice and support provided by experienced consultants.",
                 "availability": "https://schema.org/InStock"
             },
             {
                 "@type": "Offer",
                 "name": "Flights & Hotel Bookings",
-                "url": "https://www.haditours.co.uk",
+                "url": "https://umrahagency.pk",
                 "description": "Worldwide flights, hotel booking services, and customized travel itineraries.",
                 "availability": "https://schema.org/InStock"
             }
@@ -121,24 +121,14 @@
                     </label>
                     <select class="form-control" id="enquiry-departure" name="n[Departure Airport]" required>
                         <option value="">Departure Airport</option>
-                        <option value="London Heathrow">London Heathrow</option>
-                        <option value="London Gatwick">London Gatwick</option>
-                        <option value="Manchester">Manchester</option>
-                        <option value="London Stansted">London Stansted</option>
-                        <option value="London Luton">London Luton</option>
-                        <option value="Edinburgh">Edinburgh</option>
-                        <option value="Birmingham">Birmingham</option>
-                        <option value="Glasgow">Glasgow</option>
-                        <option value="Bristol">Bristol</option>
-                        <option value="Liverpool">Liverpool</option>
-                        <option value="Newcastle">Newcastle</option>
-                        <option value="East Midlands">East Midlands</option>
-                        <option value="Aberdeen">Aberdeen</option>
-                        <option value="London City">London City</option>
-                        <option value="Leeds Bradford">Leeds Bradford</option>
-                        <option value="Cardiff">Cardiff</option>
-                        <option value="Norwich">Norwich</option>
-                        <option value="Humberside">Humberside</option>
+                        <option value="Lahore">Lahore</option>
+                        <option value="Karachi">Karachi</option>
+                        <option value="Islamabad">Islamabad</option>
+                        <option value="Multan">Multan</option>
+                        <option value="Sialkot">Sialkot</option>
+                        <option value="Faisalabad">Faisalabad</option>
+                        <option value="Peshawar">Peshawar</option>
+                        <option value="Other">Other Pakistan Airport</option>
                     </select>
                     <span class="borderBottom"></span>
                 </div>
@@ -443,7 +433,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">£ 699 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 180,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '3-star-10-nights-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -493,7 +483,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 749 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 200,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '3-star-10-nights-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -543,7 +533,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 789 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 215,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '3-star-12-nights-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -592,7 +582,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 829 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 230,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '3-star-14-nights-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -668,7 +658,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 800 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 255,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '4-star-december-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -717,7 +707,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 900 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 300,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '4-star-night-december-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -766,7 +756,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1015 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 235,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '4-star-7-nights-december-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -815,7 +805,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1050 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 255,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '4-star-10-nights-december-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -864,7 +854,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1065 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 275,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '4-star-12-nights-december-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -913,7 +903,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1130 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 300,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '4-star-14-nights-december-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -989,7 +979,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 700 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 330,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '5-star-7-nights-economy-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -1038,7 +1028,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 815 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 380,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '10-nights-5-star-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -1087,7 +1077,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 710 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 350,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '5-star-7-night-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -1136,7 +1126,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 785 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 350,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '7-nights-5-star-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -1185,7 +1175,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 845 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 410,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '12-nights-5-star-umrah-package']) }}">
                                         View Details
                                     </a>
@@ -1235,7 +1225,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 849 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 440,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage" href="{{ route('umrahDetail', ['slug' => '5-star-14-nights-family-umrah-package1']) }}">
                                         View Details
                                     </a>
@@ -1248,7 +1238,7 @@
         </div>
     </div>
 </section>
-<!--featured Hadi Tours packages section End-->
+<!--featured Umrah Agency Pakistan packages section End-->
 <!-- Home page content section starts here  -->
 
 

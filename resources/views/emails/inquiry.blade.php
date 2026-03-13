@@ -19,7 +19,7 @@
         </table>
 
         <div style="margin-top: 30px; font-size: 12px; color: #777; text-align: center;">
-            <p>This inquiry was sent from the Hadi Tours website contact form.</p>
+            <p>This inquiry was sent from the Umrah Agency Pakistan website contact form.</p>
         </div>
     </div>
 </body>

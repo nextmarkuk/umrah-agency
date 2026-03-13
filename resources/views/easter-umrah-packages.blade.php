@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('meta')
-<title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
-<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<title>Trusted Umrah Agency in Pakistan for Easter Umrah Packages</title>
+<meta name="description" content="Get Umrah services from a trusted Umrah agency in Lahore, Pakistan. We offer all-inclusive Easter Umrah packages for families, groups, and individuals.">
 @endsection
 
 @verbatim
@@ -10,34 +10,34 @@
 {
   "@context": "https://schema.org",
   "@type": "Service",
-  "@id": "https://www.haditours.co.uk/easter-umrah-packages.html#easterumrah2026",
-  "name": "Easter Umrah Packages 2026 from UK",
-  "url": "https://www.haditours.co.uk/easter-umrah-packages.html",
-  "description": "Explore the specially designed Easter Umrah Packages 2026 from the UK with Hadi Tours, offering a range of all-inclusive options including flights, Umrah visa, comfortable hotel stays near Makkah and Madinah, and ground transfers during the Easter holiday season.",
+  "@id": "https://umrahagency.pk/easter-umrah-packages.html#easterumrah2026",
+  "name": "Easter Umrah Packages 2026 from Pakistan",
+  "url": "https://umrahagency.pk/easter-umrah-packages.html",
+  "description": "Explore the specially designed Easter Umrah Packages 2026 from Pakistan with Umrah Agency Pakistan, offering a range of all-inclusive options including flights, Umrah visa, comfortable hotel stays near Makkah and Madinah, and ground transfers during the Easter holiday season.",
   "provider": {
     "@type": "TravelAgency",
-    "@id": "https://www.haditours.co.uk/#travelagency",
-    "name": "Hadi Tours",
-    "url": "https://www.haditours.co.uk/"
+    "@id": "https://umrahagency.pk/#travelagency",
+    "name": "Umrah Agency Pakistan",
+    "url": "https://umrahagency.pk/"
   },
   "serviceType": "Easter Umrah Packages 2026",
   "areaServed": {
     "@type": "Country",
-    "name": "United Kingdom"
+    "name": "Pakistan"
   },
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Easter Umrah Packages 2026",
-    "@id": "https://www.haditours.co.uk/easter-umrah-packages.html#catalog",
+    "@id": "https://umrahagency.pk/easter-umrah-packages.html#catalog",
     "itemListElement": [
       {
         "@type": "AggregateOffer",
         "name": "3-Star 7 Nights Easter Umrah 2026",
-        "url": "https://www.haditours.co.uk/easter-umrah-packages.html#3star7",
+        "url": "https://umrahagency.pk/easter-umrah-packages.html#3star7",
         "description": "3-star Easter Umrah package for 7 nights including return flights, visa, 4 nights in Makkah and 3 nights in Madinah with hotel and transport.",
-        "priceCurrency": "GBP",
-        "lowPrice": 720,
-        "highPrice": 720,
+        "priceCurrency": "PKR",
+        "lowPrice": 220000,
+        "highPrice": 220000,
         "offerCount": 1,
         "availability": "https://schema.org/InStock",
         "itemOffered": {
@@ -48,11 +48,11 @@
       {
         "@type": "AggregateOffer",
         "name": "3-Star 10 Nights Easter Umrah 2026",
-        "url": "https://www.haditours.co.uk/easter-umrah-packages.html#3star10",
+        "url": "https://umrahagency.pk/easter-umrah-packages.html#3star10",
         "description": "3-star Easter Umrah package for 10 nights including return flights, visa, 5 nights in Makkah and 5 nights in Madinah with hotel and transport.",
-        "priceCurrency": "GBP",
-        "lowPrice": 780,
-        "highPrice": 780,
+        "priceCurrency": "PKR",
+        "lowPrice": 240000,
+        "highPrice": 240000,
         "offerCount": 1,
         "availability": "https://schema.org/InStock",
         "itemOffered": {
@@ -63,11 +63,11 @@
       {
         "@type": "AggregateOffer",
         "name": "4-Star 7 Nights Easter Umrah 2026",
-        "url": "https://www.haditours.co.uk/easter-umrah-packages.html#4star7",
+        "url": "https://umrahagency.pk/easter-umrah-packages.html#4star7",
         "description": "4-star Easter Umrah package for 7 nights with flights, visa, hotel accommodation in Makkah and Madinah and transport included.",
-        "priceCurrency": "GBP",
-        "lowPrice": 840,
-        "highPrice": 840,
+        "priceCurrency": "PKR",
+        "lowPrice": 280000,
+        "highPrice": 280000,
         "offerCount": 1,
         "availability": "https://schema.org/InStock",
         "itemOffered": {
@@ -78,11 +78,11 @@
       {
         "@type": "AggregateOffer",
         "name": "4-Star 10 Nights Easter Umrah 2026",
-        "url": "https://www.haditours.co.uk/easter-umrah-packages.html#4star10",
+        "url": "https://umrahagency.pk/easter-umrah-packages.html#4star10",
         "description": "4-star Easter Umrah package for 10 nights including return flights, visa, hotel stays near Haram, and transfers.",
-        "priceCurrency": "GBP",
-        "lowPrice": 920,
-        "highPrice": 920,
+        "priceCurrency": "PKR",
+        "lowPrice": 320000,
+        "highPrice": 320000,
         "offerCount": 1,
         "availability": "https://schema.org/InStock",
         "itemOffered": {
@@ -93,11 +93,11 @@
       {
         "@type": "AggregateOffer",
         "name": "5-Star 7 Nights Easter Umrah 2026",
-        "url": "https://www.haditours.co.uk/easter-umrah-packages.html#5star7",
+        "url": "https://umrahagency.pk/easter-umrah-packages.html#5star7",
         "description": "5-star Easter Umrah package for 7 nights with flights, premium hotels, visa, VIP transport, and full assistance.",
-        "priceCurrency": "GBP",
-        "lowPrice": 1050,
-        "highPrice": 1050,
+        "priceCurrency": "PKR",
+        "lowPrice": 420000,
+        "highPrice": 420000,
         "offerCount": 1,
         "availability": "https://schema.org/InStock",
         "itemOffered": {
@@ -108,11 +108,11 @@
       {
         "@type": "AggregateOffer",
         "name": "5-Star 10 Nights Easter Umrah 2026",
-        "url": "https://www.haditours.co.uk/easter-umrah-packages.html#5star10",
+        "url": "https://umrahagency.pk/easter-umrah-packages.html#5star10",
         "description": "5-star Easter Umrah package for 10 nights including return flights, premium hotels, visa support, and ground transfers.",
-        "priceCurrency": "GBP",
-        "lowPrice": 1150,
-        "highPrice": 1150,
+        "priceCurrency": "PKR",
+        "lowPrice": 480000,
+        "highPrice": 480000,
         "offerCount": 1,
         "availability": "https://schema.org/InStock",
         "itemOffered": {
@@ -132,11 +132,10 @@
 <section class="search-banner">
     <!--slider section Start-->
     <div class="banner">
-        <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.png')}}" class="img-fluid" alt="Banner Image">
+        <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.png')}}" class="img-fluid" alt="Banner Image - Umrah Agency Pakistan">
         <div class="banner-text">
-            <h1>Trusted Islamic Travel Agency&nbsp;in UK</h1>
-            <h4>For Umrah Services</h4>
-            </h4>
+            <h1>Trusted Umrah Agency&nbsp;in Pakistan</h1>
+            <p>For Easter Umrah Packages</p>
         </div>
     </div>
     <div class="searchEngine" id="packageInquiry">
@@ -150,24 +149,14 @@
                     </label>
                     <select class="form-control" id="enquiry-departure" name="n[Departure Airport]" required>
                         <option value="">Departure Airport</option>
-                        <option value="London Heathrow">London Heathrow</option>
-                        <option value="London Gatwick">London Gatwick</option>
-                        <option value="Manchester">Manchester</option>
-                        <option value="London Stansted">London Stansted</option>
-                        <option value="London Luton">London Luton</option>
-                        <option value="Edinburgh">Edinburgh</option>
-                        <option value="Birmingham">Birmingham</option>
-                        <option value="Glasgow">Glasgow</option>
-                        <option value="Bristol">Bristol</option>
-                        <option value="Liverpool">Liverpool</option>
-                        <option value="Newcastle">Newcastle</option>
-                        <option value="East Midlands">East Midlands</option>
-                        <option value="Aberdeen">Aberdeen</option>
-                        <option value="London City">London City</option>
-                        <option value="Leeds Bradford">Leeds Bradford</option>
-                        <option value="Cardiff">Cardiff</option>
-                        <option value="Norwich">Norwich</option>
-                        <option value="Humberside">Humberside</option>
+                        <option value="Lahore">Lahore</option>
+                        <option value="Karachi">Karachi</option>
+                        <option value="Islamabad">Islamabad</option>
+                        <option value="Multan">Multan</option>
+                        <option value="Sialkot">Sialkot</option>
+                        <option value="Faisalabad">Faisalabad</option>
+                        <option value="Peshawar">Peshawar</option>
+                        <option value="Other">Other Pakistan Airport</option>
                     </select>
                     <span class="borderBottom"></span>
                 </div>
@@ -338,7 +327,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 600 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 210,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '4-star-7-nights-december-umrah-package']) }}">View Details</a>
                                 </div>
@@ -387,7 +376,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 925 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 320,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '3-star-7-nights-umrah-package']) }}">View Details</a>
                                 </div>
@@ -436,7 +425,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 945 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 330,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '10-nights-5-star-umrah-package']) }}">View Details</a>
                                 </div>
@@ -485,7 +474,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1015 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 355,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '3-star-10-nights-umrah-package']) }}">View Details</a>
                                 </div>
@@ -534,7 +523,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1070 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 370,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '4-star-december-umrah-package']) }}">View Details</a>
                                 </div>
@@ -583,7 +572,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1130 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 395,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '3-star-12-nights-umrah-package']) }}">View Details</a>
                                 </div>
@@ -632,7 +621,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1145 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 400,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '4-star-12-nights-december-umrah-package']) }}">View Details</a>
                                 </div>
@@ -681,7 +670,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1199 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 420,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '5-star-14-nights-family-umrah-package1']) }}">View Details</a>
                                 </div>
@@ -730,7 +719,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1210 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 425,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '12-nights-5-star-umrah-package']) }}">View Details</a>
                                 </div>
@@ -779,7 +768,7 @@
                             </div>
                             <div class="row py-2 px-4">
                                 <div class="col-12 d-flex justify-content-between px-4">
-                                    <span class="price">&pound; 1245 <sub>/ pp</sub></span>
+                                    <span class="price">PKR 435,000 <sub>/ pp</sub></span>
                                     <a class="viewMainPackage"
                                         href="{{ route('umrahDetail', ['slug' => '5-star-7-nights-economy-umrah-package']) }}">View Details</a>
                                 </div>
@@ -796,15 +785,15 @@
     <div class="container scroll-page-content page-content-styling">
     
 
-        <h2>Easter Umrah Packages 2026 from UK – School Holiday & April Deals</h2>
+        <h2>Easter Umrah Packages 2026 from Pakistan – April Deals</h2>
 
-<p>We have made our Easter Umrah Packages 2026 from the UK specially suitable for families and individuals wishing to perform Umrah during the Easter school holidays. Our packages are designed with flexible departure dates and well, structured itineraries, thus, we strive to make it less complicated for you to combine spiritual travel with the UK Easter break.</p>
+<p>We have made our Easter Umrah Packages 2026 from Pakistan specially suitable for families and individuals wishing to perform Umrah during the Easter holidays. Our packages are designed with flexible departure dates and well-structured itineraries, thus, we strive to make it less complicated for you to combine spiritual travel with the Easter break.</p>
 
-<p>In case you are in the market for a cheap Easter Umrah package, a high-class accommodation near Haram, or family-friendly Easter holiday Umrah packages, we offer choices suitable to various budgets and timeframes. Starting from London to Manchester and Bradford, our Easter Umrah packages UK provide easy departures and a high level of travel support.</p>
+<p>In case you are in the market for a cheap Easter Umrah package, a high-class accommodation near Haram, or family-friendly Easter holiday Umrah packages, we offer choices suitable to various budgets and timeframes. Starting from Lahore to Karachi and Islamabad, our Easter Umrah packages Pakistan provide easy departures and a high level of travel support.</p>
 
 <h2>Why Choose Easter Umrah Packages 2026?</h2>
 
-        <h2>Why Should You Trust Hadi Tours?</h2>
+        <h2>Why Should You Trust Umrah Agency Pakistan?</h2>
 
 <h3>Comfortable April Weather in Makkah & Madinah</h3>
 <p>People generally talk of April as a great month for Umrah because of the pleasant weather. Most pilgrims would go for April Umrah packages 2026 as the climate in Makkah and Madinah is usually quite nice when compared to the hot summer months. This helps them to get along with worship and travel arrangements in a more comfortable way.</p>
@@ -812,9 +801,9 @@
 <h3>Ideal Time for Family Umrah Travel</h3>
 <p>Easter family Umrah package is one of the top choices that families make as a result of having a holiday break that is fixed. The Easter holiday is long enough to allow a spiritually satisfying Umrah experience and, at the same time, provide flexibility for travel.</p>
 
-<h2>Easter Umrah Packages 2026 Available from UK</h2>
+<h2>Easter Umrah Packages 2026 Available from Pakistan</h2>
 
-<p>We have a wide selection of Easter Umrah packages 2026 from UK, to suit different trip lengths and budgets. Are you going solo, family, couple, or group? No worries, flexible departures options available from major UK airports. Every package is designed to offer a comfortable, convenient, and well, supported travel experience during the Easter holidays.</p>
+<p>We have a wide selection of Easter Umrah packages 2026 from Pakistan, to suit different trip lengths and budgets. Are you going solo, family, couple, or group? No worries, flexible departures options available from major Pakistan airports. Every package is designed to offer a comfortable, convenient, and well-supported travel experience during the Easter holidays.</p>
 
 <h3>7 Nights Easter Umrah Package:</h3>
 <p>Take our 7 nights Easter Umrah package if you want a short and highly spiritual trip during the Easter school break. Besides having enough time for Umrah and sightseeing, you also get to avoid the hassle of a long stay. Generally, this choice is preferred by working professionals and small families.</p>
@@ -823,7 +812,7 @@
 <p>Going with the 10 nights Easter Umrah package means that you have more time for worship, meditation, and Ziyarat in Makkah and Madinah. It is a good mix of activities and rest for a family on Easter break. A lot of pilgrims choose this length of time in order to have a less stressful and more spiritually rewarding experience.</p>
 
 <h3>14 Nights Easter Holiday Umrah Packages:</h3>
-<p>If you would like to spend more days in the holy Makkah and Madinah, the 14 nights Easter holiday <a href="https://www.haditours.co.uk/umrah-packages.html">Umrah Packages</a> are made for you. You get to take the trip in a more relaxed and slowly spiritually deeper way. It is perfect for families who want to have a full Easter Umrah journey.</p>
+<p>If you would like to spend more days in the holy Makkah and Madinah, the 14 nights Easter holiday <a href="https://umrahagency.pk/umrah-packages.html">Umrah Packages</a> are made for you. You get to take the trip in a more relaxed and slowly spiritually deeper way. It is perfect for families who want to have a full Easter Umrah journey.</p>
 
 <h3>Short Easter Break Umrah Packages</h3>
 <p>Our short Easter break Umrah packages are designed for travellers with limited time during the holiday period. These structured itineraries ensure smooth travel arrangements within compact durations. They provide a convenient way to perform Umrah during the Easter break without extended absence.</p>
@@ -841,13 +830,13 @@
 <h3>5 Star Easter Umrah Packages Near Haram</h3>
 <p>For pilgrims who want to be close to the action and enjoy the best facilities, our 5 star Easter Umrah packages near Haram offer greater comfort and convenience. These packages will have you staying in centrally located hotels and also ensure you have less hassle when it comes to matters of travel. They are the perfect choice for those who want to make their Easter Umrah 2026 trip as convenient as possible.</p>
 
-<h3>Easter Umrah Group Packages</h3>
-<p>Easter Umrah group packages from the UK allow families, friends and community groups to travel together. There are planned itineraries that help the group to have an organised way of travelling thus making the spiritual experience even more fulfilling. Moreover, a group can also have a better journey through the support that is always available in a group setting.</p>
+<h3>Easter Umrah Group Packages from Pakistan</h3>
+<p>Easter Umrah group packages from Pakistan allow families, friends and community groups to travel together. There are planned itineraries that help the group to have an organised way of travelling thus making the spiritual experience even more fulfilling. Moreover, a group can also have a better journey through the support that is always available in a group setting.</p>
 
 <h3>What’s Included in Our Easter Umrah Packages?</h3>
-<p>Each Easter Umrah package UK includes essential services to ensure a smooth journey:</p>
+<p>Each Easter Umrah package Pakistan includes essential services to ensure a smooth journey:</p>
 <ul>
-<li>Return flights from major UK airports</li>
+<li>Return flights from major Pakistan airports</li>
 <li>Hotel accommodation in Makkah and Madinah</li>
 <li>Full Umrah visa processing for 2026</li>
 <li>Ground transfers between airports and hotels</li>
@@ -855,21 +844,19 @@
 </ul>
 <p>We aim to provide complete travel support so you can focus on worship rather than logistics.</p>
 
-<h2>Easter Umrah 2026 Package Prices from UK:</h2>
+<h2>Easter Umrah 2026 Package Prices from Pakistan:</h2>
 
-<p>The price of Easter Umrah packages 2026 varies by a number of factors such as hotel class, length of stay, flights demand, and closeness to Haram. Easter being the UK holiday time, the demand can go up greatly.</p>
+<p>Booking ahead will let you get good hotels and reasonably priced Easter Umrah from Pakistan. Besides, early bookings give you a wider choice of departure airports and travel dates.</p>
 
-<p>Booking ahead will let you get good hotels and reasonably priced Easter Umrah from UK. Besides, early bookings give you a wider choice of departure airports and travel dates.</p>
+<h2>Easter Umrah Packages from Lahore & Other Cities:</h2>
 
-<h2>Easter Umrah Packages from Bradford & Other UK Cities:</h2>
+<p>We offer Easter Umrah packages Lahore departures as well as from Karachi, Islamabad, and Multan for your convenience throughout Pakistan. It allows pilgrims to pick the closest airport and the most convenient travel dates during the Easter holidays.</p>
 
-<p>We offer Easter Umrah packages Bradford departures as well as from London, Manchester, and Birmingham for your convenience throughout the UK. It allows pilgrims to pick the closest airport and the most convenient travel dates during the Easter holidays.</p>
-
-<p>Our ready, made Easter Umrah package UK options are tailored to simplify and make more efficient family and group trips. Securing flights and hotels of your choice for 2026 is easier with early planning.</p>
+<p>Our ready-made Easter Umrah package Pakistan options are tailored to simplify and make more efficient family and group trips. Securing flights and hotels of your choice for 2026 is easier with early planning.</p>
 
 <h2>Book Your Easter Umrah Packages 2026 Today</h2>
 
-<p>Since Easter is during the UK school holiday time, Easter Umrah packages 2026 from the UK are very popular and there is a risk of availability becoming limited. If you are looking for an affordable Easter Umrah package or a 5 star stay near the Haram, or a family Easter Umrah deal, the earlier you book, the better the prices and the hotel location.</p>
+<p>Since Easter is during the holiday time, Easter Umrah packages 2026 from Pakistan are very popular and there is a risk of availability becoming limited. If you are looking for an affordable Easter Umrah package or a 5 star stay near the Haram, or a family Easter Umrah deal, the earlier you book, the better the prices and the hotel location.</p>
 
 <p>Get your Easter holiday Umrah package 2026 locked in now and start getting ready for a spiritually fulfilling trip.</p>
 

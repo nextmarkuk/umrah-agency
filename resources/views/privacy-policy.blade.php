@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('meta')
-<title>Trusted Islamic Travel Agency in the UK for Umrah Services</title>
-<meta name="description" content="Get Umrah services from a trusted Islamic travel agency in London, UK. We offer all-inclusive Umrah packages for families, groups, and individuals.">
+<title>Trusted Umrah Agency in Pakistan for Umrah Services</title>
+<meta name="description" content="Get Umrah services from a trusted Umrah agency in Lahore, Pakistan. We offer all-inclusive Umrah packages for families, groups, and individuals.">
 @endsection
 @section('content')
 @section('content')
@@ -17,7 +17,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-10">
                 <div class="section-card shadow-sm">
-                    <p class="lead mb-4 font-weight-bold">Hadi Tours understands and respects the importance of your privacy and we are committed to safeguarding your personal information.</p>
+                    <p class="lead mb-4 font-weight-bold">Umrah Agency Pakistan understands and respects the importance of your privacy and we are committed to safeguarding your personal information.</p>
 
                     <p>In providing our service to you, we must collect personal information from you and this policy outlines how we treat your personal data after it has been collected by any of our channels which include our website, call centre and any future digital services or channels as they evolve.</p>
 
@@ -35,7 +35,7 @@
 
                     <div class="legal-section mt-5">
                         <h4 class="font-weight-bold mb-3 text-dark">Cookies</h4>
-                        <p>We use a number of different cookies on our site to improve your experience. Currently we operate an 'implied consent' policy which means that we assume you are happy with this usage. If you are not happy, you should either not use this site, or delete <strong>haditours.co.uk</strong> cookies having visited the site.</p>
+                        <p>We use a number of different cookies on our site to improve your experience. Currently we operate an 'implied consent' policy which means that we assume you are happy with this usage. If you are not happy, you should either not use this site, or delete <strong>umrahagency.pk</strong> cookies having visited the site.</p>
 
                         <div class="bg-light p-4 rounded mb-4">
                             <h6 class="font-weight-bold">Session Cookies</h6>
@@ -60,12 +60,12 @@
 
                     <div class="legal-section mt-5">
                         <h4 class="font-weight-bold mb-3 text-dark">Traveler Profiles</h4>
-                        <p><strong>Hadi Tours</strong> collects personal information about travelers when a booking is made. We store traveler profiles to save you typing these details each time you make a booking. This information is only used to fulfill booking and other requests.</p>
+                        <p><strong>Umrah Agency Pakistan</strong> collects personal information about travelers when a booking is made. We store traveler profiles to save you typing these details each time you make a booking. This information is only used to fulfill booking and other requests.</p>
                     </div>
 
                     <div class="legal-section mt-5 pt-4 border-top">
                         <h4 class="font-weight-bold mb-3 text-dark">Opt Out</h4>
-                        <p>If you wish us to stop sending you newsletters or details of other offers and promotions, please email us at <a href="mailto:info@haditours.co.uk" class="text-warning">info@haditours.co.uk</a>.</p>
+                        <p>If you wish us to stop sending you newsletters or details of other offers and promotions, please email us at <a href="mailto:info@umrahagency.pk" class="text-warning">info@umrahagency.pk</a>.</p>
                     </div>
                 </div>
             </div>
