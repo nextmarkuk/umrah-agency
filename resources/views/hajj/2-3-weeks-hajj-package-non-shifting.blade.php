@@ -46,28 +46,28 @@
                         </div>
                         <div class="overview-grid">
                             <div class="overview-item">
-                                <i class="fa fa-clock-o fa-2x text-warning mr-3" style="color: #3D3E42 !important;"></i>
+                                <i class="fa fa-clock-o fa-2x text-warning mr-3" style="color: #193670 !important;"></i>
                                 <div class="info">
                                     <span>2-3 Weeks</span>
                                     <small>Duration</small>
                                 </div>
                             </div>
                             <div class="overview-item">
-                                <i class="fa fa-id-card-o fa-2x text-warning mr-3" style="color: #3D3E42 !important;"></i>
+                                <i class="fa fa-id-card-o fa-2x text-warning mr-3" style="color: #193670 !important;"></i>
                                 <div class="info">
                                     <span>Visa Included</span>
                                     <small>Hajj Visa</small>
                                 </div>
                             </div>
                             <div class="overview-item">
-                                <i class="fa fa-plane fa-2x text-warning mr-3" style="color: #3D3E42 !important;"></i>
+                                <i class="fa fa-plane fa-2x text-warning mr-3" style="color: #193670 !important;"></i>
                                 <div class="info">
                                     <span>Return Flights</span>
                                     <small>From Pakistan</small>
                                 </div>
                             </div>
                             <div class="overview-item">
-                                <i class="fa fa-cutlery fa-2x text-warning mr-3" style="color: #3D3E42 !important;"></i>
+                                <i class="fa fa-cutlery fa-2x text-warning mr-3" style="color: #193670 !important;"></i>
                                 <div class="info">
                                     <span>Qurbani</span>
                                     <small>Included</small>

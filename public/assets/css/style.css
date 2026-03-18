@@ -295,7 +295,7 @@ p strong {
 
 .package-heading {
     padding: 10px 20px;
-    background-color: #3D3E42;
+    background-color: #193670;
     color: #fff !important;
 }
 
@@ -332,8 +332,8 @@ p strong {
     font-size: 12px;
     text-transform: uppercase;
     color: #fff;
-    background-color: #3D3E42;
-    border: 4px solid #85641E;
+    background-color: #193670;
+    border: 4px solid #C88916;
     border-radius: 10px;
     padding: 10px 20px;
 }
@@ -481,12 +481,12 @@ header.with-bg {
 .with-bg .navbar-expand-md .navbar-nav a:hover,
 .with-bg .navbar-expand-md .navbar-nav a:focus,
 .with-bg .navbar-expand-md .navbar-nav a:active {
-    color: #85641E;
+    color: #C88916;
     background-color: transparent;
 }
 
 .navbar-expand-md .navbar-nav a.active {
-    color: #85641E !important;
+    color: #C88916 !important;
 }
 
 .navbar .extraLinks a {
@@ -532,9 +532,9 @@ header.with-bg {
 }
 
 .navbar .navbar-nav li .dropdown-menu {
-    border: 1px solid #85641E;
+    border: 1px solid #C88916;
     padding: 10px 15px;
-    background-color: #3D3E42;
+    background-color: #193670;
     color: #fff;
 }
 
@@ -546,7 +546,7 @@ header.with-bg {
 }
 
 .navbar .navbar-nav li .dropdown-menu li {
-    border-bottom: 2px solid #85641E;
+    border-bottom: 2px solid #C88916;
     padding-bottom: 10px;
     margin-bottom: 5px;
 }
@@ -1169,9 +1169,9 @@ header {
 }
 
 .searchEngine .searchFields {
-    background-color: #3D3E42;
+    background-color: #193670;
     padding: 47px 25px 18px !important;
-    border: 4px solid #85641E;
+    border: 4px solid #C88916;
     border-radius: 8px;
 }
 
@@ -2111,7 +2111,7 @@ header {
 
 .footer {
     padding: 40px 70px;
-    background-color: #3D3E42;
+    background-color: #193670;
     margin-top: -1px;
 }
 

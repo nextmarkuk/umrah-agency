@@ -96,7 +96,7 @@
 
                 <div class="form-group Half">
                     <label for="enquiry-departure">
-                        <i class="fa fa-plane fa-2x text-warning mr-1" style="color: #85641E !important;font-size: 1.4em;"></i> Departure Airport
+                        <i class="fa fa-plane fa-2x text-warning mr-1" style="color: #C88916 !important;font-size: 1.4em;"></i> Departure Airport
                     </label>
                     <select class="form-control" id="enquiry-departure" name="n[Departure Airport]" required>
                         <option value="">Departure Airport</option>
@@ -114,7 +114,7 @@
 
                 <div class="form-group Half">
                     <label for="enquiry-departuredate">
-                        <i class="fa fa-calendar fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Departure Date
+                        <i class="fa fa-calendar fa-2x text-warning mr-1" style="color: #C88916 !important; font-size: 1.4em;"></i> Departure Date
                     </label>
                     <input type="text" id="enquiry-departuredate" name="n[Departure Date]" class="DepartureDate form-control" readonly placeholder="Departure Date" required />
                     <span class="borderBottom"></span>
@@ -122,7 +122,7 @@
 
                 <div class="form-group Half">
                     <label for="enquiry-hotelcategory">
-                        <i class="fa fa-hotel fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Hotel Category
+                        <i class="fa fa-hotel fa-2x text-warning mr-1" style="color: #C88916 !important; font-size: 1.4em;"></i> Hotel Category
                     </label>
                     <select class="form-control" id="enquiry-hotelcategory" name="n[Hotel Category]">
                         <option value="">Hotel Category</option>
@@ -135,7 +135,7 @@
 
                 <div class="form-group Half">
                     <label for="enquiry-duration">
-                        <i class="fa fa-moon-o fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Duration
+                        <i class="fa fa-moon-o fa-2x text-warning mr-1" style="color: #C88916 !important; font-size: 1.4em;"></i> Duration
                     </label>
                     <select class="form-control" id="enquiry-duration" name="n[Duration]">
                         <option value="">Duration</option>
@@ -160,7 +160,7 @@
 
                 <div class="form-group Half">
                     <label for="enquiry-travelers">
-                        <i class="fa fa-users fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Travelers
+                        <i class="fa fa-users fa-2x text-warning mr-1" style="color: #C88916 !important; font-size: 1.4em;"></i> Travelers
                     </label>
                     <select class="form-control" id="enquiry-travelers" name="n[No. of Travelers]">
                         <option value="">No. of Travelers</option>
@@ -184,14 +184,14 @@
                 </div>
 
                 <div class="form-group Half">
-                    <label for="enquiry-name"><i class="fa fa-user fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Full Name</label>
+                    <label for="enquiry-name"><i class="fa fa-user fa-2x text-warning mr-1" style="color: #C88916 !important; font-size: 1.4em;"></i> Full Name</label>
                     <input type="text" class="form-control" id="enquiry-name" name="n[name]" placeholder="Full Name" required />
                     <span class="borderBottom"></span>
                 </div>
 
                 <div class="form-group Half">
                     <label for="enquiry-phone">
-                        <i class="fa fa-phone-square fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Contact No
+                        <i class="fa fa-phone-square fa-2x text-warning mr-1" style="color: #C88916 !important; font-size: 1.4em;"></i> Contact No
                     </label>
                     <input type="text" class="form-control" id="enquiry-phone" name="n[Phone Number]" placeholder="Contact No" required />
                     <span class="borderBottom"></span>
@@ -199,7 +199,7 @@
 
                 <div class="form-group Half">
                     <label for="enquiry-email">
-                        <i class="fa fa-envelope fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Email
+                        <i class="fa fa-envelope fa-2x text-warning mr-1" style="color: #C88916 !important; font-size: 1.4em;"></i> Email
                     </label>
                     <input type="email" class="form-control" name="n[email]" id="enquiry-email" placeholder="Email" required />
                     <span class="borderBottom"></span>
@@ -207,14 +207,14 @@
 
                 <div class="form-group Half">
                     <label for="answerform">
-                        <i class="fa fa-check fa-2x text-warning mr-1" style="color: #85641E !important; font-size: 1.4em;"></i> Answer
+                        <i class="fa fa-check fa-2x text-warning mr-1" style="color: #C88916 !important; font-size: 1.4em;"></i> Answer
                         <span class='captcha-text' style='background: #1A1A1A; color: #fff; padding: 5px 10px; border-radius: 4px; font-weight: bold; margin-left: 10px; display: inline-block; min-width: 60px; text-align: center;'>Loading...</span>
                     </label>
                     <input class="form-control" id="answerform" type="number" name="InquiryAnswer" placeholder="1 + 2 = ?" required>
                     <span class="borderBottom"></span>
                 </div>
 
-                <div class="form-group Half"><button type="submit" class="btn btn-block" style="height: 3rem;background-color:#85641E;border-color:#85641E;color:#fff;" name="submit" value="Send Message">Submit</button></div>
+                <div class="form-group Half"><button type="submit" class="btn btn-block" style="height: 3rem;background-color:#C88916;border-color:#C88916;color:#fff;" name="submit" value="Send Message">Submit</button></div>
             </form>
         </div>
     </div>
@@ -288,7 +288,7 @@
 
     .featured-slick-carousel .slick-prev:hover,
     .featured-slick-carousel .slick-next:hover {
-        background: #85641e !important;
+        background: #C88916 !important;
     }
 
     .featured-slick-carousel .slick-prev {
@@ -324,7 +324,7 @@
         font-size: 0;
         width: 10px;
         height: 10px;
-        background: #3D3E42;
+        background: #193670;
         border-radius: 50%;
         border: none;
         opacity: 0.2;

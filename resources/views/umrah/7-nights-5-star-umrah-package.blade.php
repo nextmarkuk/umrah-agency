@@ -49,28 +49,28 @@
                         </div>
                         <div class="overview-grid">
                             <div class="overview-item">
-                                <i class="fa fa-clock-o fa-2x text-warning mr-3" style="color: #3D3E42 !important;"></i>
+                                <i class="fa fa-clock-o fa-2x text-warning mr-3" style="color: #193670 !important;"></i>
                                 <div class="info">
                                     <span>7 Nights</span>
                                     <small>Duration</small>
                                 </div>
                             </div>
                             <div class="overview-item">
-                                <i class="fa fa-id-card-o fa-2x text-warning mr-3" style="color: #3D3E42 !important;"></i>
+                                <i class="fa fa-id-card-o fa-2x text-warning mr-3" style="color: #193670 !important;"></i>
                                 <div class="info">
                                     <span>Visa Included</span>
                                     <small>Umrah Visa</small>
                                 </div>
                             </div>
                             <div class="overview-item">
-                                <i class="fa fa-plane fa-2x text-warning mr-3" style="color: #3D3E42 !important;"></i>
+                                <i class="fa fa-plane fa-2x text-warning mr-3" style="color: #193670 !important;"></i>
                                 <div class="info">
                                     <span>Return Flights</span>
                                     <small>From Pakistan</small>
                                 </div>
                             </div>
                             <div class="overview-item">
-                                <i class="fa fa-car fa-2x text-warning mr-3" style="color: #3D3E42 !important;"></i>
+                                <i class="fa fa-car fa-2x text-warning mr-3" style="color: #193670 !important;"></i>
                                 <div class="info">
                                     <span>Transfers</span>
                                     <small>Airport & Hotels</small>

@@ -1,6 +1,6 @@
 <header>
     <!-- Top Bar -->
-    <div class="topbar" style="background-color: #3D3E42; color: #fff; font-size: 15px; padding: 12px 0;">
+    <div class="topbar" style="background-color: #193670; color: #fff; font-size: 15px; padding: 12px 0;">
         <div class="container px-3 px-md-5">
             <div class="topbar-inner d-flex align-items-center flex-wrap" style="justify-content: center; position: relative;">
                 <!-- Left: Contact Info -->
@@ -92,7 +92,7 @@
                 <div class="bar3"></div>
             </button>
             <div class="ml-auto d-none d-xl-block">
-                <a href="{{ route('contactUs') }}" style="background-color: #3D3E42; color: #fff; padding: 10px 22px; border-radius: 14px; text-decoration: none; font-weight: 600; font-size: 15px; white-space: nowrap; display: inline-block;">
+                <a href="{{ route('contactUs') }}" style="background-color: #193670; color: #fff; padding: 10px 22px; border-radius: 14px; text-decoration: none; font-weight: 600; font-size: 15px; white-space: nowrap; display: inline-block;">
                     Beat a Quote
                 </a>
             </div>
