@@ -71,7 +71,7 @@
                     <li class="dropdown"><a class="{{ request()->is('umrah-packages') ? 'active' : '' }}"  href="{{ route('umrahPackages') }}">Umrah Package<span class="caret"></span></a> <i class="fa fa-plus"></i>
                         <ul class="dropdown-menu">
                             <li><a href="{{ route('umrahPackages') }}" class="">Umrah Packages</a></li>
-                            <li><a href="{{ route('umrahPackages2026') }}" class="">Umrah Packages 2026</a></li>
+                            <!-- <li><a href="{{ route('umrahPackages2026') }}" class="">Umrah Packages 2026</a></li> -->
                             <li><a href="{{ route('decemberUmrahPackages') }}" class="">December Umrah</a></li>
                             <li><a href="{{ route('ramadanUmrah') }}" class="">Ramadan Umrah</a></li>
                             <li><a href="{{ route('easterUmrahPackages') }}" class="">Easter Umrah</a></li>

@@ -107,7 +107,6 @@
         <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.png')}}" class="img-fluid" alt="Home Page Banner - Umrah Agency Pakistan" width="1920" height="600" fetchpriority="high">
         <div class="banner-text">
             <h1>Hajj and Umrah Travel Agency in Pakistan</h1>
-            <p>Welcome to Your Trusted Hajj and Umrah Travel Agency</p>
         </div>
     </div>
     <div class="searchEngine" id="packageInquiry">
@@ -1260,7 +1259,7 @@
             <p>We offer a wide range of packages suitable for every budget and requirement:</p>
             <ul>
                 <li><strong>Hajj Packages:</strong> Our Hajj packages are designed to cater to the diverse needs of pilgrims from Pakistan. From economy to premium accommodations, we provide services that cover visas, flights, transport, and guided religious support.</li>
-                <li><strong>Umrah Packages:</strong> Whether you are planning a short spiritual trip or an extended stay in the holy cities, our Umrah packages offer flexibility, affordability, and comfort.</li>
+                <li><strong>Umrah Packages:</strong> Whether you are planning a short spiritual trip or an extended stay in the holy cities, our <a href="{{ route('umrahPackages') }}">Umrah packages</a> offer flexibility, affordability, and comfort.</li>
                 <li><strong>Customized Packages:</strong> For families, groups, or individuals with specific needs, we provide personalized itineraries that prioritize your convenience and spiritual experience.</li>
             </ul>
 

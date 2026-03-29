@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('meta')
-<title>Hajj Packages 2026 | Affordable All-Inclusive Hajj Deals from Pakistan</title>
-<meta name="description" content="Book your Hajj 2026 package with Umrah Agency Pakistan. We offer all-inclusive Hajj deals from major cities in Pakistan with premium hotels, flights, and expert guidance.">
+<title>Hajj Packages Pakistan 2026</title>
+<meta name="description" content="Affordable Hajj packages from Pakistan with complete arrangements—flights, visa, hotels & transport. Book early for best availability and prices.">
 <link rel="canonical" href="https://umrahagency.pk/hajj-packages.html" />
 @endsection
 @verbatim
@@ -87,7 +87,6 @@
         <img src="{{asset('assets/media/pages/home-page-banner-for-haditours-1.png')}}" class="img-fluid" alt="Hajj Packages Banner - Umrah Agency Pakistan" width="1920" height="600" fetchpriority="high">
         <div class="banner-text">
             <h1>Trusted Hajj and Umrah Travel Agency</h1>
-            <p>In Pakistan</p>
         </div>
     </div>
     <div class="searchEngine" id="packageInquiry">
@@ -466,7 +465,7 @@
         <p>The pilgrimage has its roots in the early days of Islam, going back to the Prophet Ibrahim and his
             family. It remembers important events, like Ibrahim&#39;s readiness to sacrifice his son Ismail and
             Hagar&#39;s search for water, which led to the discovery of the Zamzam well. These stories teach
-            important lessons about faith and trusting Allah in all matters.</p>
+            important lessons about faith and trusting God in all matters.</p>
 
         <h3>Symbol of Unity and Equality</h3>
 
@@ -484,21 +483,21 @@
         <h2 style="text-align: justify;">Hajj Packages 2026</h2>
 
         <p style="text-align: justify;">&quot;Hajj&quot; is a sacred term for all Muslims, and the desire to visit
-            not only the House of Allah Almighty but also the places where His beloved Prophet (PBUH) lived and
+            not only the House of God but also the places where His beloved Prophet (PBUH) lived and
             spent time is the craving of all belonging to the religion Islam. It was one of the five pillars of
             Islam which are declared mandatory for those Muslims who are financially stable to pay the visit. Umrah Agency Pakistan offers cheap Hajj packages in 2026, which are not only economical but also reasonable in terms
             of providing the best Hajj packages. These best hajj packages include providing visa services, flight,
-            Qurbani, Hotel stay, transport, and Hajj draft. Affordable hajj packages are every Muslim&rsquo;s
+            Qurbani, Hotel stay, transport, and Hajj draft. Affordable hajj packages are every Muslim’s
             desire. Those looking for affordable Hajj packages will be very pleased to know that Umrah Agency Pakistan is
             offering the following exciting and cheap Hajj packages for 2026:</p>
 
-        <h2 style="text-align: justify;">Amazing and affordable Hajj Packages 2026&nbsp;for Muslim Community</h2>
+        <h2 style="text-align: justify;">Amazing and affordable Hajj Packages 2026 for Muslim Community</h2>
 
         <p style="text-align: justify;"><strong>3 weeks 5 star best Hajj package</strong></p>
 
         <p style="text-align: justify;">Umrah Agency Pakistan brings the best Hajj package for the Muslim community
             residing in Pakistan to perform this holy obligation with comfort and ease. Around 70,000 believers travel
-            in intention to pay a visit to Allah&rsquo;s House, Umrah Agency Pakistan travel becomes a luxurious bridge between
+            in intention to pay a visit to God’s House, Umrah Agency Pakistan travel becomes a luxurious bridge between
             the faithful and their Creator.<br />
             Umrah Agency Pakistan offers 3 weeks 5-star cheap Hajj packages present following privileged stays at the
             below-mentioned venues:</p>
@@ -511,26 +510,26 @@
         </ul>
 
         <p style="text-align: justify;">More specifically, the cheap Hajj package includes 10 nights in Makkah, 6
-            nights in Madinah, 3 nights in the tents of Mina, and 3 intents of Arafat.</p>
+            nights in Madinah, 3 nights in the tents of Mina, and 3 nights in the tents of Arafat.</p>
 
-        <h2 style="text-align: justify;">Affordable and best Hajj Package for our Valued Citizens&nbsp;</h2>
+        <h2 style="text-align: justify;">Affordable and best Hajj Package for our Valued Citizens</h2>
 
-        <p style="text-align: justify;"><strong>4 Weeks non- shifting best Hajj packages</strong></p>
+        <p style="text-align: justify;"><strong>4 Weeks non-shifting best Hajj packages</strong></p>
 
-        <p style="text-align: justify;">We value our customers&rsquo; comfort and holy needs, presenting another
+        <p style="text-align: justify;">We value our customers’ comfort and holy needs, presenting another
             package among the cheap Hajj packages 2026, which is not only the best Hajj package in terms of the way
             it facilitates but is also affordable to the majority of our valued citizens of Pakistan. This is a
             complete month, a non-shifting package which is providing the opportunity to the residents of Pakistan to
-            pay a visit to the Holy cities of Makkah and Madinah and have &ldquo;Ziarat&rdquo; of sacred places like
+            pay a visit to the Holy cities of Makkah and Madinah and have visits of sacred places like
             Mina, Arafat, etc. Missing this amazing opportunity to avail of these affordable hajj packages will not
-            be a wise decision to make. So don&rsquo;t think twice and make use of this holy month of Hajj out of
+            be a wise decision to make. So don’t think twice and make use of this holy month of Hajj out of
             these affordable Hajj packages.<br />
             This exciting 4 weeks non-shifting best packages primarily offer to stay at the following places:</p>
 
         <ul>
             <li style="text-align: justify;">Makkah Hotel nights (Lamar Hotel)</li>
             <li style="text-align: justify;">Madinah Hotel nights (Millenium Taiba Madinah)</li>
-            <li style="text-align: justify;">Mina tents&nbsp;</li>
+            <li style="text-align: justify;">Mina tents</li>
             <li style="text-align: justify;">Arafat tents</li>
         </ul>
 
@@ -540,8 +539,8 @@
 
         <p style="text-align: justify;">In this age, each one of us is looking towards tasks to be completed
             economically, Umrah Agency Pakistan presents its customers in Pakistan with cheap and affordable Hajj packages
-            for all those desiring to perform this sacred religious obligation. So don&rsquo;t think twice and avail
-            of this low-cost and reasonable offer and pay a visit to the House of Allah this year.</p>
+            for all those desiring to perform this sacred religious obligation. So don’t think twice and avail
+            of this low-cost and reasonable offer and pay a visit to the House of God this year.</p>
 
         <p style="text-align: justify;">2-3 weeks non-shifting cheap Hajj packages cover stay at the following
             desirable places:</p>
@@ -549,7 +548,7 @@
         <ul>
             <li style="text-align: justify;">Makkah Hotel nights (Lamar Hotel)</li>
             <li style="text-align: justify;">Madinah Hotel Nights (Mubarak Al Masi)</li>
-            <li style="text-align: justify;">Mina tents&nbsp;</li>
+            <li style="text-align: justify;">Mina tents</li>
             <li style="text-align: justify;">Arafat tents</li>
         </ul>
 
@@ -584,8 +583,7 @@
             <li><strong>Ihram:</strong> The first step of the Hajj is to put on the Ihram, a holy garment of purity.
                 Men wear simple white clothes, while women cover themselves with loose clothes.</li>
             <li><strong>Tawaf and Sa&#39;i: </strong>Tawaf is circling the Kaaba seven times in a counterclockwise
-                direction. Afterwards, Sa&#39;i involves walking seven times between the hills of Safa and Marwah.
-            </li>
+                direction. Afterwards, Sa&#39;i involves walking seven times between the hills of Safa and Marwah.</li>
             <li><strong>Standing at Arafat: </strong>The Day of Arafat, when pilgrims assemble on the plains of
                 Arafat to pray from noon to dusk, is the most significant day of the Hajj.</li>
             <li><strong>Muzdalifah: </strong>After Arafat, pilgrims go to Muzdalifah to gather stones for the Rami
@@ -593,7 +591,7 @@
             <li><strong>Rami al-Jamarat:</strong> Rami involves throwing stones at three pillars in Mina to
                 represent rejecting evil.</li>
             <li><strong>Qurbani (Animal Sacrifice):</strong> Pilgrims perform the sacrifice of an animal, usually a
-                sheep or goat, to remember Ibrahim&#39;s willingness to sacrifice his son for Allah.</li>
+                sheep or goat, to remember Ibrahim&#39;s willingness to sacrifice his son for God.</li>
             <li><strong>Halq or Taqsir:</strong> Male pilgrims shave their heads (Halq), while female pilgrims trim
                 a portion of their hair (Taqsir), symbolising a fresh start and the shedding of past sins.</li>
             <li><strong>Tawaf al-Wida:</strong> The final ritual is Tawaf al-Wida, the farewell circling around the
@@ -623,7 +621,6 @@
             times.</p>
 
     </div>
-
 </div>
 @endsection
 
