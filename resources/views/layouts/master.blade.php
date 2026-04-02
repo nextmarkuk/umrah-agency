@@ -12,7 +12,7 @@
 
 
     <meta name="twitter:card" content="summary">
-    <meta name="robots" content="noindex, nofollow">
+    <meta name="robots" content="index, follow">
     <meta name="twitter:site" content="@umrahagency">
     <meta name="twitter:title" content="Hajj and Umrah Travel Agency in Pakistan | Trusted Pilgrimage Packages">
     <meta name="twitter:description" content="Plan your sacred journey with our trusted Hajj and Umrah Travel Agency in Pakistan. Offering affordable and premium packages, visa assistance, flights, accommodation near Haram, and guided services for a seamless spiritual experience.">
