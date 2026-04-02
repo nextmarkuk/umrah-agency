@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('meta')
 <title>Contact Us | Umrah Agency Pakistan - Plan Your Spiritual Hajj & Umrah Journey</title>
-<meta name="description" content="Get in touch with Umrah Agency Pakistan for personalized Hajj and Umrah packages. Visit our Pakistan office, call us at 03073344679, or email info@umrahagency.pk.">
+<meta name="description" content="Get in touch with Umrah Agency Pakistan for personalized Hajj and Umrah packages. Visit our Pakistan office, call us at 03251212747, or email info@umrahagency.pk.">
 @endsection
 @section('content')
 <div class="pkg-header-top text-center">
@@ -28,7 +28,7 @@
                             </div>
                             <div>
                                 <h6 class="font-weight-bold mb-1">Phone Number</h6>
-                                <p class="mb-0"><a href="tel:03073344679" class="text-dark">03073344679</a></p>
+                                <p class="mb-0"><a href="tel:03251212747" class="text-dark">03251212747</a></p>
                             </div>
                         </div>
 

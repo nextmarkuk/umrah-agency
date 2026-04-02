@@ -75,7 +75,7 @@
                                 </li>
                                 <li class="mb-3 d-flex align-items-center">
                                     <i class="fa fa-phone mr-3 text-warning"></i>
-                                    <a href="tel:03073344679" class="text-white">03073344679</a>
+                                    <a href="tel:03251212747" class="text-white">03251212747</a>
                                 </li>
                             </ul>
                         </div>

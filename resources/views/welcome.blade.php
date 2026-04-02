@@ -17,7 +17,7 @@
         "logo": "https://umrahagency.pk/public/assets/images/logo.png",
         "description": "Umrah Agency Pakistan is a leading Hajj and Umrah tours Operator in Pakistan, specialising in Umrah packages, Hajj support, flights, hotels, and tailored Hajj and Umrah travel services.",
         "priceRange": "$$$",
-        "telephone": "03073344679",
+        "telephone": "03251212747",
         "email": "info@umrahagency.pk",
         "address": {
             "@type": "PostalAddress",
@@ -32,7 +32,7 @@
         },
         "contactPoint": {
             "@type": "ContactPoint",
-            "telephone": "03073344679",
+            "telephone": "03251212747",
             "contactType": "customer service",
             "areaServed": "PK",
             "availableLanguage": ["English", "Urdu", "Arabic"]
